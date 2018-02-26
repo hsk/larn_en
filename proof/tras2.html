@@ -1,0 +1,1417 @@
+send
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Weblio ç¿»è¨³</title>
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="description" content="Weblio ç¿»è¨³ã¯ãè±èªãæ¥æ¬èªã¸åè¨³ãæ¥æ¬èªãè±èªã¸è±èªè¨³ãããç¡æã®æ©æ¢°ç¿»è¨³ãµã¼ãã¹ã§ããè¾æ¸ãè¾å¸ã¨ã®é£æºã«ããåèªã®æå³ãçºé³ãç¢ºèªã§ãã¾ãã">
+<meta name="keywords" content="è±èª,æ¥æ¬èª,è±èªè¨³,åè¨³,æ©æ¢°ç¿»è¨³,è¾æ¸ã»è¾å¸,åèª,çºé³,é³å£°">
+<meta name="apple-itunes-app" content="app-id=686356780">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="all">
+<meta name="robots" content="noydir">
+<meta name="robots" content="noodp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@weblio">
+<meta name="twitter:title" content="Weblio ç¿»è¨³">
+<meta name="twitter:description" content="Weblio ç¿»è¨³ã¯ãè±èªãæ¥æ¬èªã¸åè¨³ãæ¥æ¬èªãè±èªã¸è±èªè¨³ãããç¡æã®æ©æ¢°ç¿»è¨³ãµã¼ãã¹ã§ããè¾æ¸ãè¾å¸ã¨ã®é£æºã«ããåèªã®æå³ãçºé³ãç¢ºèªã§ãã¾ãã">
+<meta name="twitter:domain" content="weblio.jp">
+<meta name="twitter:image" content="https://translate.weblio.jp/screenshot?target=https%3A%2F%2Ftranslate.weblio.jp%3ForiginalText%3Darguments%26lp%3DEJ&amp;w=&amp;h=&amp;resizedW=&amp;resizedH=&amp;s=&amp;isSmpUA=&amp;force=&amp;etd=9ee323e840710e59">
+<link rel="stylesheet" type="text/css" href="https://weblio.hs.llnwd.net/e7/css/translate/common.css?tst=2018020916">
+<link rel="stylesheet" type="text/css" href="https://weblio.hs.llnwd.net/e7/css/ejje/content_head.css?tst=2018020916">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="https://weblio.hs.llnwd.net/e7/img/favicon/ejje.ico" type="image/x-icon">
+<script type="text/javascript" language="javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://weblio.hs.llnwd.net/e7/script/translate.js?tst=2018020916" charset="UTF-8"></script>
+<script type="text/javascript" src="https://weblio.hs.llnwd.net/e7/script/include/ZeroClipboard.min.js?tst=2018020916" charset="UTF-8"></script>
+<script type="text/javascript">
+<!--
+adScS('cp835.js');
+//-->
+</script>
+
+<script type="text/javascript">
+<!--
+adScS('cp837.js');
+//-->
+</script>
+
+<script type="text/javascript">
+twimg = !window['twimg'] ? new Twimg() : twimg;
+</script>
+</head>
+
+<body>
+<div ID=base>
+<div ID=headMidashiEC><h1 title="Weblio ç¿»è¨³">Weblio ç¿»è¨³</h1></div><div ID=headBarE>
+<div ID=headBarL>
+<p onclick="ht(this, 'https://www.weblio.jp/content_find');">
+<a onclick="return cu(this, 'https://www.weblio.jp/content_find')" href="https://www.weblio.jp/"
+ title="è¾å¸ã»ç¾ç§äºå¸ã®æ¤ç´¢ãµã¼ãã¹ - Weblioè¾æ¸">è¾æ¸</a></p>
+<p onclick="ht(this, 'https://thesaurus.weblio.jp/content_find');">
+<a onclick="return cu(this, 'https://thesaurus.weblio.jp/content_find')" href="https://thesaurus.weblio.jp/"
+ title="é¡èªè¾å¸ã»ã·ã½ã¼ã©ã¹ã»å¯¾ç¾©èª - Weblioè¾æ¸">é¡èªã»å¯¾ç¾©èªè¾å¸</a></p>
+<p class=headBarSelE onclick="ht(this, 'https://ejje.weblio.jp/content');">
+<a href="https://ejje.weblio.jp/"
+ title="è±åè¾å¸ã»åè±è¾å¸ - Weblioè¾æ¸">è±åã»åè±è¾å¸</a></p>
+<p onclick="ht(this, 'https://cjjc.weblio.jp/content_find');">
+<a onclick="return cu(this, 'https://cjjc.weblio.jp/content_find')" href="https://cjjc.weblio.jp/"
+ title="ä¸­å½èªè¾æ¸ - Weblioæ¥ä¸­ä¸­æ¥è¾å¸">æ¥ä¸­ä¸­æ¥è¾å¸</a></p>
+<p onclick="ht(this, 'https://kjjk.weblio.jp/content_find');">
+<a onclick="return cu(this, 'https://kjjk.weblio.jp/content_find')" href="https://kjjk.weblio.jp/"
+ title="éå½èªè¾æ¸ - Weblioæ¥ééæ¥è¾å¸">æ¥ééæ¥è¾å¸</a></p>
+<p onclick="ht(this, 'https://kobun.weblio.jp/content_find');">
+<a onclick="return cu(this, 'https://kobun.weblio.jp/content_find')" href="https://kobun.weblio.jp/"
+ title="å¤æè¾æ¸ - Weblioå¤èªè¾å¸">å¤èªè¾å¸</a></p>
+<ul  ID=NaviNoPulDwn onmouseout="showGlobalNaviOtherLinks();" onmouseover="showGlobalNaviOtherLinks();">
+<li ID=NaviNoPulDwnLi>ãã®ä»ã®è¾æ¸â¼<ul ID=NaviNoPulDwnLiUl>
+<li class=NaviNoPulDwnLiUlLi><a onclick="return cu(this, 'https://shuwa.weblio.jp/content_find')" href="https://shuwa.weblio.jp/"
+ title="æè©±è¾å¸ã»æè©±åç» - Weblioè¾æ¸" rel="nofollow">æè©±è¾å¸</a></li>
+<li class=NaviNoPulDwnLiUlLi><a onclick="return cu(this, 'https://njjn.weblio.jp/content_find')" href="https://njjn.weblio.jp/"
+ title="ã¤ã³ããã·ã¢èªè¾æ¸ - Weblioã¤ã³ããã·ã¢èªè¾å¸">ã¤ã³ããã·ã¢èªè¾å¸</a></li>
+<li class=NaviNoPulDwnLiUlLi><a onclick="return cu(this, 'https://tjjt.weblio.jp/content_find')" href="https://tjjt.weblio.jp/"
+ title="ã¿ã¤èªè¾æ¸ - Weblioã¿ã¤èªè¾å¸">ã¿ã¤èªè¾å¸</a></li>
+<li class=NaviNoPulDwnLiUlLi><a onclick="return cu(this, 'https://vjjv.weblio.jp/content_find')" href="https://vjjv.weblio.jp/"
+ title="ãããã èªè¾æ¸ - Weblioãããã èªè¾å¸">ãããã èªè¾å¸</a></li>
+</ul></li></ul>
+</div>
+<div ID=headBarR>
+<span class=headBarRLg>
+<span id=hdUsrInfoJS title="ã­ã°ã¤ã³"></span></span>
+<a href="https://www.weblio.jp/" title="è¾å¸ã»ç¾ç§äºå¸ã®æ¤ç´¢ãµã¼ãã¹ - Weblioè¾æ¸">è¾æ¸ç·åTOP</a>
+
+&nbsp;|&nbsp;
+<a href="https://help.weblio.jp/ejje" title="ãã«ã">ãã«ã</a>
+</div>
+<b class=clr></b>
+</div><table ID=logoBar>
+<tr>
+<td rowspan="2" ID=logoBarL>
+<div ID=logoBarLB>
+<a href="https://translate.weblio.jp/" title="Weblio ç¿»è¨³"><img src="https://weblio.hs.llnwd.net/e7/img/icons/logoE_LMD.png" alt="Weblio ç¿»è¨³" height="37px" width="152px"></a>
+<span>è±èªç¿»è¨³</span></div>
+</td>
+<td ID=logoBarR>
+<!-- /2211331/Weblio_PC_translate_Header_728_90 -->
+<div id="div-gpt-ad-1467639585549-0" style="height:90px; width:728px;">
+<script type="text/javascript">
+<!--
+adScS('cp834.js');
+//-->
+</script>
+
+</div>
+</td>
+</tr>
+</table>
+<form action="https://ejje.weblio.jp/content" method="get" name="f" target="_blank">
+<div ID=formBoxWrp>
+<p class="formBoxENo formBoxEWide">
+<a href="https://ejje.weblio.jp/" title="è±åã»åè±è¾å¸" rel="nofollow">è±åã»åè±è¾å¸</a>
+</p>
+<p onclick="ht(this, 'https://ejje.weblio.jp/sentence/content/');" class="formBoxENo">
+<a onclick="return cu(this, 'https://ejje.weblio.jp/sentence/content/')" href="https://ejje.weblio.jp/sentence/" title="è±èªä¾æ" rel="nofollow">è±èªä¾æ</a></p>
+<p onclick="ht(this, 'https://ejje.weblio.jp/english-thesaurus/content/');" class="formBoxENo">
+<a onclick="return cu(this, 'https://ejje.weblio.jp/english-thesaurus/content/')" href="https://ejje.weblio.jp/english-thesaurus/" title="è±èªé¡èª" rel="nofollow">è±èªé¡èª</a></p>
+<p onclick="ht(this, 'https://ejje.weblio.jp/concordance/content/');" class="formBoxENo">
+<a onclick="return cu(this, 'https://ejje.weblio.jp/concordance/content/')" href="https://ejje.weblio.jp/concordance/" title="å±èµ·è¡¨ç¾" rel="nofollow">å±èµ·è¡¨ç¾</a></p>
+<p class="formBoxENo">
+<a href="https://uwl.weblio.jp/" title="è±åèªå¸³">è±åèªå¸³</a>
+</p>
+<p class="formBoxENo">
+<a href="https://uwl.weblio.jp/vocab-index" title="è±èªåè¨ºæ­" rel="nofollow">è±èªåè¨ºæ­</a>
+</p>
+<p class="formBoxESel">
+<a href="https://translate.weblio.jp/" title="è±èªç¿»è¨³" rel="nofollow">è±èªç¿»è¨³</a>
+</p>
+<p class="formBoxENo">
+<a href="https://eikaiwa.weblio.jp/" title="Weblioè±ä¼è©±" rel="nofollow">è±ä¼è©±</a>
+</p>
+<p class="formBoxENo formBoxEWide">
+<a href="https://uwl.weblio.jp/speaking-test?wpm_source=ejje_glonavi&amp;wpm_campaign=speaking-test&amp;wpm_medium=link" title="ã¹ãã¼ã­ã³ã°ãã¹ã" rel="nofollow">ã¹ãã¼ã­ã³ã°ãã¹ã</a>
+</p>
+<p onclick="ht(this, 'https://ejje.weblio.jp/turbo/');" class="formBoxENo">
+<a onclick="return cu(this, 'https://ejje.weblio.jp/turbo/')" href="https://ejje.weblio.jp/turbo/" title="è±åã»åè±è¾å¸">ã¿ã¼ã</a></p>
+<ul ID=formBoxENoPulDwn onclick="showEjjeGlobalNaviOtherLinks()">
+<li ID=formBoxENoPulDwnLi>ãã£ã¨è¦ãâ¼
+<ul ID=formBoxENoPulDwnLiUl>
+<li class=formBoxENoPulDwnLiUlLi><a href="https://ejje.weblio.jp/template/" title="è±èªãã³ãã¬ã¼ã">è±èªãã³ãã¬ã¼ã</a></li>
+<li class=formBoxENoPulDwnLiUlLi><a href="https://www.smart-translation.com/" title="ã¹ãã¼ãç¿»è¨³">ã¹ãã¼ãç¿»è¨³</a></li>
+</ul>
+</li>
+</ul>
+<br class=clr>
+<div ID=formBoxCntE>
+<div ID=formBoxL>
+<table class=formBoxIWrp>
+<tr>
+<td><input maxlength="2048" type="text" name="query" id="combo_txt" value="" class=formBoxITxt></td>
+<td><span class="combo_txt_clr formBoxIClIcnNon">&nbsp;</span></td>
+</tr>
+</table>
+<span class=formBoxISpan>&nbsp;</span>
+<input type="image" src="https://weblio.hs.llnwd.net/e7/img/icons/EjjeSchUp.png" value="é ç®ãæ¤ç´¢" onMouseOver="this.src='https://weblio.hs.llnwd.net/e7/img/icons/EjjeSchDn.png';" onMouseOut="this.src='https://weblio.hs.llnwd.net/e7/img/icons/EjjeSchUp.png';" class=formButton>
+</div>
+<br class=clr>
+</div>
+</div>
+</form>
+
+<script type="text/javascript"><!--
+$(document).ready(function(){
+
+});
+
+//--></script>
+<div ID=wrp>
+
+<div ID=main>
+
+<div id="mockContainer">
+<img class=mockCloseBtn src="https://weblio.hs.llnwd.net/e7/img/icons/icon-close-btn.png" alt="">
+<p class=mockTitle>é³å£°ã®åçéåº¦ãå¤æ´ãã</p>
+<hr>
+<p class=mockDescription>é³å£°ã®åçéåº¦ããå°ããã£ãã(75%)ã ããã£ãã(50%)ãã«å¤æ´ãããã¨ãã§ãã¾ãã
+<br>ãé³å£°åçéåº¦å¤æ´æ©è½ããå©ç¨ããã«ã¯ãWeblioIDã¸ã®ç»é²<span>ï¼ç¡æï¼</span>ãå¿è¦ã§ãã
+</p>
+<a class=mockRegisterBtn href="https://uwl.weblio.jp/register/user-entry">WeblioIDã«ç¡æã§ç»é²ãã</a>
+<br>
+<a class=mockRegisterLink href="https://uwl.weblio.jp/accounts/login-entry">WeblioIDã«ç»é²æ¸ã¿ã®æ¹ã¯ãã¡ã</a>
+</div>
+<input type="hidden" name="isResultPage" value="1">
+<input type="hidden" name="traSpA" value="d762d9cd4e918fa2" id=traSpA>
+<form method="post" action="https://translate.weblio.jp/" name="translate">
+<input type="hidden" name="lp" value="">
+<input type="hidden" name="lpf" value="EJ">
+<input type="hidden" name="rt" value="è­°è«" id=reTranslatedText>
+<input type="hidden" name="translatedText" value="è­°è«" id=translatedText>
+<input type="hidden" name="tm" value="">
+<input type="hidden" name="tlt" value="english">
+<input type="hidden" name="prtRt" value="">
+
+<div id=menu><div id=menuWrap><div class=menuTrL><div class=menuOn><a href="https://translate.weblio.jp/" class=selectedMenu>ãã­ã¹ãç¿»è¨³</a></div><div class=menuOff><a href="https://translate.weblio.jp/web/english">ã¦ã§ããã¼ã¸ç¿»è¨³</a></div></div><div class=menuTrR><a href="https://uwl.weblio.jp/ps/index" class=menuPsIdxA onclick="ga('send', 'event', 'lead_to_premium', 'click', 'translate_head_hidden-ads', {'page': '/translate_head_hidden-ads'});">ãã®ãã¼ã¸ã®åºåãéè¡¨ç¤ºã«ãã</a></div><br class=clr></div></div><div class=hMenuWL><table class=hMenuWLL><tr><td class=hMenuCE><img src="https://weblio.hs.llnwd.net/e7/img/icons/iconTrNfEnglish24.png" alt=""><h2 class=hMenuT>è±èª</h2></td><td class=hMenuCE><img src="https://weblio.hs.llnwd.net/e7/img/icons/iconTrNfChinese24.png" alt=""><h2 class=hMenuT><a href="https://translate.weblio.jp/chinese/">ä¸­å½èª</a></h2></td><td class=hMenuCE><img src="https://weblio.hs.llnwd.net/e7/img/icons/iconTrNfKorean24.png" alt=""><h2 class=hMenuT><a href="https://translate.weblio.jp/korean/">éå½èª</a></h2></td></tr></table></div><div id=trMsgArea></div>
+<table ID=cont>
+<tr>
+<td class=contLHH>
+
+<table ID=hMenuWLRE class=hMenuWLR>
+<tr>
+<td>
+<input type="button" value="è±èªâæ¥æ¬èª" class=trnsFBtnSm id="EJH">
+<span class=trnsFBtnWrpSm><span class=trnsFBtnHSm>&nbsp;</span><span class=trnsFBtnBSm>&nbsp;</span></span>
+</td>
+<td><input type="button" value="æ¥æ¬èªâè±èª" class=trnsFBtnSm id="JEH">
+<span class=trnsFBtnWrpSm><span class=trnsFBtnHSm>&nbsp;</span><span class=trnsFBtnBSm>&nbsp;</span></span>
+</td>
+</tr>
+</table>
+</td>
+<td class=contCHH>
+&nbsp;
+</td>
+<td class=contRHH>
+
+<div class=transMailLnkWrp>
+<div class=rowBtnNR><div ID=transMailBtn title="ãã®ç¿»è¨³ãã¡ã¼ã«ã§éä¿¡ãã"></div></div></div>
+<div class=trnsFOutLnkWrp>
+<script type="text/javascript">
+<!--
+outTrnsCntWr('https://translate.weblio.jp/');
+//-->
+</script>
+</div>
+<b class=clr></b>
+</td>
+</tr>
+
+<tr>
+<td class=contLH>
+
+<div class=contWrp>
+<div class=contH>
+<p class=contHCnt>
+<span>åæ</span>
+<b class=contHCntS>â»æå¤§4000æå­ã¾ã§å¥åã§ãã¾ããç¾å¨<b id="charCnt">0</b>æå­</b>
+<input type="button" value="ã¯ãªã¢" class=contBtnCl>
+</p>
+</div>
+<div class=contB>
+<div class=contBCnt ID=contBCntOriginalTextArea>
+<textarea name="originalText" cols="39" rows="18" class=contTAGb ID=originalTextArea spellcheck="false">arguments</textarea>
+</div>
+<div class="contBCnt" ID=contBCntSplChkArea style="display:none;"><div ID=contBCntSplChkResult></div>
+</div>
+</div>
+
+</div>
+<table id=contFCnt><tr><td id=contFCntL>
+<table ID=contHyBtnStl><tr><td>åè¨³ã®æä½ï¼</td><td><span><select name="sentenceStyle"><option value="spoken" class="trnsStlBtn" selected="selected">ã§ãã»ã¾ãä½</option><option value="written" class="trnsStlBtn">ã ã»ã§ããä½</option></select></span></td></tr><tr><td>è±èªã®é³å£°ï¼</td><td class=slctElmCvrPrnt><div class=slctElmCvr></div><span><select ID=sndspd><option value="" selected>åçéåº¦(100%)</option><option value="75">å°ããã£ãã(75%)</option><option value="50">ã¨ã¦ããã£ãã(50%)</option></select></span></td></tr></table></td>
+<td id=contFCntR>
+<p id="splChkBtn">ã¹ãã«ãã§ãã¯ãã<span class="spellCheckerDescriptionIdx"><span id="spellCheckerDescriptionIdxCont">ãã¿ã³ãã¯ãªãã¯ããã¨<br>å¥åããè±æã®ã¹ãã«ãã§ãã¯<br>çµæãä¸ã«è¡¨ç¤ºãã¾ãã</span></span></p>
+<input type="hidden" ID=spellCheckKey name="spellCheckKey" value="21d3c33285b0efa6"/><div id=contFCntRC>
+<div class="contHyBtnWrp"><div id="contHyBtnG"><div id="contHyBtnTAPlE"><input type="hidden" name="languagePairFin" value="EJ"><input type="hidden" name="audioTextAreaId" value="originalTextArea"><input type="hidden" name="maxLimit" value="500"><audio class="translateAudio" controls="controls" preload="none"><source src="https://translate.weblio.jp/tts?query=" type="audio/mpeg"></audio></div><div id="contHyBtnTADlE"><input type="hidden" name="languagePairFin" value="EJ"><input type="hidden" name="audioTextAreaId" value="originalTextArea"><input type="hidden" name="maxLimit" value="500"><input type="hidden" name="audioDownloadUrl" value="https://translate.weblio.jp/tts?query="></div><br class="clr"></div><br class="clr"></div></div></td></tr></table>
+<br class=clr>
+
+<a href="#lkMainBXH3" ID=exptWdLkBtn>åæããè±åèªãæ½åº</a>
+<table ID=contHyBtnTE>
+<tr>
+<td>
+<input type="button" value="è±èªâæ¥æ¬èª" class=trnsFBtn id="EJB">
+<span class=trnsFBtnWrp><span class=trnsFBtnH>&nbsp;</span><span class=trnsFBtnB>&nbsp;</span></span>
+</td>
+<td><input type="button" value="æ¥æ¬èªâè±èª" class=trnsFBtn id="JEB">
+<span class=trnsFBtnWrp><span class=trnsFBtnH>&nbsp;</span><span class=trnsFBtnB>&nbsp;</span></span>
+</td>
+</tr>
+</table>
+<div ID=splChkResult style="display:none;"></div>
+<script type="text/javascript">
+<!--
+adScS('cp853.js');
+//-->
+</script>
+
+</td>
+
+<td class=contCH>
+<p class=trnsArw id="EJA">&raquo;</p>
+</td>
+
+<td class=contRH>
+<div class=contWrp>
+<div class=contH>
+<div class=contHCnt>
+<ul class=rowBtn>
+<li class=rowBtnL>
+<span>è¨³æ</span>
+</li>
+<li class=rowBtnR>
+<ul class=rowBtn>
+<li class=rowBtnL>
+<div ID=transPrintBtn title="ãã®ç¿»è¨³ãå°å·ãã"></div>
+</li>
+<li class=rowBtnL>
+<div><input type="button" value="ã³ãã¼" style="display:none;" class=contBtnCp></div>
+</li>
+</ul>
+</li>
+</ul>
+<br class=clr>
+</div>
+</div>
+<div class=contB>
+<div class=contBCntT>
+<div class="contTAYb contTAYbRsltE" ID=translatedTextArea>
+
+<div class=transExpWrp>
+<div class=transExpHd><p class=transExpHdTDc>ã<a href="https://ejje.weblio.jp/content/arguments" title="arguments" target="_blank">arguments</a>ãã®è±èªã§ã®è¡¨ç¾</p></div>
+<div class=transExpB><ul><li>argumentã®è¤æ°å½¢ã(äºå®ãè«çããã¨ã«ãã¦è¡ãªã)è­°è«</li><li>è«äº</li><li>å£è«</li></ul></div><p class=transExpBDcL><span>&gt;</span><a href="https://ejje.weblio.jp/content/arguments" title="arguments" target="_blank">ãargumentsãã«ã¤ãã¦è±ååè±è¾å¸ã§è©³ããèª¿ã¹ã</a><br class=clr></p></div>
+
+<br>
+<div class=transResultWrp>â æ©æ¢°ç¿»è¨³ã®çµæ<br><div class=transResultMain ID=transResultMainLn><ul><li class=translatedTextAreaLn><span>è­°è«</span><textarea name="translatedTextWrLn0" cols="39" rows="18" class=translatedTextLnFm></textarea></li></ul></div></div>
+<br>
+<div class=transExpWrp><div class=transExpHd><p class=transExpHdTEx>é¡ä¼¼ããä¾æ</p></div><div class=transExpBExWrp><span class=qotHS>ä¾æ</span><div class=qotC><p class=qotCE>. &quot;<b>Arguments</b>&quot;<span class="nrCntSgAdo"><span class="sentenceAudioIcon translateSentenceAudioIcon"><img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="""><audio class=sentenceAudio controls="controls" preload="none"><source src="https://weblio.hs.llnwd.net/e8/audio/241cf4d68b751d70f339b6b1b8db09e0.mp3?groupId=OSSDOCS_JM" type="audio/mpeg"></audio></span></span><span class=addToSlBtnCntner><a class=addToSlBtn onclick="sentence_modal.showModalForNonMemberByAddToSentenceList('OSSDOCS_JM',13572,'.+%22Arguments%22','%22%E5%BC%95%E6%95%B0%22')">ä¾æå¸³ã«è¿½å </a></span></p><p class=qotCJ>&quot;å¼æ°&quot;<span>&nbsp;-&nbsp;JM</span></p></div><div class=qotC><p class=qotCE>Table 38-2. Available <b>arguments</b> parameters<span class="nrCntSgAdo"><span class="sentenceAudioIcon translateSentenceAudioIcon"><img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="""><audio class=sentenceAudio controls="controls" preload="none"><source src="https://weblio.hs.llnwd.net/e8/audio/2e4ceab71b52d244cab9b15a30ced6e9.mp3?groupId=OSSDOCS_PEAR" type="audio/mpeg"></audio></span></span><span class=addToSlBtnCntner><a class=addToSlBtn onclick="sentence_modal.showModalForNonMemberByAddToSentenceList('OSSDOCS_PEAR',3583,'Table+38-2.+Available+arguments+parameters','%E8%A1%A8+38-2Available+arguments+parameters')">ä¾æå¸³ã«è¿½å </a></span></p><p class=qotCJ>è¡¨ 38-2Available <b>arguments</b> parameters<span>&nbsp;-&nbsp;PEAR</span></p></div><div class=qotC><p class=qotCE>Example 38-2. Adding commandline <b>arguments</b><span class="nrCntSgAdo"><span class="sentenceAudioIcon translateSentenceAudioIcon"><img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="""><audio class=sentenceAudio controls="controls" preload="none"><source src="https://weblio.hs.llnwd.net/e8/audio/db1883ce35a3c9aaea1cf79e4f11416d.mp3?groupId=OSSDOCS_PEAR" type="audio/mpeg"></audio></span></span><span class=addToSlBtnCntner><a class=addToSlBtn onclick="sentence_modal.showModalForNonMemberByAddToSentenceList('OSSDOCS_PEAR',3584,'Example+38-2.+Adding+commandline+arguments','%E4%BE%8B+38-2Adding+commandline+arguments')">ä¾æå¸³ã«è¿½å </a></span></p><p class=qotCJ>ä¾ 38-2Adding commandline <b>arguments</b><span>&nbsp;-&nbsp;PEAR</span></p></div><span class=qotHS>ä¾æ</span><div class=qotC><p class=qotCE>PATTERN <b>ARGUMENTS</b><span class="nrCntSgAdo"><span class="sentenceAudioIcon translateSentenceAudioIcon"><img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="""><audio class=sentenceAudio controls="controls" preload="none"><source src="https://weblio.hs.llnwd.net/e8/audio/0af875caf7d92401e96d374d6f03a25c.mp3?groupId=OSSDOCS_JM" type="audio/mpeg"></audio></span></span><span class=addToSlBtnCntner><a class=addToSlBtn onclick="sentence_modal.showModalForNonMemberByAddToSentenceList('OSSDOCS_JM',23267,'PATTERN+ARGUMENTS','PATTERN+%E5%BC%95%E6%95%B0')">ä¾æå¸³ã«è¿½å </a></span></p><p class=qotCJ>PATTERN å¼æ°<span>&nbsp;-&nbsp;JM</span></p></div></div><a href="https://ejje.weblio.jp/sentence/content/arguments" target="_blank" class=transExpBtmLnk>ä¾æä¸è¦§ãè¦ã</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://ejje.weblio.jp/sentence/" target="_blank" class=transExpBtmLnk>Weblioè±èªä¾ææ¤ç´¢</a></div>
+<br>
+
+<div class=trnsSaiEOn>
+<input type="button" value="ãã®ç¿»è¨³æãããä¸åº¦è±èªã«ç¿»è¨³" class=trnsJBtnOn>
+</div>
+<a ID=twtTrnRsltWthImgBtn href="https://twitter.com/intent/tweet?text=%23weblio%E7%BF%BB%E8%A8%B3&amp;url=https%3A%2F%2Ftranslate.weblio.jp%3ForiginalText%3Darguments%26lp%3DEJ" target="_blank">
+<i class="fa fa-twitter"></i><span>ç»åä»ãã§ç¿»è¨³çµæããã¤ã¼ããã</span>
+</a>
+</div>
+</div>
+
+<div class=trnsSaiEOn>
+</div>
+</div>
+</div>
+<table ID=contYbBtnTE>
+<tr>
+<td>
+
+<div class=rtBtn id="rtBtnArea">
+<p class=rtBtnH>
+<span>ç¿»è¨³çµæã¯</span>
+<input type="radio" name="rate_result" value="yes" id="rate_result_useful" class=rtBtnR checked><span>å½¹ã«ç«ã£ã</span>
+<input type="radio" name="rate_result" value="no" id="rate_result_useless" class=rtBtnR><span>å½¹ã«ç«ããªã</span>
+<input type="button" value="éä¿¡" class=rtBtnB>
+</p>
+</div><br>
+<div class=rtFrm id="feedbackBlockRate">
+<table class=rtFrmT>
+<tr>
+<td class=rtFrmTL>ããªãã®ãæè¦ããèããä¸ãã</td>
+<td class=rtFrmTR><span id="closeRateTextArea" class=rtFrmTRS>[Ã]éãã</span></td>
+</tr>
+</table>
+<textarea cols="35" rows="8" class=rtTxa id="feedbackMessageRate"></textarea>
+<p class=rtFrmP><input type="button" value="éä¿¡" class=rtBtnB></p>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+    // ãªã­ã¼ãæã«falseã®å ´å
+    if ($('#rate_result_useless').attr('checked')) {
+        $('#feedbackBlockRate').show();
+        $('#feedbackMessageRate').focus();
+    }
+    
+    $('input[name="rate_result"]:radio').change(function(){
+        if ($(this).val() == 'no') {
+            $('#feedbackBlockRate').show();
+            $('#feedbackMessageRate').focus();
+        }
+    });
+    
+    // å½¹ã«ç«ã£ããã¿ã³
+    $('#rate_result_useful').click(function(){
+        $('#feedbackBlockRate').hide();
+    });
+    
+    // éãã
+    $('#closeRateTextArea').click(function(){
+        $('#feedbackBlockRate').hide();
+        $('#rate_result_useful').attr('checked', 'checked');
+    });
+    
+    $('.rtBtnB').click(function(){
+        var tsForm = document.forms['translate'];
+        if (tsForm) {
+            var feedText = tsForm.feedbackMessageRate.value;
+            var lType = 'english';
+            if (feedText.length > 1000) {
+                alert("éä¿¡ã§ããæå¤§æå­æ°(1000æå­)ãè¶ãã¦ãã¾ãã");
+                return;
+            }
+            
+            $('#feedbackBlockRate').hide();
+            $.post(
+            'https://translate.weblio.jp/feedback-log/',
+             {'contentText': tsForm.originalText.value, 'translatedText': tsForm.translatedText.value, 'uf': $(".rtBtnR:checked").val()
+                 , 'ft': feedText, 'ref': document.referrer, 'lt': lType},
+                function(data, status) {
+                    if(status == 'success'){
+                        $('#rtBtnArea').html('ãååãããã¨ããããã¾ã!');
+                    }
+                },
+                'text'
+            );
+        }
+    });
+    
+});
+</script>
+</td>
+</tr>
+</table>
+<div ID=transSmtTnsApiBoxDpML>&nbsp;</div>
+</td>
+</tr>
+</table>
+</form>
+
+<script type="text/javascript">
+
+
+$(document).ready(function(){
+    var onloadTime = (new Date()).getTime();
+    var $textAreaObj = $('#originalTextArea');
+    var $transTextAreaObj = $('#translatedTextArea');
+    var $charCountPHObj = $('#charCnt');
+    var fnNameCountTareaCharsName = 'countTareaCharsFncName';
+    var maxLimit = 4000;
+    var sHeight = window.screen.height;
+    var reTag = new RegExp(/<\w+(\s+[^>]*)?>/g);
+    var reTagCl = new RegExp(/<\/\w+>/g);
+    var opera = window.navigator.userAgent.toLowerCase().indexOf('opera') > -1;
+    var firefox = window.navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+    var ie = window.navigator.userAgent.toLowerCase().indexOf("msie") > -1;
+	var ieVer = window.navigator.appVersion.toLowerCase();
+    var oldIe = false;
+    if (ie && ieVer.indexOf("msie 6.0") > -1) {
+    	oldIe = true;
+    }
+    
+    if (sHeight <= 800 || oldIe) {
+        if (oldIe) {
+            $textAreaObj.css('padding-bottom', '0');
+            $textAreaObj.css('height', '210px');
+        }
+        else {
+            $textAreaObj.css('height', '160px');
+        }
+        $('.contBCntT').addClass("contBCntTSml");
+        $('.contShyTAYb').css('height', '188px');
+    }
+    if (!oldIe) {
+        $textAreaObj.autosize({className:'contTAGbMText'});
+    }
+    
+    // ãããã¢ããè¨­å®ç¨ã®è¡¨ç¤ºãåæå
+    
+    if (!oldIe) {
+        popupSettingHtmlArray = new Array(
+                'ãããã¢ããè¾æ¸ã<span id=popupSC>ON</' + 'span>/<span id=popupST onclick="setPopupSettingHtml(false, &quot;transResultHR&quot;)">OFF</' + 'span>',
+                'ãããã¢ããè¾æ¸ã<span id=popupST onclick="setPopupSettingHtml(true, &quot;transResultHR&quot;)">ON</' + 'span>/<span id=popupSC>OFF</' + 'span>'
+        );
+        setPopupSettingHtml(enablePopup, 'transResultHR');
+    }
+    
+    
+    // ãã­ã¹ãã¨ãªã¢ã«åãæ¿ããåã«éé¿ãã¦ããããããã¢ããå¯¾è±¡ã®åèªã®éå
+    var popupWordArray = new Array();
+    
+    // ãã­ã¹ãã¨ãªã¢ã«åãæ¿ããåã«éé¿ãã¦ããç¿»è¨³çµæã®ã¤ã³ããã¯ã¹
+    var popupTranslatedTextPos = -1;
+    
+    /**
+     * åå¾ã®ç©ºç½æå­ãåé¤ãã
+     * @param s
+     * @return ç½®æå¾ã®æå­å
+     */
+    function trimWhitespaces(s, trimOnly) {
+        s = s.replace(/^([ ã\t\r\n]+)?(.+?)([ ã\t\r\n]+)?$/g, '$2');
+        if (!trimOnly) {
+            s = s.replace(/\r\n/g, '');//IE
+            s = s.replace(/\n/g, '');//Firefox
+        }
+        return s;
+    }
+    
+    /**
+     * æ­£å³ã®ãã­ã¹ãã®æå­æ°ãè¿ã
+     *
+     */
+    function countNetLength(text) {
+        if (text) {
+            return trimWhitespaces(text, false).length;
+        }
+        else {
+            return 0;
+        }
+    }
+    
+    /**
+     * ãã­ã¹ãã®URLã¨ã³ã³ã¼ãå¾ã®ãã¤ãæ°ãè¿ã
+     *
+     */
+    function getEncodeByte(text) {
+    	var count = 0;
+    	text = trimWhitespaces(text, false);
+    	for (i = 0; i < text.length; ++i) {
+    		n = encodeURIComponent(text.charAt(i));
+    		count += n.length;
+    	}
+    	return count;
+    }
+    
+    /**
+     * è¨³æãè¿ã
+     */
+    function getTranslatedText(copyEjjeResult, appendNumber, desanitize, trim) {
+        // è¨³æ
+        var translatedText = '';
+        if (copyEjjeResult) {
+            // ejjeã®çµæé¨åãåå¾ãã
+            var $ejjeResultArray = $('#translatedTextArea .transExpB li');
+            if ($ejjeResultArray) {
+                for (var i = 0; i < $ejjeResultArray.length; ++i) {
+                    var $child = $ejjeResultArray.eq(i);
+                    if (i > 0) {
+                        translatedText += '\n';
+                    }
+                    translatedText += $child.html();
+                }
+            }
+        }
+        if (translatedText.length > 0) {
+            translatedText += '\n\n';
+        }
+        // ç¿»è¨³ã®ã¡ã¤ã³é¨åãåå¾ãã
+        var $targetTagArray = $('#translatedTextArea .transResultWrp .transResultMain li');
+        if ($targetTagArray) {
+            if ($targetTagArray.length == 1) {
+                translatedText += $targetTagArray.eq(0).html();
+            }
+            else {
+                for (var i = 0; i < $targetTagArray.length; ++i) {
+                    var $child = $targetTagArray.eq(i);
+                    if (i > 0) {
+                        translatedText += '\n';
+                    }
+                    if (appendNumber) {
+                        translatedText += (i + 1) + '. ';
+                    }
+                    translatedText += $child.html();
+                }
+            }
+        }
+        
+        // <br>ãç½®æ
+        translatedText = translatedText.replace(/<br>/g, '\n');
+        
+        translatedText = translatedText.replace(reTag, '').replace(reTagCl, '');
+        
+        
+        if (desanitize) {
+            translatedText = CommonUtils.desanitize(translatedText);
+        }
+        if (trim) {
+            translatedText = jQuery.trim(translatedText);
+        }
+        return translatedText;
+    }
+    
+    // ç¿»è¨³ã®ãã¿ã³
+    $('.trnsFBtn, .trnsFBtnSm, .trnsArw, .sgstBtn').click(function() {
+        
+        if ($textAreaObj) {
+            
+            // ã¹ãã«ãã¹è¨æ­£ã®ãªã³ã¯ãã¯ãªãã¯ãããå ´åã¯ãè¨æ­£å¾ã®æç« ããã©ã¼ã ã«ä»£å¥ãã¦ãéå¸¸ã®ç¿»è¨³å¦çãè¡ã
+            if ($(this)[0].tagName == "A") {
+               $textAreaObj.val($(this).html());
+            }
+            
+            var text = $textAreaObj.attr('value');
+            var length = text.length;
+            if (length == 0) {
+                alert('ç¿»è¨³ãããæç« ãåæã«å¥åãã¦ä¸ãã');
+                return;
+            }
+            else if (countNetLength(text) > maxLimit) {
+                alert('å¥åã§ããæå­æ°ã¯' + maxLimit + "æå­ã¾ã§ã§ã");
+                return;
+            }
+            else if (opera) {
+            	if (getEncodeByte(text) > 7000) {
+                    alert('ç¾å¨ãå©ç¨ã®ç°å¢ã§ã¯æç« ã®ãµã¤ãºãå¤§ãéãã¦å¦çãåºæ¥ã¾ããã');
+                    return;
+            	}
+            }
+        }
+        
+        var lpValue = $(this).attr('id');
+        if (lpValue.length > 2) {
+            lpValue = lpValue.substr(0, 2);
+        }
+        var form = document.forms['translate'];
+        form.lp.value = lpValue;
+        form.rt.value = '';      // åç¿»è¨³ç¨ã®ãã­ã¹ãã¯ã¯ãªã¢ãã¦ãã
+        if (onloadTime) {
+            var inputTime = ((new Date()).getTime()) - onloadTime;
+            form.tm.value = inputTime;
+        }
+        
+        //form.forceWordStr.value = lemma;
+        //form.forceAddStr.value = 'true';
+        form.submit();
+    });
+    
+    // ç¿»è¨³å±¥æ­´
+    $('.trHst').click(function() {
+        
+        if ($textAreaObj) {
+            
+            $textAreaObj.val($(this).attr('title'));
+            
+            var text = $textAreaObj.attr('value');
+            var length = text.length;
+            if (length == 0) {
+                alert('ç¿»è¨³ãããæç« ãåæã«å¥åãã¦ä¸ãã');
+                return;
+            }
+            else if (countNetLength(text) > maxLimit) {
+                alert('å¥åã§ããæå­æ°ã¯' + maxLimit + "æå­ã¾ã§ã§ã");
+                return;
+            }
+            else if (opera) {
+                if (getEncodeByte(text) > 7000) {
+                    alert('ç¾å¨ãå©ç¨ã®ç°å¢ã§ã¯æç« ã®ãµã¤ãºãå¤§ãéãã¦å¦çãåºæ¥ã¾ããã');
+                    return;
+                }
+            }
+        }
+        
+        var lpValue = 'EJ';
+        var form = document.forms['translate'];
+        form.lp.value = lpValue;
+        form.rt.value = '';      // åç¿»è¨³ç¨ã®ãã­ã¹ãã¯ã¯ãªã¢ãã¦ãã
+        if (onloadTime) {
+            var inputTime = ((new Date()).getTime()) - onloadTime;
+            form.tm.value = inputTime;
+        }
+        
+        //form.forceWordStr.value = lemma;
+        //form.forceAddStr.value = 'true';
+        form.submit();
+    });
+    
+    
+    // è¨³æBOXã®ã¯ãªãã¯æ
+    $('.transResultMain .translatedTextAreaLn').click(function() {
+        
+    	var $rdObj = $(this).find("span");
+    	var $wrObj = $(this).find("textarea");
+        if ($rdObj.css('display') == 'none'){
+            return;
+        }
+        
+        // ãããã¢ããç¨ã®ã¿ã°ããã¹ã¦éåã«éé¿ãã¦ãã
+        
+            var thisText = $(this).html();
+            var textTemp = thisText.match(/<span[^>]*>.+?<\/span>(?=<textarea[^>]*>)/i) || '';
+            var popupPattern = /<span class="?popupW"? onmouseover="?show_popup\(\'[^\']*\', \'([^\']*)\', this\)"?[^>]*>(.+?)<\/span>/gi;
+            var match;
+            var idx = 0;
+            popupWordArray = new Array();
+            while (match = popupPattern.exec(textTemp)) {
+                popupWordArray[idx++] = new Array(match[2], match[0], match[1]);
+            }
+            var $targetTagArray = $('.transResultMain li');
+            for (var i = 0; i < $targetTagArray.length; ++i) {
+                if ($targetTagArray.html() == thisText) {
+                    popupTranslatedTextPos = i;
+                    break;
+                }
+            }
+        
+        
+        var h = $rdObj.height();
+        if (h < 20) {
+            h = 20;
+        }
+        $rdObj.css('display', 'none');
+        $wrObj.css('display', 'inline');
+        if (!oldIe) {
+            $wrObj.autosize({className:'contTAGbMReText'});
+        }
+        else {
+        	$wrObj.css('height', '100px');
+        	$wrObj.css('width', '280px');
+        	$wrObj.css('overflow', 'auto');
+        }
+        var text = CommonUtils.desanitize($(this).html()).replace(/<br>/g, '\n').replace(reTag, '').replace(reTagCl, '');
+        if (!oldIe) {
+            $wrObj.css('height', h);
+        }
+        $wrObj.val(text);
+        $wrObj.focus();
+    });
+    
+    // ãã¼ã¿ã®åæ
+    $('.translatedTextLnFm').blur(function(){
+    	transReBoxRev();
+    });
+    
+    // ãã¼ã¿ã®åæ
+    function transReBoxRev() {
+        
+        var resultText = '';
+        var $targetTagArray = $('.transResultMain li');
+        for (var i = 0; i < $targetTagArray.length; ++i) {
+            
+            var $child = $targetTagArray.eq(i);
+            var $rdObj = $child.find("span");
+            var $wrObj = $child.find("textarea");
+            
+            var $gChildArray = $child.children('textarea');
+            for (var j = 0; j < $gChildArray.length; ++j) {
+                var $gChild = $gChildArray.eq(j);
+                if ($gChild.css('display') == 'inline' || $gChild.css('display') == 'inline-block'){
+                    $rdObj.css('display', 'inline');
+                    
+                    // éé¿ãã¦ããããããã¢ããç¨ã®ã¿ã°ãå¾©æ§ãã
+                    
+                    var resultData = CommonUtils.sanitize($wrObj.val()).replace(/\r?\n/g, '<br>');
+                    
+                    // å¾©æ§æ¸ã¿ã®ç®æã¾ã§ã®é¨åæå­åãæ ¼ç´ããããã®ãä½æ¥­ç¨æå­å
+                    var restoredStr = '';
+                    var restoredPtn = new RegExp('.*</' + 'span>', 'i');
+                    if (i == popupTranslatedTextPos) {
+                        for (k = 0; k < popupWordArray.length; ++k) {
+                            var popupPatternStr = popupWordArray[k][0].replace(/([\.?*+^$\[\](){}|-])/g, "\$1") + '(?=[.,:;!?\\s\\r\\n]|<br>|$)';
+                            var popupPattern = new RegExp(popupPatternStr, 'i');
+                            resultData = resultData.replace(popupPattern, popupWordArray[k][1]);
+                            
+                            if (!restoredPtn.test(resultData)) {
+                            	continue;
+                            }
+                            
+                            // å¾©æ§æ¸ã¿ã®ç®æã¾ã§ã®é¨åæå­åãæ´æ°
+                            restoredStr += restoredPtn.exec(resultData);
+                            
+                            // å¾©æ§æ¸ã¿ã®ç®æãåé¤
+                            resultData = resultData.replace(restoredPtn, '');
+                        }
+                        resultData = restoredStr + resultData;
+                    }
+                    resultData = '<span>' + resultData + '</' + 'span>';
+                    $rdObj.html(resultData);
+                    
+                    $wrObj.css('height', '0');
+                    $wrObj.css('display', 'none');
+                    $wrObj.val('');
+                }
+            }
+            if (i > 0) {
+            	resultText += '\n\n';
+            }
+            resultText += $rdObj.html().replace(/<br>/g, '\n').replace(reTag, '').replace(reTagCl, '');
+        }
+        
+        var form = document.forms['translate'];
+        if (form && resultText.length > 0) {
+            form.rt.value = resultText;
+        }
+        
+        // ãããã¢ããç¨ã®ã¿ã°ã¸ãã¤ãã³ãå¦çé¢æ°ãåè¨­å®ãã(IE6 ãªã©ã¸ã®å¯¾å¿)
+        
+        for (i = 0; i < popupWordArray.length; ++i) {
+        	initializePopupMouseout(popupWordArray[i][2]);
+        }
+        
+    }
+    
+    // ãªãµã¤ãº
+    var reTextAutoSizeFnc = function reTextAutoSize() {
+        var $reTextAreaObj = $('.transResultMain textarea');
+        if (!oldIe && $reTextAreaObj) {
+        	$reTextAreaObj.trigger('autosize');
+        }
+    }
+    
+    if ($transTextAreaObj) {
+        $transTextAreaObj.everyTime(600, fnNameCountTareaCharsName, reTextAutoSizeFnc);
+    }
+    
+    
+    // ããªã³ããã¿ã³
+    $('#transPrintBtn').click(function(){
+        var form = document.forms['translate'];
+        form.prtRt.value = getTranslatedText(false, true, false, true);
+        form.action = "https://translate.weblio.jp/print";
+        form.target = "_blank";
+        form.submit();
+        form.action = "https://translate.weblio.jp/";
+        form.target = "";
+    });
+    
+    // ã³ãã¼ãã¿ã³
+    if (ie && (ieVer.indexOf("msie 6.") > -1 || ieVer.indexOf("msie 7.") > -1 || ieVer.indexOf("msie 8.") > -1)) {
+        $('.contBtnCp').show();
+        $('.contBtnCp').click(function() {
+            window.clipboardData.setData("Text", getTranslatedText(true, false, true, false));
+            $('#trMsgArea').html('<p>è¨³æãã³ãã¼ãã¾ãã</' + 'p>');
+        });
+    }
+    else {
+        // ZeroClipboardã¯Flashãåããªãç°å¢ã ã¨ä½¿ããªããããFlashãåããã¨ãç¢ºèªãã
+        if (CommonUtils.hasFlashObj()) {
+            $('.contBtnCp').show();
+            ZeroClipboard.config({swfPath:'https://weblio.hs.llnwd.net/e7/img/ZeroClipboard.swf'});
+            var cpClient = new ZeroClipboard($('.contBtnCp'));
+            cpClient.on('copy', function(event) {
+                event.clipboardData.setData("text/plain", getTranslatedText(true, false, true, false));
+            });
+            cpClient.on('aftercopy', function(event) {
+                $('#trMsgArea').html('<p>è¨³æãã³ãã¼ãã¾ãã</' + 'p>');
+            });
+        }
+    }
+    
+    // åç¿»è¨³ãã¿ã³
+    $('.trnsJBtnOn, .trnsJBtnOnSm').click(function() {
+    	var isResultPage = $('input[name=isResultPage]').val();
+    	if (isResultPage == '1') {
+    		
+            if ($textAreaObj) {
+                var text = $textAreaObj.attr('value');
+                var length = text.length;
+                if (length == 0) {
+                    alert('ç¿»è¨³ãããæç« ãåæã«å¥åãã¦ä¸ãã');
+                    return;
+                }
+                else if (countNetLength(text) > maxLimit) {
+                    alert('å¥åã§ããæå­æ°ã¯' + maxLimit + "æå­ã¾ã§ã§ã");
+                    return;
+                }
+                else if (opera) {
+                	if (getEncodeByte(text) > 7000) {
+                		alert('ç¾å¨ãå©ç¨ã®ç°å¢ã§ã¯æç« ã®ãµã¤ãºãå¤§ãéãã¦å¦çãåºæ¥ã¾ããã');
+                        return;
+                	}
+                }
+            }
+            
+            var form = document.forms['translate'];
+            form.lp.value = $('input[name=lpf]').val();
+            if (onloadTime) {
+                var inputTime = ((new Date()).getTime()) - onloadTime;
+                form.tm.value = inputTime;
+            }
+            
+            //form.forceWordStr.value = lemma;
+            //form.forceAddStr.value = 'true';
+            form.submit();
+    	}
+    	else {
+        	alert('åæã«ä½ãå¥åãã¦ç¿»è¨³ãã¿ã³ãã¯ãªãã¯ãã¦ä¸ãã');
+    	}
+    });
+    
+    
+    // ã¯ãªã¢ãã¿ã³
+    $('.contBtnCl').click(function() {
+        $('#originalTextArea').val('');
+        $('#translatedTextArea').val('');
+    });
+    
+    // å¥åæå­æ°ã®ã«ã¦ã³ãã¨è¡¨ç¤ºãè¡ã
+    // ä¸è¨é¢æ°ãä»¥å¾ãä¸å®ééã§å®è¡ãã.ç¬¬1å¼æ°ã¯ç£è¦ã®interval(ããªç§)
+    // keyup,keydownãªã©ãåãã¨ãããããããã¤ãã³ããã®å ´åã¯ã
+    // IMEãå¨è§ã¢ã¼ãã®å ´åã«å¯¾å¿ãã¦ããªããããä¸å®ééã§å¤ã®åæ ãè¡ãå¿è¦ããã
+    var countTareaCharsFnc = function countTextAreaChars() {
+        
+        var text = $textAreaObj.attr('value');
+        var length = countNetLength(text);
+        $charCountPHObj.html(length);
+        // è¶éãã¦ããå ´å
+        if (length > maxLimit) {
+            //funcOver();
+        }
+        // å¶éã®ç¯å²åã®å ´å
+        else {
+            //funcUnder();
+        }
+        
+        // ãªãµã¤ãº
+        if (!oldIe) {
+            $textAreaObj.trigger('autosize');
+        }
+    }
+    
+    $textAreaObj.everyTime(600, fnNameCountTareaCharsName, countTareaCharsFnc);
+    $textAreaObj.focus();
+    
+    // ã¡ã¼ã«ãã¿ã³
+    $('#transMailBtn').click(function(){
+        var mailText = 'åæ\n' + jQuery.trim($textAreaObj.attr('value')) + '\n\nè¨³æ\n' + getTranslatedText(false, true, true, true);
+        mailText += '\n\nWeblioç¿»è¨³: https://translate.weblio.jp/';
+        
+        // åæã¨ç¿»è¨³æã®æå­æ°ã®åè¨ã550æå­ãè¶ããå ´åã¯ã¢ã©ã¼ããåºã
+        if (mailText.length > 550) {
+            alert('éä¿¡ã§ããæå¤§æå­æ°(500æå­)ãè¶ãã¦ãã¾ãã');
+        }
+        else {
+            window.open('mailto:?&body=' + encodeURIComponent(mailText));
+        }
+    });
+    
+    // ã¦ã£ã³ãã¦å¹ã«åããã¦ä¾æã®pã¿ã°ã®å¹ãå¤æ´ãã
+    function resizePTagWidth() {
+        var mainWidth = $('#main').width();
+	    var pWidth = mainWidth / 2 - 80;
+	    if (pWidth < 280) {
+	        pWidth = 280;
+	    }
+	    $('.qotCE').css("width", pWidth + "px");
+	    $('.qotCJ').css("width", pWidth + "px");
+    }
+    
+    if (firefox || opera) {
+        resizePTagWidth();
+        $(window).resize(resizePTagWidth);
+    }
+});
+
+</script>
+
+<div class=mainBxWrpE>
+
+<div class=mainBxH><h3 ID=lkMainBXH3>åèªãã¨ã®å¯¾è¨³</h3></div><div id="selAll"><input type="checkbox" id="sidAllCk">å¨ã¦é¸æ</div><br class="clr"><table class=mltIchgT><tr><th>è±èª</th><th>çºé³è¨å·</th><th>é³å£°</th><th>æ¥æ¬èªã§ã®æå³</th><th>é¸æ</th></tr><tr><td class=tngMainTTG><pre><a href="https://ejje.weblio.jp/content/arguments">arguments</a></pre></td><td class=tngMainTHT><pre>ÉÌrÉ¡jÉmÉnts</pre></td><td></td><td>argumentã®è¤æ°å½¢ã(äºå®ãè«çããã¨ã«ãã¦è¡ãªã)è­°è«,  è«äº, å£è«</td><td><input type="checkbox" name="sidCk" value="arguments" class="tngCk"></td></tr></table><div id="tngBtn"><img src="https://weblio.hs.llnwd.net/e7/img/icons/iconWlaAdFL.png" alt="" class="wlaBtnI" id="wlaBtnI"></div><a href="https://uwl.weblio.jp/ps/index" ID=incWdLkBtn>ç»é²å¯è½ãªåèªæ°ãå¢ãã</a><br class="clr"><div id="addLmFdWrBhId"></div><br class="clr">
+
+<script type="text/javascript">
+    // å¨ã¦é¸æã«ãã§ãã¯ãå¥ãã¨ãå¨ã¦ã®åèªã®ãã§ãã¯ããã¯ã¹ã«ãã§ãã¯ãå¥ãããã«ãã
+    $('#sidAllCk').click(function(){
+        if ($(this).is(':checked')) {
+            $('.mltIchgT input').attr('checked','checked');
+        }
+        else {
+            $('.mltIchgT input').removeAttr('checked');
+        }
+    });
+    
+    // åèªå¸³ã«è¿½å ã®ãã¿ã³
+    $('#wlaBtnI').click(function(){
+        var lemmaParam = '';
+        $('input[name=sidCk]').each(function(i){
+            if ($(this).is(':checked')) {
+                if (lemmaParam.length > 0) {
+                    lemmaParam += '&';
+                }
+                lemmaParam += 'lemma=' + CommonUtils.encodeURL(CommonUtils.desanitize($(this).val())); 
+            }
+        });
+        
+        if (lemmaParam.length > 0) {
+            // JSONPã§ãµã¼ããµã¤ãã«è¿½å ã®ãªã¯ã¨ã¹ããå®è¡
+            
+                showTangoFolderListBhPremGAEventTrack(this, lemmaParam, 'translate_word-list_add-words');
+            
+        }
+        else {
+            alert("ä½ãåèªãé¸æãã¦ä¸ããã");
+        }
+    });
+    
+    
+    // ãã¤ã©ã¤ããããã¢ã¯ã·ã§ã³
+    function addHlAct(obj1, obj2) {
+        if (!obj1 || !obj2) {
+            return;
+        }
+        obj1.mouseover(function(){
+            obj1.css('background-color','#ff0');
+            obj2.css('background-color','#ff0');
+        }).mouseout(function(){
+            obj1.css('background-color','#fff');
+            obj2.css('background-color','#fff');
+        });
+    }
+    
+    // ã¹ã¯ãªããã¨ã©ã¼ãåºãããIE8ä»¥ä¸ã¯éè¡¨ç¤º
+    var showHL = true;
+    if (window.navigator.userAgent.toLowerCase().indexOf("msie") > -1) {
+        var ieVer = window.navigator.appVersion.toLowerCase();
+        if (ieVer.indexOf("msie 6.") > -1 || ieVer.indexOf("msie 7.") > -1 || ieVer.indexOf("msie 8.") > -1) {
+            showHL = false;
+        }
+    }
+    
+    if (showHL) {
+        // åæç¨ãã¤ã©ã¤ãå¦ç
+        $orgHlArr = $('.mainTrnsHlTblL').find('span');
+        for (var i = 0; i < $orgHlArr.length; ++i) {
+            var obj = $orgHlArr.eq(i);
+            var cls = obj.attr('class').replace('trHlOrg', 'trHlTrns');
+            var obj2 = $('.'+cls);
+            if (obj2.html()) {
+                addHlAct(obj, obj2);
+            }
+        }
+        // è¨³æç¨ãã¤ã©ã¤ãå¦ç
+        $tnsHlArr = $('.mainTrnsHlTblR').find('span');
+        for (var i = 0; i < $tnsHlArr.length; ++i) {
+            var obj = $tnsHlArr.eq(i);
+            var cls = obj.attr('class').replace('trHlTrns', 'trHlOrg');
+            var obj2 = $('.'+cls);
+            if (obj2.html()) {
+                addHlAct(obj, obj2);
+            }
+        }
+    }
+    </script>
+<table ID=block>
+<tr>
+<th colspan="2">
+<p class=gmoMainFmTtlSc>ç¿»è¨³çµæã¯ãããã§ããããï¼ãããé«åè³ªãªç¿»è¨³ããã­ã«ä¾é ¼ãã¦ã¿ã¾ãããï¼</p>
+</th>
+</tr>
+<tr>
+<td colspan="2" class=adBtnBlock>
+<div ID=transSmtTnsApiBox><table class=smtTrnsMainFmTbl><tr><td class=smtTrnsMainFmTblL>ã¹ãã¼ãç¿»è¨³ã§ã®<b>ç¡æ</b>è¦ç©ããçµæ</td><td class=smtTrnsMainFmTblR><a href="https://www.smart-translation.com/" target="_blank" class="smtTrnsFormAncTop">ï¼ï¼æ³äººåãã®é«åè³ªãªç¿»è¨³ãªããã¹ãã¼ãç¿»è¨³ã</a></td></tr><tr><td class=smtTrnsMainFmTblC colspan="2"><form name="smtTnsEstimateApiPm" action="" method="post"></form><table class=smtTrnsMainFmTblCB><tr><td class=smtTrnsMainFmTblCBL>ç¿»è¨³è¨èª</td><td class=smtTrnsMainFmTblCBR>è±èªããæ¥æ¬èª</td></tr><tr><td class=smtTrnsMainFmTblCBL><span class=transSmtTnsApiCntTp>åèªæ°</span></td><td class=smtTrnsMainFmTblCBR><span class=transSmtTnsApiCnt>1åèª</span></td></tr><tr><td class=smtTrnsMainFmTblCBL>è¦ç©ãæ¦ç®</td><td class=smtTrnsMainFmTblCBR><b>ç´ï¿¥<span class=transSmtTnsApiPrice>10</span>ã§ä¾é ¼ãã</b></td></tr><tr><td class=smtTrnsMainFmTblCBL>ç¿»è¨³åç¨¿</td><td class=smtTrnsMainFmTblCBR>arguments</td></tr></table></td></tr><tr><td class=smtTrnsMainFmTblLF><form action="https://www.smart-translation.com/questions/estimate" method="post" name="smtTnsEstimate" target="_blank"><input type="hidden" name="langFrom" value="en"><input type="hidden" name="langTo" value="ja"><input type="hidden" name="originalText" value="arguments"><input type="hidden" name="qlt" value="Standard"><input type="image" src="https://weblio.hs.llnwd.net/e7/img/icons/btnTraMainLink.png" value="ã¹ãã¼ãç¿»è¨³ã¸ç§»å" class="smtTrnsFormButtonSnd"></form></td><td class=smtTrnsMainFmTblRF><form action="https://www.smart-translation.com/payment" method="post" name="smtTnsOrder" ID="smtTnsOrderMn" target="_blank"><input type="hidden" name="langFrom" value="en"><input type="hidden" name="langTo" value="ja"><input type="hidden" name="originalText" value="arguments"><input type="hidden" name="qlt" value="Standard"><input type="hidden" name="price" value="10"><input type="hidden" name="wordOrLetterCount" value="1"><input type="hidden" name="isRegistPage" value="true"><input type="image" src="https://weblio.hs.llnwd.net/e7/img/icons/btnTraMainReg.png" value="ä¼å¡ç»é²ãã¦çºæ³¨ãã" class="smtTrnsFormButtonEnt"></form></td></tr></table></div><form name="smtTnsEstimatePm" action="" method="post">
+<input type="hidden" name="langFrom" value="en">
+<input type="hidden" name="langTo" value="ja">
+<input type="hidden" name="translatedText" value="è­°è«">
+<input type="hidden" name="tp" value="smart_translation">
+<input type="hidden" name="ps" value="">
+</form>
+<script type="text/javascript">
+$(document).ready(function(){
+// 2013/06/10 åé¤
+//  var smtTnsFormParam = document.forms['smtTnsEstimatePm'];
+//  var smtTnsFormApiParam = document.forms['smtTnsEstimateApiPm'];
+//  var smtTnsTsForm = document.forms['translate'];
+//  
+//  if (smtTnsFormParam && smtTnsFormApiParam && smtTnsTsForm) {
+//      var originalText = CommonUtils.encodeURL(CommonUtils.desanitize(smtTnsTsForm.originalText.value));
+//      var param = '?langFrom=' + smtTnsFormParam.langFrom.value + '&langTo=' + smtTnsFormParam.langTo.value + '&qlt=Standard&query=' + originalText + '&tmpKey=' + smtTnsFormApiParam.tempKey.value;
+//      // IE6ã®å ´å
+//      if (window.navigator.userAgent.toLowerCase().indexOf("msie") > -1 && window.navigator.appVersion.toLowerCase().indexOf("msie 6.0") > -1) {
+//          return;
+//      }
+//      $.getJSON('https://www.smart-translation.com/api/estimate-api-jsonp' + param + '&callback=?',
+//          function(data){
+//              if (data && data['price'] && data['count']) {
+//                  if (data['price'] <= 0) {
+//                      return;
+//                  }
+//                  var cntTxt = 'æå­';
+//                  if (data['lang'] && data['lang'] == 'en') {
+//                      cntTxt = 'åèª';
+//                  }
+//                  else if (smtTnsFormParam.langFrom.value == 'en') {
+//                      cntTxt = 'åèª';
+//                  }
+//                  var price = data['price'];
+//                  price = price.replace(/,/g, "");
+//                  while(price != (price = price.replace(/^(\d+)(\d{3})/, "$1,$2")));
+//                  
+//                  $('#transSmtTnsApiBox').css('display', 'block');
+//                  
+//                      $('#transSmtTnsApiBoxDpML').html('<div ID=transSmtTnsApiBoxML><br><br><p ID=smtTrnsMainFmTblMnH>ãã­ã«ããç¿»è¨³ãã¹ãã¼ãç¿»è¨³ã«ä¾é ¼ãã¦ã¿ã¾ãããï¼</' + 'p><div ID=smtTrnsMainFmTblMnR><table class=smtTrnsMainFmTbl><tr><td class=smtTrnsMainFmTblL>ã¹ãã¼ãç¿»è¨³ã§ã®<b>ç¡æ</' + 'b>è¦ç©ã</' + 'td><td class=smtTrnsMainFmTblR><a href="https://www.smart-translation.com/" target="_blank" class="smtTrnsFormAncTopMl" onClick="ga(\'send\', \'event\', \'lead_to_smart-translation\', \'click\', \'translate_content_rmain_textlink\', {\'page\': \'/translate_content_rmain_textlink\'});">ï¼ï¼æ³äººåãç¿»è¨³ãã¹ãã¼ãç¿»è¨³ã</' + 'a></' + 'td></' + 'tr><tr><td class=smtTrnsMainFmTblC colspan="2"><form name="smtTnsEstimateApiPm" action="" method="post"></' + 'form><table class=smtTrnsMainFmTblCB><tr><td class=smtTrnsMainFmTblCBL>ç¿»è¨³è¨èª</' + 'td><td class=smtTrnsMainFmTblCBR>è±èªããæ¥æ¬èª</' + 'td></' + 'tr><tr><td class=smtTrnsMainFmTblCBL><span class=transSmtTnsApiCntTp>åèªæ°</' + 'span></' + 'td><td class=smtTrnsMainFmTblCBR><span class=transSmtTnsApiCnt>1åèª</' + 'span></' + 'td></' + 'tr><tr><td class=smtTrnsMainFmTblCBL>è¦ç©ãæ¦ç®</' + 'td><td class=smtTrnsMainFmTblCBR><b>ç´ï¿¥<span class=transSmtTnsApiPrice>10</' + 'span>ã§ä¾é ¼ãã</' + 'b></' + 'td></' + 'tr><tr><td class=smtTrnsMainFmTblCBL>ç¿»è¨³åç¨¿</' + 'td><td class=smtTrnsMainFmTblCBR>arguments</' + 'td></' + 'tr></' + 'table></' + 'td></' + 'tr><tr><td class=smtTrnsMainFmTblLF><form action="https://www.smart-translation.com/questions/estimate" method="post" name="smtTnsEstimate" target="_blank"><input type="hidden" name="langFrom" value="en"><input type="hidden" name="langTo" value="ja"><input type="hidden" name="originalText" value="arguments"><input type="hidden" name="qlt" value="Standard"><input type="image" src="https://weblio.hs.llnwd.net/e7/img/icons/translate_button_idou.png" value="ã¹ãã¼ãç¿»è¨³ã¸ç§»å" class="smtTrnsFormButtonSndMl" onClick="ga(\'send\', \'event\', \'lead_to_smart-translation\', \'click\', \'translate_content_rmain_linkbutton\', {\'page\': \'/translate_content_rmain_linkbutton\'});"></' + 'form></' + 'td><td class=smtTrnsMainFmTblRF><form action="https://www.smart-translation.com/payment" method="post" name="smtTnsOrder" ID="smtTnsOrderMlr" target="_blank"><input type="hidden" name="langFrom" value="en"><input type="hidden" name="langTo" value="ja"><input type="hidden" name="originalText" value="arguments"><input type="hidden" name="qlt" value="Standard"><input type="hidden" name="price" value="10"><input type="hidden" name="wordOrLetterCount" value="1"><input type="hidden" name="isRegistPage" value="true"><input type="image" src="https://weblio.hs.llnwd.net/e7/img/icons/translate_button_hattyu.png" value="ä¼å¡ç»é²ãã¦çºæ³¨ãã" class="smtTrnsFormButtonEntMl" onClick="ga(\'send\', \'event\', \'lead_to_smart-translation\', \'click\', \'translate_content_rmain_regbutton\', {\'page\': \'/translate_content_rmain_regbutton\'});"></' + 'form></' + 'td></' + 'tr></' + 'table></' + 'div></' + 'div><b class=clr></' + 'b>')
+//                      $('#transSmtTnsApiBoxML').css('display', 'block');
+//                      $('#smtTnsOrderMlr [name=price]').val(data['price']);
+//                      $('#smtTnsOrderMlr [name=wordOrLetterCount]').val(data['count']);
+//                  
+//                  $('.transSmtTnsApiCntTp').html(cntTxt + 'æ°');
+//                  $('.transSmtTnsApiCnt').html(data['count'] + cntTxt);
+//                  $('.transSmtTnsApiPrice').html(price);
+//                  
+//                  $('#smtTnsOrderMn [name=price]').val(data['price']);
+//                  $('#smtTnsOrderMn [name=wordOrLetterCount]').val(data['count']);
+//              }
+//          }
+//      );
+//  }
+    
+    $('#transSmtTnsApiBoxDpML').html('<div ID=transSmtTnsApiBoxML><br><br><p ID=smtTrnsMainFmTblMnH>ãã­ã«ããç¿»è¨³ãã¹ãã¼ãç¿»è¨³ã«ä¾é ¼ãã¦ã¿ã¾ãããï¼</' + 'p><div ID=smtTrnsMainFmTblMnR><table class=smtTrnsMainFmTbl><tr><td class=smtTrnsMainFmTblL>ã¹ãã¼ãç¿»è¨³ã§ã®<b>ç¡æ</' + 'b>è¦ç©ã</' + 'td><td class=smtTrnsMainFmTblR><a href="https://www.smart-translation.com/" target="_blank" class="smtTrnsFormAncTopMl" onClick="ga(\'send\', \'event\', \'lead_to_smart-translation\', \'click\', \'translate_content_rmain_textlink\', {\'page\': \'/translate_content_rmain_textlink\'});">ï¼ï¼æ³äººåãç¿»è¨³ãã¹ãã¼ãç¿»è¨³ã</' + 'a></' + 'td></' + 'tr><tr><td class=smtTrnsMainFmTblC colspan="2"><form name="smtTnsEstimateApiPm" action="" method="post"></' + 'form><table class=smtTrnsMainFmTblCB><tr><td class=smtTrnsMainFmTblCBL>ç¿»è¨³è¨èª</' + 'td><td class=smtTrnsMainFmTblCBR>è±èªããæ¥æ¬èª</' + 'td></' + 'tr><tr><td class=smtTrnsMainFmTblCBL><span class=transSmtTnsApiCntTp>åèªæ°</' + 'span></' + 'td><td class=smtTrnsMainFmTblCBR><span class=transSmtTnsApiCnt>1åèª</' + 'span></' + 'td></' + 'tr><tr><td class=smtTrnsMainFmTblCBL>è¦ç©ãæ¦ç®</' + 'td><td class=smtTrnsMainFmTblCBR><b>ç´ï¿¥<span class=transSmtTnsApiPrice>10</' + 'span>ã§ä¾é ¼ãã</' + 'b></' + 'td></' + 'tr><tr><td class=smtTrnsMainFmTblCBL>ç¿»è¨³åç¨¿</' + 'td><td class=smtTrnsMainFmTblCBR>arguments</' + 'td></' + 'tr></' + 'table></' + 'td></' + 'tr><tr><td class=smtTrnsMainFmTblLF><form action="https://www.smart-translation.com/questions/estimate" method="post" name="smtTnsEstimate" target="_blank"><input type="hidden" name="langFrom" value="en"><input type="hidden" name="langTo" value="ja"><input type="hidden" name="originalText" value="arguments"><input type="hidden" name="qlt" value="Standard"><input type="image" src="https://weblio.hs.llnwd.net/e7/img/icons/translate_button_idou.png" value="ã¹ãã¼ãç¿»è¨³ã¸ç§»å" class="smtTrnsFormButtonSndMl" onClick="ga(\'send\', \'event\', \'lead_to_smart-translation\', \'click\', \'translate_content_rmain_linkbutton\', {\'page\': \'/translate_content_rmain_linkbutton\'});"></' + 'form></' + 'td><td class=smtTrnsMainFmTblRF><form action="https://www.smart-translation.com/payment" method="post" name="smtTnsOrder" ID="smtTnsOrderMlr" target="_blank"><input type="hidden" name="langFrom" value="en"><input type="hidden" name="langTo" value="ja"><input type="hidden" name="originalText" value="arguments"><input type="hidden" name="qlt" value="Standard"><input type="hidden" name="price" value="10"><input type="hidden" name="wordOrLetterCount" value="1"><input type="hidden" name="isRegistPage" value="true"><input type="image" src="https://weblio.hs.llnwd.net/e7/img/icons/translate_button_hattyu.png" value="ä¼å¡ç»é²ãã¦çºæ³¨ãã" class="smtTrnsFormButtonEntMl" onClick="ga(\'send\', \'event\', \'lead_to_smart-translation\', \'click\', \'translate_content_rmain_regbutton\', {\'page\': \'/translate_content_rmain_regbutton\'});"></' + 'form></' + 'td></' + 'tr></' + 'table></' + 'div></' + 'div><b class=clr></' + 'b>')
+
+    var onloadTime = (new Date()).getTime();
+    $('.smtTrnsFormAncTop').click(function() {
+        ga('send', 'event', 'lead_to_smart-translation', 'click', 'translate_content_main_textlink', {'page': '/translate_content_main_textlink'});
+        // 2013/05/20åé¤
+        //smtTnsFmPtCore('smart_translation_anc_1');
+    });
+    $('.smtTrnsFormButtonSnd').click(function() {
+        ga('send', 'event', 'lead_to_smart-translation', 'click', 'translate_content_main_linkbutton', {'page': '/translate_content_main_linkbutton'});
+        // 2013/05/20åé¤
+        //smtTnsFmPtCore('smart_translation_btn_2');
+    });
+    $('.smtTrnsFormButtonEnt').click(function() {
+        ga('send', 'event', 'lead_to_smart-translation', 'click', 'translate_content_main_regbutton', {'page': '/translate_content_main_regbutton'});
+        // 2013/05/20åé¤
+        //smtTnsFmPtCore('smart_translation_btn_3');
+    });
+    
+    function smtTnsFmPtCore(ps) {
+        if (smtTnsFormParam && smtTnsTsForm) {
+            var lType = 'english';
+            $.post(
+                'https://translate.weblio.jp/ad-log/',
+                {'inLangIdx': smtTnsFormParam.langFrom.value, 'toLangIdx': smtTnsFormParam.langTo.value, 'contentText': smtTnsTsForm.originalText.value, 'translatedText': smtTnsFormParam.translatedText.value
+                , 'ref': document.referrer, 'tm': ((new Date()).getTime()) - onloadTime, 'tp': smtTnsFormParam.tp.value, 'ps': ps, 'lt': lType},
+                function(data, status) { ; },
+                'text'
+            );
+        }
+    }
+});
+</script>
+</td>
+</tr>
+<tr>
+<td class=blockL>
+<div class=mainBxH>
+<h3>åç¿»è¨³ã®ããæ¹</h3>
+</div>
+<div class=mainBxB>
+<div class=mainBxCnt>
+<p>åç¿»è¨³ã¨ã¯ãä¸æ¦ç¿»è¨³ãããçµæããååº¦ããã¨ã®è¨èªã«ç¿»è¨³ããªããæ©è½ã§ãã</p>
+<p>å³å´ã®ããã¯ã¹ã®ä¸ã«ãããåç¿»è¨³ããã¿ã³ãã¯ãªãã¯ãããã¨ã«ãã£ã¦ãç¿»è¨³çµæããååº¦ãã¨ã®è¨èªã«ç¿»è¨³ããªãããã¨ãã§ãã¾ãã</p>
+</div>
+</div>
+</td>
+<td class=blockRAd>
+<div class=cntDadSc>
+<!-- /2211331/Weblio_PC_translate_LeftBottom_336_280 -->
+<div id="div-gpt-ad-1467639633761-0">
+<script type="text/javascript">
+<!--
+adScS('cp836.js');
+//-->
+</script>
+
+</div>
+</div>
+</td>
+</tr>
+</table>
+
+<div id="feedbackBlock">
+<p>Weblioè±èªç¿»è¨³ã«é¢ãããããªãã®ãæè¦ããèãããã ãã</p>
+<div class="feedbackBlockSegment">
+<p class="feedbackLeftText">â¼ãæè¦ã®ç¨®é¡</p>
+<ul class="feedbackFeatureList">
+<li><input type="checkbox" name="feature" value="result">ç¿»è¨³çµæã«ã¤ãã¦</li>
+<li><input type="checkbox" name="feature" value="tts">é³å£°åçã«ã¤ãã¦</li>
+<li><input type="checkbox" name="feature" value="request">æ°æ©è½ã®ãªã¯ã¨ã¹ã</li>
+<li><input type="checkbox" name="feature" value="other">ãã®ä»</li>
+</ul>
+<p class="feedbackFeatureListNote">â»ç¨®é¡ãé¸æããªãã¦ãéä¿¡ã§ãã¾ã</p>
+</div>
+<div class="feedbackBlockSegment">
+<p class="feedbackLeftText">â¼ãæè¦ã®åå®¹</p>
+<textarea cols=60 rows=16 id="feedbackMessage"></textarea>
+<br>
+<input type="button" value="æè¦ãéã" style="width:140px;height:30px;" id="feedbackButton">
+</div>
+</div>
+<script type="text/javascript">
+$('#feedbackButton').click(function() {
+	var msg = $('#feedbackMessage').val();
+	if (!msg) {
+		return;
+	}
+	
+	var checkedFeatures = "";
+	$('input[name="feature"]:checked').each(function(){
+	    if (checkedFeatures.length > 0) {
+	        checkedFeatures += ",";
+	    }
+	    checkedFeatures += this.value;
+	});
+    
+    // ãã©ã¼ã ãæ¶ã (ãã©ã¼ã é£ç¶éä¿¡ãåé¿ãããã)
+    var docObj = document.getElementById('feedbackBlock');
+    if (!docObj) {
+        return;
+    }
+    docObj.innerHTML = '';
+    
+    // HTTP POSTã§ãµã¼ããµã¤ãã«ãã¼ã¿æ´æ°ã®ãªã¯ã¨ã¹ããå®è¡
+    $.post(
+		    'https://translate.weblio.jp/feedback/',  // ãªã¯ã¨ã¹ãURL
+		    {'message': msg, 'checkedFeatures': checkedFeatures}, // ãã¼ã¿
+		    function(data, status) {
+		    	
+                var resMsg = '';
+                
+		    	// éä¿¡ã«æåããå ´å
+		        if (status == 'success') {
+                    resMsg += '<b>ãæè¦ãããã¨ããããã¾ããã<' + '/b><br>';
+                    resMsg += 'é ãããæè¦ã¯å¿ãæè¦ãããã¾ãã<br>';
+                    resMsg += 'ãã®ãã©ã¼ã ããé ãããæè¦ããè³ªåã«ã¯ã<br>';
+                    resMsg += 'åå¥ã«è¿ä¿¡ãããã¨ãã§ãã¾ãããã¨ãã<br>';
+                    resMsg += 'ããããããäºæ¿ãã ããã<br>';
+                }
+                else {
+                    resMsg += 'ç³ãè¨³ãããã¾ãããããµã¼ãã<br>';
+                    resMsg += 'ã¡ã³ããã³ã¹ä¸­ã®ããããã¼ã¸ã<br>';
+                    resMsg += 'è¡¨ç¤ºã§ããªãç¶æã«ãªã£ã¦ããã¾ãã<br>';
+		        }
+                
+                docObj.innerHTML = resMsg;
+		    },
+		    'text'
+	);
+});
+</script></div>
+</div>
+</div>
+<div ID=sideE>
+
+<div class=sideAd>
+<div class=sideAdBunner>
+<!--  Begin Rubicon Project Tag -->
+<!--  Site: Weblio   Zone: Weblio_translate_RightTop_300_250_ATF   Size: Medium Rectangle  -->
+<!--  PLACEMENT: Above the Fold;   -->
+<script type="text/javascript">
+<!--
+adScS('cp797.js');
+//-->
+</script>
+
+<!--  End Rubicon Project Tag -->
+</div>
+</div>
+<script type="text/javascript">
+<!--
+document.write('<div class=sideSmallFrm><iframe src="https://ejje.weblio.jp/small/?scpt=translate" name="smallFrm" width="296" height="600"></' + 'iframe></' + 'div>');
+//-->
+</script>
+
+<div id="sideBHModule" class="historyBlock">
+<div class="historyHeader"><h2>ç¿»è¨³å±¥æ­´</h2></div>
+<div id="sideBHBody">
+<div style="padding:0">
+<div style="text-align:right; margin:10px 5px 0 0;">
+<b id=sideBHClear style="border-bottom: #534a42 dotted 1px; font-size: 13px; line-height: 14px;">å¨å±¥æ­´ã¯ãªã¢</b>
+</div>
+<table id=sideBHTbl class=historyContent>
+<tbody><tr style="display:none;"><td></td><td></td></tr></tbody>
+<!--  ããã«ãã¼ãã« -->
+</table>
+</div>
+</div>
+</div>
+<div class=mainAdBxH><p>ç¿»è¨³ã¬ã¤ã</p></div><div class=mainAdBxB><p class=trBxMLi><span class="pl" onclick="return catRNewNav(this, 'GuideS1');" id="catIconGuideS1">ï¼</span>Weblioç¿»è¨³ã«ã¤ãã¦</p>
+<div class=sideGuideCgrBx id=treeBoxCatGuideS1 style="position:absolute; visibility:hidden;">
+<ul style="margin:0 0 10px 0; padding-left:30px;"><li><a href="https://translate.weblio.jp/guide/Weblio%E7%BF%BB%E8%A8%B3%E3%81%A8%E3%81%AF">Weblioç¿»è¨³ã¨ã¯</a></li><li><a href="https://translate.weblio.jp/guide/Weblio%E7%BF%BB%E8%A8%B3%E3%81%AE%E7%89%B9%E5%BE%B4">Weblioç¿»è¨³ã®ç¹å¾´</a></li><li><a href="https://translate.weblio.jp/guide/Weblio%E7%BF%BB%E8%A8%B3%E3%81%AF%E3%81%93%E3%82%93%E3%81%AA%E3%81%A8%E3%81%8D%E3%81%AB%E4%BE%BF%E5%88%A9">Weblioç¿»è¨³ã¯ãããªã¨ãã«ä¾¿å©</a></li><li><a href="https://translate.weblio.jp/guide/Weblio%E7%BF%BB%E8%A8%B3%E3%81%AE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A6%81%E4%BB%B6">Weblioç¿»è¨³ã®ã·ã¹ãã è¦ä»¶</a></li><li><a href="https://translate.weblio.jp/guide/%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF%E3%82%92%E3%81%8A%E5%BE%85%E3%81%A1%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99">ãã£ã¼ãããã¯ããå¾ã¡ãã¦ãã¾ã</a></li></ul>
+</div>
+<p class=trBxMLi><span class="pl" onclick="return catRNewNav(this, 'GuideS2');" id="catIconGuideS2">ï¼</span>Weblioç¿»è¨³ã®ä½¿ãæ¹ </p>
+<div class=sideGuideCgrBx id=treeBoxCatGuideS2 style="position:absolute; visibility:hidden;">
+<ul style="margin:0 0 10px 0; padding-left:30px;"><li><a href="https://translate.weblio.jp/guide/Weblio%E8%8B%B1%E8%AA%9E%E7%BF%BB%E8%A8%B3%E3%81%AE%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C">Weblioè±èªç¿»è¨³ã®åºæ¬æä½</a></li><li><a href="https://translate.weblio.jp/guide/Weblio%E4%B8%AD%E5%9B%BD%E8%AA%9E%E7%BF%BB%E8%A8%B3%E3%81%AE%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C">Weblioä¸­å½èªç¿»è¨³ã®åºæ¬æä½</a></li><li><a href="https://translate.weblio.jp/guide/%E3%80%8C%E3%82%AF%E3%83%AA%E3%82%A2%E3%80%8D%E3%83%9C%E3%82%BF%E3%83%B3%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9">ãã¯ãªã¢ããã¿ã³ã®ä½¿ãæ¹</a></li><li><a href="https://translate.weblio.jp/guide/%E3%80%8C%E3%82%B3%E3%83%94%E3%83%BC%E3%80%8D%E3%83%9C%E3%82%BF%E3%83%B3%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9">ãã³ãã¼ããã¿ã³ã®ä½¿ãæ¹</a></li><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E7%B5%90%E6%9E%9C%E3%81%AE%E8%A4%87%E6%95%B0%E8%A1%A8%E7%A4%BA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">ç¿»è¨³çµæã®è¤æ°è¡¨ç¤ºã«ã¤ãã¦</a></li><li><a href="https://translate.weblio.jp/guide/%E8%BE%9E%E6%9B%B8%E6%A4%9C%E7%B4%A2%E6%A9%9F%E8%83%BD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">è¾æ¸æ¤ç´¢æ©è½ã«ã¤ãã¦</a></li><li><a href="https://translate.weblio.jp/guide/%E4%BE%8B%E6%96%87%E6%A4%9C%E7%B4%A2%E6%A9%9F%E8%83%BD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">ä¾ææ¤ç´¢æ©è½ã«ã¤ãã¦</a></li><li><a href="https://translate.weblio.jp/guide/%E5%86%8D%E7%BF%BB%E8%A8%B3%E6%A9%9F%E8%83%BD%E3%81%A4%E3%81%84%E3%81%A6">åç¿»è¨³æ©è½ã¤ãã¦</a></li><li><a href="https://translate.weblio.jp/guide/%E4%BA%BA%E5%8A%9B%E7%BF%BB%E8%A8%B3%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B">äººåç¿»è¨³ãå©ç¨ãã</a></li><li><a href="https://translate.weblio.jp/guide/%E3%80%8CGMO%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89%E7%BF%BB%E8%A8%B3%E3%80%8D%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">ãGMOã¹ãã¼ãç¿»è¨³ãã«ã¤ãã¦</a></li><li><a href="https://translate.weblio.jp/guide/%E8%8B%B1%E8%AA%9E%E8%BE%9E%E6%9B%B8%E3%81%A8%E8%8B%B1%E8%AA%9E%E7%BF%BB%E8%A8%B3%E3%82%92%E4%BD%B5%E7%94%A8%E3%81%99%E3%82%8B">è±èªè¾æ¸ã¨è±èªç¿»è¨³ãä½µç¨ãã</a></li><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E7%B5%90%E6%9E%9C%E3%81%AE%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF">ç¿»è¨³çµæã®ãã£ã¼ãããã¯</a></li></ul>
+</div>
+<p class=trBxMLi><span class="pl" onclick="return catRNewNav(this, 'GuideS3');" id="catIconGuideS3">ï¼</span>æ©æ¢°ç¿»è¨³ã¨ã¯</p>
+<div class=sideGuideCgrBx id=treeBoxCatGuideS3 style="position:absolute; visibility:hidden;">
+<ul style="margin:0 0 10px 0; padding-left:30px;"><li><a href="https://translate.weblio.jp/guide/%E6%A9%9F%E6%A2%B0%E7%BF%BB%E8%A8%B3%E3%81%A8%E3%81%AF">æ©æ¢°ç¿»è¨³ã¨ã¯</a></li><li><a href="https://translate.weblio.jp/guide/%E6%A9%9F%E6%A2%B0%E7%BF%BB%E8%A8%B3%E3%81%AE%E5%82%BE%E5%90%91">æ©æ¢°ç¿»è¨³ã®å¾å</a></li><li><a href="https://translate.weblio.jp/guide/%E6%A9%9F%E6%A2%B0%E7%BF%BB%E8%A8%B3%E3%81%AE%E9%95%B7%E6%89%80%E3%81%A8%E7%9F%AD%E6%89%80">æ©æ¢°ç¿»è¨³ã®é·æã¨ç­æ</a></li><li><a href="https://translate.weblio.jp/guide/%E6%A9%9F%E6%A2%B0%E7%BF%BB%E8%A8%B3%E3%82%92%E4%BF%A1%E9%A0%BC%E3%81%97%E3%81%99%E3%81%8E%E3%81%AA%E3%81%84">æ©æ¢°ç¿»è¨³ãä¿¡é ¼ããããªã</a></li></ul>
+</div>
+<p class=trBxMLi><span class="pl" onclick="return catRNewNav(this, 'GuideS4');" id="catIconGuideS4">ï¼</span>æ©æ¢°ç¿»è¨³ãä½¿ãããªãã³ã</p>
+<div class=sideGuideCgrBx id=treeBoxCatGuideS4 style="position:absolute; visibility:hidden;">
+<ul style="margin:0 0 10px 0; padding-left:30px;"><li><a href="https://translate.weblio.jp/guide/%E6%A9%9F%E6%A2%B0%E7%BF%BB%E8%A8%B3%E3%81%AE%E5%82%BE%E5%90%91%E3%83%BB%E7%89%B9%E5%BE%B4%E3%82%92%E3%81%A4%E3%81%8B%E3%82%80">æ©æ¢°ç¿»è¨³ã®å¾åã»ç¹å¾´ãã¤ãã</a></li><li><a href="https://translate.weblio.jp/guide/%E6%AD%A3%E3%81%97%E3%81%84%E8%A1%A8%E8%A8%98%E3%83%BB%E8%A1%A8%E7%8F%BE%E3%82%92%E4%BD%BF%E3%81%86">æ­£ããè¡¨è¨ã»è¡¨ç¾ãä½¿ã</a></li><li><a href="https://translate.weblio.jp/guide/%E6%96%87%E7%AB%A0%E3%81%AF%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%A0%E3%81%91%E7%9F%AD%E3%81%8F%E3%81%99%E3%82%8B">æç« ã¯ã§ããã ãç­ããã</a></li><li><a href="https://translate.weblio.jp/guide/%E6%96%87%E7%AB%A0%E3%81%AF%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%A0%E3%81%91%E7%9C%81%E7%95%A5%E3%81%97%E3%81%AA%E3%81%84">æç« ã¯ã§ããã ãçç¥ããªã</a></li><li><a href="https://translate.weblio.jp/guide/%E4%B8%8D%E8%A6%81%E3%81%AA%E8%A8%80%E3%81%84%E5%9B%9E%E3%81%97%E3%81%AF%E5%8F%96%E3%82%8A%E9%99%A4%E3%81%8F">ä¸è¦ãªè¨ãåãã¯åãé¤ã</a></li><li><a href="https://translate.weblio.jp/guide/%E7%95%A5%E8%AA%9E%E3%81%AF%E7%9C%81%E7%95%A5%E3%81%9B%E3%81%9A%E3%81%AB%E6%9B%B8%E3%81%8F">ç¥èªã¯çç¥ããã«æ¸ã</a></li><li><a href="https://translate.weblio.jp/guide/%E8%AA%A4%E5%AD%97%E3%83%BB%E8%84%B1%E5%AD%97%E3%81%AB%E6%B3%A8%E6%84%8F%E3%81%99%E3%82%8B">èª¤å­ã»è±å­ã«æ³¨æãã</a></li><li><a href="https://translate.weblio.jp/guide/%E6%BC%A2%E5%AD%97%E3%82%92%E4%BD%BF%E3%81%88%E3%82%8B%E9%83%A8%E5%88%86%E3%81%AF%E6%BC%A2%E5%AD%97%E3%81%A7%E6%9B%B8%E3%81%8F">æ¼¢å­ãä½¿ããé¨åã¯æ¼¢å­ã§æ¸ã</a></li><li><a href="https://translate.weblio.jp/guide/%E6%96%87%E4%BD%93%E3%82%92%E5%B7%A5%E5%A4%AB%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B">æä½ãå·¥å¤«ãã¦ã¿ã</a></li><li><a href="https://translate.weblio.jp/guide/%E5%A4%9A%E7%BE%A9%E7%9A%84%E3%81%AA%E8%A1%A8%E7%8F%BE%E3%82%92%E8%A8%80%E3%81%84%E6%8F%9B%E3%81%88%E3%81%A6%E3%81%BF%E3%82%8B">å¤ç¾©çãªè¡¨ç¾ãè¨ãæãã¦ã¿ã</a></li><li><a href="https://translate.weblio.jp/guide/%E5%B0%8A%E6%95%AC%E8%AA%9E%E3%82%84%E8%AC%99%E8%AD%B2%E8%AA%9E%E3%82%92%E8%A8%80%E3%81%84%E6%8F%9B%E3%81%88%E3%81%A6%E3%81%BF%E3%82%8B">å°æ¬èªãè¬è­²èªãè¨ãæãã¦ã¿ã</a></li><li><a href="https://translate.weblio.jp/guide/%E5%9B%BA%E6%9C%89%E5%90%8D%E3%82%92%E6%99%AE%E9%80%9A%E5%90%8D%E8%A9%9E%E3%81%A7%E7%BD%AE%E3%81%8D%E6%8F%9B%E3%81%88%E3%82%8B">åºæåãæ®éåè©ã§ç½®ãæãã</a></li><li><a href="https://translate.weblio.jp/guide/%E3%80%8C%EF%BD%9E%E5%8C%96%E3%80%8D%E3%80%8C%EF%BD%9E%E7%9A%84%E3%80%8D%E3%81%AA%E3%81%A9%E3%82%92%E8%A8%80%E3%81%84%E6%8F%9B%E3%81%88%E3%82%8B">ãï½åããï½çããªã©ãè¨ãæãã</a></li><li><a href="https://translate.weblio.jp/guide/%E5%8F%97%E8%BA%AB%E6%96%87%E3%81%A8%E8%83%BD%E5%8B%95%E6%96%87%E3%82%92%E5%85%A5%E3%82%8C%E6%9B%BF%E3%81%88%E3%81%A6%E3%81%BF%E3%82%8B">åèº«æã¨è½åæãå¥ãæ¿ãã¦ã¿ã</a></li><li><a href="https://translate.weblio.jp/guide/%E3%80%8C%E3%81%AE%E3%80%8D%E3%80%8C%E3%81%AF%E3%80%8D%E3%81%AA%E3%81%A9%E3%81%AE%E8%A1%A8%E7%8F%BE%E3%82%92%E8%A8%80%E3%81%84%E6%8F%9B%E3%81%88%E3%82%8B">ãã®ããã¯ããªã©ã®è¡¨ç¾ãè¨ãæãã</a></li><li><a href="https://translate.weblio.jp/guide/%E3%80%8C%E3%81%99%E3%82%8B%E3%80%8D%E3%80%8C%E3%81%AA%E3%82%8B%E3%80%8D%E7%AD%89%E3%81%AE%E5%8B%95%E8%A9%9E%E3%82%92%E9%81%BF%E3%81%91%E3%82%8B">ããããããªããç­ã®åè©ãé¿ãã</a></li><li><a href="https://translate.weblio.jp/guide/%E6%85%A3%E7%94%A8%E7%9A%84%E8%A1%A8%E7%8F%BE%E3%82%92%E8%A8%80%E3%81%84%E6%8F%9B%E3%81%88%E3%82%8B">æ£ç¨çè¡¨ç¾ãè¨ãæãã</a></li></ul>
+</div>
+<p class=trBxMLi><span class="pl" onclick="return catRNewNav(this, 'GuideS5');" id="catIconGuideS5">ï¼</span>ç¿»è¨³èã®ä»äº</p>
+<div class=sideGuideCgrBx id=treeBoxCatGuideS5 style="position:absolute; visibility:hidden;">
+<ul style="margin:0 0 10px 0; padding-left:30px;"><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%81%AE%E4%BB%95%E4%BA%8B%E5%86%85%E5%AE%B9">ç¿»è¨³ã®ä»äºåå®¹</a></li><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E6%A5%AD%E5%8B%99%E3%81%AE%E5%8C%BA%E5%88%86">ç¿»è¨³æ¥­åã®åºå</a></li><li><a href="https://translate.weblio.jp/guide/%E7%94%A3%E6%A5%AD%E7%BF%BB%E8%A8%B3%E3%81%AE%E4%BB%95%E4%BA%8B">ç£æ¥­ç¿»è¨³ã®ä»äº</a></li><li><a href="https://translate.weblio.jp/guide/%E6%8A%80%E8%A1%93%E7%BF%BB%E8%A8%B3%E3%81%A8%E3%81%AF">æè¡ç¿»è¨³ã¨ã¯</a></li><li><a href="https://translate.weblio.jp/guide/%E6%8A%80%E8%A1%93%E7%BF%BB%E8%A8%B3%E3%81%AE%E7%89%B9%E5%BE%B4">æè¡ç¿»è¨³ã®ç¹å¾´</a></li><li><a href="https://translate.weblio.jp/guide/IT%E7%BF%BB%E8%A8%B3%E3%81%A8%E3%81%AF">ITç¿»è¨³ã¨ã¯</a></li><li><a href="https://translate.weblio.jp/guide/%E6%98%A0%E5%83%8F%E7%BF%BB%E8%A8%B3%E3%81%A8%E3%81%AF">æ åç¿»è¨³ã¨ã¯</a></li><li><a href="https://translate.weblio.jp/guide/%E6%98%A0%E5%83%8F%E7%BF%BB%E8%A8%B3%E3%81%AE%E7%A8%AE%E9%A1%9E">æ åç¿»è¨³ã®ç¨®é¡</a></li><li><a href="https://translate.weblio.jp/guide/%E5%AD%97%E5%B9%95%E7%BF%BB%E8%A8%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">å­å¹ç¿»è¨³ã«ã¤ãã¦</a></li><li><a href="https://translate.weblio.jp/guide/%E9%9F%B3%E5%A3%B0%E5%90%B9%E3%81%8D%E6%9B%BF%E3%81%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">é³å£°å¹ãæ¿ãã«ã¤ãã¦</a></li><li><a href="https://translate.weblio.jp/guide/%E3%83%9C%E3%82%A4%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">ãã¤ã¹ãªã¼ãã¼ã«ã¤ãã¦</a></li><li><a href="https://translate.weblio.jp/guide/%E6%98%A0%E5%83%8F%E7%BF%BB%E8%A8%B3%E3%81%AE%E9%9C%80%E8%A6%81">æ åç¿»è¨³ã®éè¦</a></li><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E6%96%99%E3%81%AE%E5%8D%98%E4%BE%A1%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">ç¿»è¨³æã®åä¾¡ã«ã¤ãã¦</a></li><li><a href="https://translate.weblio.jp/guide/%E5%87%BA%E7%89%88%E7%BF%BB%E8%A8%B3%E3%81%A8%E3%81%AF">åºçç¿»è¨³ã¨ã¯</a></li><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%81%A8%E9%80%9A%E8%A8%B3%E3%81%AE%E9%81%95%E3%81%84">ç¿»è¨³ã¨éè¨³ã®éã</a></li><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%83%81%E3%82%A7%E3%83%83%E3%82%AB%E3%83%BC%E3%81%AE%E4%BB%95%E4%BA%8B">ç¿»è¨³ãã§ãã«ã¼ã®ä»äº</a></li><li><a href="https://translate.weblio.jp/guide/%E3%83%8D%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%81%A8%E3%81%AF">ãã¤ãã£ããã§ãã¯ã¨ã¯</a></li><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E4%BC%9A%E7%A4%BE%E3%83%BB%E7%BF%BB%E8%A8%B3%E4%BB%A3%E8%A1%8C%E6%A5%AD%E8%80%85%E3%81%B8%E3%81%AE%E8%A6%8B%E7%A9%8D%E3%82%8A%E4%BE%9D%E9%A0%BC">ç¿»è¨³ä¼ç¤¾ã»ç¿»è¨³ä»£è¡æ¥­èã¸ã®è¦ç©ãä¾é ¼</a></li></ul>
+</div>
+<p class=trBxMLi><span class="pl" onclick="return catRNewNav(this, 'GuideS6');" id="catIconGuideS6">ï¼</span>ç¿»è¨³èã«ãªãã«ã¯</p>
+<div class=sideGuideCgrBx id=treeBoxCatGuideS6 style="position:absolute; visibility:hidden;">
+<ul style="margin:0 0 10px 0; padding-left:30px;"><li><a href="https://translate.weblio.jp/guide/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E8%8B%B1%E8%AA%9E%E7%BF%BB%E8%A8%B3%E5%A3%AB%E3%81%A8%E3%81%AF">ãã¸ãã¹è±èªç¿»è¨³å£«ã¨ã¯</a></li><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E8%80%85%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E4%B8%BB%E3%81%AA%E5%9B%A3%E4%BD%93">ç¿»è¨³èã«é¢ããä¸»ãªå£ä½</a></li><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%81%AE%E6%95%99%E8%82%B2%E8%AA%B2%E7%A8%8B%E3%81%AE%E3%81%82%E3%82%8B%E5%A4%A7%E5%AD%A6">ç¿»è¨³ã®æè²èª²ç¨ã®ããå¤§å­¦</a></li><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%81%AE%E5%B0%82%E9%96%80%E5%AD%A6%E6%A0%A1%EF%BC%88%E7%BF%BB%E8%A8%B3%E5%AD%A6%E6%A0%A1%EF%BC%89">ç¿»è¨³ã®å°éå­¦æ ¡ï¼ç¿»è¨³å­¦æ ¡ï¼</a></li><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E8%80%85%E3%81%AE%E5%8B%A4%E5%8B%99%E5%BD%A2%E6%85%8B">ç¿»è¨³èã®å¤åå½¢æ</a></li><li><a href="https://translate.weblio.jp/guide/%E5%9C%A8%E5%AE%85%E3%81%AE%E7%BF%BB%E8%A8%B3%E8%80%85%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%AB%E3%81%AF">å¨å®ã®ç¿»è¨³èã«ãªãã«ã¯</a></li><li><a href="https://translate.weblio.jp/guide/%E5%9C%A8%E5%AE%85%E7%BF%BB%E8%A8%B3%E8%80%85%E3%81%AE%E6%99%82%E7%B5%A6%E3%81%AF">å¨å®ç¿»è¨³èã®æçµ¦ã¯</a></li><li><a href="https://translate.weblio.jp/guide/%E6%B4%BE%E9%81%A3%E7%BF%BB%E8%A8%B3%E8%80%85%E3%81%AE%E4%BB%95%E4%BA%8B">æ´¾é£ç¿»è¨³èã®ä»äº</a></li><li><a href="https://translate.weblio.jp/guide/%E6%B1%82%E4%BA%BA%E6%83%85%E5%A0%B1%E8%AA%8C%E3%81%A7%E7%BF%BB%E8%A8%B3%E3%81%AE%E4%BB%95%E4%BA%8B%E6%8E%A2%E3%81%97">æ±äººæå ±èªã§ç¿»è¨³ã®ä»äºæ¢ã</a></li><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%99%E3%82%8B">ç¿»è¨³ã¨ã¼ã¸ã§ã³ãã«ç»é²ãã</a></li><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E8%80%85%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E3%81%A7%E5%8B%9F%E9%9B%86%E3%81%99%E3%82%8B">ç¿»è¨³èãã£ã¬ã¯ããªã§åéãã</a></li><li><a href="https://translate.weblio.jp/guide/%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E7%BF%BB%E8%A8%B3%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%99%E3%82%8B">ã½ã¼ã·ã£ã«ç¿»è¨³ã«ç»é²ãã</a></li><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E8%80%85%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%99%E3%82%8B">ç¿»è¨³èã³ãã¥ããã£ã«ç»é²ãã</a></li></ul>
+</div>
+<p class=trBxMLi><span class="pl" onclick="return catRNewNav(this, 'GuideS7');" id="catIconGuideS7">ï¼</span>ç¿»è¨³ãé²ãããã¼ã«</p>
+<div class=sideGuideCgrBx id=treeBoxCatGuideS7 style="position:absolute; visibility:hidden;">
+<ul style="margin:0 0 10px 0; padding-left:30px;"><li><a href="https://translate.weblio.jp/guide/%E5%86%8D%E7%BF%BB%E8%A8%B3%E3%81%A8%E3%81%AF">åç¿»è¨³ã¨ã¯</a></li><li><a href="https://translate.weblio.jp/guide/%E6%9C%89%E5%84%9F%E3%81%AE%E7%BF%BB%E8%A8%B3%E3%82%BD%E3%83%95%E3%83%88">æåã®ç¿»è¨³ã½ãã</a></li><li><a href="https://translate.weblio.jp/guide/%E7%B4%99%E3%81%AE%E8%8B%B1%E5%92%8C%E8%BE%9E%E6%9B%B8">ç´ã®è±åè¾æ¸</a></li><li><a href="https://translate.weblio.jp/guide/%E9%9B%BB%E5%AD%90%E8%BE%9E%E6%9B%B8">é»å­è¾æ¸</a></li><li><a href="https://translate.weblio.jp/guide/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%BE%9E%E6%9B%B8">ãªã³ã©ã¤ã³è¾æ¸</a></li><li><a href="https://translate.weblio.jp/guide/%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%AE%E8%BE%9E%E6%9B%B8%E3%82%BD%E3%83%95%E3%83%88">ãªãã©ã¤ã³ã®è¾æ¸ã½ãã</a></li><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%82%B5%E3%82%A4%E3%83%88">ç¿»è¨³ãµã¤ã</a></li><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%83%84%E3%83%BC%E3%83%AB%E3%83%90%E3%83%BC">ç¿»è¨³ãã¼ã«ãã¼</a></li><li><a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%83%A1%E3%83%A2%E3%83%AA">ç¿»è¨³ã¡ã¢ãª</a></li><li><a href="https://translate.weblio.jp/guide/%E3%82%B9%E3%83%9A%E3%83%AB%E3%83%81%E3%82%A7%E3%83%83%E3%82%AB%E3%83%BC">ã¹ãã«ãã§ãã«ã¼</a></li><li><a href="https://translate.weblio.jp/guide/%E6%96%87%E7%AB%A0%E6%A0%A1%E6%AD%A3%E6%94%AF%E6%8F%B4%E3%83%84%E3%83%BC%E3%83%AB">æç« æ ¡æ­£æ¯æ´ãã¼ã«</a></li><li><a href="https://translate.weblio.jp/guide/%E6%96%87%E5%AD%97%E6%95%B0%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E6%A9%9F%E8%83%BD">æå­æ°ã«ã¦ã³ãæ©è½</a></li><li><a href="https://translate.weblio.jp/guide/%E3%82%A2%E3%83%A9%E3%82%A4%E3%83%A1%E3%83%B3%E3%83%88%E3%83%84%E3%83%BC%E3%83%AB">ã¢ã©ã¤ã¡ã³ããã¼ã«</a></li></ul>
+</div>
+</div><div class=sideBxStApHTr>
+<p>å¬å¼ã¢ããª</p>
+</div>
+<div class=sideBxStApTxtTr>
+<div class=sideBxStApTxtxTr>
+<p class=sideBxStApTxtxLiTr>
+<a href="https://play.google.com/store/apps/details?id=jp.weblio.smpapp.translation" title="Weblioè±èªç¿»è¨³ã¢ããª(é³å£°çºé³ä»ã) - (Android)">Weblioè±èªç¿»è¨³ã¢ããª(é³å£°çºé³ä»ã) - (Android)</a>
+</p>
+<p class=sideBxStApTxtxLiTr>
+<a href="https://itunes.apple.com/us/app/weblio-ying-yu-fan-yi-yin/id686356780" title="Weblioè±èªç¿»è¨³ã¢ããª(é³å£°çºé³ä»ã) - (iOS)">Weblioè±èªç¿»è¨³ã¢ããª(é³å£°çºé³ä»ã) - (iOS)</a>
+</p>
+</div>
+</div>
+<script type="text/javascript">document.write('<a class="twitter-timeline" href="https://twitter.com/search?q=translate.weblio.jp" data-widget-id="326545510657818624">translate.weblio.jp ã«é¢ãããã¤ã¼ã</' + 'a>');</script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<br><br>
+<script type="text/javascript">
+<!--
+document.write('<div class=sideBoxSqmjTrH><div><b>ãã¼ããã¼ãµã¤ã</' + 'b></' + 'div></' + 'div><table border="0" class=smqjBoxTr><tr><td valign="top" class=smqjL><a href="https://www.weblio.jp/redirect?url=http%3A%2F%2Fwww.crosslanguage.co.jp%2Finternet%2F365%2F&amp;etd=db80ee1ae2e53ac5" target="_blank"><img src="https://weblio.hs.llnwd.net/e7/img/ad/365honyaku.jpg" alt="" class=smqjImg></' + 'a></' + 'td><td class=smqjR><div class=smDesAnc><a href="https://www.weblio.jp/redirect?url=http%3A%2F%2Fwww.crosslanguage.co.jp%2Finternet%2F365%2F&amp;etd=db80ee1ae2e53ac5" target="_blank">365æ¥ï¼24æéå¯¾å¿ã1æå­5åããã®ç¿»è¨³ãµã¼ãã¹</' + 'a></' + 'div></' + 'td></' + 'tr></' + 'table>');
+//-->
+</script>
+
+</div>
+<br class=clr>
+
+<hr class=copyRtHr><table class=copyRtTbl><tr><td class=copyRtTblL><div class=copyRtWrp><a href="https://www.weblio.jp/redirect?url=http%3A%2F%2Fwww.crosslanguage.co.jp%2F&amp;etd=1acff94c51130c8a" class=lgDict><img src="https://weblio.hs.llnwd.net/e7/img/lgcr_crlcj.png" alt="ã¯ã­ã¹ã©ã³ã²ã¼ã¸" width="85" height="31"><img src="https://weblio.hs.llnwd.net/e7/img/spacer.gif" alt="ã¯ã­ã¹ã©ã³ã²ã¼ã¸" width="87" height="33" style="display:block; position:relative; margin-top:-33px;"></a></div></td><td class=copyRtTblR>Copyright (C) 2012 Cross Language Inc. All Rights Reserved.</td></tr></table><div ID=footWrp>
+<div ID=footH>
+<p ID=footHCat>
+<a href="https://www.weblio.jp/cat/business">ãã¸ãã¹</a>ï½<a href="https://www.weblio.jp/cat/occupation">æ¥­çç¨èª</a>ï½<a href="https://www.weblio.jp/cat/computer">ã³ã³ãã¥ã¼ã¿</a>ï½<a href="https://www.weblio.jp/cat/train">é»è»</a>ï½<a href="https://www.weblio.jp/catt/automobile">èªåè»ã»ãã¤ã¯</a>ï½<a href="https://www.weblio.jp/cat/ship">è¹</a>ï½<a href="https://www.weblio.jp/cat/engineering">å·¥å­¦</a>ï½<a href="https://www.weblio.jp/cat/architecture">å»ºç¯ã»ä¸åç£</a>ï½<a href="https://www.weblio.jp/cat/academic">å­¦å</a><br><a href="https://www.weblio.jp/cat/culture">æå</a>ï½<a href="https://www.weblio.jp/cat/life">çæ´»</a>ï½<a href="https://www.weblio.jp/cat/healthcare">ãã«ã¹ã±ã¢</a>ï½<a href="https://www.weblio.jp/cat/hobby">è¶£å³</a>ï½<a href="https://www.weblio.jp/cat/sports">ã¹ãã¼ã</a>ï½<a href="https://www.weblio.jp/cat/nature">çç©</a>ï½<a href="https://www.weblio.jp/cat/food">é£å</a>ï½<a href="https://www.weblio.jp/cat/people">äººå</a>ï½<a href="https://www.weblio.jp/cat/dialect">æ¹è¨</a>ï½<a href="https://www.weblio.jp/cat/dictionary">è¾æ¸ã»ç¾ç§äºå¸</a>
+</div>
+<div ID=footB>
+
+<table>
+<tr>
+<th>ãå©ç¨ã«ããã£ã¦</th>
+<th>ä¾¿å©ãªæ©è½</th>
+<th>ãååãã»ãè¦æ</th>
+<th>ä¼ç¤¾æ¦è¦</th>
+<th>ã¦ã§ããªãªã®ãµã¼ãã¹</th>
+</tr>
+<tr>
+<td>
+<ul>
+<li><a href="https://help.weblio.jp/www/jpdictionary/j_info/j_i_cdictionary/h0019">Weblioè¾æ¸ã¨ã¯</a></li>
+<li><a href="https://help.weblio.jp/www/jpdictionary/j_guide/j_g_cdictionary/h0026">æ¤ç´¢ã®ä»æ¹</a></li>
+<li><a href="https://help.weblio.jp/www">ãã«ã</a></li>
+<li><a href="https://www.weblio.jp/info/terms.jsp">å©ç¨è¦ç´</a></li>
+<li><a href="https://www.weblio.jp/info/privacy.jsp">ãã©ã¤ãã·ã¼ããªã·ã¼</a></li>
+<li><a href="https://www.weblio.jp/info/sitemap.jsp">ãµã¤ãããã</a></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href="https://help.weblio.jp/ejje/company/c_info/h0004">ã¦ã§ããªãªã®ã¢ããª</a></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href="https://help.weblio.jp/feedback">ãåãåãã</a></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href="https://www.weblio-inc.jp/wordpress/company/outline/" title="ã¦ã§ããªãªã®ä¼æ¥­æå ±">ã¦ã§ããªãªã®ä¼æ¥­æå ±</a></li>
+<li><a href="https://www.weblio-inc.jp/wordpress/recruit/" title="ã¦ã§ããªãªã¸ã®è»¢è·ãã¤ã³ã¿ã¼ã³ã»æ°åå¥ç¤¾">ã¦ã§ããªãªã¸ã®è»¢è·ãã¤ã³ã¿ã¼ã³ã»æ°åå¥ç¤¾</a></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href="https://www.weblio.jp/" title="è¾å¸ã»ç¾ç§äºå¸ã®æ¤ç´¢ãµã¼ãã¹ - Weblioè¾æ¸">Weblio è¾æ¸</a></li>
+<li><a href="https://thesaurus.weblio.jp/" title="é¡èªè¾å¸ã»ã·ã½ã¼ã©ã¹ã»å¯¾ç¾©èª - Weblioè¾æ¸">é¡èªã»å¯¾ç¾©èªè¾å¸</a></li>
+<li><a href="https://ejje.weblio.jp/" title="è±åè¾å¸ã»åè±è¾å¸ - Weblioè¾æ¸">è±åè¾å¸ã»åè±è¾å¸</a></li>
+<li><a href="https://translate.weblio.jp/" title="Weblio ç¿»è¨³">Weblioç¿»è¨³</a></li>
+<li><a href="https://www.smart-translation.com/" title="ã¹ãã¼ãç¿»è¨³">ã¹ãã¼ãç¿»è¨³</a></li>
+<li><a href="https://cjjc.weblio.jp/" title="ä¸­å½èªè¾æ¸ - Weblioæ¥ä¸­ä¸­æ¥è¾å¸">æ¥ä¸­ä¸­æ¥è¾å¸</a></li>
+<li><a href="https://kjjk.weblio.jp/" title="éå½èªè¾æ¸ - Weblioæ¥ééæ¥è¾å¸">æ¥ééæ¥è¾å¸</a></li>
+<li><a href="https://njjn.weblio.jp/" title="ã¤ã³ããã·ã¢èªè¾æ¸ - Weblioã¤ã³ããã·ã¢èªè¾å¸">ã¤ã³ããã·ã¢èªè¾å¸</a></li>
+<li><a href="https://tjjt.weblio.jp/" title="ã¿ã¤èªè¾æ¸ - Weblioã¿ã¤èªè¾å¸">ã¿ã¤èªè¾å¸</a></li>
+<li><a href="https://vjjv.weblio.jp/" title="ãããã èªè¾æ¸ - Weblioãããã èªè¾å¸">ãããã èªè¾å¸</a></li>
+<li><a href="https://kobun.weblio.jp/" title="å¤æè¾æ¸ - Weblioå¤èªè¾å¸">å¤èªè¾å¸</a></li>
+<li><a href="https://shuwa.weblio.jp/" title="æè©±è¾å¸ã»æè©±åç» - Weblioè¾æ¸">æè©±è¾å¸</a></li>
+<li><a href="https://m.weblio.jp/" title="Weblioã¢ãã¤ã«ï¼è¾æ¸ï¼è¾å¸ï¼">ã¢ãã¤ã«è¾æ¸</a></li>
+<li><a href="http://www.sophia-it.com/">ITç¨èªè¾å¸ãã¤ããª</a></li>
+<li><a href="https://www.ryugaku-hiyo.com/" title="ã·ã«ã­ã¼">ã·ã«ã­ã¼</a></li>
+<li><a href="http://cjjc.weblio.jp/column/" title="ä¸­å½èªã³ã©ã ">ä¸­å½èªã³ã©ã </a></li>
+</ul>
+</td>
+</tr>
+</table>
+
+</div>
+</div>
+<p ID=footCr>&copy;2018 Weblio
+&nbsp;&nbsp;<b class=server6>&nbsp;</b><b class=server3>&nbsp;</b></p>
+<script type="text/javascript">
+dataLayer = [{
+    
+    'splitTest': 'B'
+}];
+</script>
+<script type="text/javascript" src="https://weblio.hs.llnwd.net/e7/script/include/free_or_premium_registration_cookie.js?tst=2018020916"></script>
+<script>
+deleteFreeOrPremiumRegistrationCookie(false, 'conversion_free_reg03ee56fc5f60ec2332bef51eb777a36d', 'weblio.jp');
+deleteFreeOrPremiumRegistrationCookie(false, 'conversion_premium_reg03ee56fc5f60ec2332bef51eb777a36d', 'weblio.jp');
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WCM52W"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WCM52W');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=kvbBWaf,68JgFRd";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=kvbBWaf,68JgFRd" width="1" height="1" style="border:0px;margin:0px;overflow:hidden;"></iframe>
+</noscript>
+<div id="fb-root"></div>
+<script type="text/javascript">(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+</div>
+<script type="text/javascript" src="https://weblio.hs.llnwd.net/e7/script/include/html5_audio.js?tst=2018020916" charset="UTF-8"></script>
+</body>
+</html>
