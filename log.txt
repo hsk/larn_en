@@ -1,0 +1,763 @@
+load https://ejje.weblio.jp/sentence/content/admit
+    Didheadmitthathewas wrong? 彼は自分の非を認めましたか。
+    Hecouldn'tadmithehad amentaldisorder. 彼は精神障害だと認められなかった。
+    Hecouldn'tadmitthathewasmentallydisabled. 彼は自分を精神障害だと認められなかった。
+    Hedid notadmitit inso manywords. はっきり口に出して認めたわけではない.
+    Heobstinatelyrefusedtoadmithis mistake. あの男はどこまでも強情を張って誤りを通そうとした.
+    Hewasdriventoadmit[confess] hisguiltby thepangsofconscience. 良心の呵責に耐えかねて罪を自白した.
+    Hewasslow toadmithis mistakes. 彼はなかなか自分の間違いを認めようとしなかった.
+    Hewon'tadmittohismistakeno matter whatitis. 彼はどうしても自分の誤りを認めない。
+    Hewouldnotadmithis fault. 彼はどうしても非を認めなかった。
+    I doadmitthatI was wrong. 私が間違っていたということは認めます.
+    I mustadmittofeelingashamed. われながら恥ずかしいと言わざるをえない.
+    I wasactuallyfrightened,thoughI didnotadmitit. 口にこそ出さなかったが, 本当は恐ろしかった.
+    I'lladmitI'm wrong. 僕がわるかったことは認めます。
+    I'lladmitI'm wrong. 僕が悪かったの認めます。
+    Iadmit(that)what you sayisquitereasonable[sensible]. 君の言うことは確かに事理明白である.
+    IadmitI wasatfault. 私に落ち度があったことを認めます.
+    Iadmit[acknowledge] thatI was wrong. なるほど僕が悪かった.
+    Iadmithaving donewrong. 私は悪いことをしたと認める。
+    Iadmitit tobetrue. それが本当であることを認める。
+    Iadmitmymistake. 私は自分の誤りを認める。
+    Iadmitthat much. そこまでは認めます.
+    Iadmitthathe isin every waymysuperior. あの人には一目も二目も置いている.
+    Iadmitthathe isright. 彼が正しいことは認める。
+    Iadmitthathe issincere. 彼に誠意のあることは認める。
+    Iadmitthatit's true. それが本当だと認める.
+    Iadmitthejustice[rightness]ofyour argument. 君のは確かに正論だ.
+    Iadmittobeingcareless. 僕が不注意なことは認める。
+    Iadmittobeingcareless. 私が不注意なことは認める。
+    Iblushtoadmitit. お恥ずかしい次第ですがそれは本当なのです.
+    Itwashonest ofyoutoadmitit.＝You werehonesttoadmitit. よく正直にそれを認めてくれたね.
+    Shedoesn'tadmitthat sheis inthe wrong. 彼女は自分が間違っていることを認めない。
+    Shedoesn'tadmitthat sheisthe wrong. 彼女は自分が間違っているのを認めない。
+    That muchI willadmit. そこまでは認める.
+    The factsadmitno otherinterpretation. それらの事実にはほかの解釈の余地はない.
+    The problemdoes notadmitof[does notbrook] amoment's delay. これは一刻を争う問題だ.
+    This, Iadmit,istrue. なるほどこれは真実だ(が…).
+    ThoughIadmitthat thestoryistrue. しかしその話は本当だということは認める。
+    Whydon't youadmitthatyou aretoooldfor thatsort ofthing? 年寄りの冷や水だ.
+    Whydon't youadmityourmistake? 自分の過ちを認めてはどうですか。
+    a typeofwindowthatcannot be seenfrom outsideandisusedtoadmitlight intoaroom 外から中が見えないような造りの窓
+    admitapersonto afellowship 人を会員[団員]とする, 人を入会させる.
+    admitapersonto[into] aclub 人をクラブに入会させる.
+    admitapersontobail 人に保釈を認める.
+    anunwillingnesstoadmitdefeat 負けたことに対して言う負け惜しみ
+    toadmitapersonthrough (something)last (上級学校へ)入学させる
+    toadmitathingis goodandto approve 物事を良いと認めて許可する
+    toadmitdefeat 負けを認めて相手に屈服する
+    toadmitthat onehasdonesomething wrongorunlawful 自分がしたと自認する
+    toadmittheloss ofJapaneseboard gamesin order toendthematch (碁や将棋で)負けを認めて勝負を終える
+    toopen a portandadmittrade withforeign countries 港を開放して外国との貿易を許可する
+load https://ejje.weblio.jp/sentence/content/labor
+    ChildLaborProblems 児童労働問題
+    Childbirthlaborhas started. 陣痛が始まりました。
+    Herlaborstarted. 陣痛が始まった.
+    Thattakeslabor. それは手間がかかる。
+    acleft betweenlaborandmanagement 労使間の断絶.
+    aconfrontation betweenlaborandmanagement 労使間の対立.
+    afederation oflaborunions 労働組合総同盟.
+    alaboragreement 労働協約.
+    alabordispute 「労働争議」の略
+    alabordispute 労働争議.
+    alaborstrike 同盟罷業
+    apersonwhoperformslabor 働く人
+    arevolutionarylaborunioncalledredlaborunion 革命的な労働組合
+    betweenlaborandmanagement 労使間で.
+    casuallabor 臨時仕事.
+    cheaplabor 賃金の安い労働(者たち).
+    farmlabor 農作の仕事
+    five yearsathardlabor＝five years'hardlabor 重労働 5 年.
+    forcedlabor 強制労働.
+    getlaborbacking 労組の支持を受ける.
+    go intolabor 陣痛が始まる.
+    imprisonmentathardlabor 懲役.
+    inchildbirth, alaborroom 産室
+    laborandtime 手間と暇
+    laborat atask 仕事に精を出す.
+    labordifficulties 労働争議.
+    laborin the fields 畑で働く.
+    laborpains 陣痛.
+    labortrouble(s) 労働争議.
+    laborunder a delusion 妄想を抱いている.
+    labor‐intensive 労働集約的な.
+    lightlabor 軽い労働
+    lostlabor むだぼね, 徒労.
+    lostlabor むだ骨.
+    mentallabor 頭を使う仕事
+    miscellaneouslabor さまざまな労役
+    moneyraisedbyperforminglabor 稼ぎ
+    skilledlabor 熟練労働.
+    sweatedlabor 搾取労働.
+    the nobilityoflabor 労働の尊さ.
+    theInternationalLaborOrganization 国際労働機関.
+    thechasm betweencapital andlabor 労使間のみぞ.
+    thegovernmentalpostofMinisterofLabor;the MinisterforLabor 労働大臣
+    theinterdependence oflaborandcapital 労資の相互依存.
+    thelaborfront 労働戦線.
+    thelabormarket 労働市場.
+    thelaborpool 予備労働力.
+    therelationsbetweenCapital andLabor 労資関係.
+    traditionaldivision oflabor 伝統分業
+    withlabor 骨折って.
+load https://ejje.weblio.jp/sentence/content/claim
+    Can Iclaimthat? 私はそれを請求してもいいですか。
+    Claimforpaymentof thetransport costs 交通費の支払い請求
+    Claimorclaims クレーム
+    Claimpayment 支払いを請求する
+    Does anyoneclaimthiswatch? この時計の落とし主はいませんか.
+    Hehasnoclaimtoscholarship. 彼は学者と言える柄ではない.
+    I willclaimvictoryatany cost. 私は必ず勝利をこの手にする。
+    Myclaimwas accepted. 私の要請が受理された。
+    Myvisitormadeaclaim. 私の客がクレームを付けてきた。
+    Thatclaimcannot beaccepted. そのクレームは受け付けられない。
+    Thatresponsewilllead toaclaim. その応対はクレームへとつながる。
+    The judgeallowedhisclaim. 判事は彼の要求を認めた.
+    Theclaimis based onflimsy[tenuous] grounds. その主張は根拠薄弱だ.
+    Theirclaimisstronger. 彼らの主張はもっと強硬です。
+    There wasaclaimfrom acustomer. お客様からクレームがありました。
+    Theyfoundhisclaimreasonable. 彼らは彼の主張はもっともとみた.
+    Wetookaclaim. 私たちはクレームを受けました。
+    a legalactcalled{claim-causionact} (法律で)債券行為という行為
+    abaggage-claimtag 手荷物の預かり証
+    aclaimfordamages 損害賠償の請求.
+    aclaimofjustice 正義の主張.
+    alegitimateclaim 正当な要求.
+    anarrogantclaim 思いあがった言い分
+    anindisputableright[claim] 明白な権利[要求].
+    apriorclaim 優先権.
+    claimBIOS-levelcompatibility BIOS レベルの互換性をうたう
+    claim[pay]damages 損害賠償を要求する[支払う].
+    claima rightto ashop 店に対する権利を請求する.
+    claima rightto theuse of land 土地の使用権を主張する.
+    claima taxrebate 税金の払い戻しを請求する.
+    claimblood relationshipwith… …と血縁だと言う.
+    claimfor (the)damages 損害賠償を要求する.
+    claimkindred with… …と血縁だ[がある]と言う.
+    claimon one'sinsurance 保険の支払いを要求する.
+    have aclaimto[on] themoney その金を要求する権利がある.
+    hisclaimin writing 文章中の彼の主張
+    jumpaclaim 他人の土地[採鉱権]を横領する.
+    jumpaclaim 他人の土地[鉱山]を横領する.
+    layclaimto anestate 地所の権利を主張する.
+    makenoclaimon[against] aperson 人に要求しない.
+    press aclaim 権利を強調する.
+    relinquishone'sclaim 要求を放棄する.
+    satisfyaclaimfordamages 損害賠償の請求に応じる.
+    substantiateaclaim 要求の正当性を実証する.
+    the actofwaivinga rightorclaim 権利,要求の棄権
+    the rightof astockholdertoclaimcommonbenefits 株主の,共益権という権利
+    thecreditor'sclaimrightcalledtheobligatory right 金額債権という債権
+    urgeaclaim 権利を強く要求する.
+    vindicateone'sclaim[right]to… …に対する自分の権利を弁明する.
+    want toclaim… 請求したい
+load https://ejje.weblio.jp/sentence/content/worth
+    Anounce ofpracticeisworthapoundoftheory. 理論よりも実践.
+    Asinglefact isworthashipload ofarguments. 論より証拠.
+    He'swortha million. 彼は百万長者だ.
+    It isworthworking. それは取り組む価値がある。
+    It's onlyworthhalfwhatitwas. 価値が半減した.
+    Itwasreallyworthit. 本当に価値があった。
+    Itwasworththe troubleI took. 骨折り甲斐があった.
+    Notworthcryingover. 泣く価値さえない。
+    Thatthesisworthrises. この論文の価値が上がる。
+    The mainactor'sentranceissomethingworthseeing. シテの出が見ものだ.
+    The restare notworthmentioning. その他は言うに足りない.
+    To collecta daysworthofvegetables. 1日の野菜が採れる
+    Two timesworth. 2回分
+    Whateverisworthdoingat allisworthdoingwell.＝Ifit[athing]isworthdoing,it isworthdoingwell. 《諺》 いやしくもなすに足る事ならりっぱにやるだけの価値がある.
+    Whatisworthdoingisworthdoingpromptly. 善は急げ.
+    a matterworthlistening to 承る価値のあること
+    a placeworthseeing 見る価値のある場所
+    a statein whichsomethingthat isworthreading 読む価値があること
+    a valueworthrelying on 頼りにするだけの価値
+    abookthat isnotworthreading 読む価値のない書物
+    adiscussion oflittlecontentorworth 口先だけの空論
+    adollar'sworthofthistea このお茶 1 ドル分.
+    anobject thatisworthviewing 眺める値打ちのある物
+    anopinionnotworthconsidering とるにたらない意見
+    aplannotworthconsidering とるにたらない計画
+    athinghavingnoworthorvalue 価値のないもの
+    be notworthahair 一文の価値もない.
+    bloatedself-worth ふくれ上がった自尊心
+    conversationthatlacksworthandusefulness とりとめのない無駄話
+    notwortha hill of beans 少しも価値がない.
+    notwortha shit. 少しの値打ちもない.
+    notworthabutton 少しも価値[値打ち]がない.
+    notworthadamn 何の値打ちもない.
+    notworthapenny 少しの価値もない.
+    notworthapicayune まったくつまらない.
+    notworthastraw 一文の価値もない.
+    notworthdiddly 全然価値がない.
+    of(great)worth (大いに)価値がある.
+    oflittle[no]worth 価値の少ない[ない].
+    ofsomething,to beworthmuchmoney 値段の高い
+    put inone'stwo centsworth 自分の意見を言う.
+    something oflittleworth 無価値なもの
+    somethingthat isworthspeaking of 言うだけの価値
+    sterlingworth 真価.
+    the pointthatmakessomethingworthdoing やりがいのあるところ
+    thecondition ofbeingworthhearing 聞く価値があること
+    thecondition ofbeingworthseeing 見るに値すること
+    thingwitheconomicworth(money and goods) 金銭と品物
+    to beworthhearing 聞くだけの値打ちがある
+    to beworthreading 読む価値がある
+load https://ejje.weblio.jp/sentence/content/attempt
+    Anattemptwas madeonhis life. 彼の殺害が企てられた.
+    Attemptadifficulttask. 難しい仕事を試みる。
+    Attempttoattack 攻めてみる
+    Hegave uphisattemptonceand for all. 彼はきっぱりと企てを諦めた。
+    Hemadeanattemptat ajoke. 彼はジョークを言おうとした.
+    Hemadeanotherattemptatconqueringthe peak. 彼は再度登頂を試みた.
+    Hemadenoattempttodisguisehis hostility. 彼は露骨に敵意を見せた.
+    Hewassuccessful intheattempt. 彼はその試みに成功した。
+    Hisattemptprovedto bea failure. 彼の企ては失敗に終わった。
+    Hisattempttoescapewas foiled. 彼の逃亡の企てはくじかれた.
+    Hisattempttoescapewas successful. 彼の逃亡の試みはうまくいった。
+    I wasfoiledinmyattempt. 私は企てに失敗した。
+    Isucceededinmyfirstattempt. １回できたよ。
+    She wassuccessful intheattempt. 彼女はその試みに成功した。
+    Shemadeanattemptto ridea bicycle. 彼女は自転車にのろうとした。
+    Theattemptendedinfailure. その企ては失敗に終わった。
+    Theattemptwasrathera failure. その企てはむしろ失敗だった.
+    Theattemptwasunsuccessful[failed]. やってみたが不成功であった.
+    Theloginattemptfailed. Either theuser IDorpasswordisinvalid. ログインに失敗しました。IDまたはパスワードが無効です。
+    Thisattemptresultedinfailure. この試みは失敗に終わった。
+    Whichof thefollowingquestionsdoesthis passageattempttoanswer? 文章中に答えがある質問はどれですか？
+    You and Ihavesucceededinourattempt. あなたと私は、企てに成功した。
+    aJapanese gamein whichplayersattemptto throwanarrowinto apot,called'uchiya' 打ち矢という遊び
+    aJapanese gamein whichplayersattemptto throwarrowsinto apot,called'toko' 投壷という遊戯
+    abelatedattemptto make amends 遅すぎた償いの試み.
+    afinaldesperateattemptto solvesomething 苦しまぎれの方法
+    ahalfheartedattempt 気乗りしない試み.
+    alaughableattempt(at…) (…をしようという)ばかげた試み[くわだて].
+    anattemptto preventdisease. 疾患を予防する試み。
+    anattempttoattractthe othersex 異性の気をひく行為
+    anidleattempt むだな試み.
+    arecklessattempt 無謀なくわだて
+    asuccessfulattempt うまくいった試み.
+    at thesecondattempt 二度目の試みで.
+    attemptthatmakes the most ofthesestrong points こうした強みを生かした取り組み
+    attemptthe impossible 不可能な事を試みる.
+    in order tobecome used towalking,toattempttowalk (足ならしのため)試しに歩く
+    passinganentrance examinationon thefirstattempt 現役で合格しているさま
+    somethingthat isprintedas afirstattemptortrial 試し刷りをしたもの
+    to finishsomethinginonly oneattempt 一気に物事をやり終える
+    to leaveapersonto diewithoutmakinganyattempttosavehimorher 見殺しにする
+    toattemptrecovery 回復を試みる
+    toattemptto form an organization 組織などを構成するようにさせる
+    toattemptto makesomeonetakeataskupon himorherself ある役目を担うようにさせる
+    toattemptto persuadesomeoneofsomething 熱心に説得する
+    toattemptto ～ ～しようと試みる
+    toattempttoshootagun (銃を)ためしに射つ
+    toattempttosurpassone'scapacity 力量以上のことをしようとする
+    tohave anotherattemptat adecision 再議決する
+    tounsuccessfullyattempttostabsomebody 突くのに失敗する
+load https://ejje.weblio.jp/sentence/content/proud
+    Feelproud 誇りに思っています
+    He isalwaysproud. 彼はいつも威張っています。
+    He isproudofhis lowrider. 彼は自分のローライダーが自慢だ。
+    He isproudofhis scholarship. 学識を自慢している。
+    He isproudofhisschoolrecord. 彼女は学歴を鼻にかけている。
+    He isshowingaproudexpression. 彼は得意げな表情をしている。
+    He isveryproudofhimselfand stubborn. 彼はプライドが高くてガンコだ
+    I amalsoproudofyou. 私もまたあなたを誇りに思います。
+    I amproudof thewomen. 私は彼女たちを誇りに思う。
+    I amproudof 誇りに思っています
+    I amproudofHanako. 私は花子を誇りに思う。
+    I amproudofJapan. 私は、日本を誇りに思います。
+    I amproudofher. 私は彼女を誇りに思います。
+    I amproudofmylittlesister. 私はこの妹を誇りに思う。
+    I amproudofthat. 私はそれを誇りに思う。
+    I amproudofthem. 私は、彼らを誇りに思う。
+    I amproudofthis job. 私はこの仕事に誇りを持っている。
+    I amproudofthis job. 私はこの仕事を誇りに思います。
+    I amproudofthis. 私はこのことを誇りに思う。
+    I amproudofyou! あなたを誇りに思います。
+    I amproudofyou. 君は大したものだ。
+    I amproudofyou. 私はあなたを誇らしく思う。
+    I amproudofyou. 私はあなたを誇りに思います。
+    I amproudofyou. 私は君を誇りに思う。
+    I amproudthat I couldmeetyou. 私はあなたに会えて誇りに思う。
+    I amproudto hearthat. 私はそれを聞いて誇りに思う。
+    I want tobeproudofmyself. 自分が誇らしいです。
+    I'mproudofhim too. 私も彼を誇りに思います。
+    I'mratherproudofit. 少々自慢なのです。
+    I'mveryproud. 私はとても誇らしいです。
+    Ifeelproudofthat. 私はそれを誇りに思います。
+    Ifeelproudofyou. 私はあなたを誇りに思う。
+    She'sproudofhergoodlooks. 彼女は顔が自慢だ.
+    They wereproudofher. 彼女は彼らに誇りに思われていた。
+    We areproudofher. 私たちは彼女を誇りに思います。
+    We areproudofher. 私たちは彼女を誇りに思う。
+    We areproudofourselves. 私たちは自分たちが誇らしいです。
+    We areproudofthat. 私たちはそれを誇りに思っている。
+    a stateofbeingproud 自尊心が強いこと
+    afacial expressionto beproudof 誇った顔つき
+    aproudachievement りっぱな業績.
+    aproudlook onone's face 得意そうな顔つき
+    aproudlook 得意げな表情.
+    aproudman 高慢な人.
+    the actofbeingproudofone'sskill 技量を誇ること
+    the stateofappearingproud 得意らしい様子
+    the stateoffeelingproudabout someoneor something 名誉に思うこと
+    to beboastfullyproudofone'sabilities 得意になって威張る
+    to beproud 得意である
+    to beproudofsomething 得意になる
+load https://ejje.weblio.jp/sentence/content/custom
+    CUSTOMCLOSETSdoes notofferadvice. CUSTOMCLOSETSは助言をしない。
+    CUSTOMCLOSETSis amanufacturer. CUSTOMCLOSETSは製造会社である。
+    CustomLevel レベルのカスタマイズ
+    CustomSettings カスタム設定
+    Custom[Habit]issecondnature. 習い性となる.
+    Customissecondnature. 《諺》 習慣は第二の天性.
+    Resetcustomsettings カスタム設定のリセット
+    Thatcustomhas disappeared. その習慣はすたれてしまった.
+    Weshould like tohave yourcustom. ごひいきをお願いします.
+    a badcustomthathas beenmaintained 以前からの弊習
+    a goodcustom 良い習慣
+    a rarecustom 珍しい習慣
+    a rarecustom 珍しい風俗習慣
+    a socialcustom しきたり
+    a socialcustom 世間一般の習慣
+    aJapanesecustom わが国の風習
+    acompany'scustom 会社の気風
+    acustom-designedchip カスタムIC, カスタムチップ
+    acustomcar 注文製の自動車.
+    acustomfrom ancient times 古くからの習慣
+    acustomof long standing 久しい[長年の]慣習.
+    acustomof thedistantpast 古代の流儀や風習
+    acustomof thepublic 世間一般のならわし
+    acustomofpeoplewho areconsidered tobebarbarians 野蛮人の風習
+    acustomofremote antiquity 遠い昔の風習.
+    acustomsuit 注文服.
+    acustomtailor 注文服仕立て屋.
+    acustomthat isout of the ordinary 珍しい風習
+    acustomthatdeeplyexpresseshuman feelings 人情の厚い風習
+    afelicitouscustomorpractice めでたいしきたり
+    afestiveannualcustom めでたい慣例
+    afineandbeautifulcustom 美しいならわし
+    afinecustom よい風俗や習慣
+    ageneralcustom 世間一般の慣習.
+    ahabitor acustomthat hascontinueduntilthe present 今までの習慣
+    alocalcustom 地元の習慣.
+    anancientcustom 古来の慣習.
+    anevilcustom 弊害を伴う悪習
+    anoldcustom 古くさいしきたり
+    aremainingcustom 残っている慣習
+    as acustomorreligiousevent 慣習や宗教的行事として
+    atraditionalcustom 昔からの風習
+    ausualcustom 世間一般のしきたり
+    ayearlycustom 毎年の慣例
+    follow the fashion[acustom, aprecedent] 流行[慣習, 先例]に従う.
+    increasecustom お得意を増やす.
+    keep up[break with] acustom 慣習を守る[破る].
+    losecustom 得意[客]が減る.
+    the usualcustomorpractice いつものならわし
+    tout forcustom うるさく注文を求める.
+load https://ejje.weblio.jp/sentence/content/wound
+    (of awound)tofester (傷が)膿む
+    Did youstitchthewound? 傷口は縫いましたか？
+    He's willingtowound. 彼は悪意がある.
+    Mywoundthrobbedwith pain. 傷がずきずきうずいた.
+    One had awound. 一人は怪我をしていた。
+    Pusformed[gathered]in thewound. 傷が膿を持った.
+    Rubsaltinto awound. 泣きっ面に蜂。
+    Thehearingwasconcluded[woundup]. 結審になった.
+    Thewoundhas closed. 傷口がふさがった.
+    Thewoundhasskinnedover. 傷口に皮ができた.
+    Thewoundhurtbadly[《口語》like hell]. 傷はひどく痛んだ.
+    Thewoundspoutedblood. 傷口から血が噴き出した.
+    a freshwound 新しい傷
+    a freshwound 新たに受けた傷
+    a skin‐deepwound かすり傷.
+    a vitalwound 致命傷.
+    adeepwound 深い傷, 深手.
+    afatal injury[wound] 致命傷.
+    afesteringwound うんでいる[ただれた]傷口.
+    agrievouswound 重い傷, 深手.
+    alaceratewound 裂傷.
+    amortal[fatal]wound 致命傷.
+    anexternalwoundcalledalaceratedwound 裂創という外傷
+    aninjurycalledpuncturewound 刺し傷
+    anuglywound 重傷.
+    apainfulwound 痛い傷.
+    arawwound 生傷.
+    aseriouswound 大きな怪我
+    aseverewoundto thebody 身にうけた深い傷
+    aslightwound ごく軽い傷
+    aslightwound 軽い傷
+    aspearwound 槍で突かれた傷
+    asuperficialwound 浅い傷.
+    awoundcausedbyhitting 殴ってできた傷
+    awoundin thehead 頭の傷.
+    awoundon aperson'sbody 体の傷
+    bind(up) awound 傷に包帯をする.
+    closeawoundwithstitches 傷口を縫ってふさぐ.
+    linewound 線状の傷
+    of thedegreeto whichsomethinghas beenwound,beingtightlywound (物を)きりきりと巻くさま
+    plasterawound 傷口に膏薬を張る.
+    put a dressingon awound 傷口に包帯を巻く.
+    sew(up) awound 傷口を縫い合わせる.
+    sicknessandwound けがと病気
+    to causeawoundtofester (傷口を)膿ます
+    tohealawound 傷を癒す
+    tracesof awound 切り傷のあと
+    unbindawound 傷の包帯をほどく.
+    woundaperson'ssensibilities 人の感情を害する.
+    woundaperson'ssusceptibilities 人の感情を傷つける.
+load https://ejje.weblio.jp/sentence/content/habit
+    Custom[Habit]issecondnature. 習い性となる.
+    Habitis asecond nature 習い性と成る
+    Habitis asecondnature. 習い性となる
+    Habitis(a)secondnature. 習い性となる.
+    Habitissecondnature. 習い性となる。
+    Habitissecondnature. 習慣は第二の天性.
+    Habitofbeingidle. 手持ち無沙汰のくせ。
+    Heemancipatedhimselffrom hissmokinghabit. 彼は喫煙を断った.
+    It's ahabitofhis todothat. それが彼の癖なのだ.
+    Smokinghasgrowninto ahabitwithme. タバコが癖になった.
+    To forma badhabit. 悪い癖が身につく。
+    a badhabit 従来のよくない習慣
+    a badhabit 悪い癖
+    a badhabit 悪い習慣
+    a badhabit 病的なくせ
+    a manofcorpulenthabit 肥満性の人.
+    acheerfulhabitofmind 陽気な性質.
+    aconfirmedhabit どうしても抜けない癖.
+    acquireahabit 癖がつく.
+    ahabit 身についたくせ
+    ahabitofstammering どもりの癖
+    ahabitofurinatingin one'spants 便を洩らすくせ
+    ahabitthat isnot verycommon 変な癖
+    along-standingbadhabit 昔からの悪い習慣
+    amonk's [nun's]habit 修道服.
+    anaturalhabit 性癖
+    anentrenchedhabit 確立した習慣.
+    aninveteratehabit 常習.
+    aperson'speculiarhabit 独特のくせ
+    apersonwhohas ahabit ある癖のある人
+    arevoltinghabit いやな癖.
+    aridinghabit 婦人用乗馬服.
+    break(off) thehabitofsmoking 喫煙の習慣を断つ.
+    byhabit 習慣で.
+    conquera badhabit 悪い習慣に打ち勝つ.
+    drop abadhabit 悪い習慣をやめる.
+    fall out ofa badhabit 悪習をやめる.
+    from [out of] (sheer)habit (まったくの)習慣から.
+    get out ofa badhabit 悪い癖を捨てる.
+    make itahabit 習慣にする
+    makeahabitofdoing… …するのを習慣にする.
+    one'scustomaryhabit 身についた癖
+    shake(off)a badhabit 悪習を直す.
+    thehabitofbitingoften よく噛みつく癖
+    thehabitofdrinking alcoholoften よく酒を飲むこと
+    throw offa badhabit 悪い癖を直す.
+    to bein thehabitofsaying something 口ぐせになる
+    to bein thehabitofsaying something 口癖に言う
+    to bein thehabitofsmoking (たばこを)吸いなれる
+    to formahabit 癖が付く
+load https://ejje.weblio.jp/sentence/content/realize
+    Didn'trealize 気がつかなかった
+    Didn'trealize 気が付かなかった
+    Do yourealizewho you'retalking to? 相手を見てものを言うがいい.
+    Don'trealize 気が付かない
+    Helaidhislife on the linetrying torealizehis dream. 理想の実現に体を張った.
+    Hemademerealizethat. 彼が私にそれを気付かせてくれた。
+    Hestartedtorealizethat. 彼はそのことに気付き始めた。
+    Hewill probablyrealizethat soon. 彼はそれに間もなく気づくだろう。
+    Hewillrealizehis ownfoolishness. 彼は自分の愚かさに気づく。
+    I canrealizethis dream. あなたはその夢を実現できます。
+    I didnotrealizethat. 私はそれに気付かなかった。
+    I want torealizethat. 私はそれを実現させたい。
+    I willrealizesomething there. 私はそこである事をひらめく。
+    I willsurelyrealizemydreams. 私は必ず夢を掴む。
+    Ididn'trealizethat till now. 今まで私はそれに気づかなかった。
+    Ididn'trealizethat. それは気づかなかった。
+    Ididn'trealizethat. 私はそれに気が付かなかった。
+    Ididn'trealizethat. 私はそれに気が付きませんでした。
+    Ididn'trealizethat. 私はそれに気付かなかった。
+    Ididn'trealizethat. 私はそれに気付きませんでした。
+    Irealizethat. 私にはそれをする覚悟がある。
+    IrealizethatI amstupid. 私は馬鹿であると気づかされる。
+    Irealizewhat'sactuallygoing onwith that. 私はそれの実情に気づく。
+    Isave moneytorealizemydreams. 私は夢を実現するために金を貯める。
+    Onlythendid Irealizeit. そのとき初めてそれを悟った。
+    Shedoes notrealize. 彼女は覚醒していない。
+    Theyprobablyrealizethat too. それには彼等も気付いているでしょう。
+    Torealizejusthowhappya normal lifeis. 普通の生活がどれだけ幸せかを思い知る。
+    You shouldrealizethat. あなたはそれに気づくべき。
+    Youdon'trealizethat danger. あなたはその危険に気付いていない。
+    Youonlyrealizethevalue ofhealthwhen [Youdon'trealizetheblessingofhealthuntil] you havelostit. 健康を失って初めてその有りがた味がわかる.
+    Yourealizehowimportantyour healthisafter youloseit. 失って初めて健康の大切さを知る。
+    Yourealizejusthowhappya normal lifeis. 普通の生活がどれだけ幸せか思い知る。
+    Yourealizejusthowhappya normal lifeis. 普通の生活がどれだけ幸せか気づく。
+    Yourealizethat isfunny. あなたはそれが面白いと気づく。
+    anactiontaken inanefforttorealizeone'spossibility 自己の可能性を実現すること
+    draft billtorealizetheideal situationforeducation 教育のあるべき姿を実現する法案
+    realizeachildhooddream 子供の時の夢をかなえる.
+    realizeaprofiton(thesaleof) one's house 家を売却してもうけを得る.
+    realizeone'sassets 資産を現金化する.
+    to be able torealizeone'sdesires (望みを)達成することができる
+    to makeapersonrealizesomething 直接見聞して知るようにさせる
+    torealize 実感する
+    torealize 気持ちをある状態の中におく
+    torealize(a highideal) （高い理想に）気づくこと
+    torealizeone'sfolly 身にしみて強く感じる
+    torealizesomethingbyfeeling 感じとって知る
+    torealizesomethingclearly 明らかに悟る
+    torealizespiritualtruthby oneself 実際のすがたを見て得心する
+    torealizethe reason 物事の道理を悟ること
+load https://ejje.weblio.jp/sentence/content/noted
+    Anydeviationsshould benoted. いかなる偏差も言及されるべきだ。
+    Asimilarphenomenonwasnoted[observed] here. 当地でも同じような現象が認められた.
+    He isnotedas asoccerplayer. 彼はサッカーの選手として有名だ。
+    Henotedanumbnesscreepinginto his fingers. 彼はしびれが指にくるのに気がついた.
+    I lookedatmywatchandnotedthatitwaspastfive. 時計を見て５時過ぎだと気がついた。
+    In that case,the followingpointsshould benoted: その際の留意点は以下のとおりである。
+    Inoteda traceofeagernessinher voice. 私は彼女の声に熱意があることに気づいた。
+    Inotedthat heranswerwas incorrect. 彼女の答えが間違っていることに気がついた。
+    Inotedthat therewasbloodonhis clothes. 彼の衣服に血がついていることに気づいた.
+    Inotedtherequirementsinthose documents. 私は必要事項をその書類に記入しました。
+    Kamakurais aplacenotedin connection withtheGenjifamily. 鎌倉は源氏ゆかりの地です。
+    Korean foodisnotedfor itsspicyflavor. 韓国料理は、香辛料のきいた味でよく知られている。
+    Mothernotedthatmyfeetwerenotclean. 母は私の足が汚れていることに目をとめた。
+    Mt. Fujiisnotedfor itsbeautifulshape. 富士山はその秀麗な山容で有名である.
+    Mt. Fujiisnotedfor itsbeautifulshape. 富士山は姿が美しいので有名です。
+    Nikkoisnoted[famous] for itsscenicbeauty. 日光は風光の美をもって有名である.
+    Notedliterarypersonalitiesgatheredtogetherlastevening. 知名の文士たちの集まりが昨夜あった。
+    Related productsarealsonoted. 関連製品も記載する。
+    She wasnotedfor hergood looksatschool. 彼女は学校では美人で評判だった。
+    She'snotedas apolitician. 彼女は政治家として有名だ.
+    Sheis anotedsinger. 彼女は有名な歌手だ。
+    Sheis anotedwatercolorist. 彼女は有名な水彩画家だ。
+    Sheisnotedas asinger. 彼女は歌手として有名だ。
+    Shelookedatherwatchandnotedthatitwaspastfive. 彼女は時計を見て５時過ぎだと気がついた。
+    Shenotedachange inhis behavior. 彼女は彼の態度に変化があることに気づいた.
+    The placeisnotedfor itsscenicbeauty. そこは景色の美しさで知られている.
+    The professorisnotedfor hisstudy ofShakespeare. その教授はシェークスピアの研究で名高い。
+    Thecomedianbecamenotedfor hishumor, which usedself‐ridicule. そのコメディアンは自嘲を交えたユーモアで有名になった。
+    Thecontentsofyour letterhave beencarefullynoted. お手紙の件委細承知いたしました.
+    Thehotelisnotedfor its food. そのホテルは食事で有名である。
+    Thenoteddiplomatreadilyparticipatedin thecommittee. 有名なその外交官は快く委員会に参加してくれた。
+    Thesecretarynoteddownwhat herbosshad said. 秘書は上役の言ったことを書き留めた。
+    Theshapesof theitemsnotedabove differ. 上記のアイテムは形が異なります。
+    Thestudentsnoteddownevery wordthe professorsaid. 学生たちは教授の言った一語一語を書き留めた.
+    Thestudentsnoteddownevery wordtheteachersaid. 学生たちは先生の言ったことをもらさず書き留めた。
+    Thestudentsnotedthe professor'smainpoints. 学生達は教授の話しの要点に注意を向けた。
+    Theteachernotedseveralmistakesinmyrecitation. 先生は私の朗読にいくつかの誤りを指摘した。
+    Theweaselisnotedfor itsbadsmell. いたちはその悪臭で知られている。
+    Tsukumo Bayisnoted[widely known] for itsbeautifulscenery. 九十九湾は景色がいいので名高い.
+    Wehavedulynotedthecontentsofyour letter. お申し越しの趣拝承いたしました.
+    WhatisJapannotedfor? 日本は何で有名ですか。
+    Yourphone numbersarecorrectlynoted. 貴方の電話番号はちゃんとメモしてある。
+    ahandwritingof anotedcalligrapher 名人の筆跡
+    ahighly-notedgovernmentalminister 名高い大臣
+    ahighly-notedscholar 名高い学者
+    anotebookin whichvocabulary wordsthat areto bememorizedarenoted 単語を憶えるために用いるノート
+    anotedpianist 有名なピアニスト.
+    anotedsword with a history 有名な刀
+    incomputing, adocumentwhosereceiptisnoted 受けとった旨をしるした文書
+    something that hasalreadybeennotedin writing すでに書き記したこと
+load https://ejje.weblio.jp/sentence/content/slight
+    Aslightearthquake shockwas felt. 弱震があった.
+    Giveit aslightpress. それを軽く押しなさい.
+    Gotslightheat stroke 軽い熱中症になった
+    Hehas aslightstammer[stutter]. 彼は少しどもる.
+    I have aslightfever. 微熱があります。
+    I have aslightpain in thestomach. 少しおなかが痛い.
+    I haveslightfever. 少し熱があります
+    It's onlyaslightcold. 軽い風邪です。
+    Shehas aslightsquint. 彼女は少し寄り眼だ.
+    Slightheat stroke 軽い熱中症
+    Slightskin irritation 軽度の皮膚刺激
+    Slightsmell ほのかな香り
+    The damagewasslight[small]. 被害は軽少だ.
+    a light[slight]repast 軽い食事.
+    a veryslightdifference 極く僅かの違い
+    acondition ofhavingaslightcold 風邪気味であること
+    aslight[serious]hurt 軽[重]傷.
+    aslightadvancement わずかな歩み
+    aslightailment 軽い病気.
+    aslightandtemporaryindispositionofhealth 軽い病気
+    aslightcold 軽いかぜ.
+    aslightdifference わずかな差
+    aslightdifference わずかな差異.
+    aslightearthquake 軽震
+    aslightfever 少しの熱
+    aslightmotion ちょっとした身ぶり
+    aslightmotionof thefoot わずかな足の動き
+    aslightorminorflaw ごく小さな欠点
+    aslightproblem くだらない問題.
+    aslightscratch onanobject 物の微かなきず
+    aslightstutterer 軽くどもる人
+    aslightwound ごく軽い傷
+    aslightwound 軽い傷
+    atowerwith aslightlean 少し傾いている塔.
+    beingslightin degree (程度が)小さいさま
+    giveaslightcough 軽いせきをする.
+    have aslight[anintimate]acquaintance with… …を少し[よく]知っている.
+    have aslight[high]fever 微熱[高熱]がある.
+    havea bad[slight]squint ひどい[少し]やぶにらみだ.
+    in aslightmanner 少し〜である
+    of thedegree or extentofsomething,beingslight 程度が小さいさま
+    of therelation betweentwo{matters}orpeople,beingslight 関係がうすいさま
+    ofone'spersonality, aslighttendency towant toact asahero 豪放な性格
+    put aslighton[upon]… …を軽視する.
+    slightcloudy weather わずかなくもり
+    slightintoxication 微酔い
+    slightloyalty 少しの忠義
+    suffering fromaslightcold 風邪気味
+    to makeaslightbow 軽くおじぎをする
+    tohave aslightfeelingorhint ofsomething 多少〜気味の様子
+load https://ejje.weblio.jp/sentence/content/remain
+    Heelectedtoremainathome. 彼は家にいることにした.
+    Hisintentionsremainopaque. 彼の意図はあいかわらず不明瞭だ.
+    I want tostillremainbeinga student. 私はまだまだ学生でいたいです。
+    Idecided todiscreetlyremainsilent. 慎重に黙っておくことにしました。
+    Idon'tthinkthe presentgovernmentwillremainin powerlong. 今の政府は長持ちしますまい.
+    It issafertoremainsilentthantorisktroublebysaying somethingunwise. 雉も鳴かずば打たれまい.
+    Remainatyourpostuntil relieved. 交替するまで持ち場を離れるな.
+    That willremainunsold. それらは売れ残る。
+    Thatcontinuestoremain. それはいつまでも残り続ける。
+    The effectsfrom thatremainevennow. 今もその影響は残っている。
+    The weatherwillremainunsettledfor thenextfewdays. 天気はここ 2,3 日ぐずつくでしょう.
+    Thevirtuous manwill notlongremainlonely. 徳は孤ならず.
+    Thoushaltremainhere. 汝ここに残るべし。
+    be,stay,remain(stay behind,remain) 残り留まる
+    be[remain]inconcealment 隠れている.
+    in astanding position,toremainstopped 立ったままで止まる
+    incriminal law,the righttoremainsilent 黙秘する権利
+    of acalyx,toremainafter theflowerhasbloomed 萼が落ちずに残る
+    of aperson,toremainat one'spost 留任する
+    of aperson,toremainsilent 口を閉じて黙る
+    of aperson,toremainsilent 黙ったままでいる
+    of astar,toremainvisibleinpre-dawnlight (星が)夜明けの空に残っている
+    of someone,toremainin aplace fora while 少しの間いる
+    ofgoods,toremainunsold 品物が売れ残る
+    ofsomething,toremainin the place ofburning 燃えた跡に残る
+    remain[keep,stay]cool 気を落ち着けている, あわてない.
+    remainbehind あとに残る.
+    remaincelibate 独身でいる.
+    remaindormant 休止状態のままでいる.
+    remainincognito 知られないままでいる.
+    remainsingle 独身で通す.
+    remainstationary 静止している.
+    remainuncommitted 中立的な立場を維持する.
+    remainunruffled あわてない, 落ち着いている.
+    riceseedlingsthatremainafterrice plantinghasfinished 田植えで余った苗
+    stateofexistence(be,stay,remain) 居る
+    the righttoremainsilent 黙秘権.
+    thetea leavesthatremainaftermaking tea 茶を入れたあとの滓
+    toremaina certainstate ある状態を保つ
+    toremainalive 生き残ること
+    toremainbehind 残留する
+    toremainhumid 一定湿度を保つ
+    toremainin acertaincondition ある境地に滞まる
+    toremainin aplacewithoutgoing home (他所に)ずっと滞在し続ける
+    toremainin privatelifewithoutworking asagovernmentofficer 官途につかず民間にいる
+    toremainmotionless ある場所にじっととどまる
+    toremainsilentwhenbeingcross-examined (取り調べに対し)完全に黙秘する
+    toremainunburnt (物が)焼け残る
+    toremainundefeated 消えずにまだ残っている
+    toremainunexcitable 物に動じないでいる
+load https://ejje.weblio.jp/sentence/content/elsewhere
+    18-01Typewritersandcalculating machinesnotelsewherespecified. 18-01 他で明記されていないタイプライター及び計算機
+    29-02Devicesandequipmentforaccident preventionand forrescuenotelsewherespecified. 29-02 他で明記されていない事故防止用及び救難用機器及び設備
+    Andnot only that,the goodsin thecompanyshopwereusuallymore expensivethanelsewhere. そればかりか、会社の直営店の商品は、たいていよその店より高価だったのです。
+    CLASS07Household articles,notelsewherespecified 家庭用品、他で明記されていないもの
+    Class15Machinesnotelsewherespecified 第15類 他で明記されていない機械
+    Class7Household goodsnotelsewherespecified 第7類 他で明記されていない家庭用品
+    DEVICESANDEQUIPMENTFORACCIDENT PREVENTIONAND FORRESCUE,NOTELSEWHERESPECIFIED 他で明記されない事故防止及び救援用機器及び設備
+    Furtherdiscussion is providedelsewhere. さらなる論議が至る所で記述されている。
+    Furtherdiscussion is providedelsewhere. さらに進んだ考察がほかのところにも記されている。
+    Hedecided toseek informationelsewhere. 彼はほかに情報を求めることにした。
+    Helefthispoorly paidjobforgreener pastureselsewhere. 彼は他にもっと良いところがあるだろうと給料の安い仕事を辞めた。
+    Hewasrecruitedtoworkelsewhere. 別の場所で働くために雇われた。
+    Hismindwas [Histhoughtswere]elsewhere. 彼は心ここにあらずだった.
+    Household goods,notelsewherespecified 他で明記されていない家庭用品
+    I can'tfindmynotebookhere; Imust haveput itelsewhere. ここにノートを置いておいたのに。どこか別の場所に置いたのかしら。
+    I hada good experiencethatI can't haveelsewhere. 私は他ではできない良い経験をした。
+    Icollectedthedatain thelibraryandelsewhere. 私は図書館やそのほかの場所で資料を蒐集した.
+    Itemssold atCUSTOMCLOSETSarecheaperelsewhere. CUSTOM CLOSETSで売られているものは、ほかのところではより安い。
+    Machines,notelsewherespecified 他で明記されていない機械
+    Machines,notelsewherespecified 機械、他で明記されていないもの
+    Machinesandappliancesforpreparingfoodordrink,notelsewherespecified 飲食物を調理するための機械及び器具、他に明記されていないもの
+    Machinesandappliancesforpreparingfoodordrink,notelsewherespecified17 他で明記されない，食物又は飲物を用意するための機械及び器具
+    Mytruepurposelieselsewhere. 真の目的は他にある。
+    One caneasilygetfoodsandpre-cookedproductsatsupermarketsandelsewhere. 食材や調理済みの製品は、スーパーなどでも簡単に手に入る。
+    Proceduresfor thesecalculationsarealsopresentedelsewhere（2, 3）. これらの計算のための手順はほかのところにも発表されている（2,3）。
+    Proceduresfor thesecalculationsarealsopresentedelsewhere（2，3）. これらの計算のための手順はほかのところにも提出されている（2，3）。
+    Proceduresfor thesecalculationsarealsopresentedelsewhere（6, 7）. これらの計算のための手順はほかのところにも提出されている（6, 7）。
+    Refrain fromworkingelsewhere ほかの場所で働くのを控える。
+    Respondentsusehousehold equipmentmade inEurope,Malaysiaandelsewhere. 住宅設備に関しては、ヨーロッパ製やマレーシア製などを利用している。
+    Shewent shoppingelsewhere. 彼女はどこか他に買い物に行った。
+    Since thedisaster,many peoplewhoonceworkedin thefish processingindustryhavelefttownto find workelsewhere. 震災後，かつて水産加工業で働いていた多くの人々が他の場所で仕事を探すために町を離れた。
+    The UVUSreactorhas been describedelsewhere. UVUS反応器は，ほかのいくつもの論文に記述されてきた。
+    The fundamentalequationcan befoundelsewhere. その基本式はほかでも見いだされる。
+    The timehassurelyarrivedforJapanto actmoreonits owninitiativeinforeign affairs,rather thanfollowpoliciesdictatedelsewhere. 今や外交問題においては日本は他国に規定された方針に追随するのではなく, より主体性をもって行動すべき時である.
+    TheBBBreactorhas been describedelsewhere（3-6）. このBBB反応器はほかのところにも記述されている（3-6）。
+    TheBBBreactorhas been describedelsewhere（3-7）. このBBB反応器は，ほかのいくつもの論文に記述されてきた（3-7）。
+    ThemechanismsconstitutingABCDprocesseshave beendiscussedextensivelyelsewherein the literature（12-18）. ABCDプロセスを構成している仕組みは，文献（12-18）の至る所で広範囲に論じられてきた。
+    Theseingredientsareoftendifficult to findelsewhere. これらの材料をほかのところで見つけるのは難しいことが多いです。
+    Travel goods,cases,parasolsandpersonal belongings,notelsewherespecified 旅行用品，ケース，パラソル及び身の回り品で，他で明記されていないもの
+    Worksalready published[printed]elsewhereare notaccepted. 投稿作品は未発表のものであること.
+    You cangetthemcheaper[at abetterprice]elsewhere. よそならもっと安く買えるよ.
+    adiskwhoserevolutionalaxisislocatedelsewherethan atthegeometricalcenter 回転軸が中心からずれた位置についた円板
+    aperson who isdictatorialat homebuttimidelsewhere 人前では意気地がないくせに内輪の者には強がる人
+    athin fluid layernext tothe surfaceof astationarybodyin whichfluidflowsat amuchslowervelocitythanelsewhere 粘性の小さい流体が物体のまわりを流れるとき,粘性の影響が強く現われる物体表面に近い薄い流体の層
+    bothin Japanandelsewhere 日本でもその他の国々でも.
+    of aninfluence,toextendelsewhereandbegin to appear 影響が他に及んで現れる
+    theactionofbeingdictatorialat homebuttimidelsewhere 人前では意気地がないくせに内輪の者には強がること
+    theshuntcarriesexcessfluidaway fromthebrainsoitmay beabsorbedelsewherein thebody. シャントを介して排出された脳からの過剰な液体は、体内のどこかの部位で吸収されることになる。
+load https://ejje.weblio.jp/sentence/content/fir
+    A 2tapFIRfilter,a 4tapFIRfilteror a6tapFIRfilteroperatethepixelsin afractionpositionof thereference imageasthepixelsof thepredictedimageby usingtheprescribedreference pixelswhich are read. 2タップFIRフィルタ、4タップFIRフィルタ、または6タップFIRフィルタは、読み出された所定の参照画素を用いて、参照画像の分数位置の画素を予測画像の画素として演算する。
+    Acaption21of thedemodulationcircuit2is aFIR(Finite Impulse Response)filterthatusesthesequenceh[-k]that istheinversionof the timebase ofthesequenceh[k] for itsfilter coefficients,and acaption22is aFIRfilterthatusesthesequenceh[k] for itsfiltercoefficients. 復調回路２の２１は数列 ｈ[ｋ] の時間軸を反転させた数列 ｈ[-ｋ] をフィルタ係数とするFIRフィルタであり、２２は ｈ[ｋ] をフィルタ係数とするFIRフィルタである。
+    AnotherpopularchoiceisLagrange interpolationwhich isa specialcase ofFIRfilterinterpolation. もう一つの一般的選択肢は,FIRフィルタ補間の特別な事例であるラグランジュ補間(Lagrange interpolation)である．
+    BranchesofJapanese cedars,firtrees, andoaksaresometimesused instead. スギ、モミ、カシの枝などを用いることもある。
+    DEVICEANDMETHODFORACCELERATEDCONVOLUTIONINTEGRATIONOFFIRFILTER ＦＩＲフィルタの高速化畳み込み積分装置・方法
+    DIGITALFIRFILTER ディジタルＦＩＲフィルタ
+    DIGITALFIRFILTEROF ORDER NANDFILTERING METHOD Ｎ次デジタルＦＩＲフィルタ及びフィルタリング方法
+    DOWNSAMPLINGFIRFILTERAPPARATUS ダウンサンプリングＦＩＲフィルタ装置
+    EFFICIENTSUB-BAND ADAPTIVEFIRFILTERING 効率的なサブバンド適応ＦＩＲフィルタリング
+    FIRACTIVETHERMOGRAPHYTESTING EQUIPMENT ＦＩＲアクティブ・サーモグラフィ検査装置
+    FIRDIGITAL FILTER ＦＩＲディジタルフィルタ
+    FIRDIGITAL FILTER ＦＩＲデジタルフィルタ
+    FIRDIGITAL FILTER ＦＩＲ型デジタルフィルタ
+    FIRFILTER CIRCUIT ＦＩＲフィルタ回路
+    FIRFILTER COEFFICIENTCOMPUTING DEVICE,FIRFILTERDEVICEANDFIRFILTER COEFFICIENTCOMPUTINGPROGRAM ＦＩＲフィルタ係数算出装置、ＦＩＲフィルタ装置、および、ＦＩＲフィルタ係数算出プログラム
+    FIRFILTER ＦＩＲフィルタ
+    FIRFILTER, ANDDATA PROCESSING METHODTHEREFOR ＦＩＲフィルタ及びそのデータ処理方法
+    FIRFILTER,METHODFORCONTROLLINGFIRFILTER,SEMICONDUCTOR INTEGRATED CIRCUITHAVINGFIRFILTERANDCOMMUNICATION SYSTEMFORTRANSMITTINGDATAFILTEREDBYFIRFILTER ＦＩＲフィルタ、ＦＩＲフィルタの制御方法、およびＦＩＲフィルタを有する半導体集積回路、ＦＩＲフィルタでフィルタリングされたデータを送信する通信システム
+    FIRFILTERANDMETHOD FOR SETTINGCOEFFICIENTSOF THEFILTER ＦＩＲフィルタおよびその係数の設定方法
+    FIRFILTERANDRAMP-UPRAMP-DOWNCIRCUIT ＦＩＲフィルタ、ランプアップ・ランプダウン回路
+    FIRFILTERDEVICE,ACOUSTIC DEVICE, ANDFIRFILTER PROGRAM ＦＩＲフィルタ装置、音響装置およびＦＩＲフィルタプログラム
+    FIRFILTERSIGNAL PROCESSOR ＦＩＲフィルタ信号処理装置
+    Firmakesgoodbuildingmaterial. モミ材は良質の建築材料になる.
+    Japanese cedar,fir,silverfir,abies,red cedarorWestern hemlock すぎ、もみ、えぞまつ、とどまつ、べいすぎ又はべいつが
+    METHODFIRGRINDINGPOLYURETHANE FOAMUSINGMICROORGANISM 微生物を用いたポリウレタンフォームの粉砕方法
+    OIL COOLERFIRAUTOMOBILE 自動車用オイルクーラ
+    SOUND IMAGE LOCALIZATIONDEVICEANDPROCESSING METHODFORFIRFILTER COEFFICIENTANDARITHMETICMETHODFOR THEFIRFILTER 音像定位装置とＦＩＲフィルタ係数の処理方法及びＦＩＲフィルタの演算方法
+    SYSTOLICFIRFILTER シストリックＦＩＲフィルタ
+    TRANSPOSEFIRFILTERARCHITECTURE 転置ＦＩＲフイルタ・アーキテクチャ
+    Theantiviral agentcontainsanextract offirleaves,especiallyemulsifiedextract offirleaves. 抗ウイルス剤は、モミの葉の抽出物を含み、特にモミの葉の抽出物の乳化されたものを含む。
+    Theconiferssuch asYeddo spruceandTodofirwerepredominantin thearea. エゾマツやトドマツといった針葉樹が優勢な地域。
+    Thelargefirtreewascutdown. その大きなモミの木は切り倒された
+    Thetrunkofthatfirisabouttwometersthick. あのモミの幹は約2メートルの太さです
+    ToactualizeanFIRfilterwhich hasnomultiplyingcircuit. 乗算回路を持たないＦＩＲフィルタを実現する。
+    Toprovideafinite impulse response filter(FIR) forusein acellulartelephone. セルラー電話に用いられる有限長インパルス応答(FIR)フィルタを提供する。
+    anevergreen treecalledDouglasfir ダグラスファーという常緑の木
+    aplankofsoftwood(firor pineboard) 軟材の厚板（モミまたはマツの板）
+    aplantcalledsilverfir 黒蝦夷という植物
+    atree,calledfir 樅という植物
+    atreecalled'Aomori'whitefir 青森椴松という松
+    douglasfir アメリカトガサワラ
+    fir―deal 樅材
+    heplantedfirandpine treesalternately 彼はモミの木と松の木を交互に植えた
+    medium-sizedfirofnortheasternNorth America 北米北東部産の中型のモミ
+    nonresinouswoodof afirtree やにのないモミの木
+    strongdurabletimberof adouglasfir アメリカトガサワラの強くて耐久性のある木材
+    the seed-producingconeof afirtree 種子をつくるモミの球果
+    thethinpointedleafof afiror pinetree 針状の葉
+    whippybranchesoffirtrees モミの木のしなやかな枝
+    yellowtransparentexudateof thebalsamfir バルサムノキからの黄色の透明な滲出物

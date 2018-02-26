@@ -1,0 +1,37 @@
+
+swipl sc.pl van >> log10.txt
+swipl sc.pl lawn >> log10.txt
+swipl sc.pl pour >> log10.txt
+swipl sc.pl degree >> log10.txt
+swipl sc.pl poetry >> log10.txt
+swipl sc.pl regret >> log10.txt
+swipl sc.pl improve >> log10.txt
+swipl sc.pl shake >> log10.txt
+swipl sc.pl steal >> log10.txt
+swipl sc.pl regard >> log10.txt
+swipl sc.pl establish >> log10.txt
+swipl sc.pl suffer >> log10.txt
+swipl sc.pl abroad >> log10.txt
+swipl sc.pl attract >> log10.txt
+swipl sc.pl responsibility >> log10.txt
+swipl sc.pl loose >> log10.txt
+swipl sc.pl district >> log10.txt
+swipl sc.pl hurt >> log10.txt
+swipl sc.pl encourage >> log10.txt
+swipl sc.pl former >> log10.txt
+swipl sc.pl afford >> log10.txt
+swipl sc.pl accounting >> log10.txt
+swipl sc.pl marriage >> log10.txt
+swipl sc.pl literature >> log10.txt
+swipl sc.pl clever >> log10.txt
+swipl sc.pl consideration >> log10.txt
+swipl sc.pl lawyer >> log10.txt
+swipl sc.pl videotape >> log10.txt
+swipl sc.pl spinning >> log10.txt
+swipl sc.pl existence >> log10.txt
+swipl sc.pl duty >> log10.txt
+swipl sc.pl apply >> log10.txt
+swipl sc.pl passenger >> log10.txt
+swipl sc.pl honor >> log10.txt
+swipl sc.pl ahead >> log10.txt
+echo "end" >> log10.txt

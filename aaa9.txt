@@ -1,0 +1,26 @@
+swipl sc.pl "tear" >> log9.txt
+swipl sc.pl "childhood" >> log9.txt
+swipl sc.pl "graduation" >> log9.txt
+swipl sc.pl "gain" >> log9.txt
+swipl sc.pl "arrange" >> log9.txt
+swipl sc.pl "crowd" >> log9.txt
+swipl sc.pl "trust" >> log9.txt
+swipl sc.pl "uniform" >> log9.txt
+swipl sc.pl "try+on" >> log9.txt
+swipl sc.pl "look+over" >> log9.txt
+swipl sc.pl "admit" >> log9.txt
+swipl sc.pl "labor" >> log9.txt
+swipl sc.pl "claim" >> log9.txt
+swipl sc.pl "worth" >> log9.txt
+swipl sc.pl "attempt" >> log9.txt
+swipl sc.pl "proud" >> log9.txt
+swipl sc.pl "custom" >> log9.txt
+swipl sc.pl "wound" >> log9.txt
+swipl sc.pl "habit" >> log9.txt
+swipl sc.pl "realize" >> log9.txt
+swipl sc.pl "noted" >> log9.txt
+swipl sc.pl "slight" >> log9.txt
+swipl sc.pl "remain" >> log9.txt
+swipl sc.pl "elsewhere" >> log9.txt
+swipl sc.pl "fir" >> log9.txt
+echo "end" >> log9.txt

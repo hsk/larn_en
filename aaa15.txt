@@ -1,0 +1,14 @@
+swipl sc.pl refer >> log15.txt
+swipl sc.pl cast >> log15.txt
+swipl sc.pl lean >> log15.txt
+swipl sc.pl setting >> log15.txt
+swipl sc.pl presence >> log15.txt
+swipl sc.pl lately >> log15.txt
+swipl sc.pl personally >> log15.txt
+swipl sc.pl encouraging >> log15.txt
+swipl sc.pl insurance >> log15.txt
+swipl sc.pl luggage >> log15.txt
+swipl sc.pl extremely >> log15.txt
+swipl sc.pl favor >> log15.txt
+swipl sc.pl due+to >> log15.txt
+echo "" >> log15.txt

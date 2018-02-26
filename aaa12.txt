@@ -1,0 +1,2 @@
+swipl sc.pl speeding >> log12-2.txt
+

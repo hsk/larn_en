@@ -1,0 +1,1735 @@
+load https://ejje.weblio.jp/sentence/content/pile
+    Don't pile up rubbish here. ここへくずをためてはいけない.
+    He saved quite a little pile (of money). 彼は(お金を)どっさり蓄えた.
+    I pile those up and pack it up. 私はそれらを重ねて梱包する。
+    I've allowed a lot of work to pile up. だいぶ仕事をためてしまった.
+    Pile arms! 組め銃!
+    Suddenly the pile of books began to collapse. 突然, 本の山が崩れ始めた.
+    The expenses will run [pile] up. 費用がかさむだろう.
+    The pile of straw caught fire. 積みわらに火が燃えついた.
+    To pile up boxes. 箱を積み重ねる。
+    a dry pile 乾電池.
+    a fire started to burn a pile of dried reeds 干した葦をたく火
+    a jacket of pile material パイル素材の上着
+    a large pile of soil 運積土という堆積土
+    a machine used to create a fluffy pile on knitted fabric 有毛機という繊維機械
+    a number for a pile of things 折り重ねたものの数
+    a pile [piles] of money [work] 大量の金[たくさんの仕事].
+    a pile of books [laundry] 本[洗濯物]の山.
+    a pile of straw 積み重ねた藁の山
+    a pile of things 物が重なっているさま
+    a pile that supports abridge girder 橋げたを支えるくい
+    a pile 数多く重なっていること
+    a sand pile 砂ぐい
+    a stately pile 堂々たる大建築物.
+    a steel sheet pile 鋼製の矢板
+    a tool called a pile driver 蛸という道具
+    an act of binding a pile of papers by threading them together 紙などを綴じこむこと
+    feed for domestic animals, called {green pile} 埋草という,家畜の飼料
+    of large objects to pile up 大きいものが幾重にも重なる
+    pile papers on the table 机の上に書類を重ねる.
+    pile up money 金をためる, 貯金する.
+    scrape together pieces of mud (into a pile) 泥を集め(て山にす)る.
+    the height of a pile 積んだ物の総高
+    the second sheet in a pile of sheets 枚数が二枚目に当たるもの
+    to carelessly pile something up (物を)乱雑に積み重ねる
+    to destroy a pile of something by shoving it (積み上げてあるものを)突いて崩す
+    to drive a pile (杭を)打ち込む
+    to make a big pile 物を高く重ねて置いてゆく
+    to pile a thing over something (物を)引いて重ねる
+    to pile or stack something together and cut all at the same time (物を)重ねて切る
+    to pile something up 高く積み上げる
+    to pile up a pile again 積んであるものをおろして,改めて積むこと
+    to pile up earth 土を盛りあげる
+    to pile up in layers 何層にも積み重なる
+    to pile up sand and earth 砂や土を高く盛る
+    to pile up something 物を重ねて積む
+    to pile up unsold goods in a storehouse 売れない商品が倉庫にたまる
+    to pile up untransportable freight in a storehouse 運べない貨物が倉庫にたまる
+    to pile up いくつも重なり合う
+    to pile up 積み重ねること
+    to start to pile things up 物を積み重ね始める
+load https://ejje.weblio.jp/sentence/content/feed
+    (of a moth) to feed on paper or cloth 衣魚が紙や衣類を食う
+    Cattle feed on grass. 牛は草を常食とする。
+    Cattle feed on grass. 牛は草を食べる.
+    Cattle live [feed] on grass. 牛は草で[を食べて]生きている.
+    Cows feed on hay. 牛は干し草を食べる.
+    Crawfish feed [prey] on each other. ザリガニは共食いする.
+    Did you feed the dog this morning? 今朝犬に餌やった？
+    Don't feed the animals. 動物にえさを与えるな。
+    FEED 餌
+    Farmers feed oats to their horses.＝Farmers feed their horses on [with] oats. 農夫たちは馬にオート麦を食べさせる.
+    Feed the bird! 鳥に餌をやれ！
+    Frogs feed on insects. カエルは虫を餌にしている.
+    Gorillas feed on plants. ゴリラは草食だ.
+    He is giving feed to the pigeons. 彼は鳩に餌をあげています。
+    I feed a dog on meat. 私は犬に肉をやる。
+    I want to feed you this. 私はあなたにこれを食べさせたい。
+    Lions feed on flesh. ライオンは肉を餌とする。
+    Paper feed direction 紙の進行方向
+    Please do not feed the animals. 動物に餌を与えてないでください。
+    Sheep feed on grass. 羊は草を食べる。
+    What do you feed the chickens? 鶏には何のえさをやりますか.
+    What does this bird feed on [eat]? この鳥の餌は何ですか.
+    a feed(ing) pump 給水ポンプ.
+    a grass used to feed horses 馬のかいば
+    a line feed code 行送りコード
+    a paper feed 給紙装置
+    an open box for which horses feed; through 馬桶という容器
+    at one feed 一食に, 一食分として.
+    cattle feed 家畜のえさ
+    compressed cattle feed 圧芻という,牛などの飼料
+    concentrated feed 濃厚飼料.
+    cut dried grass to be used to feed cattle かいば用の干し草
+    feed a computer with data＝feed data into a computer コンピューターにデータを入れる.
+    feed a dog on scraps 犬に食べ残しをやる.
+    feed a kitten on [with] milk 子猫を牛乳で育てる.
+    feed a large family on a meager salary 大家族を薄給で養う.
+    feed a stove with coal＝feed coal into [to] a stove ストーブに石炭をくべる.
+    feed continuous forms 連続用紙を入れる[給紙する]
+    feed for a domestic animal 飼っている動物の餌
+    feed for a horse 馬屋肥という肥料
+    feed necessary for livestock production, called productive feed 家畜の生産及び育成に必要な飼料
+    feed paste for a bird 練った小鳥の餌
+    feed the mind 精神を豊かにする.
+    feed transparencies through the manual feed facility 《コピー機の》 手差し給紙機構から OHP シートを入れる
+    have a good feed ごちそうを腹いっぱい食べる.
+    house and feed one's family 家族に食と住をあてがう.
+    print the document with manual feed 手差し給紙で文書を印刷する
+    the container that holds bird feed 鳥の餌を入れる入れ物
+    the number of mouths to feed 養わなければならない者の数
+    to feed an animal (動物に)餌を与える
+load https://ejje.weblio.jp/sentence/content/cheer
+    Cheer up 元気をだしてね
+    Cheer up! くよくよするな.
+    Cheer up! そんなに腐るな.
+    Cheer up! 元気を出せ!
+    Cheer up! 元気を出せ!, がんばれ!
+    Cheer up! 元気を出せよ。
+    Cheer up! 元気出して。
+    Cheer up! 弱音を吐くな.
+    Christmas cheer クリスマスのごちそう.
+    Hey, man [old buddy], cheer up! おい大将, 元気を出せ!
+    I cannot cheer up. 私は元気が出ない。
+    I cheer myself up. 自分で自分を励ます
+    I cheer myself up. 自分で自分を励ます。
+    I couldn't cheer up. 私は元気が出なかった。
+    I need to cheer up myself. 私は自分を励ます必要がある。
+    I want to cheer Taro up. 私は太郎を元気にしたい。
+    I want to cheer her up. 私は彼女を励ましてあげたい。
+    I want to cheer you up. 私はあなたを慰めたいです。
+    I want to go and cheer. 応援に行きたいわ。
+    I wanted to cheer you up. 私はあなたを元気付けたかった。
+    I will always cheer for her. 私は彼女をずっと応援します。
+    I will cheer up. 私は元気が出る。
+    I'll cheer you up. 私はあなたに元気を送ります。
+    I'll cheer you up. 私は君のことを励ましてあげるよ。
+    Let's cheer them on. 彼らを励まそう。
+    Ms. Yamada will propose a cheer. 山田が乾杯の音頭をとります。
+    Please cheer me up. 私を元気にして下さい。
+    Please cheer up! 元気を出してください！
+    She was without cheer. 彼女は元気がなかった.
+    We will make cheer. 私達は 陽気に騒ぐ。
+    Well, drink this and cheer up. まあこれでも飲んで元気だしなよ。
+    What cheer? 《英古》 ご機嫌いかが?
+    You cheer for Japan too, okay? 君も日本を応援してね。
+    You cheer me up. あなたは私を元気づけてくれる。
+    Your songs cheer me up. あなたの歌は私を元気にします。
+    a victorious cheer 勝利のかっさい.
+    be in good cheer はしゃいでいる.
+    cheer for a singer 歌手にかっさいを送る.
+    cheer over a victory 勝利を得て歓呼する.
+    enjoy [make] good cheer ごちそうを食べる.
+    give [raise] a cheer かっさいをする.
+    make cheer 陽気にやる.
+    of a person, to cheer one's spirit 心の憂さを晴らす
+    of one's feelings, to cheer up 気を晴らす
+    to cheer in a loud voice 喜んで,声を上げる
+    to cheer up 気分を取り直す
+    to cheer 賞讃する
+    to lack cheer or good feeling しょげる
+    words of cheer 激励の言葉.
+    〈元気を出せ〉 Cheer up! しっかりしろ!
+load https://ejje.weblio.jp/sentence/content/grain
+    (of grain) to ripen well 穀物がよく実る
+    A type of grain 一粒の種
+    There's not a grain of truth in it. それは全くうそだ.
+    a Chinese grain plant called kaoliang オオアワという植物
+    a grain called rice 御飯粒
+    a grain of boiled rice 飯粒
+    a grain of cooked rice めし粒
+    a grain of foxtail millet 1粒の粟
+    a grain of rice 米粒
+    a grain of sand ひと粒の砂.
+    a grain of sand 砂の粒
+    a grain of sand 砂粒.
+    a grain of wheat 麦の一粒
+    a grain 一つの粒
+    a grain 細かい粒
+    a moth called Angoumois grain moth 麦蛾というガ
+    a multinational enterprise dealing in grain named grain merger 穀物メジャーという,穀物を扱う多国籍企業
+    a shape resembling an ear of grain 穂のような形
+    a shrine dedicated to a god who looks after the grain 稲荷神社
+    a small grain 小さな粒
+    a stick used to remove surplus grain off from a measuring cup in which the grain is put 斗掻きという,升に盛った穀類を平らにする棒
+    a stone house used to store grain 穀物を貯蔵する倉
+    a storehouse in which grain is stored in Japan in case of a bad crop, called grain storehouse 義倉という,凶作に備えた穀物貯蔵庫
+    a type of photographic paper that has a fine grain 絹目という印画紙
+    an ear of grain 稲などの穂の部分
+    an edible grain plant called water oats マコモという草
+    crops that are produced from grain fields 穀物類
+    each grain 一粒一粒
+    five kinds of grain 五種類の穀物
+    flour made from grain 麦の粉
+    germinated grain called malt 麦麹という食品
+    golden waves of grain 穀物の黄金の波.
+    grain flour 穀物を挽き砕いた粉
+    in Japan, a system of grain storage, called emergency grain storage 義倉という,穀物貯蔵の制度
+    lacquer ware in which the wood grain is visible 木目の出た漆器
+    mill grain 穀類を製粉する.
+    of grain, each kernel 一つ一つの粒
+    one ear of grain 1本の穂
+    rice and other grain products 米と他の穀類
+    staple grain 主要穀物
+    the act of harvesting grain while the grain is still growing 穀物を青刈りすること
+    the action of eating grain 穀物を食べること
+    the grain of a stone 岩石の質
+    the head of a grain producing plant 穀物植物の穂
+    the individual grains of an agricultural grain 穀物の粒
+    the nine kinds of grain 9種の穀物
+    to live on grain 穀物を常食とする
+    to polish grain 穀物を精白する
+    winnow grain 穀物を吹き分ける.
+    wood having a coarse grain 荒びきの木材
+load https://ejje.weblio.jp/sentence/content/unite
+    (of persons who have the same purpose) to unite despite minor conflicts (目的を同じくするものが)小異をすてて団結する
+    An AD (AU Delimiter) is arranged at a start position of each AU (Access Unite), and a DD (Dependent Delimiter) is arranged in the boundary of the picture in the dependent stream on the bit stream. ビットストリーム上においては、各AU(Access Unite)の開始位置にはAD(AU Delimiter)が配置され、Dependent streamのピクチャの境界にはDD(Dependent Delimiter)が配置される。
+    He asked Americans to unite and face their difficulties together. 彼は一致団結して困難に立ち向かうようアメリカ国民に求めた。
+    He said that he would work hard to unite the people and help them get away from their stagnant past. 国民を結集し，沈滞した過去から抜け出せるよう懸命に努力すると話した。
+    IMAGING UNITE AND PORTABLE TERMINAL EQUIPPED THEREWITH 撮像装置及びそれを内蔵した携帯端末
+    If we unite our efforts, we will be able to finish this. 力を合わせれば、これを終わらせるだろう。
+    In the short term, donors should unite to provide emergency assistance. 短期的には、ドナーは団結して緊急援助を供与すべき。
+    In this new film, Dwarves, Elves and Men must unite and fight the dark forces or be destroyed. 今回の新作では，ドワーフ，エルフと人間は団結して闇の力と戦わなければ，滅ぼされてしまう。
+    It's important to unite as many workers as possible. できるだけ多くの労働者を団結させることが大切だ。
+    It's time for us to unite in fighting these abuses. 今や我々は力を合わせてこれらの悪弊と戦うべき時である.
+    Oceans do not so much divide the world as unite it. 海は世界を分けるのではなく、むしろ結びつけるものです。
+    She said, “This dress was made by a young person living in my hometown in Nara Prefecture. I like to unite our traditional culture with modern fashion to create something original.” 彼女は「このドレスは奈良県の地元の若い人が作ってくれた。伝統文化と現代ファッションを融合させて，オリジナルのものを作りたい。」と話した。
+    The Unite States and Canada are having a good matsutake harvest, so we should see many from these countries this fall. 米国やカナダではマツタケが豊作なので，今秋はこれらの国からのものを数多く見かけるはずだ。
+    The cap body 2 is divided, and made to unite with lock means 11, 12. キャップ本体２を分割し、ロック手段１１，１２で合体させる。
+    The companies unite and manufacture. 全社一丸となって製造する。
+    The jewel is needed to unite the Dwarves. その宝石はドワーフ族を団結させるために必要なのだ。
+    The president called on the people to unite in fighting poverty and disease. 大統領は国民に貧窮や病気との戦いで団結するように呼びかけた。
+    The two companies plan to unite. ２社は合併を計画している。
+    To simply unite a hollow shaft rotary encoder to a shaft with a large retaining torque. 中空軸形ロータリエンコーダを大きな保持トルクでもって簡単にシャフトに連結する。
+    To unite a swimming pool main body with a poolside and incidental equipment. プール本体とプールサイドと付帯設備のユニット化を実現する。
+    Wakata said, "I'd like to bring the Japanese spirit of harmony, wa, to my team. As a captain, I want to lead each crewmember to fully utilize his talents and unite all the crewmembers as a team." 若田さんは「日本の和の心をチームにもたらしたい。船長として，各乗組員が自分の能力を十分生かせるようにし，乗組員全員を１つのチームとして団結させたい。」と語った。
+    We must unite against them. 我々は団結して彼らに当たらなければならない.
+    We were able to unite. 私たちは団結することができました。
+    We will unite and do our best to resolve issues. 私たちは問題解決のために、社員一丸となり努力します。
+    We will unite. 私たちは一致団結する。
+    Workers of the world, unite! 万国の労働者よ, 団結せよ!.
+    Workers of the world, unite! 万国の労働者よ, 団結せよ.
+    Workers of the world, unite! 万国の労働者よ。団結せよ！
+    Working men of all countries, unite! 万国の労働者よ, 団結せよ.
+    a communal society in which members unite very firmly 共同社会という,成員が全人格をもって結合する社会
+    of a particle, to unite with the same particle and make a heavier chemical compound 同じ分子が結合して分資料の大きな化合物を生じる
+    of comrades, to make a pledge to one another to unite 同志が互いに結び合い誓う
+    of more than two things, to unite 二つ以上のものが一緒になる
+    of more than two things, to unite 複数の物事が一緒になること
+    of people who have the same purpose, to unite 同じ目的の人々が合同する
+    of the reproductive cells of a male and a female, to unite 雌雄の生殖細胞が合一する
+    of two or more people, to unite in equal capacity on something (二人以上が)同じ資格で結びつく
+    to abolish and unite (組織や施設などを)廃止したり合併したりする
+    to grow together or unite so as to form one group, body or mass 連立する
+    to join together or unite for a common purpose 同盟を結ぶ
+    to unite a whole country (天下を)統一する
+    to unite and work together in order to succeed 互いに力を合わす
+    to unite formally 同盟する
+    to unite minds (心を)合わせて一つにする
+    to unite more than two things 複数のものを合わせてひとつにする
+    to unite or combine two or more things in order to form one body 二つ以上のものを統合する
+    to unite or join together つなぎ合わせる
+    unite one country to another 一つの国を他の国と合併させる.
+    unite two countries 二国を併合させる.
+    unite two persons in holy matrimony 二人を正式に結婚させる.
+load https://ejje.weblio.jp/sentence/content/harm
+    A little alcohol will do you no harm. 少量の酒は無害だ.
+    Actually, it will do no harm. 別に実害はあるまい.
+    Bad books do more harm than bad companions. 悪書は悪友より有害である.
+    Bad books will do you harm. 悪い本は害を与える。
+    Harm set, harm get. 人を呪わば穴二つ
+    Harm set, harm get. 自業自得
+    He looks as if he could not even harm a fly. 虫も殺さぬ顔。
+    He meant you no harm.＝He meant no harm to you. 彼は何も君に悪意があってのことではない.
+    I mean you no harm. 私は君に悪意はない。
+    I meant no harm. 悪気があってしたのじゃない.
+    I meant no harm. 悪気は無かったんです。
+    I meant you no harm. 悪意はなかったんだよ。
+    It will do you more harm than good. ためになるどころか害になる.
+    Keep out of harm's way. 君子危うきに近寄らず。
+    No harm done. 被害[けが]なし; 大丈夫です.
+    No harm was done to men or cattle. 人畜に被害はなかった.
+    Some medicine does us harm. 害になる薬もある。
+    That is causing you harm. それはあなたを不自由にしている。
+    The change of air did him more harm than good. 転地してかえって悪くなった.
+    The food won't do you any harm. それを食べたってあたりはしないよ.
+    The storm did great harm to the crop. 嵐は作物に大損害を与えた。
+    There's no harm in trying. やってみるだけなら, 悪くない.
+    They remained out of harm's way in the country. 彼らは田舎で難を避けていた.
+    Why, what's the harm? なに, それでどこが悪い.
+    Words can be the source of great harm. 口は災いの門(かど)[元(もと)].
+    a charm against harm caused by insects 虫除けに効く守り札
+    a chemical used for preventing harm caused by insects 虫除けのための薬品
+    a wicked person who does harm secretly ひそかに害をなす悪人
+    an instrument used for preventing harm caused by insects 虫除けのための道具
+    great harm 大きな災い
+    harm of mice 鼠から受ける害
+    of two people, to mutually harm each other (人が)互いに害し合う
+    one's mind which tends to do a person harm とかく人を害しようとする心
+    something that causes great harm 大きな害を及ぼすもの
+    something that causes harm to something else そのもののためにならないもの
+    something that does serious harm たいへんな害を及ぼすもの
+    the action of preventing harm caused by insects 虫の害を除けること
+    the means to do harm to someone 人に危害を加える手段
+    the right to live free from fear of bodily harm 生命を侵害されない権利
+    the state of doing harm to -- ためにならないようす
+    to cause a person to suffer harm (損害を)こうむらせる
+    to continue to give harm (害を)与え続ける
+    to do harm to something 損なう
+    to harm a person's feeling or health 気分や健康を損なう
+    to harm another person 他人に苦痛を与える
+    to harm or kill living things 殺傷する
+    to keep safe from harm 害がないように安全を保つ
+    to protect from harm 危害を防ぎまもる
+    vermin that causes harm to humans 人体に害を及ぼす虫
+    work miracles [harm, mischief] 奇跡[害悪, 災害]をもたらす.
+load https://ejje.weblio.jp/sentence/content/fee
+    (vi) Subscription fee ⑥ 申込手数料
+    Child's fee 子供料金
+    Consulting fee コンサルタント料
+    Fee including postage. 送料込みの料金
+    How much is the parking fee? 駐車場代はいくらですか。
+    How much is the rental fee for this? このレンタル料はいくらですか？
+    I will send the membership fee. 私はその会費を送る。
+    Parking fee パーキング有料
+    Pay a membership fee 会費を払う
+    Please pay the membership fee [your dues] in advance. 会費は前納のこと.
+    That hairdresser fee was 3000 yen. その理髪料金は3000円でした。
+    The entrance fee is 3000 yen. 入場料金は3千円です。
+    The rental fee is cheap. 使用料金が安い。
+    The room and board fee is 10,000 yen. 寮費は月1万円です。
+    There was no fee to participate. 参加費は無料だった。
+    There's no membership fee for joining. 参加の会費は不要だ。
+    This fee is the letter postage fee. この代金は、手紙郵送料です。
+    This is this time's hospitalization fee. これが今回の入院の費用です。
+    What would be the monthly fee? 月謝はどうなりますか？
+    a fee [remuneration] contingent on [upon] success 成功報酬.
+    a fee for entering a temple called a temple admission fee 入山料という,観光客が寺院に入る料金
+    a fee for making a photocopy コピー代金
+    a fixed charge [fee] 固定料金
+    a fixed fee 固定料金
+    a fortuneteller's fee 占いの料金
+    a listing fee 掲載料
+    a membership fee 会費.
+    a performance fee 出演料
+    a photography fee 写真の撮影代金
+    a registration fee 登記[登録]料.
+    a registration fee 登録料
+    access charge [fee] アクセス料金
+    an admission fee to a storytellers' hall 寄席の入場料
+    an admission fee 入場料
+    an admission fee 入場料.
+    an annual subscription fee 年間購読料
+    an initiation fee 入門料
+    charge a person a fee of … 人に…の料金を課する
+    connection fee [charge] 接続料金
+    contract electric fee 契約電気料金
+    excursion ticket fee 周遊料金
+    fee called fee for fishing in another person's territory 入漁料という,漁場の使用料
+    participation fee refund 参加費の返金
+    rental fee for a room 部屋の借り賃
+    service fee for the period of july 2012 ２０１２年７月時のサービス料
+    the condition of something requiring a fee 料金が必要なこと
+    the fee rate 手数料などの率
+    the lodging fee 宿泊の料金
+    the prescribed fee 所定の手数料
+    venue rental fee 会場使用料
+load https://ejje.weblio.jp/sentence/content/break+up
+    Are you thinking that we should break up? 私たちは別れた方がいいとあなたは考えていますか？
+    He and I might break up. 私と彼は別れるかもしれません。
+    I don't want to break up with you. 私はあなたと別れたくない。
+    I plan to break up with you. 私はあなたと別れるつもりです。
+    I want to break up with him. 私は彼と別れたい。
+    I will break up with him here. 私はここで彼と別れます。
+    I'm going to break up with you. 私はあなたと別れる。
+    It is better for you to break up with her. 君は彼女と別れたほうが良い。
+    It is sad to break up with you. あなたとの別れは淋しいです。
+    It's not that I want to break up because I hate you. 私はあなたが嫌いだから別れたいのではない。
+    It's not that I want to break up because I hate you. 私はあなたのことが嫌いだから別れたいのではない。
+    It's time to break up the party. もうパーティーをお開きにしてよい時だ.
+    Let us break up for the night. 今夜はこれで散会としよう.
+    Let's break up the party. さあ、パーティーをおしまいにしよう。
+    Let's break up. 私たちは別れましょう。
+    Let's break up. 私たちは別れよう。
+    Most dinner parties break up about eleven o'clock. 大抵の晩餐は１１時頃に終わります。
+    School will break up on the 24th. 終業式は 24 日です.
+    School will soon break up for the summer vacation. 学校はもうすぐ夏休みになる。
+    She finally decided to break up with her husband. 彼女はとうとう夫とわかれることを決意した。
+    She is going to break up with her boyfriend. 彼女が彼氏と別れる。
+    Simmer the fish carefully so that it does not break up. 魚は煮崩れしないように弱火で煮てください.
+    The clouds began to break up. 雲は散り散りになり始めた.
+    We break up here. 私たちはここで解散です。
+    We must break up right away. 私たちはもうすぐお別れしなければいけない。
+    We should break up. 私たちは別れた方がいい。
+    We should break up. 私たちは別れた方がいいです。
+    We will never break up. 私たちは絶対に別れない。
+    When did the meeting break up? 何時に散会したか.
+    When did you two break up? あなたたちはいつ別れましたか?
+    When do you break up for summer vacation? いつから夏休みに入りますか。
+    When do you break up for summer vacation? 何時から夏休みに入りますか。
+    When does school break up? 学校はいつ休みになるのですか。
+    When does your school break up? 学校はいつ休暇になりますか。
+    Why did you break up with your boyfriend? 何故あなたは彼氏と別れてしまったのですか。
+    You should probably break up with him. あなたは彼と別れた方がいいかもしれない。
+    a mill used to break up ore, called hammermill ハンマーミルという鉱石用粉砕機
+    a time when clouds break up and the blue sky is visible 雲が切れて青空が見える時
+    a tool that is used to break up the ground, {called pickax} つるはしという,土を掘り起こすのに使う道具
+    being easy to break up こわれやすいさま
+    break up a box for firewood 箱をばらばらにしてたきぎにする.
+    break up a piece of work among several people 仕事を数人に分配する.
+    break up a word into syllables 単語を音節に分解する.
+    break up an old ship for scrap 古船を解体する.
+    of a circle of friends, to break up 仲間が分裂する
+    of a group of people, to break up after a meeting 会合が終わって解散する
+    of an organization, to break up and become disordered 組織が崩れ乱れる
+    of an organization, to break up 組織が解消する
+    to break up an organization 組織を解消する
+    “Let's break up if you don't like it," she said quite casually. 「嫌なら別れましょう」と彼女は事もなげに言った.
+load https://ejje.weblio.jp/sentence/content/pass+out
+    A back-side 53 of a band guide 5 is provided with a through-pass hole 57, and then a pushing-out pin 45 is slidably inserted into the through-pass hole 57. バンドガイド５の背部５３に貫通孔５７を設け、押し出しピン４５をこの貫通孔５７にスライド可能に挿入する。
+    A low-pass filter 22 takes out the necessary component of a band from the output of the angular velocity sensor 10. ローパスフィルタ２２で角速度センサ１０の出力から必要な帯域の成分を取り出す。
+    A low-pass signal z_0(k) out of signals y(k) input via a microphone 92 is selected, and a low-pass signal z_0(k') downsampled from the low-pass signal z_0(k) is designated as a processing target of an adaptive filter 22. マイクロホン９２を介して入力される信号ｙ（ｋ）のうち低域信号ｚ_0（ｋ）を選択し、この低域信号ｚ_0（ｋ）をダウンサンプリングした低域信号ｚ_0（ｋ’）を適応フィルタ２２の処理対象とする。
+    A passive band-pass filter 2 eliminates an out-of-band unwanted wave from a radio wave received by an antenna 1, a low-noise amplifier 3 amplifies the resulting radio wave, and a passive band-pass filter 4 eliminates an out-of-band unwanted wave. アンテナ１から入った電波は受動バンドパスフィルタ２により帯域外不要波を除去された後、低雑音増幅器３により増幅され、受動バンドパスフィルタ４により帯域外不要波を除去される。
+    A space 10 through which the particulates 23 blown out to the interior of the outer cylinder from the blowout port of the blowing pipe pass and a take-out port 20 for taking out the particulates that pass through are arranged at a part where the circumferential side surface of the outer cylinder and the bottom plate 27 intersect with each other. 外筒の周側面と底板２７の交わる部分に、吹込管の吹出口から外筒の内部に吹き出される粉粒体２３が通過するスペース１０と、その通過した粉粒体を取り出す取出口２０を設ける。
+    Air which is blown out from an air blower 11 is made pass through the inside of the by-pass passage 15, and the air is prevented from flowing into the Peltier element 12. 送風機１１から吹き出される空気をバイパス通路１５内に通過させて、ペルチェ素子１２に空気が流れ込まない。
+    Also, signals other than those extracted by the band-pass filter 4 are taken out by a subtractor 6. さらにバンドパスフィルタ４で抽出された以外の信号が減算器６で取り出される。
+    An escape groove 28 through which the pushing out pin 36 can pass and ball can not pass is arranged in the guide wall 26. 誘導壁26には、押出ピン36が通過可能でかつ球が通過不可能な退避溝28を設ける。
+    At this time, the image data to be recorded in the same two or more recording areas through which nozzle trains 17A-17D pass during one pass are thinned out by turns with a thinning-out rate which is different in the array direction of nozzles. この際、１回のパス中にノズル列１７Ａ〜１７Ｄが通過する複数の同一の記録領域に記録すべき画像データを、ノズルの配列方向において高、低異なる間引き率で交互に間引く。
+    He just happened to pass by so I called out to him. 彼が偶然通りかかったので声をかけた。
+    He will pass out. 彼が倒れる。
+    I had pretty much felt like I was going to pass out. 私はほとんど気を失いそうになった。
+    I would like to be hugged by a man like that so tightly that I'd nearly pass out. あんな男に気が遠くなるほど抱き締められてみたいわ.
+    It was so hot in the stadium that I thought I was going to pass out. スタディアムはたいへん暑くて、倒れるかとおもった。
+    Moreover, an out-put terminal of a transmitting processing portion 206 of a transmitting system block 200 is connected with a previous input/output terminal 10 through an overvoltage protection circuit 203, a high-pass filter 202 for overvoltage prevention and a low-pass filter 201 for oppressing harmonics generated by this high-pass filter 202. また送信系ブロック２００の送信処理部２０６出力端子は、過電圧保護回路２０３、過電圧対策用の高域通過フィルタ２０２、この高域通過フィルタ２０２で生じる高調波を抑圧するための低域通過フィルタ２０１を介して先の入出力端子１０に接続されている。
+    Not knowing what to do when I found a tire blown out, a person who happened to pass by helped me out. 車がパンクして困っていると, 行きずりの人が手を貸してくれた.
+    Optical signals P1b out of the optical signals P1 pass through the first photodetector element 110, and optical signals P1a out of the optical signals P1 are absorbed by the photodetector element 110. 光信号Ｐ１のうち，光信号Ｐ１ｂは第１受光素子１１０を透過し，光信号Ｐ１ａは第１受光素子１１０で吸収される。
+    Out of output signals from a pressure sensor S, a signal where no vibration component due to knocking is superimposed is filtered by a band- pass filter 6, and further the output signal of the band-pass filter 6 is filtered by a low-pass filter 10. 圧力センサＳからの出力信号のうち、ノッキングに因る振動成分が畳重されていない信号を、バンドパスフィルタ６でフィルタリングし、更に、そのバンドパスフィルタ６の出力信号を、ローパスフィルタ１０でフィルタリングする。
+    Pass-closing and pass-opening is carried out without making a paper conveyance amount to be zero, thereby preventing a density variation at a time when the printing is temporarily stopped in the way of the pass and a deterioration in the printing quality due to quasi multipass. 用紙送り量を０にしないでパス閉じとパス再開を行うようにし、パス途中で一時停止した場合の濃度ムラと擬似マルチパスによる印刷品位劣化を防止する。
+    Please pass out these worksheets. このワークシートを後ろに回してください。
+    Please pass these handouts out to everyone. これらのプリントをみんなに配ってください.
+    Seek him out and pass on the news. 彼を捜し出してそのニュースを伝えなさい.
+    The coma coils 14a and 14b are so mounted as to pass the cut-out parts 24a and 24b. コマコイル１４ａ，１４ｂは、切り欠き部２４ａ，２４ｂを通るようになっている。
+    The electronic pass is a commutation ticket or a prepaid card enabling the passenger to go in and out of the ticket gate by putting the pass over a specified position of a ticket gate machine. 電子パスは、改札機の所定位置にかざすと、乗客の入退場が可能なタイプの定期券やプリペイドカードである。
+    The non-contact supporting device includes an air channel for supplying air, a film 50 that allows the air supplied through the air channel to pass through and blow out from its surface, and a porous plate 60 that allows the air blown out from the surface of the film 50 to pass through and blow out from its surface. 非接触支持装置は、エアを供給するエア通路と、エア通路から供給されるエアを透過させて表面から噴出させるフィルム５０と、フィルム５０の表面から噴出される気体を透過させて表面から噴出させる多孔質板６０とを備える。
+    The partition part 28 is formed with first slope passages 30 and 30 letting game balls S pass out toward the inner side of the slope surface 27 and second slope passages 32 and 32 letting the game balls pass out towrd the inner side of the movable member 50. また、仕切部２８に、遊技球Ｓを傾斜面２７の奥側に向けて通出させる第１傾斜通路３０，３０と、可動部材５０の奥側に向けて通出させる第２傾斜通路３２，３２とを形成する。
+    The pass voltage Vpass 3 given to the non-selection word line at the time of verify-read-out is set to a higher value than the pass voltage Vpass given to the non-selection word line at the time of normal read-out of data. ベリファイ読み出し時の非選択ワード線に与えるパス電圧Ｖｐａｓｓ３は、通常のデータ読み出し時に非選択ワード線に与えるパス電圧Ｖｐａｓｓ１より高い値に設定される。
+    The pulverization is preferably carried out to form a powder shape in the size of 80 mesh pass. 粉砕は、好ましくは８０メッシュパスの粉状まで行う。
+    The taken-out signal passes through a low pass filter and made as an average value of a plurality of symbols of the signal. 取り出された信号は、ローパスフィルタに通し、信号の複数シンボルについての平均値とする。
+    This constitution allows put-in/out vehicles C to pass each other at the stop shelf 9 so as to simultaneously put in/out the vehicle quickly. これにより、入出庫車両Ｃが停留棚９で擦れ違って入出庫が速やかに同時進行する。
+    This device is provided with a band pass filter 5 which can pass only a signal belonging to a pass band out of signals obtained by tracing an optical disk 1 and can change the pass band in accordance with a control signal. 光ディスク１をトレースすることにより得られる信号のうち通過帯域に属する信号のみを通過させるフィルタであって、制御信号に応じて前記通過帯域を変化させることが可能なバンドパスフィルタ５を設ける。
+    To carry out exposure at an optimum condition irrespective of the pass number of an ink jet head. インクジェットヘッドのパス数にかかわらず最適な条件で露光を行う。
+    To obtain a commuter pass holder free from the need of taking out a commuter pass from a pocket of a jacket, and enabling using a commuter pass anytime when required. 定期券の上着のポケット等からの取り出しを不要とし、なおかついつでも必要なときに定期券が使用できる定期券入れを提供する。
+    To properly carry out rolling according to a pass schedule by correctly detecting the stage of the pass at which a material is at the present time. 現在パスのどの段階であるかを誤りなく検出して、パススケジュールに従った圧延を適切に実行する。
+    To provide a heat exchange apparatus by making fluid pass through a pumping device which carries out pumping in two directions. 流体を二方向へポンピングするポンピング装置を通して、熱交換装置を提供する。
+    To provide a multi-layered band pass filter capable of improving a stop characteristic out of a pass band and reducing the entire size of the filter. 通過帯域以外での阻止特性を改善させ、全体の大きさを減らすことが出来る積層型帯域通過フィルターを提供する。
+    To provide a notched band-pass filter which enlarges an attenuation amount in another out-of-passband areas while remaining notches near in out-of-passband vicinity. 通過帯域外近傍のノッチを残したままで他の通過帯域外領域での減衰量を大きくするノッチ付バンドパスフィルタを提供する。
+    To provide a pass/fail determination method for a product capable of performing pass/fail determination of a product with higher accuracy by finding out defects which appear as minute phenomena, which are undetectable by conventional pass/fail determination methods. 従来の良否判定方法では検出できなかった微小な現象として現れる不良を捉えて、より精度良く製品の良否を判定することができる製品の良否判定方法を提供する。
+    To provide a potential inspecting apparatus, which generates no inconsistencies between pass/fail judgment and AD conversion results and carries out the pass/fail judgment at a high speed. パス・フェイル判定およびＡＤ変換の結果の間に矛盾が生ぜず、パス・フェイル判定を高速に行う電位検査装置を提供する。
+    To provide a surface acoustic wave apparatus for compatibly improving out-band attenuation near a pass band and out-band attenuation more on the high frequency side out of the pass band, and a communication apparatus. 通過帯域近傍の帯域外減衰量と、通過帯域外のより高周波側における帯域外減衰量とを両立させて向上させることができる弾性表面波装置、及び通信装置を得る。
+    To provide a surface acoustic wave apparatus improving out-of-band attenuation near a pass band and out-of-band attenuation on a further high frequency side outside the pass band while balancing them with each other, and a communication apparatus. 通過帯域近傍の帯域外減衰量と、通過帯域外のより高周波側における帯域外減衰量とを両立させて向上させることができる弾性表面波装置、及び通信装置を得る。
+    To quickly pass out game balls supplied from a ball supply path to a ball pass-out part for every prescribed number unit and to miniaturize the entire device. 球供給路から供給される遊技球を所定数単位毎に迅速に球通出部に通出し得ると共に、装置全体の小型化を図る。
+    To relieve deviation of recording positions in a main scanning direction on the forward pass and backward pass to improve image quality in carrying out bydirectional printing with a multilevel printer. 多値プリンタにおいて双方向印刷を行う際に、往路と復路における主走査方向の記録位置のズレを緩和して、画質を向上させる。
+    When Pachinko balls 13 pass through the start winning sensors 26a to 26c, an electronic lottery is carried out. 各始動入賞センサ２６ａ〜２６ｃをパチンコ球１３が通過したときに電子抽選を行う。
+    a sickness which causes one to pass in and out of consciousness because of the difficulty of controlling one's body temperature in a hot environment 高温,多湿の場所で,体温の調節が困難となって意識障害を起こす病気
+    be [go, pass] out of one's mind 〈事が〉忘れられる.
+    go [pass] out of existence 滅びる, なくなる.
+    not allowing air to pass in or out 気体を通さないさま
+    pass out leaflets ビラを配る.
+    “Pass me the medicine," he wheezed (out). 「薬を取ってくれ」と彼はゼーゼー息をしながら言った.
+load https://ejje.weblio.jp/sentence/content/rating
+    (i) Has the credit rating agency made it known to all officers and employees that, in cases where a credit rating agency or a person in charge of rating has a “close relationship” with a rating stakeholder, acts of providing a rating or making a rating available for inspection are prohibited? ４．情報開示に関する態勢
+    But Tanaka's approval rating is still more than 60 percent. しかし，田中氏の支持率は依然として60％を上回っている。
+    Five stars is the highest score in the rating system. この格付けシステムでは5つ星が最高評価となります。
+    For example, when an unregistered credit rating agency which has a capital relationship with a credit rating agency, conducts credit rating activities, does the registered credit rating agency carry out inappropriate acts such as purporting that the credit rating activities were conducted under its own name? ５．監査に関する態勢
+    Last year, the audience rating was the lowest ever at less than 40 percent. 昨年は視聴率が40％を切り，過去最低だった。
+    More than 70% of our customers have given us a rating of "Very satisfied". お客様の70パーセント以上から「非常に満足している」との評価を頂いています。
+    Our rating is very high. 私たちの評価はとても高い。
+    Please use a copy of the self-rating form for yourself. 個別経験料率表はご自身の利用目的のみにご使用ください。
+    Rating Grades 評定段階
+    Select a category to view the rating levels カテゴリーを選択して規制レベルを表示する
+    Thank you for the good rating. We hope to see you again. 良い評価をいただきありがとうございました。またのご利用をお待ちしております。
+    The Hatoyama administration started off with an approval rating of over 70 percent. 鳩山政権は７割を超える支持率を得て始動した。
+    The are not well know in this country but has achieved good results and good rating abroad. 国内での知名度は低いものの、海外では十分な実績と評価がございます。
+    The broadcast received an average viewer rating of 57.3 percent in the Kanto area. その放送は関東地区で平均視聴率57.3％を獲得した。
+    The credit rating of this company is based on public information. この会社に対する格付けは勝手格付けによるものである。
+    The critics' rating of his book is high. 彼の本に対する批評家たちの評価は高い.
+    The opinion polls gave the president a high rating. 世論調査では大統領の支持率は高かった.
+    The personnel section adopted an overall rating system to evaluate her. 人事課は、彼女を評価するために、オーバーオールレイティング法を採った。
+    The rating firm made some minor changes in the grade table today. その格付け機関は今日格付表に細かな変更を加えた。
+    This is an exceptionally high rating for a late-night broadcast. これは深夜の放送としては異例の高視聴率だ。
+    This sign shows the day's UV rating. この看板は，その日の紫外線指数を表示しています。
+    a TV audience rating for a particular period of time 一定時間内のテレビの視聴率
+    a TV program with a low rating 視聴率の低いテレビ番組.
+    a high [low] credit rating 【経済】 高い[低い]信用格付け.
+    a machine called 'people meter' to measure the programme rating of television ピープルメーターという,テレビ視聴率の測定のための機械
+    a rating method based on rank or step, called {efficiency rating method} 評定法という,順位づけや段階づけによる評価の方法
+    a rating of films, called PG (Parental Guidance) ペアレンタルガイダンスという映画規定
+    a rating that shows how many people listen to a radio program ラジオのある番組が,人々にどの程度聞かれているかを示す率
+    a rating that shows how many people watch a TV program テレビのある番組が,人々にどの程度見られているかを示す率
+    a ratings code for rating films フィルムの特性表示コード
+    a scale for rating the level of sunburn protection in sunscreen products. 日焼け止め製品の日焼け防止の性能を評定するための尺度。
+    a television program rating テレビ番組が視聴される割合
+    a unit of sound called {noise rating number} 騒音に対する聴力保全基準の単位
+    a word to indicate a rating of 1 to 10 10分の1の割合を表す語
+    a work performance rating 勤務状態に対する評定
+    also called the abcd rating or the jewett staging system. 「abcd rating（abcd評価）」または「jewett staging system（jewett病期分類システム）」とも呼ばれる。
+    also called the abcd rating or the whitmore-jewett staging system. 「abcd rating（abcd評価）」、「whitmore-jewett staging system（whitmore-jewett病期分類システム）」とも呼ばれる。
+    an academic rating 学術的評価.
+    an audience rating for individuals' performances 個人を対象とする視聴率
+    an audience rating named an "all households-audience rating" 総世帯視聴率という,ある区域内の一定時間テレビを付けていた世帯の割合
+    an audience rating survey that regards a household as one unit 世帯を単位として調査した視聴率
+    an examination that is administered in order determine and then give a rating to the level of a skill 技能程度を格付けするための検査
+    in broadcasting, the ratio of audience rating to the number of television sets in use at a particular time 視聴率をセッツインユースで割った値
+    measure of the effectiveness of an advertisement called gross rating point グロスレーティングポイントという,広告への延べ注目率
+    of the rating of something, the condition of severity 採点の基準などがややきびしいこと
+    the act of investigating a person's credit rating 信用状態を調査すること
+    the action of secretly rating something 内々で評定をすること
+    the highest rating that can be given in assessing Japanese 'waka' poetry 和歌などの最高評点
+    the lead-free gasoline with a high octane rating オクタン価の高い無鉛ガソリン
+    to assign a mark or grade in rating something 物に優劣をつけること
+load https://ejje.weblio.jp/sentence/content/graduate
+    All girls school graduate 女子校出身
+    Graduate Labour Market Trends 学卒労働市場の動向
+    He continued his studies at graduate school. 彼は大学院で勉強を続けた。
+    I am a graduate of that major. 私はこの専攻の卒業生です。
+    I am currently enrolled in graduate school. 現在大学院に在籍しています。
+    I am enrolled in a graduate school. 私は大学院に在学しています。
+    I am going to graduate in the end of March. 私は3月末に卒業します。
+    I am going to take the entrance exam for graduate school. 私は大学院受験をします。
+    I cannot graduate together with you. 一緒に卒業出来ない。
+    I decided on my job for after I graduate. 私は卒業後の仕事を決めた。
+    I go to graduate school. 大学院に通う。
+    I graduate from university last year. 私は去年大学を卒業した。
+    I need 10 more credits in order to graduate. 卒業に10単位が不足している。
+    I want to graduate 私は卒業したい
+    I went on to graduate school. 私は大学院に進学しました。
+    I will graduate from high school. 僕は高校を卒業します
+    My older brother will graduate this year. 私の兄は今年卒業します。
+    Next spring I want to graduate. 来年の春は卒業したいなあ。
+    Now Mia is a college graduate. 今，ミアは大学を卒業した。
+    She is a college graduate. 彼女は大学を出ている。
+    Today I had a graduate school exam. 今日は大学院の試験だった。
+    When did you graduate from high school? いつ高校を卒業したの。
+    Which university did you graduate from? あなたの母校はどちらですか.
+    a bottle used for measuring, called graduate メートルグラスという計量瓶
+    a college graduate 大学卒業者
+    a graduate course 大学院課程.
+    a graduate in economics 経済学部の卒業生.
+    a graduate of [from] London University ロンドン大学の卒業生.
+    a graduate of the former military academy in Japan 旧陸軍大学の卒業生
+    a graduate of the same school 卒業した学校が同じである人
+    a graduate school for training people to be teachers 教員を養成する大学院
+    a graduate student 大学院(学)生.
+    a graduate 卒業生
+    a master's course of a graduate school 大学院の修士課程
+    a master's degree graduate 博士号取得者
+    a master's thesis for graduate school 大学院の修士論文
+    a non-degree graduate course of study 本科の上位に付設する課程
+    a person who is a college graduate 知識分子という立場の人
+    a person who is a graduate of a junior high school 知識青年という立場の人
+    a state of being a university graduate 大学を卒業していること
+    an educational institution that offers graduate degrees 大学院大学という教育機関
+    graduate studies 大学院での研究.
+    graduate studies 大学院研究科(目).
+    graduate with honors 優等で卒業する.
+    of school, a graduate of the same year 学校の同年の卒業生
+    students attending graduate school 院と名のつく教育機関の学生
+    students of graduate school 大学院の学生
+    the educational attainment level of college graduate 知識分子という立場
+    the educational attainment level of junior high school graduate 知識青年という立場
+    to graduate from a pre-elementary school for children 幼稚園や保育園を卒業する
+load https://ejje.weblio.jp/sentence/content/stranger
+    A hard worker will never know [is a stranger to] poverty. 稼ぐに追いつく貧乏なし.
+    Don't accept money from a stranger. 知らない人から金をもらうな.
+    Don't be too ready to trust a stranger. 人を見たら泥棒と思え.
+    Don't treat me as [like] a stranger [as if I were a stranger]. 私を他人扱いしないでくれ.
+    Don't trust a stranger 人を見たら泥棒と思え
+    Fact [Truth] is stranger than fiction. 事実は小説よりも奇なり.
+    Fact is stranger than fiction. 《諺》 事実は小説よりも奇なり.
+    Fact is stranger than fiction. 事実は小説よりも奇なり。
+    He is a complete stranger to me. あんな人は全然知らない.
+    He is a complete stranger to me. 彼は私のすべてを知らない人だ。
+    He is a total stranger to me. 彼とは一面識もない.
+    He is a total stranger to me. 彼は赤の他人だよ。
+    He is an utter stranger to me. 彼はわたしには全くの他人です。
+    He is no stranger to me. 彼は見ず知らずの人ではない。
+    He pretends that he's a stranger here. 彼はここではよそ者の振りをする。
+    He was an utter stranger. 彼はまったくの見知らぬ人だった。
+    He's a [no] stranger to me. 私は彼を知りません[知っている].
+    I am a complete stranger to him. 彼とは縁もゆかりもありません.
+    I am a stranger here. 僕はこの辺の地理に暗い.
+    I am a stranger here. 私はこのへんはよく知りません。
+    I am a stranger here. 私はこの土地のようすがわからない.
+    I am a stranger here. 私はこの辺の地理に暗い.
+    I am a stranger here. 私はこの辺は、よく知りません。
+    I am a stranger here. 私は当地は不案内です。
+    I am a total stranger here. 西も東もわからない.
+    I am still a stranger here. 私はこの土地にはまだ不慣れだ。
+    I'm a stranger here myself. 私もこの辺は始めてです。
+    I'm a stranger in these parts. 私はこの辺りに不案内だ。
+    I'm a stranger in this city [to that city]. この町[あの町]は不案内だ.
+    I'm quite a stranger around here. 私はこの土地は全く不案内です。
+    Never trust a stranger. 人を見たら泥棒と思え.
+    Never trust a stranger. 人を見たら泥棒と思え。
+    Poverty is a stranger to industry. 《諺》 稼ぐに追いつく貧乏なし.
+    She is a stranger to me. 私は彼女を知りません。
+    She is a total stranger to me. 彼女はあかの他人です。
+    Well, well, you're quite a stranger. これはこれは, お珍しい.
+    You are quite a stranger to me. すっかりお見限りですね.
+    You're quite a stranger.＝Hello stranger! まあずいぶん久しぶりですね.
+    a complete stranger 赤の他人.
+    a group of stranger men 見知らぬ男達
+    a perfect stranger 赤の他人.
+    a person who is a total stranger 全く知らない人
+    a stranger 見知らぬ人
+    an utter stranger 全く縁のない他人
+    an utter stranger 赤の他人.
+    make a stranger of… …をよそよそしく[冷たく]扱う.
+    person defined by personal relation (person who has no connection to oneself such as perfect stranger, third party, etc.) 自分以外の人
+    receive a contact from a stranger 変な人から連絡がくる
+    receive contacts from a stranger 変な人から連絡がくる
+    to introduce oneself to a stranger 初対面の人に自分を紹介する
+load https://ejje.weblio.jp/sentence/content/hence
+    A packing 5 is pressed by the slider 4 and hence closes a through hole 1B. パッキン５はスライダ４に押圧されて貫通孔1Bを塞ぐ。
+    And hence, he started liking shopping. そのような訳で、彼は買い物が好きになりました。
+    As a result, the arc length is increased, and hence the arc voltage is increased. その結果、アーク長が延伸され、従って、アーク電圧が増大される。
+    Excessive reliance on monetary policy an attempt to curb inflation could unnecessarily constrain credit and hence business. インフレを抑制しようとして金融政策に偏重すると、金融、したがって景気を必要以上に締め付けることになりかねない。
+    He was hence unable to agree. 従って彼は同意できなかった.
+    Hence (comes) its name. ここにその名のある所以がある.
+    Hence (comes) the name… よって…の名がある.
+    Hence 50 percent of the muscle can give way to fat. ゆえに、筋肉の５０パーセントが脂肪に取って代わられる可能性がある。
+    Hence a torque ripple near the zero-cross points is suppressed. よって、零クロス点近傍におけるトルクリップルが抑制される。
+    Hence inspection of soldering of the connection portion can be done easily. これにより、接続部分のはんだ付けの検査を容易に行うことができる。
+    Hence it follows that… ゆえに…ということになる.
+    Hence it would be advisable that we prepare against a “global recession.” それゆえ、我々は“世界的景気後退”に備えるべきでしょう。
+    Hence one can say that, of all political ideals, that of making people happy is the most dangerous. したがって、すべての政治的理想の中で、人々を幸せにさせるものがもっとも危険であると言うことができる。
+    Hence the detection efficiency of the alpha rays is made high and its stability also high. そのため、α線の検出効率がよく、安全性も高い。
+    Hence the plating layer is not peeled from the resin just below the plating layer. このため，めっき層とその直下の樹脂とが剥離することがない。
+    Hence the screen SC3 is scheduled between the screens SC2 and SC4. そこで、画面ＳＣ２と画面ＳＣ４との間に画面ＳＣ３をスケジュールする。
+    Hence the second ink supply tubes 42K, 42C, 42M and 42Y are united. このため、各第２インク供給チューブ４２Ｋ，４２Ｃ，４２Ｍ，４２Ｙは一体になっている。
+    Hence the standard deviation of a group of equal values should be 0. そのため、等しい値であるグループの標準偏差は0となるはずである。
+    Hence, I shall have to stay here. それゆえここにとどまらざるを得ないだろう。
+    Hence, a difference between points 15, and 21 is calculated as a difference value in this case. よってこの場合、点１５と２１の差分が差分値として算出される。
+    Hence, a transferring document has the part which comes on top of the other transferring document along the transfer direction. これにより送行書類は送行方向で重り合う部分が出来る。
+    Hence, a wiring board displaying a satisfactory solderability in mounting is manufactured. よって，実装時に良好な半田付け性を発揮する配線板が製造される。
+    Hence, absorption performance of the vibration-shock energy is enhanced than before. このため、従来よりも振動・衝撃エネルギーの吸収性能が高い。
+    Hence, an upright attitude of the roll penetration post 11 during traveling is maintained. もって走行中のロール貫入ポスト１１の直立姿勢を維持する。
+    Hence, charging of the battery BA becomes possible. したがって、バッテリＢＡの充電が可能になる。
+    Hence, it is made possible to cope with the lower load system and the upper suspending system. 下荷重式および上吊り式に対応可能となる。
+    Hence, labor and the cost can be reduced, when manufacturing the terminal fittings 13, 23. その結果、端子金具１３、２３の製造時の手間とコストが削減される。
+    Hence, leakage current, running through the ground from the housing A, is suppressed. これにより、筺体Ａから大地に流れる漏洩電流を抑制する。
+    Hence, loathed melancholy. 去れ、忌まわしき憂鬱よ。
+    Hence, no inventive step is present in the subject matter of the claim of Case 2 (Articles 52(1) and 56 EPC). それ故、事例２の主題は進歩性を有しない。
+    Hence, satisfactory communication can be obtained by this antenna device. よって、アンテナ装置として、良好な通信を行うことができる。
+    Hence, the audio player 1 is surely held in the right speaker part 20. 従って、オーディオプレーヤ１は右スピーカ部２０に確実に保持される。
+    Hence, the distribution wires from the electric source to the alarm 33 are not required. そのため、電源１０から報知器３３への配線が不要になる。
+    Hence, the electric component 21 can be mounted precisely on the tape carrier 1. その結果、精度よく電子部品２１を実装することができる。
+    Hence, the liquid chamber 1 with high sealability is obtained. これにより、密閉性の高い液室１を得ることができる。
+    Hence, the near-infrared light can be irradiated on the brazing part 10. よって、ろう付け部分１０には近赤外線を照射できる。
+    Hence, the receiver comprises the receiver unit and the plate member. これにより、受皿ユニットとプレート部材で受皿が構成されている。
+    Hence, the safety of the manipulator 1 is enhanced. よって、マニピュレータ１の安全性を高めることができる。
+    Hence, the ten eggs can be simultaneously washed instead of washing eggs one by one. したがって、卵を１つずつ洗うのでなく１０ヶ同時に洗える。
+    Hence, the total win points (ranks) can reflect the merits. 従って、勝ち点合計（＝順位）が実力を反映するようになる。
+    Hence, their industrial fields of application are the same. したがって、産業上の利用分野も同一となる。
+    Hence, there is a clear case for strengthening financial regulations. したがって、金融規制を強化することには理屈がある。
+    Hence, unnecessary operations in these three circuit units are stopped. 従って、これ等３つの回路部では不要な動作が停止する。
+    Hence, water in the ground does not enter the structure and funeral ashes are contained in the thermostat having the same temperature with the underground and hermetically sealed and hence, neither dew condensastion nor malodor generates. 土の水分が入らず、地下温度と同じ恒温槽に納骨して、密閉すると結露の発生なく、悪臭も発生しない。
+    It will be all the same a hundred years hence. 百年たてばみな同じだ
+    It will be all the same a hundred years hence. 百年後にはみな同じになる。
+    Since there is no through-hole the man-hours are duced, and hence achieving low inductance. スルーホールがないので工数が少なく、低インダクタンスとなる。
+    This decreases the height of the apparatus and hence its size. このため、装置の高さを抑えて、小型化することができる。
+    What will become of the world thirty years hence? 今から３０年後に世界はどうなるだろう？
+    five years hence 今から 5 年後に.
+load https://ejje.weblio.jp/sentence/content/concerning
+    (1) Information concerning services 業務の内容
+    1. Information concerning services 業務の状況
+    Concerning my staff reassignment 私の人事異動について
+    Concerning that, I also agree. それについては私も同感です。
+    I have no worries concerning him. 私は彼に関する懸念はない。
+    Information concerning patients 患者に関する情報
+    a book concerning a specific history 〜の歴史を書いたもの
+    a contract concerning business matters 商事に関する契約
+    a problem concerning Japan 日本に関する問題
+    a public act of law concerning marine affairs 海事に関する公法
+    a record written concerning daily affairs 毎日の出来事の記録
+    a study concerning nutritional intake called nutrition 栄養学という学問
+    a suit concerning mountains 山林に関する訴訟
+    a written regulation concerning taxation 賦税の定め書き
+    administration concerning forestry 林業に関する行政
+    affairs concerning business 商売での用事
+    an agreement concerning trade 通商に関する協定
+    an ancient code concerning samurai families 武家に関する故実
+    an aspect concerning an individual 個人に関する方面
+    an incident concerning or over money issues 金銭に関する事件
+    concerning Japan 日本に対する〜
+    concerning an instant decision 即決を要している
+    concerning something 〜につき
+    concerning the condition of the form 形式に関するさま
+    concerning this この位の量
+    documents concerning the August 30th conference 8月30日の会議に関する書類
+    documents concerning the United States of America 米国に関する文献
+    education concerning the Japanese language 国語に関する教育
+    matters concerning war 戦争に関する事柄
+    of a condition, concerning production of something 生産に関するさま
+    of a condition, concerning the emperor 天皇に関する〜
+    paperwork concerning a factory 工場に関する事務
+    problems concerning safety 安全に関する問題
+    rights concerning the use of water 水利用に関する権利
+    something concerning auditory sense, called 聴覚に関係するもの
+    standards concerning health 健康に関する基準
+    statistics concerning transportation 運輸に関する統計
+    techniques concerning photography 写真に関する技術
+    technology concerning war 戦争に関する技術
+    the authorized regulations concerning education 教育に関する法規
+    the details concerning some event 物事のくわしい事情
+    the field of study concerning medicinal drugs 薬に関係する学科
+    the government matters concerning military activities 軍事に関する政務
+    the law concerning mail services 郵便法という法律
+    the problems concerning fuel 燃料に関する問題
+    the regulations and rules concerning the Diet in Japan 議院の規則
+    the services concerning military matters 軍事に関する勤務
+    to judge between right and wrong concerning something 理非を裁く
+    ungrateful concerning gratitude 義理を欠いているさま
+    worry concerning the future 将来への心配
+load https://ejje.weblio.jp/sentence/content/fist
+    "Short tempered as ever." He said while dodging Reika's fist. 「相変わらず短気だな」麗華の拳をいなしながら言う。
+    A closed fist can indicate stress. 握った拳はストレスを示すこともある。
+    A doubled [clenched] fist expresses challenge. 握りしめたこぶしは挑戦を表わす.
+    A man's heart is about as large as his fist. 人の心臓はその人の握り拳とほぼ同じだ。
+    Give us your fist. 手を出したまえ, 握手しよう.
+    He banged his fist on the table. 彼はテーブルを拳骨でどんどんたたいた。
+    He banged on the table with his fist. 彼は、げんこつで、テーブルをドンと叩いた。
+    He banged the desk with his fist.＝He banged his fist on the desk. 彼はこぶしでドンと机をたたいた.
+    He clenched and unclenched his fist. 彼は手を握ったり開いたりした.
+    He fell in love with her at fist sight. 彼は一目で彼女を好きになってしまった。
+    He ground his fist into his opponent's face. 彼は相手の顔にぐりぐりとげんこつを押しつけた.
+    He knocked the man unconscious with one blow of his fist. 彼はその男をげんこつの一撃で気絶させた.
+    He let drive at me with his fist. 彼は私にげんこつをくらわせた.
+    He smashed the man with his fist. 彼はその男をげんこつで殴った.
+    He spoke angrily, thumping the table with his fist. 彼は怒ってこぶしでテーブルをたたきながら話をした.
+    He struck his fist on the table. 彼はげんこつでテーブルをたたいた。
+    He struck me in the face with his fist. 彼は拳で私の顔面を殴った。
+    He struck the table with his fist.＝He struck his fist on the table. 彼はこぶしでテーブルをドンとたたいた.
+    I heard someone banging on the door with his fist. だれかがドアをこぶしでドンドンたたいているのが聞こえた.
+    I hit him with my fist as punishment. 私は彼に鉄拳制裁を加えてやった.
+    I hurried to the station so as to be in time for the fist train. 私は一番列車に間に合うように駅へ急いだ。
+    I make a fist. 私は拳を握る。
+    Money is coming in hand over fist. お金がじゃんじゃん入ってくる.
+    She banged the table with her fist. 彼女は拳でテーブルをドンと叩いた。
+    She makes him eat her fist. 彼女は彼にパンチを食らわせる。
+    She raised her fist as if to hit me. 私に殴ろうとするかのように彼女はこぶしを上げた。
+    She's making money hand over fist. 彼女はがっぽり稼いでいるよ。
+    She's making money hand over fist. 彼女はどんどんお金をもうけている。
+    The speaker banged the table with his fist. 演説者はこぶしでテーブルをどんとたたいた。
+    The stockholders are making money hand over fist. 株主たちはもうけまくっています。
+    a clenched fist in the game of paper, stone and scissors じゃんけんのとき,手を握って出すもの
+    a fist にぎりこぶし
+    a fist‐swinging melee 殴り合いの乱闘.
+    a size as big as one's fist 拳位の大きさ
+    a snowball that is packed into a fist-size ball 雪を握りかためて丸くしたもの
+    an action of striking with a fist げんこつで殴って制裁すること
+    an iron fist 鉄拳
+    an offensive weapon worn on one's fist, called an {American sack} メリケンサックという,拳に付ける凶器
+    clench one's fingers [fist] こぶしを固める.
+    double one's fist こぶしを固める.
+    fist law 強い者勝ち; 鉄拳制裁.
+    make money hand over fist どんどん金をもうける.
+    one fist 一つの握り拳
+    plant one's fist in a person's belly 人の腹にこぶしを打ち込む.
+    pound the door with one's fist＝pound one's fist on the door こぶしでドアを続けざまにたたく.
+    shake [clench] one's fist (angrily) (怒って)こぶしを振る[固める].
+    the act of hitting something or someone with one's fist 拳骨で殴ること
+    the outside of a fist 手の甲という,手の部分
+    to clench one's fist in anger 残念がって自分の手をにぎる
+    to hit with a fist 拳で一打ちする
+load https://ejje.weblio.jp/sentence/content/feature
+    CELL PHONE FEATURE セルフォン機能
+    Her eyes are her best feature. 彼女は目がいちばん美しい.
+    I'd make a great feature. 私は偉大な将来にします。
+    The Autorun feature is disabled. オートラン機能は無効になっている
+    The difference between smart phones and feature phones. スマートフォンとガラケーの違い
+    This is a valuable feature at all times. これは常に価値のある特徴だ。
+    a blameworthy feature 非難すべき点
+    a desirable feature of one's personality 性格上の長所
+    a feature of the earth's surface 地表面の形状
+    a feature of the terrain, called longitudinal valley 縦谷という地形
+    a geographical feature called a bay 湾という地形
+    a geographical feature called a lake basin 湖盆という地形
+    a geographical feature called a marine terrace 海岸段丘という地形
+    a geographical feature called a massive volcano 塊状火山という地形
+    a geographical feature called a river bank 地形としての河堤
+    a geographical feature called a river sandbank 川州という地形
+    a geographical feature called a sea cliff 海食崖という地形
+    a geographical feature called a submarine canyon 海底谷という地形
+    a geographical feature called a terrace 段丘という地形
+    a geographical feature called a transverse valley 横谷という地形
+    a geographical feature called a valley 谷という地形
+    a geographical feature called alluvium 沖積統という地形
+    a geographical feature called an abrasion platform 海食台地という地形
+    a geographical feature called an abrasion shelf 海食棚という地形
+    a geographical feature called an earth embankment 地堤という地形
+    a geographical feature called an escarpment 断層崖という地形
+    a geographical feature called cay 州崎という地形
+    a geographical feature called island 島という地形
+    a geographical feature called sand hill 砂丘という地形
+    a geographical feature called sandy beach 洲浜という地形
+    a geographical feature called {a hooked sandbank} 砂鉤という地形
+    a geographical feature named a trough lake 地溝湖という地形
+    a geographical feature named lake 湖という地形
+    a geographical feature of the seabed called a sea valley 海谷という海底地形
+    a geographical feature, called delta 三角州という地形
+    a geographical feature, called liman 溺れ谷という地形
+    a geographical feature, called monadnock 残丘という地形
+    a man-made geographical feature known as a {dammed lake} 堰塞湖という地形
+    a salient feature 特徴.
+    a significant feature of our time 現代の著しい特徴.
+    a topographical feature called delta 河口デルタという地形
+    a topographical feature called eroded valley 浸食谷という地形
+    add a new feature 新しい機能を加える
+    an architectural feature called {monitor roof} 越し屋根という屋根
+    enable the automatic tear-off feature 自動切り離し機能を有効にする
+    one's most attractive feature 最も魅力的な箇所
+    the auto tracking feature オートトラッキング機能
+    the feature's of an infant 幼い時の顔つき
+    the online help feature オンラインヘルプ機能
+    the topographical feature of hilly ground 山の中にある土地
+load https://ejje.weblio.jp/sentence/content/climate
+    Canada has a cold climate. カナダの気候は寒い。
+    Climate Change 気候変動
+    Climate change 気候変動対策
+    I really enjoy the climate. 気候は快適です。
+    Nice climate 気候がいい
+    The climate accounts [is responsible] for it. それは気候のためだ.
+    The climate here is nice throughout the year. ここは年間を通して気候が良い。
+    The climate here is warm. こちらの気候は暖かいです。
+    The climate there is always warm. そこはいつも温かい気候です。
+    This is a terrible climate. ひどい天候です。
+    Warm climate 気候が暖かい
+    a climate called a continental climate 大陸性気候という気候
+    a climate called a marine climate 海洋気候という気候型
+    a climate called a temperate humid climate 温帯湿潤気候という型の気候
+    a climate called a temperate monsoon climate 温帯季節風気候という型の気候
+    a climate called an {oceanic climate} 海洋性気候という気候
+    a climate called savanna climate サバンナという気候
+    a climate called steppe climate ステップ気候という気候
+    a climate congenial to one's health 健康に適した風土.
+    a climate in the arctic region called the tundra climate ツンドラ気候という寒帯気候
+    a climate of a small area 狭い地域の気候
+    a climate of opinion 世論.
+    a climate 気候
+    a cold climate 寒冷な気候
+    a country whose climate is cold 寒さのきびしい国
+    a genial climate 温和な風土.
+    a pleasant breeze [climate] 快適なそよ風[気候].
+    a temperate region [climate] 温暖な地域[気候].
+    a tropical climate 熱帯性気候.
+    a type of climate called a coastal climate 海岸気候という気候型
+    a type of climate, called Mediterranean climate 地中海性気候という,安定した温帯気候
+    a warm climate [country] 温暖な気候[国].
+    a year-round spring climate 常に春であること
+    an arid climate 乾燥した地方.
+    an inclement climate 荒れ模様の気候.
+    an intellectual climate 知的風土.
+    an invigorating climate さわやかな気候.
+    an unusual climate in a city 都市特有の気候
+    drought linked to climate change 気候変動に関わる干ばつ
+    fruits produced in the torrid climate zone 熱帯産の果物
+    of a climate, the condition of being hot 気候が暑そうなさま
+    the chilly climate of autumn 秋のひややかな気候
+    the climate of an area その土地の気候
+    the climate of the temperate zones 温帯地方の気候
+    the climate of the torrid zone 熱帯地方の気候
+    the climate seen in central parts of continents, called dry climate 降水量の極めて少ない気候
+    the current economic climate 現在の経済情勢.
+    the degree to which a climate is warm 気候が暖かい程度
+    the science that deals with climate, called climatology 気候学という学問
+    warm climate 暖かい気候
+load https://ejje.weblio.jp/sentence/content/due
+    Deleted due to censoring 検閲による削除
+    Due to an event イベントがあるため
+    Due to money issues お金の問題から
+    Due to that そのことによって
+    Due to the above reasons 以上の理由により
+    Due to the experience 経験に負う
+    Due to this このことによって
+    He is due to retire this year. 彼は今年で定年だ.
+    Hospitalization due to hepatitis 肝炎による入院
+    Postage due. 郵税不足. 【表示】
+    Returned due to absence ご不在のため持ち戻り
+    Ten yen due 《on this letter》. 郵税 10 円不足. 【表示】
+    The train is due. 列車はもう着く刻限だ.
+    There was an outage due to thunder. 雷で停電した
+    a direction of 30 northward of due east called Tiger 寅という方角
+    a shadow that alternately appears and disappears, due to a flashing light ひらめく影
+    according to the fire services act；due to fire laws 消防法により
+    after [upon] due consideration 十分考えたうえで.
+    being dark due to depth 奥深く暗い
+    being farsighted due to old age 老眼であるさま
+    canceled due to rain 雨天中止
+    damage due to salt 塩による被害
+    due [proper] proportion 適当な釣り合い, 調和.
+    due date of my next period 生理予定日
+    due east 真東に[へ].
+    due north 真北に.
+    due south 真南に.
+    due to a business trip メール全文 出張のため
+    due to company policy 会社の方針により
+    due to the above reasons 上記の理由により
+    due west 真西に.
+    fall [come] due 〈手形などが〉満期となる.
+    fire which started due to natural causes 自然に起こる火災
+    go due south 真南に行く.
+    go through due formalities 正式の手続きをとる.
+    in due course 順を追って.
+    in due form 正式に, 型どおりに.
+    in due form 正式に.
+    new work due to design changes 設変により新作
+    of a person, to be exhausted due to sufferings 苦しみ疲れる
+    postage due [free] 郵税不足[無料].
+    the amount due to him 彼に支払うべき金額.
+    the balance due [in hand] 差引不足[残余]額.
+    the condition of being trapped due to action taken according to a plan はかりごとの中
+    the direction of due east 真東という方角
+    the direction of due west 正確に西の方角
+    the due date (手形の)支払期日.
+    to become pessimistic due to boredom 倦きて厭になる
+    to become weaker due to diminishing physical strength or stamina 勢いが衰える
+    to collapse due to having been cut through 切れてくずれる
+load https://ejje.weblio.jp/sentence/content/entire
+    I want to renovate this entire house. 私はこの家を全面改装したい。
+    That medicine is administered for the entire body. その薬剤は全身に投与される。
+    The entire town was under water. 町全体が水没した。
+    a cosmetic treatment of the entire body 化粧に用いる品物
+    a person's entire life 人間の一生涯
+    an entire army 軍隊の全員
+    an entire association 結社全体
+    an entire castle 城全体
+    an entire city その町全体
+    an entire company ある会社全体
+    an entire company 会社全体
+    an entire field 広がった野原の全体
+    an entire hill or mountain ある山の全体
+    an entire house 全ての家
+    an entire house 家の中全体
+    an entire page まるまる1ページ.
+    an entire piece of music ある曲の全体
+    an entire piece of paper or cloth 紙や布の全面
+    an entire prefecture 県の全体
+    an entire region その地域一帯
+    an entire school 一つの学校全体
+    an entire set of collected works 丸本
+    an entire shrine 神社全体
+    an entire store ある店の全体
+    an entire theater troupe 芸人一座の仲間
+    entrain the entire regiment 全部隊を列車に乗せる
+    for something to be spread over a person's entire face 顔じゅうに
+    movement of entire body (board vehicle or means of transportation) 乗り物に乗り込む
+    of a person, the entire body からだの全体
+    of an entire surface, to be covered 一面に覆いが掛かる
+    of something, the entire form 全体の姿
+    of the entire members of an organization, to resign 全員が辞職する
+    one entire country that is an island 一つの島国全体
+    physical activity (movement of entire body) 体の動き
+    the entire amount 全部の金額
+    the entire circumstances of something 物事の全体の様子
+    the entire day [afternoon] まる 1 日[午後ずっと].
+    the entire face of a person or animal 顔全体
+    the entire group of a group of individuals 党の全体
+    the entire length of a long road 遠いみちのり
+    the entire membership of an organization 組という組織の全員
+    the entire mountain ある一つの山全体
+    the entire office ある署の全体
+    the entire quantity 全体の容量
+    the entire state of a matter 全体のありさま
+    the entire state or province ある州全体
+    the entire surface of an object 物の表面全体
+    the entire universe 仏教において,全宇宙
+    the entire world 広い世間
+    to read the entire sutra 経文の全文を読む
+load https://ejje.weblio.jp/sentence/content/in+the+long+run
+    A diligent man will succeed in the long run. 勤勉な人は最後には成功するものである。
+    Ability wins in the long run. 結局は腕のある者が勝つ
+    Democracy will be victorious in the long run. けっきょく、民主主義が勝利を得るだろう。
+    Honesty pays in the long run. 正直は結局損にならない。
+    Honesty pays in the long run. 長い目で見れば、正直は報われる。
+    Honesty pays in the long run. 長い目で見れば、正直は引き合う。
+    Honesty will be rewarded in the long run. 正直にしていればついには報いられる.
+    Honesty will pay in the long run. 正直は結局そんにはならない。
+    Honesty will pay in the long run. 正直は結局割に合うものだ。
+    Honesty will pay in the long run. 正直は結局報われるものである。
+    Honesty will pay in the long run. 正直は結局得をすることになろう。
+    Honesty will pay in the long run. 結局は誠実さは報いられる。
+    I believe the honest will win in the long run. 正直者が最後には勝てると私は信じている。
+    I believe the honest will win in the long run. 正直者が最後には勝利を得ると信じている。
+    I believe the honest will win in the long run. 私は最後には正直者が勝利を得ると信じている。
+    I can assure you that honesty pays in the long run. 大丈夫、誠実でいれば最後には報われるよ。
+    I trust that, in the long run, I will not be a loser. 私は結局、損はしないだろうと思う。
+    If you take the long view [In the long run you will find that] your efforts will not have been wasted. 長い目で見れば君の努力は無意味でないだろう.
+    In the long run, prices will rise. 結局のところ、物価は上がるものだ。
+    It is higher in price, but it will last longer―but it will be cheaper in the long run. 値段は高くともこの方が徳用です
+    It pays in the long run to buy goods of high quality. 結局は質の良い物を買う方が得をする。
+    It pays in the long run to buy goods of high quality. 長い目で見ると良い品物を買った方が得だ。
+    It pays in the long run to buy goods of high quality. 高級な品物を買う事は、結局は損にならない。
+    It will be cheaper in the long run to use this material. この材料を使う方が結局は安くつくよ.
+    It works out [is] cheaper in the long run. 長い眼で見れば, そのほうが安上がりです.
+    It'll be cheaper in the long run to use real leather. 本物の皮を使う方が結局は安くつくだろう。
+    Quality goods are worth it in the long run. 上質の物を買うと結局損はない。
+    Real ability asserts itself in the long run. 長い内には実力が顕われる
+    Real ability is the only thing that will wash in the final analysis―in the long run―in the end. 究極のところ全く実力の世の中だ
+    Real ability wins in the end―in the long run. とてもかくても実力が勝つ
+    Real ability wins in the end―in the long run. 究竟実力が勝つ
+    Real ability wins in the long run どうしても実力が勝つ
+    Real ability wins in the long run. しまいには実力が勝つ
+    Real ability wins in the long run. 結句実力が勝つ
+    Real ability wins in the long run. 結局実力が勝つ
+    That cost me a lot in the long run. その買い物は結局高くついた。
+    That plan will probably fail in the long run. その計画は結局おそらく失敗するだろう。
+    The railless train had run in this town for a long time. その無軌道電車は長い期間この街で走っていた。
+    The third issue is to secure employment opportunities in the long run. 第三に、長期的な雇用機会を確保することです。
+    This computer will prove costly in the long run. このコンピューターは、長い目で見れば高くつく。
+    This experience will do you good in the long run. この経験は長い目で見れば、あなたのためになりますよ。
+    This is cheaper in the long run. 長い目で見ればこっちのほうが安あがりだ.
+    War is, in the long run, a question of resources. 戦争はつまり財源の問題だ
+    We will become happy in the long run. 私たちは結局幸福になるでしょう。
+    You will succeed in the long run by studying. 勉強する事によって結局は成功しますよ。
+    Your effort will be rewarded in the long run. 君の努力はいずれ報われるだろう。
+    Your efforts will be rewarded in the long run. 君の努力はいずれは報われることだろう。
+    in the long run we will all be dead 結局、私たちは皆、死ぬだろう
+    in the long run we will win 長い目で見れば、私達は勝つ
+    she will succeed in the long run 彼女は結局成功するであろう
+load https://ejje.weblio.jp/sentence/content/bore
+    Bore roughly first, and finish the hole by reaming. 最初に取りあえず穴をあけて、リーマ加工で仕上げをする。
+    He bore a grudge against me. 彼は私に恨みを抱いた。
+    He bore himself well [with dignity]. 彼はりっぱにふるまった[威厳のある態度をとり続けた].
+    He bore himself well. 彼はりっぱに振る舞った。
+    He bore his teeth at me. 彼は私に牙をむいた。
+    He bore up under [against] adversity. 彼は逆境のもとでもがんばった.
+    He's a crashing bore. 彼は退屈きわまりない男だ.
+    Her efforts bore fruit. 彼女の努力がみのった。
+    Her efforts bore fruit. 彼女の努力が実を結んだ。
+    His efforts bore fruit. 彼の努力が実った。
+    His efforts bore fruit. 彼の努力は報いられた.
+    His efforts bore no fruit. 彼の努力もむなしかった.
+    His hard work bore fruit. 彼の懸命の努力が実を結んだ。
+    His research bore fruit in the end. 彼の研究はついに実を結んだ。
+    I bore this trial. 私はこの試練に耐えた。
+    I think that I will probably bore you. 私はたぶんあなたを退屈させてしまうと思う。
+    I will bore you. 私はあなたを退屈にさせる。
+    It will not bore you. それはあなたを退屈させません。
+    Our efforts finally bore fruit. やっと我々の努力が実を結んだ.
+    Pear trees bore well this year. 今年はナシがよく生った.
+    She bore a secret love for him. 彼女は彼にひそかに思いを寄せていた.
+    She bore good news (to them). 彼女は(彼らに)吉報をもたらした.
+    She bore her misfortunes with a brave spirit. 彼女は逞しく逆境に耐えた。
+    She bore her sorrow well. 彼女はよく悲しみに耐えた。
+    She bore herself gracefully. 彼女は、しとやかに振る舞った。
+    She bore the pain bravely. 彼女はその痛みを立派に耐えた。
+    She bore the pain well. 彼女はその痛みをよくこらえた.
+    She bore three children. 彼女は 3 人の子供を産んだ.
+    She was a crashing bore. なんともはや実に退屈な女だった.
+    She's a crashing bore. 彼女は恐ろしく退屈な人だ.
+    That movie was really a bore. あの映画はまったく退屈だった.
+    The apple trees bore well this year. 今年はリンゴの生りがよかった.
+    The bridge bore up under the strain. 橋はその重圧に耐えた.
+    The demonstrators bore a banner aloft. デモ参加者たちは横断幕を高く掲げていた.
+    The land bore due south of the ship. 陸地は船の真南に位置していた.
+    The prisoner of war bore himself with great dignity. その捕虜には威厳があった。
+    The ship bore north. 船は北に向かった[進路を向けた].
+    The tomatoes that I am growing have finally bore fruit. 私が育てていたトマトがやっと実をつけた。
+    These schemes bore fruit. これらの計画は実を結んだ.
+    They always bore arms with them. 彼らはいつも武器を持っていた。
+    a dreadful bore ひどく退屈な人.
+    a perishing bore 死ぬほど退屈な人[もの].
+    a tool used to bore holes, called {fillister plane} 刳り鉋という,穴を刳る道具
+    an awful bore ひどく退屈な人.
+    bore a board 板に穴をあける.
+    bore a hole in a plank 板に穴をあける.
+    bore a well 井戸を掘る.
+    bore for water 水を目当てに試掘する.
+    bore one's way through a crowd 群衆の中を押し分けていく.
+    sink [bore] a well 井戸を掘る.
+load https://ejje.weblio.jp/sentence/content/bare
+    He was bare to the waist. 彼は上半身裸だった。
+    She showed up bare-legged. 彼女は素足で現れた。
+    She transplanted the bare-root seedlings. 彼女は裸根の苗木を移植した。
+    The bare sight of him thrilled me. 私は彼を見ただけでぞくぞくした.
+    The hill is bare of trees. その山には木がない。
+    The room is almost bare of furniture. その部屋にはほとんど家具類がない.
+    The room was bare of furniture. 部屋には家具がない。
+    The trees are (quite) bare of leaves. 木々はすっかり落葉している.
+    The trees are already bare. 木々はすでに葉を落としている。
+    The trees were bare of leaves. 木々はすべて葉を落としていた。
+    The trees will soon be bare. 木はまもなく葉が落ちるだろう。
+    Their secret was laid bare. 彼らの秘密が暴露された。
+    We become bare. 私たちは丸裸になる。
+    Winter stripped all the trees bare. 冬が来て木の葉がすっかり落ちた.
+    a bare cupboard からの戸棚.
+    a bare fact ありのままの事実.
+    a bare floor (敷物のない)裸床.
+    a bare floor (敷物の敷いてない)むきだしの床.
+    a bare foot はきものをはいていない足
+    a bare hillside 山肌を見せている山腹.
+    a bare majority かろうじての過半数.
+    a bare wall (額などかかっていない)裸の壁.
+    a person's bare thigh 何も身につけていない股
+    a remote [bare] possibility 万が一のこと.
+    a shin which is bare むきだしにした脛
+    a type of bird, called bare-faced shag チシマウガラスという鳥
+    an acrobatic feat that involves walking with bare feet on the edge of a sword, called 'hawatari' 刃渡りという軽業
+    bare branches 葉の落ちた枝.
+    bare feet はだし.
+    bare feet 履物をはいていない足
+    bare feet 裸足
+    bare one's head 脱帽する.
+    bare one's heart [soul] 意中を明かす.
+    bare rocks on the face of a mountain 山肌にむき出しになった岩石
+    being bare 覆うものがなく,裸であるさま
+    escape with one's bare life 命からがら逃げ出す.
+    lay one's breast bare 胸をはだける.
+    lay one's feelings [heart] bare 感情[心]をむきだしにする.
+    lay one's heart bare 心の中を打ち明けて話す.
+    lay one's plans bare 計画を漏らす.
+    the act of walking in bare feet 何もはかずに歩いていくこと
+    the bare bones of the matter 問題の要点.
+    the bare necessities of life なくてはならない生活必需品.
+    the condition of being bare むきだしになっているさま
+    the condition of being bare 覆うものがなく,裸のままであること
+    to bare the teeth 歯や牙を剥く
+    to have bare hands 素手であること
+    trees bare of leaves 葉の落ちた木.
+    with (one's) bare hands 素手で.
+    with bare head 無帽で.
+load https://ejje.weblio.jp/sentence/content/hive
+    1. (Fence method): Two kinds of fences are attached to a frame box to prevent the vespid from approaching the hive gate by flying or walking. １（柵方式）、 スズメバチがミツバチの巣門に飛んでも歩いても近づけないように、２種類の柵を枠箱の内側に装着する。
+    3. (Electric shock method): The device in which two wires or foils are energized so that the vespid may get the electric shock when touching the wires or foils is installed in the hive gate to prevent the vespid in every kind from approaching the hive gate. ３（感電方式）、 触れたら感電するように２本の針金か箔に電圧を掛けた装置を巣門に設置することで、どの種のスズメバチも巣門に近づけないようにする。
+    APICULTURE HIVE EQUIPPED WITH TRANSPARENT LID 透明蓋を具備した養蜂巣箱
+    All this time the dressing-room was a hive of excitement. この間ずっと楽屋は興奮のるつぼだった。
+    BEAN STALK BEE HIVE マメコバチの蜂巣
+    Bees communicate the location of food by carrying odor samples back to the hive. ミツバチは、においのサンプルを巣に持ち帰ることによって食糧のありかを伝える。
+    COMB FOUNDATION FOR HONEYBEE MADE OF PAPER, COMB MADE OF PAPER AND BEE HIVE MADE OF PAPER ミツバチ用紙製巣礎、紙製巣盤及び紙製巣箱
+    FITTING TOOL FOR BEE COMB FRAME, AND METHOD FOR PRODUCING SMALL BEE COMB FRAME FOR HIVE OF POLLINATING BEE USING THE SAME ミツバチ巣脾枠装具およびこれを用いた受粉ミツバチ巣箱用小型巣脾枠の製造法
+    HIVE FOR POLLINATION BEE 受粉用の蜂の巣箱
+    HIVE GATE STRUCTURE IN BEEHIVE, BEE HIVE HAVING THE SAME, AND COMPONENT OF HIVE GATE-OPENING AND CLOSING TOOL FOR BEEHIVE 養蜂箱における巣門構造及びそれを備えた養蜂箱、養蜂箱用の巣門開閉具部品
+    He falls back from the more perfectly to the less perfectly developed instinct—from the hive-bee to the humble bee, which uses its own cocoon as a comb, and to classes of bees of intermediate skill, endeavouring to show how the passage might be gradually made from the lowest to the highest. 彼はより完成された本能からあまり完成されていない本能へ、ミツバチから自分たちの繭を巣穴として使うマルハナバチへ、中間的な技能をもつハチの仲間へと後戻りし、もっとも未発達のものからもっとも発達したものへと段階的にどのように推移していったかを示そうと努めるのです。
+    He passes from the humble bee with its rude cells, through the Melipona with its more artistic cells, to the hive-bee with its astonishing architecture. 彼は粗野な巣穴を作るマルハナバチから、もっと芸術的な巣穴を作るオオハリナシミツバチ属を介して、驚くべき建築物を作るミツバチへと移っていきます。
+    I want to remove that hive. その蜂の巣を取り除きたい。
+    I want to remove the bee hive because it's dangerous. 危険なので蜂の巣を除去したい。
+    It is interesting to study the internal economy of a bee-hive. 蜂の巣の内部の組織を研究すると面白い
+    On a beehive 11 having a hive gate 22 on an end wall 12b of a cage body 12, a closing plate 24 for opening and closing the hive gate 22 is turnably set at the end wall 12b of the cage body 12. 箱本体１２の端壁１２ｂに巣門２２を設けた蜂の巣箱１１において、箱本体１２の端壁１２ｂには巣門２２を開閉するための閉鎖板２４を回動可能に設ける。
+    One side surface of a hive body 1 is formed as a door 2 with a glass window, whereby the internal part can be observed, and a cassette 5 for collecting honey is replaced to pick only a honey storing part of a beehive board. 巣箱本体１の一側面をガラス窓付き扉２にすることで、内部を観察することが出来、採蜜用カセット５を差し替えることで、巣盤の貯蜜部分のみを切り出すことを可能にした。
+    So also as regards the instinct of the hive-bee, already referred to. すでに述べたミツバチの本能に関しても、同様なのです。
+    Specifically, the utility pole 10 includes the utility poly body 21, a housing 31, two bands 41 mounted annularly on the utility poly body 21 to hold the housing 31, and the hive 51 which is placed in the housing 31 and in which honey bees live. 具体的には、電柱１０は、電柱本体２１と、筺体３１と、それぞれが電柱本体２１に環装されて筺体３１を保持する２本のバンド４１と、筺体３１内に載置されるミツバチが生息する巣箱５１と、を備える。
+    The nest box 1 for bumblebees with their hive 2 inside which comprises a ventilation wall panel 14 in the area above the hive 2, the ventilation panel having one or more ventilation hole(s) 13 in size(s) that enables ventilation but at the same time prevent bumblebees from passing through, and consists of the wall panels of the nest box 1. マルハナバチの巣２を備えた巣箱１を構成する壁面のうち、巣２よりも上方に位置する換気用壁面１４に、換気が可能であると共にマルハナバチの通過を規制する大きさの換気孔１３を設けた巣箱１によって達成される。
+    The office was a hive of activity. オフィスは活気に満ちていた.
+    Thirdly, the same honey as the odorant-incorporated honey is set close to access holes 2 and 2 of the bee hive 1. それから巣箱１の出入口２，２の近傍に添加した蜜を設置する。
+    This agent for controlling bee includes a carboxylic acid ester expressed by formula 1 and the invention provides the controlling method spraying the controlling agent to the bees or a bee hive. 式１ で示されるカルボン酸エステルを含有することを特徴とするハチ駆除剤及び、該ハチ駆除剤を、ハチ類あるいはハチ類の巣に噴霧することを特徴とするハチ類の駆除方法。
+    This artificial bean stalk bee hive is so designed that, one end of a long and narrow paper tube 1 is cut off slantly to provide the entrance for bean stalk bee, a paper stopper is then inserted into the paper tube 1 to an intermediate position so as to afford a partition, and a plenty of the resulting paper tubes 1 are bundled together. 細長い紙管の一端を斜めに切落して蜂の入口を形成し、この紙管の中間位置に紙栓を挿入して仕切を設けた紙管を多数束ねてマメコバチの人工蜂巣とする。
+    This utility pole 10 can be cited as an example of a fixture of installation for preventing bird damages and includes a hive 51 in which honey bees inhabit. 電柱１０は、鳥害を防止したい設備の一例として挙げられるものであり、ミツバチが生息する巣箱５１を備えている。
+    To make the interior of a hive visible through a transparent plate when a lid part of an apiculture hive is opened or closed. 養蜂巣箱の蓋部開閉時に巣箱の内部を透視可能にする。
+    To provide a Bombus hypocrita hive which can prevent the outflow of honey from a honey-supplying opening of a honey container during the transportation of the hive and can open the honey-supplying opening from the outside of an outer box. マルハナバチ入りの巣箱の輸送中に、蜜容器の給蜜口から糖蜜の流出を防止すると共に、給蜜口の開放を外箱の外から行うことができるようにしたこと。
+    To provide a beehive capable of suppressing rash act of a closing plate from the closed position of a hive gate and preventing bee in a cage body from the anxiety of escaping from the hive gate when transferring the beehive receiving bee in the cage body on a condition of the hive gate closed. 巣門の閉鎖状態で箱本体内に蜜蜂を収容して、蜂の巣箱を搬送する際に、閉鎖板が巣門の閉鎖位置から妄動するのを抑制することができて、箱本体内の蜜蜂が巣門から逃げ出すおそれを防止することができる蜂の巣箱を提供する。
+    To provide a device for preventing a vespid from coming near to a hive gate to protect a Japanese bee and a Western bee from attack of the vespid. ニホンミツバチ、セイヨウミツバチを、スズメバチの襲撃から護るためにスズメバチを巣門に近づけないようにする装置を提供する。
+    To provide a hive gate structure in a beehive, not easily opened even by vibration or shock caused when carrying the beehive in a door-closed state, and having a simple structure therefor; and to provide the beehive having the hive gate structure, and a component of a hive gate-opening and closing tool for the beehive. 扉を閉じた状態で運ぶ際に振動や衝撃を受けても扉が容易に開かず、また、そのための構造が簡単であるようにした、養蜂箱における巣門構造及びそれを備えた養蜂箱、養蜂箱用の巣門開閉具部品を提供する。
+    To provide a hive in a type of nest of boxes, enabling reasonable breeding and honey collection even in a case of Japanese honeybee of which the beekeeping is thought to be difficult compared to European honeybee. 西洋ミツバチと比較して養蜂しづらいと言われる日本ミツバチであっても、合理的に飼育及び採蜜することができる重箱式の巣箱を提供する。
+    When the closing plate 24 is positioned at a first position P1, the hive gate 22 is closed with the closing plate 24 and the locking element 30 is made to correspond to be connectable with the notch 28. 閉鎖板２４が第１の位置Ｐ１に配置されたときには、その閉鎖板２４により巣門２２が閉鎖されるとともに、ロック部材３０が切欠き２８と係合可能に対応するようにする。
+    When the closing plate 24 is positioned at a second position P2, the notch 28 is adjusted to the hive gate 22 so that the hive gate 22 is opened. 閉鎖板２４が第２の位置Ｐ２に配置されたときには、切欠き２８が巣門２２に合致して巣門２２が開放されるようにする。
+    With profound analytic and synthetic skill, Mr. Darwin investigates the cell-making instinct of the hive-bee. 深遠な分析的な技術や綜合的な技術をつかって、ダーウィン氏はミツバチの巣穴を作る本能を研究しました。
+    `But you've got a bee-hive 「でも、ハチの巣ならもう持ってるじゃないですか
+    `Yes, it's a very good bee-hive,' 「うん、それもすごくいいハチの巣なんだよ」
+    a bee-hive 蜂の巣
+    a hive of activity 忙しくしている所
+    a hive 蜂の巣
+    bees hive honey and pollen ミツバチは、蜂蜜と花粉を巣にたくわえる
+    bees were buzzing around the hive 蜂は巣のまわりでぶんぶんうなっていた
+    gather into a hive ハチの巣の中に集まる
+    move together in a hive or as if in a hive 蜂の巣で共に行動する、またはまるで蜂の巣でするかのように共に行動する
+    noticed the bee's momentary orienting pause before heading back to the hive ハチの巣に帰る前の、ミツバチの瞬間的な定位置での停止に気がついた
+    set fire to the hive ミツバチの巣に火をつける
+    smoke out bees from a hive 巣箱からハチをいぶし出す.
+    sterile bee specialized to collect food and maintain the hive 食物を集めて巣を維持するのが専門の不妊ミツバチ
+    to hive bees 蜂を巣に入れる
+load https://ejje.weblio.jp/sentence/content/oppose
+    Any person may oppose a reference under subsection (2). 何人も，(2)の付託に異議申立をすることができる。
+    Does anymore oppose the new plan? 誰か新計画に反対していますか。
+    Don't oppose him. 彼に逆らうな。
+    He is an ugly customer to cross [oppose]. 彼は逆らうと手ごわいよ.
+    He tends to get angry when people oppose him. 彼は人が自分に反対すると、腹を立てがちである。
+    I completely oppose nukes. 俺は絶対に原発に反対だね。
+    I have to oppose this idea. この考えには反対せざるをえない。
+    I intend to oppose his opinion. 私は彼の意見に反対するつもりです。
+    I oppose changes that may worsen the Fundamental Law of Education. 私は教育基本法の改悪に反対する
+    I oppose fall university admissions. 私は大学の秋入学に反対する。
+    I oppose it. いや、私は反対です。
+    I oppose nuclear power. 私は原子力発電に反対です。
+    I oppose that chaotic way of doing things. 私はその無秩序なやり方には反対です。
+    I oppose that especially now. 私は今こそそれに反対します。
+    I oppose that strongly. 私はそれに対して強く抗議する。
+    I oppose that suggestion. 私はその提案に反対です。
+    I oppose the raising of taxes. 私は税金の値上げに反対します。
+    I oppose those new regulations. 私はその新しい規則に反対です。
+    I oppose you buying that. 私はあなたがそれを買うのには反対です。
+    I want to oppose such a foolish plan. 私はそんなばかげた計画には反対したい。
+    I want to oppose this opinion. 私はこの意見に反論したい。
+    I'm firmly resolved to oppose the bill. 私は断固としてその法案に反対する(覚悟だ).
+    In Japan too, many people oppose [are against] the death penalty. 日本にも死刑廃止論者がたくさんいる.
+    It doesn't matter if I oppose it, nothing will change. 私が反対しても何も変わらないだろう。
+    It is courageous of him to oppose his boss. 上役に反対することは彼も勇気のある男だ。
+    It was heroic of them to oppose the enemy. 彼等が敵に向かうとはあっぱれであった。
+    Oppose force with force. 力に対するには力をもってせよ.
+    Ozawa expressed his determination to oppose a tax increase. 小沢氏は増税に反対する決意を表明した。
+    Some Canadians oppose bilingualism. 一部のカナダ人は二か国語併用に反対している。
+    The entire membership oppose(s) the plan. 全会員がその案に反対している.
+    The politician claimed to oppose the conclusion. その政治家はその主張に反対すると主張した。
+    They often oppose what I want to do. 彼らはしばしば私のやりたいことに反対する。
+    We oppose the government on this matter. この件については、私達は政府に反対だ。
+    We united to oppose his motion. 我々は結束して彼の動議に反対した.
+    Were I in your position, I would oppose that plan. もし私が君の立場なら、その計画に反対するだろう。
+    What determined you to oppose the project? 何でその計画に反対しようという気になったのですか.
+    Whoever may oppose my plan, I will carry it out. だれが私の計画に反対しようとも、私は実行する。
+    You have no right to oppose our plan. あなたには私達の計画に反対する権利はない。
+    You have no right to oppose our plan. 君には、私たちの計画に反対する権利はない。
+    You should oppose reason to [against] prejudice. 偏見には理性で立ち向かうべきだ.
+    of something, to oppose or obstruct a matter or an affair 物事にこだわる
+    oppose a motion [a dictator] 動議[独裁者]に反対する.
+    oppose art to science 芸術を科学と比べ合わせる.
+    oppose guerrilla resistance to the advance of the enemy 敵の前進にゲリラ抵抗を示す.
+    the systematic use of terror, threat, or violence to oppose the system of a foreign country, called international terrorism 外国の体制に反対して行われるテロ行為
+    to be able to oppose to a senior or a stronger person 目上の人や強者に反抗することができる
+    to meet or oppose firmly and not try to avoid 直接に物事に対する
+    to oppose a person きびしくせめる
+    to oppose or resist external pressure 外からの力に対し,はりあいさからうこと
+    to oppose something 反抗する
+load https://ejje.weblio.jp/sentence/content/neighboring
+    For the time being he is staying at a neighboring hotel. 彼は当分の間近くのホテルに泊まる。
+    He and I have neighboring seats. 私と彼とは隣り合わせの席です。
+    Neighboring countries fear that the nation might plan to remilitarize. 周辺国はその国が再武装を図るのではないかと恐れている。
+    Neighboring seats for three people, please. 3人は隣り合わせの席にお願いします。
+    Our school beat the school in the neighboring town at baseball. 我が校は隣り町の学校を野球で負かした.
+    She bought that book from a bookstore in the neighboring town. 彼女は隣町の本屋でその本を買いました。
+    She just happens to be working in the neighboring building. 彼女は偶然にも隣のビルで働いている。
+    That country broke off diplomatic relations with the neighboring countries. あの国は近隣諸国との外交関係を絶った。
+    The army made inroads into the neighboring country. その軍隊は隣国に侵入した。
+    The fire spread and licked the neighboring house. 火がめらめらと隣家に燃え移っていった。
+    The hotel rears high over the neighboring buildings. そのホテルは近辺のビルを見下ろすように高く立っている.
+    The king was perpetually looking for an opportunity to encroach on [invade] the neighboring country. その王は隣国を侵食しようとしてしきりにその機をうかがっていた.
+    The neighboring city of Kariya is planning to set up similar equipment in April. 隣接する刈(かり)谷(や)市は４月に同様の遊具の設置を計画している。
+    The neighboring countries never submitted to his terrorism. 近隣諸国は決して彼の恐怖政治に屈服しなかった。
+    The police charged him with leaking information to a neighboring country. 警察は彼を、隣国に情報を流したという罪に問った。
+    The shepherd is living in a house neighboring the sheepfold. 羊飼いは羊舎に隣接する家に住んでいる。
+    There is a big fireworks display in the neighboring town. 隣町で大きな花火大会があります。
+    They plan to encourage their neighboring cities to join the committee. 彼らは近隣都市にこの委員会に参加するよう働きかける予定だ。
+    This country was subject to a neighboring country. この国は隣国の支配下にあった。
+    Unlike other neighboring rocks, it has a bluish color. 周囲にある他の岩石と異なり，青みがかった色をしている。
+    We must promote commerce with neighboring countries. 我が国は近隣諸国との貿易を促進させねばならない。
+    We should always be on friendly terms with neighboring countries. 近隣諸国とは常に手を携えてゆくべきだ.
+    We should keep up friendly relations with neighboring countries. 私達は近隣諸国との友好関係を維持すべきである。
+    a neighboring country with which the country under consideration is on good terms 友好関係にある隣国
+    a neighboring country となりの国
+    a neighboring house ある家に近い家
+    a neighboring house となりの家
+    a neighboring nation 近くにある国
+    a neighboring place 近い土地
+    a neighboring room 隣りの部屋
+    a neighboring village となり村
+    a neighboring village 近くの村
+    a neighboring village 隣郷
+    a strip of land that connects the garden of a house to neighboring land その家の庭から別の所までずっと続いている土地
+    a treaty named {Japan-Soviet Neighboring Cooperation Treaty} 日ソ善隣協力条約という2国間条約
+    an area consisting of the Korean Peninsula and its neighboring islands 朝鮮半島およびその周辺の島からなる地域
+    deportation to the neighboring district as a punishment 律令制による,近国への流罪である刑罰
+    in go, a stone that is neighboring to another stone 碁で,或る石の一つ隣
+    neighboring countries 近隣諸国.
+    neighboring places 互いに接して並んでいる場所
+    neighboring rights 著作隣接権
+    the contents of a treaty named {Japan-Soviet Neighboring Cooperation Treaty} 日ソ善隣協力条約という2国間条約の内容
+    the neighboring house 隣の家
+    the neighboring houses on both sides of a house 右と左と両方の隣家
+    the neighboring small block in a town 町の中で,日頃つきあい関係のある小さな区域
+    the right pertaining to ownership of things lying on a borderline of two neighboring plots 互有権という,敷地の境界線上にあるものに対する権利
+    the right to set a boundary mark with the owner of the neighboring property 隣地の所有者と共同で境界標を設置できる権利
+    the vicinity and areas neighboring Kyoto 京都に近い国々
+    the vicinity neighboring an imperial palace 皇宮の付近の地域
+    to approach neighboring states in a friendly manner 近隣の国と交わりを結ぶ
+load https://ejje.weblio.jp/sentence/content/site
+    (6) Site Investigation （６）実地調査
+    Address of Web site: Web サイトのアドレス:
+    CONSTRUCTION SITE BLACKBOARD 工事黒板
+    Can you access this site? このサイトにアクセスできますか？
+    FREE SITE 無料サイト
+    I will go to the work site. 私は現場へ行きます。
+    Let's look at the site then. 当時のサイトを見よう
+    Mt. Fuji to Become World Heritage Site 富士山，世界遺産へ
+    OVERHANG SITE 張り出し敷地
+    On-site inspection 立ち入り検査
+    PUMP MACHINE SITE ポンプ機場
+    Please look at that site next time. そのサイトを今度見てください。
+    This is a memory a malicious copy-cat site. これは、悪質なコピーサイトです。
+    This is not a dump site. ここはゴミ捨て場ではありません。
+    This is the site of a castle. ここは城の跡です。
+    This site is difficult to see. このサイトは見辛い。
+    We want to visit the site. その場所に行ってみたい。
+    a building [construction] site 建築用地[現場].
+    a building site 建築敷地.
+    a bustling work site にぎやかな職場
+    a construction site 工事を行っている現場
+    a habitation site 住居址
+    a historic site 史跡.
+    a missile silo [site] ミサイル地下格納庫[基地].
+    a single site 1か所
+    a site of a religious service, called stone site 磯城という,岩石に囲まれた祭場
+    a site where a building once stood 建物のあった跡
+    a site where an ancient castle once stood 昔の城の跡
+    a site where pit dwellings are found 竪穴住居の遺跡
+    a site 敷地
+    ability to respond promptly at the work site 現場での迅速な対応力
+    an Internet site インターネットサイト
+    an official site 《of an organization》 公式サイト
+    an old site where there used to be a house 家のあった跡
+    an unofficial site 《for [devoted to] Les Misèrables》 非公式サイト
+    at the site of operation 手術の部位
+    business conducted on the immediate work site 現地での業務
+    comments from the site leader 現場リーダの声
+    improvement of the manufacturing site 製造現場の改善
+    location registered as a World Heritage Site 世界遺産に登録された遺跡
+    the people who work at the site 現場で働く人
+    the site of a castle 城のあるところ
+    the site of a feast 宴会の場所
+    the site of a past battle 船舶の所属地
+    the site of the crash 墜落現場
+    to log on to the site このサイトにログオンするために
+    trash burning site ゴミ焼却場
+    trash burning site ゴミ焼却所
+    trash disposal site ゴミ処分場
+    waste drop-off site 廃棄物置場
+load https://ejje.weblio.jp/sentence/content/historic
+    "Historic Description" 歴史的な説明
+    A historic site and a place of scenic beauty -史跡・名勝
+    A historic site/special historic site and a place of scenic beauty -史跡特別史跡・名勝
+    A national special historic site. 国の特別史跡。
+    Abe-dera Temple ruins (historic site) 安倍寺跡（史跡）
+    Designation as Historic Site 史跡指定
+    Famous and Historic Places 名所・旧跡
+    Historic Center of Prague プラハ歴史地区
+    Historic Center of Rome ローマ歴史地区
+    Historic City of Ayutthaya and Associated Historic Town 古都アユタヤと周辺の古都
+    Historic Sites 史跡
+    Historic site Odoi 史跡御土居
+    Historic site designated by the city. 市指定史跡。
+    Historic site designated by the national government 史跡（国指定）
+    Historic site of Kagero 蜻蛉の古跡
+    Historic site 史跡
+    Historic sites 史跡
+    It is a historic site designated by Nara Prefecture. 奈良県指定の史跡。
+    It is a national historic site. 国の史跡。
+    It is designated as a National Historic Site. 国指定史跡。
+    It was a historic battlefield. 古戦場。
+    National Historic Site -国史跡
+    National historic site 国の史跡
+    National historic site. 国の史跡。
+    Other nearby historic sites 周辺情報
+    Related Historic Sites 関係旧跡
+    Scenic and historic sites 名所・旧跡
+    Scenic sites and historic sites 名所・旧跡
+    Scenic sites, historic sites 名所・旧跡
+    The Historic Center of Rome ローマ歴史地区
+    They are national historic sites. 国の史跡。
+    a historic document 歴史的文書.
+    a historic event 史的の出来事
+    a historic event 歴史に残る出来事
+    a historic event 歴史上の出来事.
+    a historic event 歴史的事件
+    a historic personage 史的の人物
+    a historic personage 歴史に名高い人物
+    a historic site 史跡
+    a historic site 史跡.
+    famous historic remains 有名な遺跡
+    historic places 史跡, 旧跡.
+    historic times 歴史上の時代.
+    historic victories 歴史的な勝利
+    noted places of historic interest―classic ground 名所旧跡
+    to explore a historic scene 史蹟を踏査する
+    to explore a historic site 史蹟を踏査する
+    to visit noted places of historic associations 名所旧跡を探る
+    to visit places of historic interest 古跡を探る
+    within historic times 有史時代に
+load https://ejje.weblio.jp/sentence/content/improved
+    Are these samples the improved products? このサンプルは改良品ですか？
+    He has improved in skill. 彼は腕が上がった。
+    He has improved much in health. 彼は健康をだいぶ回復した.
+    He improved at English suddenly. 彼は英語が急に上達した。
+    He improved in swimming. 彼は水泳が上達した。
+    Her anemia was improved. 彼女の貧血が改善された。
+    Her grade has improved a lot. 彼女はとても成績が伸びました。
+    His English improved in no time. 彼の英語は一気に上達した。
+    His grades haven't improved. 彼の成績が改善されない。
+    His health is much improved. 彼の健康はだいぶ良くなった.
+    His mood improved. 彼の機嫌が良くなった。
+    His social status improved. 彼は地位が高くなった。
+    His swimming improved. 彼は水泳が上達した。
+    I am glad that I improved with English. 私は英語が上達して嬉しい。
+    I have improved in making sweets. 私はお菓子作りが上達した。
+    I improved in English a little bit. 私は少しは英語が上達した。
+    I improved on English a little. 私は英語が少し上達しました。
+    I really improved in English. 私は英語がとても上達した。
+    IMPROVED UNDERGARMENT 改良下着
+    IMPROVED UNDERWEAR 改良下着
+    IMPROVED VEHICLE 改良乗り物
+    It must be improved. 改善の要がある.
+    Living standards improved 生活レベルが向上した。
+    My English has improved quite a lot. 私は英語がかなり伸びた。
+    My English has slowly improved. 私の英語は少しずつ上達した。
+    Points to be improved 改善すべき点
+    She improved her technique. 彼女は技術が向上した。
+    That efficiency has widely been improved. その性能が大幅に改善された。
+    That improved a little. それは少し良くなった。
+    That is clearly being improved. それは明らかに改善されている。
+    That needs to be improved. それは改善される必要がある。
+    That problem was largely improved. その問題は大きく改善された。
+    That problem wasn't improved. その問題は改善されなかった。
+    That symptom improved a little. その症状は少し改善した。
+    That symptom improved somewhat. その症状は多少改善した。
+    The patient's condition has very much improved. 病人は大変よくなった.
+    The weather has improved [changed for the better]. 天気が持ち直した.
+    The weather has improved. 天気が回復した。
+    This can hardly be improved on [upon]. これは改良の余地がほとんどない.
+    This problem isn't improved. この問題は改善されていません。
+    This problem isn't improved. この問題は改善されません。
+    Those were improved already. それらは既に改善されました。
+    Was this function improved? この機能は改善されましたか？
+    What was improved in that? それの何が改良されたのですか？
+    What was improved in that? それの何が改良されましたか。
+    What was improved with that? それの何が改良されたのですか？
+    Your English has got much better [has improved a great deal]. 君はだいぶ英語が進歩した.
+    an improved race of horse 改良品種の馬.
+    improved 上達した
+    to be improved 改善される
+load https://ejje.weblio.jp/sentence/content/suggestion
+    (a) hypnotic suggestion 催眠暗示.
+    Do you mind my making a suggestion? 提案してもよろしいですか。
+    He made his suggestion very tactfully. 彼はとてもたくみに提案をした。
+    He speaks with just a suggestion [trace] of a Kansai accent. 心持ち関西なまりがある.
+    His suggestion is worth considering. 彼の提案は考慮する価値がある。
+    How do you feel about his suggestion? 彼の提案をどう思いますか。
+    I agree with your suggestion. 私はあなたの提案に賛同します。
+    I approve the suggestion. 私はその案に賛成だ。
+    I consented to your suggestion. あなたの提案は了解しました。
+    I have a suggestion in regards to that. 私はそれについて提案があります。
+    I have a suggestion. 提案があります。
+    I made a suggestion. 私は、提案しました。
+    I oppose that suggestion. 私はその提案に反対です。
+    I refuse the suggestion. 私はご提案は辞退させていただきます。
+    I will deal with it as per your suggestion. 私はあなたの提案の通りに対応します。
+    I will take that suggestion into consideration. その提案は考慮に入れましょう.
+    I'm all for his suggestion. 彼の提案に大賛成である.
+    I'm all for your suggestion. あなたの提案に大賛成です。
+    My friend put forward a good suggestion. 私の友人が名案を出した。
+    My suggestion didn't penetrate. 私の意見は通じなかった.
+    Please feel free to make suggestion. どうぞ遠慮なく提案して下さい。
+    Please let me make a suggestion. 私に提案させてください。
+    Please study my suggestion. 私の提案を検討してください。
+    She was tickled with this suggestion. 彼女はこの提案に大喜びした.
+    Thank you for your kind advice [suggestion, warning]. ご注意ありがとう.
+    That is a good suggestion. それはいい提案です。
+    That's a constructive suggestion! 建設的な提案だよ。
+    They hooted at his suggestion. 彼らは彼の提案をやじった。
+    This suggestion box is for all of the staff. この意見募集はすべての職員を対象としている。
+    We are happy about that suggestion. その提案は私たちにとって嬉しい。
+    We have just reviewed your suggestion. 私たちは丁度あなたの提案を検討したところだ。
+    We shall adopt that suggestion. 私たちはその案を取り入れる。
+    Well, I have a suggestion to make. ぼくには一つ提案があるのです。
+    Your suggestion amounts to an order. 君の提案は命令同然だ。
+    Your suggestion seems reasonable. あなたの提案は、ごもっともですよ。
+    a low-keyed suggestion 控えめな提案
+    a marvelous dinner [suggestion] すばらしいディナー[提案].
+    a plan or suggestion offered 計画
+    a ridiculous suggestion ばかげた提案.
+    a sensible suggestion 賢明な提案.
+    a suggestion to one's subconscious called post-hypnotic suggestion 後催眠暗示という,睡眠中に与える暗示
+    a useful suggestion or piece of advice 忠告のことば
+    an unexceptionable suggestion けっこうな提案.
+    blue with a suggestion of green 緑がかった青.
+    by suggestion 連想で.
+    make [offer] a suggestion 提案する.
+    offer a suggestion 提案する.
+    throw out a suggestion (それとなく)ほのめかす.
+    to be easily susceptible to suggestion 暗示などに掛かり過ぎる
+    wave a suggestion aside 提案をしりぞける.
+load https://ejje.weblio.jp/sentence/content/instrument
+    MUSIC INSTRUMENT 楽器
+    a Japanese musical instrument called 'atarigane' 擂り鉦という楽器
+    a Japanese musical instrument called koto 琴という楽器
+    a MIDI-enabled instrument MIDI 対応の楽器
+    a blunt instrument [weapon] 鈍器.
+    a brass instrument 金管楽器.
+    a bridge of a stringed musical instrument 弦楽器の駒
+    a delicate instrument 精密な器具.
+    a handle of an instrument 器物の取っ手
+    a measuring instrument called hand dynamometer 握力計という計器
+    a measuring instrument 計測器具
+    a metal percussion instrument from China called 'kinra' 金鑼という楽器
+    a musical instrument called a small harp 筑という楽器
+    a musical instrument called flute 笛という楽器
+    a musical instrument called four-stringed instrument 四弦琴という楽器
+    a musical instrument from the West 西洋の楽器
+    a musical instrument that has a keyboard 鍵盤楽器
+    a musical instrument that produces sounds when it is blown, called wind instrument 吹いて鳴らす楽器
+    a musical instrument 楽器
+    a musical instrument 楽器.
+    a negotiable instrument 有価証券
+    a play a musical instrument 演奏する
+    a precision instrument 精密器械.
+    a recording instrument 記録計器.
+    a scientific instrument 理科の道具.
+    a small musical instrument called a snare drum 小形の太鼓
+    a stringed instrument 弦楽器.
+    a stringed instrument 弾いて鳴らす楽器
+    a tool or instrument 道具一般
+    a type of musical instrument called stringed instrument 弦楽器という楽器
+    a very unusual musical instrument とても珍しい楽器
+    a way of playing a stringed musical instrument 弦楽器の弾き方
+    a woodwind musical instrument 木管楽器
+    a {percussion} instrument called 'kei' 磬という楽器
+    an exact instrument 精密機械.
+    an instrument called Chinese zither 奚琴という楽器
+    an instrument for measuring something 物を計る器具
+    an instrument for picking dirt out of one's ears 耳かき
+    an instrument of the Mafia マフィアの手先.
+    an instrument of torture (拷問に用いる)責め具.
+    an instrument panel 計器盤.
+    an instrument that is dangerous to handle 危険な道具
+    an instrument used for cutting things 物を切断する道具
+    an instrument used to catch flies 蝿を取る道具
+    an optical instrument 光学器械.
+    measuring instrument 測定装置
+    of small size, a musical instrument called drum 小さい太鼓
+    to play a stringed instrument 弦楽器を鳴らす
+    to tap the keys of an instrument (キーを)たたく
+    wood used to make an instrument 器を作るための木
+load https://ejje.weblio.jp/sentence/content/advertisement
+    About the contents of the job advertisement. 求人広告の内容について
+    I was deceived by the extravagant advertisement. 羊頭狗肉の広告に釣られた.
+    The advertisement was removed in 2007. その広告は2007年に取り外された。
+    This advertisement makes its point very well [is very apt]. この広告はねらいがいい.
+    This is an advertisement. これは広告です。
+    Who is this advertisement for? 誰のための広告ですか？
+    a banner ad [advertisement] バナー広告《個々の》
+    a clipped word 短縮語 《advertisement を ad とするような形》.
+    a coupon printed in an advertisement 広告に刷り込まれたクーポン券
+    a design for an advertisement 広告の図案.
+    a movie advertisement 広告宣伝用の映画
+    a nearly completed draft of an advertisement ほぼ完成した広告原稿
+    a newspaper advertisement called {island-half advertisement} アイランドハーフ広告という大きさの新聞広告
+    a newspaper advertisement whose layout is concave 凹字型のレイアウトの新聞広告
+    a person who is concerned with the advertisement business 広告業に携わる人
+    a person who specializes in advertisement 広告の専門家という立場の人
+    a poster used as an advertisement 宣伝用などの張り紙
+    a short advertisement aired during the interval between programs 幕合いの幻灯広告
+    a signboard for a shop's advertisement 商店の宣伝用看板
+    a size of newspaper advertisement called {island-half advertisement} アイランドハーフ広告という,新聞広告の大きさ
+    a type of advertisement called direct mail 宛名広告という広告
+    a type of newspaper advertisement called classified advertisement 案内広告という新聞広告
+    an advertisement by direct-mail ダイレクトメールを使った広告
+    an advertisement for a supermarket sale スーパーの特売広告.
+    an advertisement hung in a shop 店内などに吊り下げる広告
+    an advertisement in a newspaper 新聞に掲載する広告
+    an advertisement poster hung in a train 中吊りという車内広告
+    an advertisement printed in the form of a news item 新聞記事風の版組みの広告
+    an advertisement that gives false information 実際と違う内容の前宣伝
+    an advertisement that is displayed on a mobile モビール式の広告
+    an advertisement that targets {"whoopees"} ウーピーズを対象とした広告
+    an advertisement used in a campaign キャンペーンに使われた広告
+    an advertisement used to supplement a previous advertisement 前に出した広告の効果を高めるために続けて出す広告
+    an advertisement whose expression is extravagant 表現が誇大な広告
+    an advertisement 前宣伝
+    an advertisement 広告
+    an attractive advertisement ひと目をひく広告
+    business-enterprise advertisements called enterprise-promotion advertisement 起業広告という企業広告
+    in newspaper classified advertising, a small advertisement called a three-line advertisement 3行程度の小さな新聞広告
+    information and advertisement 情報と宣伝
+    put an advertisement in a newspaper 新聞に広告を出す.
+    the advertisement [sports] columns 広告[スポーツ]欄.
+    the degree to which an advertisement attracts a person's attention (広告の,)注目度
+    the effectiveness of an advertisement 宣伝の効果
+    the main advertisement in an advertising campaign キーアドという広告
+    the production of an advertisement 広告の制作をすること
+    the words of an advertisement 広告文案
+    to make an application for something in response to an advertisement for that thing 募集に応じて申しこむ
+    to state the slogan for an advertisement 宣伝のための名目を掲げる
+    wind-instrument music performed as part of an advertisement for something 宣伝に演奏される吹奏楽
+load https://ejje.weblio.jp/sentence/content/despite
+    Despite all my arguments, he stuck to his decision. どんなに説いても彼は決心を翻さなかった.
+    Despite his age, my grandfather is quite modern in his tastes. 私の祖父は年に似ずとても趣味がハイカラだ.
+    Despite his riches, he's not contented. 富があっても、彼は満足していない。
+    Despite how hard she tried... 彼女がどんなに努力しても……
+    Despite making a good achievement. いい成績を残したにもかかわらず。
+    Despite that he was worrying about me the whole time. それでも彼は私のことをずっと心配していてくれた。
+    Despite that there are hardly any customers in that store, they are in business. その店はほとんど客もいないのに営業している。
+    Despite that there's no hindrance for you? あなたはそれでも差し支えありませんか？
+    Despite that you always sincerely loved me. それでも君はいつも僕を誠実に愛してくれていた。
+    Despite that, I chose study abroad. それにも関わらず、私は海外留学を選んだ。
+    Despite that, I will continue to use English. それでも私は英語を使い続けます。
+    Despite the freezing cold, he jumped into the pond and saved [rescued] the infant. 寒さもものかは水中にとびこんで幼児を救った.
+    He is a coward despite that he is a guy. 彼は男にも関わらず臆病だ。
+    He left home, despite the pleas [entreaties] of his wife and children. すがりつく妻子を振り捨てて家を出て行った.
+    He wastes his time despite [in spite of] the approach of the examination. 試験が近いのに彼は遊んでばかりいる.
+    He went despite my warning. 私の忠告にも関わらず、彼は行ってしまった。
+    He's very strong despite his age. 彼は老齢にもかかわらず大変丈夫だ.
+    I am pleased to see you today despite your busyness. 今日はお忙しい中、ようこそいらっしゃいました。
+    I am sorry to make so many requests despite your busyness. あなは忙しいのに私が何度も催促してすいません。
+    I am working today despite it being a holiday. 私は今日は休日にも関わらず仕事をしています。
+    My hand trembled despite my efforts to steady it. どうしても手の震えが止まらなかった.
+    Thank you for coming all the way here despite being so busy. お忙しいのにわざわざ来ていただき有り難う。
+    Thank you for contacting me despite how busy you are. お忙しい中連絡いただきありがとうございます
+    Thank you for sending me the email despite you being busy. 忙しいにもかかわらずメールをありがとうございます。
+    Thank you for today despite your busyness. 本日はお忙しい中ありがとうございます。
+    Thank you for your correspondence despite it being a holiday. 休日にも関わらず、対応有難うございます。
+    Thank you for your help despite how busy you are. お忙しいところ対応いただきありがとうございます
+    Thank you for your reply despite being busy. あなたは忙しいにもかかわらず、返信をありがとう。
+    Thank you for your reply despite being so busy. 忙しいところ返答をありがとうございます。
+    Thank you for your time despite your busy schedule. 今回はお忙しい中、お時間頂きありがとうございます。
+    Thank you for your time despite your busyness. お忙しいところ、本当に有難うございます。
+    Thank you for your time despite your busyness. お忙しい中、本当に有難うございます。
+    The film is fun despite its crudity. その映画は未熟だけれども面白い。
+    The stock price of the company decreased and flattened out despite still having some room to fall. その会社の株価は小底入れとなった。
+    This car is still running despite it has run out of gas. ガス欠にも関わらず、この車は走っている。
+    When he heard that, he gave a wry smile despite himself. それを聞いて彼は思わず苦笑した.
+    You are working despite being on vacation. あなたは休暇中にも関わらず仕事をしています。
+    You should try to make your way despite all the difficulties. 困難を省みず前進すべし。
+    a condition of being usable despite having no training 訓練なしですぐ使えること
+    despite one's effort いくら頑張っても
+    despite the cost 何が何でも
+    of a person, to push on despite being unwell (病気の体を)無理して動かす
+    the act of always having the same result despite what one does 何かというと
+    the act of managing despite difficulties やりくりすること
+    the act of studying despite many hardships 苦労して勉学すること
+    the condition of being cool despite the summer heat 暑い夏をしのぐこと
+    the state of a man finding difficulty in attracting a lover, despite his passionate nature 男の恋の激しいこと
+    to be content despite adverse circumstances 心が平安で満足していること
+    to be worthy despite of its low cost 値段の安いわりに,役に立つさま
+    to endeavor despite repeated failures 何度失敗しても屈せず努力する
+load https://ejje.weblio.jp/sentence/content/exact
+    Exact change, please. つり銭のいらないようにお願いします。
+    Exact change, please. 釣り銭のいらぬように願います.
+    He cut it into exact halves. 彼はそれを真っ二つに切った.
+    I cannot get (at) its exact meaning. 意味が判然としません.
+    I cut the apple into two exact halves. リンゴを真ん中から二つに切った.
+    I gave the shopkeeper the exact change. 店主にちょうどの代金を渡した.
+    I'd like to know the exact time. 正確な時間を知りたいのですが。
+    It does not convey the exact meaning of the original word. 原語の意味にしっくり合わない.
+    It doesn't have to be exact. 厳密でなくても結構です。
+    It's difficult to express my exact feelings to you. あなたに正確な気持ちを伝えるのは難しい。
+    My father is exact in money matters. 父はお金にきちょうめんです。
+    Pay the exact amount. 釣り銭のいらないように願います.
+    Please fill in the exact size. 正確なサイズをご記入下さい。
+    Sometimes dreams mean the exact opposite of what happens in them. 夢には逆夢ということがある.
+    Supply me the exact dates, please. 正確な日取りをお知らせください.
+    The exact date is still undecided. 具体的な日取りは決まっていません。
+    The exact time is three now. 正確にいうと今は３時です。
+    There's no exact English equivalent of this Japanese expression.＝This Japanese expression has no exact English equivalent. この日本語の表現にはぴったり当てはまる英語の訳語がない.
+    This is an exact copy of the original. これが原本の正確な写しだ。
+    We have the exact same birthday. 誕生日が私と全く同じだった
+    What is the exact time? 正確な時間は何時ですか。
+    You gotta have exact change. お釣りのないようにしないと。
+    You gotta have exact change. 釣り銭の要らないよう、お金はぴったりなければなりません。
+    a particular exact time ぴったりその時刻
+    an act of telling the exact time 正しい時刻を知らせること
+    an exact diagnosis of a disease 確かに診断された疾患
+    an exact instrument 精密機械.
+    an exact memory 正確な記憶力.
+    an exact scholar 厳正な学者.
+    an exact time when one gotten out 出たばかりの時
+    being perfectly fitting and exact ちょうどぴったり
+    demand [exact] obedience from… …に服従を強要する.
+    exact discipline 厳格な規律.
+    exact obedience from one's students 学生を無理にも服従させる.
+    exact taxes from people 人々から厳しく税を取り立てる.
+    neither more nor less than but the exact amount of something 〜ちょうどそれだけ
+    the condition of being exact to the minute detail 細かい所まで正確なさま
+    the condition of being exact ちょうどであること
+    the condition of being exact 正確であること
+    the exact amount or degree of something ちょうどよい程度
+    the exact centre ちょうど中央にあたる部分
+    the exact meaning of a word 言葉の厳密な意味.
+    the exact meaning of something 正確で詳しい意味
+    the exact sciences 精密科学 《数学・物理学など》.
+    the exact time 正確な時間.
+    to be exact, it's his tv. 正確には彼のテレビだ
+    to inform the public of the exact time 正確な時刻を公示する
+    to make an exact copy of an original 原物とそっくりに複製する
+    to make an exact reproduction of something そのままそっくり写す
+    “It's 3:10."—“Is that exact?" 「3 時 10 分です」「きっかりですか」.
+load https://ejje.weblio.jp/sentence/content/pswipl sc.pl urchase
+
+load https://ejje.weblio.jp/sentence/content/purchase
+    Can I still purchase that? 私はそれをまだ購入できますか？
+    Did you purchase those stocks? あなたはその株を買い取りましたか。
+    I examine that purchase. 私はそれの購入を検討している。
+    I give up on that purchase. 私はその購入を諦めます。
+    I make a purchase once every 2~3 months. 買い付けは2ヶ月～3ヶ月に1度です。
+    I make an additional purchase of that. 私はそれを追加購入します。
+    I purchase that again. 私はそれをまた購入します。
+    I purchase that for free. 私はそれを無償で譲り受ける。
+    I purchase that in addition. 私はさらにそれを購入します。
+    I purchase that in addition. 私はそれを追加で購入します。
+    I will not take part in that purchase. 私はその購買には関与しない。
+    I'll purchase that from you. 私はそれをあなたから購入します。
+    I'm going to purchase ingredients. 私は食材の買い出しに行きます。
+    Invoice for purchase of furniture 家具を購入した代金の請求
+    Maritime purchase 海上仕入
+    Nancy proceeded to purchase. ナンシーは買い物を続けた。
+    PURCHASE SYSTEM 購買システム
+    Please purchase those air tickets. その航空券を発券してください。
+    Purchase of a car 車の購入
+    The investor refrained from making the stock purchase. その投資家は株式を買い控えた。
+    They're indicating their intention to purchase. 彼らは購入の意志を示している。
+    To conclude the fundamental contract of purchase. 購買基本契約を締結する。
+    What are you going to purchase? あなたは何を買い取りますか？
+    Which one should I purchase? 私はどれを購入したらいいですか。
+    Will you purchase this facility? あなたはこの施設を購入しますか?
+    a blind purchase 衝動買い.
+    a good [bad] purchase 得な[損な]買い物.
+    a purchase in Japanese yen 日本円での価格
+    a purchase price ある物を買い取るときの値段
+    a thing that is bought, called purchase 買った品物
+    by [on] hire purchase 分割払いで, 月賦で.
+    get a purchase with one's feet [hands] (登る時などに)足[手]がかりを得る.
+    make a purchase 購入する
+    money used to purchase a stock of merchandise 商品を仕入れるための金
+    of a purchase agreement, a counterfoil slip 控えの伝票
+    purchase a backup just in case 念のために予備も購入する
+    purchase a book (at [from] a bookstore) (本屋で)本を購入する.
+    the act of collecting the money owed for a purchase bought on credit 掛売金を取り立てること
+    the action of making a large purchase たくさんの物を買い入れること
+    the purchase of a house 家の購入.
+    the purchase of books 書物の購入
+    the purchase price of an article 物件の購入費用
+    the right called 'sakigai-ken' which allowed someone to purchase something prior to others 先買い権という権利
+    the shop at which one made a purchase of something 品物を買い求めた店
+    to add something to one's purchase すでにある上にさらに買い増やす
+    to make a large purchase 品物をたくさん買い入れる
+    to purchase a little of something at a time 少しずつ買う
+    to purchase blood 輸血用の血液を買う
+    to purchase for the purpose of stocking up 買い溜めする
+    to purchase land 土地を買い取る
+

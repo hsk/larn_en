@@ -1,0 +1,35 @@
+swipl sc.pl "pile" >> log13.txt
+swipl sc.pl "feed" >> log13.txt
+swipl sc.pl "cheer" >> log13.txt
+swipl sc.pl "grain" >> log13.txt
+swipl sc.pl "unite" >> log13.txt
+swipl sc.pl "harm" >> log13.txt
+swipl sc.pl "fee" >> log13.txt
+swipl sc.pl "break+up" >> log13.txt
+swipl sc.pl "pass+out" >> log13.txt
+swipl sc.pl "rating" >> log13.txt
+swipl sc.pl "graduate" >> log13.txt
+swipl sc.pl "stranger" >> log13.txt
+swipl sc.pl "hence" >> log13.txt
+swipl sc.pl "concerning" >> log13.txt
+swipl sc.pl "fist" >> log13.txt
+swipl sc.pl "feature" >> log13.txt
+swipl sc.pl "climate" >> log13.txt
+swipl sc.pl "due" >> log13.txt
+swipl sc.pl "entire" >> log13.txt
+swipl sc.pl "in+the+long+run" >> log13.txt
+swipl sc.pl "bore" >> log13.txt
+swipl sc.pl "bare" >> log13.txt
+swipl sc.pl "hive" >> log13.txt
+swipl sc.pl "oppose" >> log13.txt
+swipl sc.pl "neighboring" >> log13.txt
+swipl sc.pl "site" >> log13.txt
+swipl sc.pl "historic" >> log13.txt
+swipl sc.pl "improved" >> log13.txt
+swipl sc.pl "suggestion" >> log13.txt
+swipl sc.pl "instrument" >> log13.txt
+swipl sc.pl "advertisement" >> log13.txt
+swipl sc.pl "despite" >> log13.txt
+swipl sc.pl "exact" >> log13.txt
+swipl sc.pl "pswipl sc.pl urchase" >> log13.txt
+echo "" >> log13.txt

@@ -1,0 +1,51 @@
+load https://ejje.weblio.jp/sentence/content/speeding
+    And so I was caught by the police for speeding violations. そうしたらスピード違反のために警官に捕まりました。
+    He got off with a $100 fine for speeding. 彼はスピード違反をしたが 100 ドルの罰金で放免になった.
+    He has been caught several times for speeding. 彼はスピード違反で数回つかまったことがある.
+    He has been subjected to license suspension twice for speeding. 彼はスピード違反で2回免許停止になったことがある。
+    He was caught for speeding. 彼はスピード違反で捕まった。
+    He was charged with speeding [tax evasion]. 彼はスピード違反[脱税]で告発された.
+    He was charged with speeding. 彼は速度違反で有罪となった。
+    He was fined for speeding. 彼はスピード違反で罰金を科せられた.
+    He was had up for speeding. 彼はスピード違反で訴えられた.
+    He was run in for speeding. 彼はスピード違反のかどで拘留された.
+    Her driver's license was suspended for three months for speeding. 速度違反のため彼女は 3 か月間の免許停止となった.
+    I got a ticket for speeding 私は、スピード違反のためにチケットを切られた
+    I only caught a glimpse of the speeding car. 疾走していく車の姿をちらりと見ただけだった.
+    I was fined thirty dollars for speeding. スピード違反で30ドルの罰金をとられた
+    I was fined thirty dollars for speeding. 私はスピード違反で３０ドルの罰金とられた。
+    Ken was fined 7,000 yen for speeding. ケンはスピード違反で７千円の罰金を科された。
+    My friend was arrested for speeding. 私の友人はスピード違反で逮捕された。
+    My friend was arrested for speeding. 私の友達はスピード違反で逮捕された。
+    Peter was booked for speeding . ピーターはスピード違反で調書をとられた
+    SPEEDING CONTROL SYSTEM 速度違反取締システム
+    SPEEDING CONTROLMENT SUPPORT SYSTEM 速度違反取締支援システム
+    SPEEDING WARNING DISPLAY DEVICE 速度違反警告表示装置
+    Slow down. You're speeding. 速度を落とせ, スピード違反だぞ.
+    Speeding Up KDE After Prelinking prelinkした後で、KDEのスピードアップ
+    Speeding causes accidents. 速度のだし過ぎは事故のもとになる。
+    Speeding often causes car accidents. スピードの出し過ぎはしばしば自動車事故のもとになる。
+    Speeding the Replacement of Old Notes 旧紙幣の入れ替えを急ぐ
+    The bad roads prohibit speeding. 道が悪いのでスピードを出せない。
+    The driver was charged with speeding. そのドライバーはスピード違反で告発された。
+    The landscape unrolled under the speeding plane. 景色が飛んでゆく飛行機の下に開けてきた.
+    The police charged him with speeding. 警察は彼をスピード違反で告発した。
+    The police laid a penalty on him for speeding. 警察は彼にスピード違反の罰金を課した
+    The police officer arrested the man for speeding. 警官はその男をスピード違反で逮捕した
+    The policeman arrested him for speeding. その警官は彼はスピード違反で逮捕した。
+    The policeman arrested him for speeding. 警官は彼をスピード違反で逮捕した。
+    The policeman gave him a caution for speeding. 警官は彼にスピード違反の注意をした.
+    The policeman gave me a ticket for speeding. 警官にスピード違反のカードを渡された.
+    The policeman warned him against speeding. 警官は彼にスピード違反を戒めた.
+    The speeding car stopped on a dime. 猛スピードで飛ばしていた車が突然止まった
+    The turnover at my company is really speeding up lately. 最近、社員の入れ替わりが激しくないですか。
+    This has potential for further speeding up. これはさらに高速化できるポテンシャルがある。
+    We were speeding southward, with Mt. Fuji seen to the west. 富士山を西に見ながら汽車は南に向かって走った
+    a group of young hoodlums that disturb the public peace by making noise and speeding on their motorcycles 騒音を立ててバイクを乗り回す集団
+    a method called the hot water germination method, used for speeding up the germination of plants 温湯浸法という植物の発芽を促す方法
+    an effective procedure for speeding up algorithms アルゴリズムを高速化するための有効手続き
+    fine a person for speeding スピード違反で人に罰金を科する.
+    get caught for speeding スピード違反でつかまる
+    pay a $100 fine for speeding スピード違反で 100 ドルの罰金を払う.
+    the wind of a speeding car 疾走する車のあおり風[風圧].
+    watch out for speeding cars スピード違反の車を見張る.
