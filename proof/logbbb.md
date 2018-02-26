@@ -102,7 +102,7 @@
     to turn out one's pocket ポケットを裏返す
     〈悪い意味で〉 He will come to no good [《口語》 will turn out a bad'un]. この子は末恐ろしい子供だ.
     （着物なら）to turn a coat inside out―（誤ってなら）―turn a coat the wrong side out―（遊里の詞にては）―make a second visit （to a prostitute） 裏を返す
-##   astonishment
+## 1 astonishment
   びっくり、仰天、驚き
     ASTONISHMENT RESPONSE DAMPING PHENOMENON MEASURING INSTRUMENT AND ASTONISHMENT RESPONSE DAMPING PHENOMENON MEASURING METHOD 驚愕反応減衰現象測定装置並びに驚愕反応減衰現象測定方法
     Astonishment deprived me of my power of speech. あきれてものが言えなかった
@@ -154,7 +154,7 @@
     they stood rooted in astonishment 彼らは驚きで立ちすくんだ
     to my unutterable astonishment 口もきけぬほど驚いたことには.
     to one's astonishment 驚いたことには.
-##   obviously
+## 1 obviously
   明らかに
     (c) Matter obviously irrelevant or unnecessary to the application. (c) 当該出願に全く関係の無い不必要な事項
     (obviously he can understand both English and French) （当然ですが先生は英仏語とも理解できますけれど）
@@ -203,7 +203,7 @@
     the registration has obviously been recorded in breach of the stated provisions. 登録が明らかに当該規定に違反していること
     the state of being obviously more excellent than others 他よりきわだって優れていること
     to be obviously correct 掌を指す
-##   respectful
+## 1 respectful
   尊敬する
     (of actions or behaviour), to be correct and respectful 行動や態度が正しくてうやうやしい
     A copy of the law, rules, or circular of information, with a section marked, set to the individual making an inquiry of the character referred to, is intended as a respectful answer by the Office. 前記のような照会を行う者に対しては，庁による丁重な回答として，該当する部分に印を付して，法律，規則又は情報の回状の写しを送付する。
@@ -250,7 +250,7 @@
     the condition of being respectful and obedient towards one's parents 親に対して孝行を尽くし,従順に従うこと
     to make a most respectful bow to someone 最敬礼する
     to present something in a respectful manner つつしんで差し上げる
-##   appearance
+## 1 appearance
   外観
     A miserable appearance. 惨めな姿。
     a new appearance resulting from refurbishing 新し装い
@@ -325,7 +325,7 @@
     keep a person to his word [promise] 人に約束を守らせる.
     keep a promise [one's word] 約束を守る.
     to keep one's promise―keep one's word―fulfil a promise―make good one's promise 約束をふむ
-##   stare at
+## 1 stare at
   ガン見する、ジロジロ見る
     A stare detector 36 identifies an object at which a user stares for an enough time arbitrarily set. 凝視検出器３６は、任意にユーザが十分な時間だけ凝視している対象を特定する。
     Also, since the information is retrieved by sound, there is no need to stare at a screen. また、音により情報を検索するため、画面を凝視する必要が無い。
@@ -377,7 +377,7 @@
     to stare at anything 驚いて眺める
     to stare at someone or something じっと見つめる
     to stare with one's mouth open―gape （at anything） 口をあいて眺める
-##   so that
+## 1 so that
   そのため
     (Is) that so? そうですか.
     ...so much that people are envious. 人がうらやむほど。
@@ -429,7 +429,7 @@
     the action of baking something so that it has a hard texture 堅く焼くこと
     the action of tripping someone so that they lose their balance 足を払うこと
     to bounce a thing back so that it rebounds (物を)跳ね返す
-##   go through
+## 1 go through
   通過する
     Cars go through the tunnel. 車はそのトンネルの中をとおります。
     Go through fire and water. たとえ火の中水の中。
@@ -533,7 +533,7 @@
     to tie 繋ぎ止める
     to tie-dye something 絞り染めにする
     ways to tie a rope ロープの結び方
-##   somehow
+## 1 somehow
    なんとか、どうやら、なんとなく
     Apparently, you seem to be running somehow. どうやらあなたは走っているらしい。
     I am doing it somehow. 私は何とかやっていけている。
@@ -585,7 +585,7 @@
     the state of somehow being dreary なんとなくわびしいさま
     the state of somehow being sad なんとなく悲しいさま
     to do something somehow どうかするさま
-##   nod
+## 1 nod
   うなずき
     A method for creating the mouse model for human hematopoietic tumor comprising transplanting human hematopoietic tumor cells into an NOG(NOD/Shi-scid, IL-2RγKO) mouse is provided. ＮＯＧ（ＮＯＤ／Ｓｈｉ−ｓｃｉｄ， ＩＬ−２Ｒγ ＫＯ）マウスにヒト造血器腫瘍細胞を移植することを含む、ヒト造血器腫瘍マウスモデルの作出法。
     A nod is a sign of agreement. うなずくことは承知の合図だ。
@@ -633,7 +633,7 @@
     to nod one's head while dozing いねむりしていて頭を動かす
     to nod 了解あるいは賛意を示すということを表現するためにうなづく
     with a wise nod of the head もの知り顔にうなずきながら.
-##   flush
+## 1 flush
   流す
     A flush mounted to her face. 彼女の顔にさっと赤みがさした.
     A slight [faint] flush came into her pale cheeks. 彼女の青白い頬にわずかに赤味がさした.
@@ -737,7 +737,7 @@
     to pour water, powder or other substances on each other (液体や粉などを)互いにかける
     to scoop something up and pour it out (水などを)汲んで外へ出す
     to vigourously pour water on oneself 水などを勢いよく頭から被る
-##   properly
+## 1 properly
   正しく、適切に、ちゃんと
     A widower cannot look after himself properly [keep the house clean and tidy]. 男やもめにうじがわく.
     Could you rest properly? あなたはちゃんと休めましたか？
@@ -789,7 +789,7 @@
     to fail to guess properly 正しく推測し損なう
     to guide someone properly 善い方向へ教え導く
     to use words properly 言葉を使い分ける
-##   deserve
+## 1 deserve
   値する
     A bad person does not deserve to die in his own bed 悪人は畳の上では死ねない
     A son who could not learn to paddle his own canoe does not deserve to inherit his father's fortune. 自力でやるようにならない息子は父親の財産を引継ぐ資格はない。
@@ -840,7 +840,7 @@
     You deserve what you get. あなたは自業自得です。
     You're always lying - that's why people don't take you seriously. You get what you deserve. 嘘ばっかりついてるから、皆に総すかんを食うんだ。自業自得だよ。
     people who deserve sympathy 貧窮者などの同情すべき人々
-##   puzzled
+## 1 puzzled
   困惑
     Alice said with a puzzled air. とアリスは、不思議そうに言いました。
     Alice was puzzled. アリスにはちんぷんかんぷんでした。
@@ -944,7 +944,7 @@
     to rage as if insane 狂ったように暴れる
     tremble with rage 怒りで体を震わす.
     ungovernable rage 抑えられないほどの怒り, 激怒.
-##   waste time
+## 1 waste time
   時間を無駄にする
     A lesson might be a waste of time. レッスンは時間の無駄かもね
     Do not waste time in idle talk. 雑談に暇つぶしをするな
@@ -996,7 +996,7 @@
     waste time 時間を費す
     waste time 無駄な時間
     waste time―take time 暇を欠く
-##   generous
+## 1 generous
   寛大な
     Be just before you are generous. 気前のよきより、まず至当たれ。
     He adds a generous amount of salt. 彼が塩をたっぷり振る
@@ -1048,7 +1048,7 @@
     to be both wise and generous 識見と度量
     to be generous うちとける
     uncommonly generous とても気前がいい.
-##   arrest
+## 1 arrest
   逮捕、拘束、軟禁
     Arrangements have been made for his arrest. 逮捕の手配は出来上がっている.
     Arrest the deterioration of the natural environment. 自然環境の悪化を阻止する。
@@ -1282,7 +1282,7 @@
     the relations between Capital and Labor 労資関係.
     traditional division of labor 伝統分業
     with labor 骨折って.
-##   deserted
+## 1 deserted
   捨てられた
     A lot of soldiers deserted the army. 兵士が大勢軍隊から脱走した
     At ten o'clock, the streets are deserted. 十時には行人の跡が絶える
@@ -1386,7 +1386,7 @@
     seize a thief 泥棒を逮捕する.
     the condition of being a thief 泥棒であること
     to pursue and kill a thief (賊などを)追いかけて討ちとる
-##   cannot afford
+## 1 cannot afford
   余裕がない
     He cannot afford a holiday. 彼は休暇をとる余裕がない。
     He cannot afford the common comforts of life. 彼は人並みの楽もできない。
@@ -1490,7 +1490,7 @@
     of a weapon, to fire in rapid succession 続けて発射する
     to brandish a weapon 武器をちらつかせる
     to wear a weapon near one's waist (刀などを)腰につける
-##   sympathetic
+## 1 sympathetic
   同情的な
     A good doctor is sympathetic to his patients. 良い医者は患者に同情を示す。
     AGENT FOR PREVENTING ONSET OF POST-STROKE REFLEX SYMPATHETIC DYSTROPHY 脳卒中後の反射性交感神経性ジストロフィー発症予防剤
@@ -1594,7 +1594,7 @@
     to warn and guard against an emergency 非常をいましめ守る
     to warn 警戒する
     warn a reckless driver 無謀なドライバーに注意を与える.
-##   hastily
+## 1 hastily
   急いで
     Alice hastily replied; とアリスはいそいでへんじをしました。
     Do not answer hastily. 軽率に答えるな。
@@ -1802,7 +1802,7 @@
     the month before last 先々月.
     the week before last 先々週.
     the year before last 一昨年
-##   bear
+## 1 bear
   クマ、耐える
     Bear and forbear /fɚbeɚ｜fːbeə/! よく忍べ.
     Bear up! がんばれ.
@@ -1854,7 +1854,7 @@
     to bear or have upon the person 身に付けて持つ
     to bear something in mind 心に記す
     to make a person bear the expense of something 費用などを出させる
-##   consciousness
+## 1 consciousness
   意識
     And I lost my consciousness. そして私は気を失った。
     Consciousness returned gradually. 意識がだんだん回復してきた.
@@ -2062,7 +2062,7 @@
     to make an effort to convey emphatically a demand or ideas 要求・意見を通すために努力する
     to make an effort 一生懸命に努力する
     to not perform work because one doesn't wish to make an effort 労力を惜しんでなまける
-##   swollen
+## 1 swollen
   腫れた、むくんだ
     He has a swollen [bloated] face. 彼は顔中がむくんでいる.
     He has a swollen opinion of himself. 彼は自分自身を買いかぶっている.
@@ -2218,7 +2218,7 @@
     managed to escape ahorse 馬にのってどうにか逃げる
     managed to make a crude splint 粗末な添え木を何とか作った
     managed to slip away unobserved 気付かれないうちに、立ち去ろうとした
-##   threaten
+## 1 threaten
   脅かす、脅威
     (ii) Does the institution exercise appropriate and sufficient supervision over entry into and exit from work areas, handling of important keys, etc. in order to prevent acts that may threaten the safety of computer systems? （ⅱ）コンピュータシステムの安全性を脅かす行為を防止するため、入退室管理・重要鍵管理等、適切かつ十分な管理を行っているか。
     An administrator who monitors the management device 30, if detecting a crime from the received video, sends warning sound data to the vending machine 1, whose generator 23 in turn generates a sound out to warn and threaten the criminal. 管理装置３０をモニターする管理者が受信した映像で犯罪を確認すると、自動販売機１に警告の音声データを送信し、自動販売機１の発生器２３から外部に音声を発生させて警告し、犯人を威嚇する。
@@ -2322,7 +2322,7 @@
     to focus one's energies and strength on something (力を)込める
     to swim with all one's strength 力泳する
     vigorous strength or energy 強大な勢い
-##   torture
+## 1 torture
   拷問
     He was subjected to torture by the police. 彼は警察で拷問を受けた。
     His lecture on chemistry was nothing but torture. 彼の化学の講義は苦痛以外のなにものでもなかった。
