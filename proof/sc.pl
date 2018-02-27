@@ -1,10 +1,6 @@
 :- use_module(library(http/http_open)).
 % 英語例文 スクレイピング on prolog
 
-% 英語の例文を調べるのが面倒なので、スクレイピングして結果を返すものを作ってみたいと思います。
-% Prologでスクレイピングをしてみていたので、Prologでやってみます。
-
-% とりあえずソースを拾ってきてある状態から始めます。
 chop(A,R) :- re_replace('[ \\t\\r\\n]+'/g,' ',A,R1), re_replace('(^ +| +$)'/g,'',R1,R2), atom_string(R,R2).
 get_en(A,R) :- xpath(A,//(p(@class=qotCE,text)),R1),chop(R1,R2),re_replace('例文帳に追加','',R2,R).
 get_ja(A,R) :- xpath(A,//(p(@class=qotCJ,text)),R1),chop(R1,R2),re_replace(' - .*','',R2,R3),chop(R3,R).
@@ -43,6 +39,7 @@ getAll2(Filename) :-
 post(TEXT,L4) :-
   URL="https://translate.weblio.jp/",
   random_between(6101,19110,TM),
+  chop(TEXT,TEXT2),
   setup_call_cleanup(http_open(URL,FP,[
     % header('Referer','https://translate.weblio.jp/'),
     method(post),
@@ -54,9 +51,9 @@ post(TEXT,L4) :-
         tm=TM,
         tlt='english',
         prtRt='',
-        originalText=TEXT,
+        originalText=TEXT2,
         sentenceStyle='spoken',
-        spellCheckKey='21d3c33285b0efa6',
+        spellCheckKey='53a9976f56160faf',
         
         languagePairFin='EJ',
         audioTextAreaId='originalTextArea',
@@ -71,30 +68,40 @@ post(TEXT,L4) :-
         translatedTextWrLn1=''  */
       ]))
     ]),load_html(FP,HTML,[])/*read_stream_all(FP,HTML)*/,close(FP)),!,
-  findall(DOC,xpath(HTML,//(table(@class=mltIchgT))/tr,DOC),[_|L2]),
-  maplist([A,R1]>>(get_en1(A,EN),get_ja1(A,EJ),R1=[EN,EJ]),L2,L3),
-  sort(L3,L4).
+  findall(DOC,xpath(HTML,//(table(@class=mltIchgT))/tr,DOC),L2),
+  maplist([A,R1]>>(get_en1(A,EN),get_ja1(A,EJ),R1=(EN,EJ);R1=[]),L2,L3),
+  exclude([[]]>>!,L3,L3_),
+  sort(L3_,L4).
+
+post25(TEXT,L5) :-
+  split_string(TEXT,"\n","\r\n",Lines),
+  splitN(25,Lines,Ls),!,
+  maplist(post,Ls,L4s),!,
+  flatten(L4s,L4),
+  sort(L4,L5).
+  
+% 25行ずつまとめる。
+splitN(_,[],[]).
+splitN(N,L,[A_|Ls]) :- take(N,L,A,B), atomic_list_concat(A,' ',A_), splitN(N,B,Ls).
+splitN(_,L,[Ls]) :- atomic_list_concat(L,' ',Ls).
+
+take(0,L,[],L).
+take(N,[A|L],[A|L_],R) :- N2 is N - 1, take(N2,L,L_,R).
 
 get_en1(A,R) :- xpath(A,//(td(@class=tngMainTTG,text)),R1),chop(R1,R).
 get_ja1(A,R) :- xpath(A,//(td(index(4),text)),R1),chop(R1,R).
-/*
-:- 
-  setup_call_cleanup(open("trans.html",read,FP),load_html(FP,HTML,[]),close(FP)),
-  findall(DOC,xpath(HTML,//(table(@class=mltIchgT))/tr,DOC),[_|L2]),
-  maplist([A,R1]>>(get_en1(A,EN),get_ja1(A,EJ),format(atom(R1),'(~w,~w)',[EN,EJ])),L2,L3),
-  sort(L3,L4), maplist(writeln,L4).
-:- halt.
-*/
 
 getAll3(Filename) :-
     read_all(Filename,Txt), 
     split_string(Txt,"\n","\r\n",Lines),!,
     maplist([S,A]>>atom_string(A,S),Lines,Lines1),
-    %post(Txt,Dict),
-    Dict=[[antisymmetric,'反対称性の, 反対称な'],[despite,'…にもかかわらず'],[obvious,'(疑問の余地がないほど)明らかな, 明白な, すぐにわかる, 理解しやすい'],[precisely,'正確に, 精密に, 的確に'],[suffices,'sufficeの三人称単数現在。満足させる, 十分である'],[tedious,'長ったらしくて退屈な, あきあきする, つまらない']],
-%    writeln(Dict),writeln(Lines),
-    maplist([A,(B,C)]>>(member([A,C],Dict),B=A;re_replace('[a-zA-Z_ ]+'/a,'',A,B),atom_concat(B,C,A),B\='';A=B,C=''),Lines1,Lines2),
-%   maplist(writeln,Lines2).
+    %writeln(Txt),
+    post25(Txt,Dict),
+    %writeln(Dict),writeln(Lines),
+    maplist([A,(B,C)]>>(member((A,C),Dict),B=A;re_replace('[a-zA-Z_ ]+'/a,'',A,B),atom_concat(B,C,A),B\='';A=B,C=''),Lines1,Lines2),
+    maplist([(D,E)]>>format('## 0 ~w\n  ~w\n',[D,E]),Lines2),
+    maplist([(D,E)]>>format('## 0 ~w\n  ~w\n',[E,D]),Lines2),
+    %halt,
     maplist(getB,Lines2).
 
 %:- current_prolog_flag(argv, [A]),getAll(A).

@@ -1,2270 +1,1181 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="ja">
-
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Weblio 翻訳</title>
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <meta http-equiv="Content-Script-Type" content="text/javascript">
-  <meta name="description" content="Weblio 翻訳は、英語を日本語へ和訳、日本語を英語へ英語訳する、無料の機械翻訳サービスです。辞書や辞典との連携により単語の意味や発音も確認できます。">
-  <meta name="keywords" content="英語,日本語,英語訳,和訳,機械翻訳,辞書・辞典,単語,発音,音声">
-  <meta name="apple-itunes-app" content="app-id=686356780">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="robots" content="all">
-  <meta name="robots" content="noydir">
-  <meta name="robots" content="noodp">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@weblio">
-  <meta name="twitter:title" content="Weblio 翻訳">
-  <meta name="twitter:description" content="Weblio 翻訳は、英語を日本語へ和訳、日本語を英語へ英語訳する、無料の機械翻訳サービスです。辞書や辞典との連携により単語の意味や発音も確認できます。">
-  <meta name="twitter:domain" content="weblio.jp">
-  <meta name="twitter:image" content="https://translate.weblio.jp/screenshot?target=https%3A%2F%2Ftranslate.weblio.jp%3ForiginalText%3Dindeed%250D%250Aglad%26lp%3DEJ&amp;w=&amp;h=&amp;resizedW=&amp;resizedH=&amp;s=&amp;isSmpUA=&amp;force=&amp;etd=98804e23b96d200e">
-  <link rel="stylesheet" type="text/css" href="https://weblio.hs.llnwd.net/e7/css/translate/common.css?tst=2018020916">
-  <link rel="stylesheet" type="text/css" href="https://weblio.hs.llnwd.net/e7/css/ejje/content_head.css?tst=2018020916">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="shortcut icon" href="https://weblio.hs.llnwd.net/e7/img/favicon/ejje.ico" type="image/x-icon">
-  <script type="text/javascript" language="javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-  <script type="text/javascript" src="https://weblio.hs.llnwd.net/e7/script/translate.js?tst=2018020916" charset="UTF-8"></script>
-  <script type="text/javascript" src="https://weblio.hs.llnwd.net/e7/script/include/ZeroClipboard.min.js?tst=2018020916" charset="UTF-8"></script>
-  <script type="text/javascript">
-    <!--
-    adScS('cp835.js');
-    //-->
-  </script>
-
-  <script type="text/javascript">
-    <!--
-    adScS('cp837.js');
-    //-->
-  </script>
-
-  <script type="text/javascript">
-    twimg = !window['twimg'] ? new Twimg() : twimg;
-  </script>
-</head>
-
-<body>
-  <div ID=base>
-    <div ID=headMidashiEC>
-      <h1 title="Weblio 翻訳">Weblio 翻訳</h1>
-    </div>
-    <div ID=headBarE>
-      <div ID=headBarL>
-        <p onclick="ht(this, 'https://www.weblio.jp/content_find');">
-          <a onclick="return cu(this, 'https://www.weblio.jp/content_find')" href="https://www.weblio.jp/" title="辞典・百科事典の検索サービス - Weblio辞書">辞書</a>
-        </p>
-        <p onclick="ht(this, 'https://thesaurus.weblio.jp/content_find');">
-          <a onclick="return cu(this, 'https://thesaurus.weblio.jp/content_find')" href="https://thesaurus.weblio.jp/" title="類語辞典・シソーラス・対義語 - Weblio辞書">類語・対義語辞典</a>
-        </p>
-        <p class=headBarSelE onclick="ht(this, 'https://ejje.weblio.jp/content');">
-          <a href="https://ejje.weblio.jp/" title="英和辞典・和英辞典 - Weblio辞書">英和・和英辞典</a>
-        </p>
-        <p onclick="ht(this, 'https://cjjc.weblio.jp/content_find');">
-          <a onclick="return cu(this, 'https://cjjc.weblio.jp/content_find')" href="https://cjjc.weblio.jp/" title="中国語辞書 - Weblio日中中日辞典">日中中日辞典</a>
-        </p>
-        <p onclick="ht(this, 'https://kjjk.weblio.jp/content_find');">
-          <a onclick="return cu(this, 'https://kjjk.weblio.jp/content_find')" href="https://kjjk.weblio.jp/" title="韓国語辞書 - Weblio日韓韓日辞典">日韓韓日辞典</a>
-        </p>
-        <p onclick="ht(this, 'https://kobun.weblio.jp/content_find');">
-          <a onclick="return cu(this, 'https://kobun.weblio.jp/content_find')" href="https://kobun.weblio.jp/" title="古文辞書 - Weblio古語辞典">古語辞典</a>
-        </p>
-        <ul ID=NaviNoPulDwn onmouseout="showGlobalNaviOtherLinks();" onmouseover="showGlobalNaviOtherLinks();">
-          <li ID=NaviNoPulDwnLi>その他の辞書▼
-            <ul ID=NaviNoPulDwnLiUl>
-              <li class=NaviNoPulDwnLiUlLi>
-                <a onclick="return cu(this, 'https://shuwa.weblio.jp/content_find')" href="https://shuwa.weblio.jp/" title="手話辞典・手話動画 - Weblio辞書"
-                  rel="nofollow">手話辞典</a>
-              </li>
-              <li class=NaviNoPulDwnLiUlLi>
-                <a onclick="return cu(this, 'https://njjn.weblio.jp/content_find')" href="https://njjn.weblio.jp/" title="インドネシア語辞書 - Weblioインドネシア語辞典">インドネシア語辞典</a>
-              </li>
-              <li class=NaviNoPulDwnLiUlLi>
-                <a onclick="return cu(this, 'https://tjjt.weblio.jp/content_find')" href="https://tjjt.weblio.jp/" title="タイ語辞書 - Weblioタイ語辞典">タイ語辞典</a>
-              </li>
-              <li class=NaviNoPulDwnLiUlLi>
-                <a onclick="return cu(this, 'https://vjjv.weblio.jp/content_find')" href="https://vjjv.weblio.jp/" title="ベトナム語辞書 - Weblioベトナム語辞典">ベトナム語辞典</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div ID=headBarR>
-        <span class=headBarRLg>
-          <span id=hdUsrInfoJV title="未設定"></span>
-        </span>
-        <a href="https://www.weblio.jp/" title="辞典・百科事典の検索サービス - Weblio辞書">辞書総合TOP</a>
-
-        &nbsp;|&nbsp;
-        <a href="https://help.weblio.jp/ejje" title="ヘルプ">ヘルプ</a>
-      </div>
-      <b class=clr></b>
-    </div>
-    <table ID=logoBar>
-      <tr>
-        <td rowspan="2" ID=logoBarL>
-          <div ID=logoBarLB>
-            <a href="https://translate.weblio.jp/" title="Weblio 翻訳">
-              <img src="https://weblio.hs.llnwd.net/e7/img/icons/logoE_LMD.png" alt="Weblio 翻訳" height="37px" width="152px">
-            </a>
-            <span>英語翻訳</span>
-          </div>
-        </td>
-        <td ID=logoBarR>
-          <!-- /2211331/Weblio_PC_translate_Header_728_90 -->
-          <div id="div-gpt-ad-1467639585549-0" style="height:90px; width:728px;">
-            <script type="text/javascript">
-              <!--
-              adScS('cp834.js');
-              //-->
-            </script>
-
-          </div>
-        </td>
-      </tr>
-    </table>
-    <form action="https://ejje.weblio.jp/content" method="get" name="f" target="_blank">
-      <div ID=formBoxWrp>
-        <p class="formBoxENo formBoxEWide">
-          <a href="https://ejje.weblio.jp/" title="英和・和英辞典" rel="nofollow">英和・和英辞典</a>
-        </p>
-        <p onclick="ht(this, 'https://ejje.weblio.jp/sentence/content/');" class="formBoxENo">
-          <a onclick="return cu(this, 'https://ejje.weblio.jp/sentence/content/')" href="https://ejje.weblio.jp/sentence/" title="英語例文"
-            rel="nofollow">英語例文</a>
-        </p>
-        <p onclick="ht(this, 'https://ejje.weblio.jp/english-thesaurus/content/');" class="formBoxENo">
-          <a onclick="return cu(this, 'https://ejje.weblio.jp/english-thesaurus/content/')" href="https://ejje.weblio.jp/english-thesaurus/"
-            title="英語類語" rel="nofollow">英語類語</a>
-        </p>
-        <p onclick="ht(this, 'https://ejje.weblio.jp/concordance/content/');" class="formBoxENo">
-          <a onclick="return cu(this, 'https://ejje.weblio.jp/concordance/content/')" href="https://ejje.weblio.jp/concordance/" title="共起表現"
-            rel="nofollow">共起表現</a>
-        </p>
-        <p class="formBoxENo">
-          <a href="https://uwl.weblio.jp/" title="英単語帳">英単語帳</a>
-        </p>
-        <p class="formBoxENo">
-          <a href="https://uwl.weblio.jp/vocab-index" title="英語力診断" rel="nofollow">英語力診断</a>
-        </p>
-        <p class="formBoxESel">
-          <a href="https://translate.weblio.jp/" title="英語翻訳" rel="nofollow">英語翻訳</a>
-        </p>
-        <p class="formBoxENo">
-          <a href="https://eikaiwa.weblio.jp/" title="Weblio英会話" rel="nofollow">英会話</a>
-        </p>
-        <p class="formBoxENo formBoxEWide">
-          <a href="https://uwl.weblio.jp/speaking-test?wpm_source=ejje_glonavi&amp;wpm_campaign=speaking-test&amp;wpm_medium=link"
-            title="スピーキングテスト" rel="nofollow">スピーキングテスト</a>
-        </p>
-        <p onclick="ht(this, 'https://ejje.weblio.jp/turbo/');" class="formBoxENo">
-          <a onclick="return cu(this, 'https://ejje.weblio.jp/turbo/')" href="https://ejje.weblio.jp/turbo/" title="英和・和英辞典">ターボ</a>
-        </p>
-        <ul ID=formBoxENoPulDwn onclick="showEjjeGlobalNaviOtherLinks()">
-          <li ID=formBoxENoPulDwnLi>もっと見る▼
-            <ul ID=formBoxENoPulDwnLiUl>
-              <li class=formBoxENoPulDwnLiUlLi>
-                <a href="https://ejje.weblio.jp/template/" title="英語テンプレート">英語テンプレート</a>
-              </li>
-              <li class=formBoxENoPulDwnLiUlLi>
-                <a href="https://www.smart-translation.com/" title="スマート翻訳">スマート翻訳</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <br class=clr>
-        <div ID=formBoxCntE>
-          <div ID=formBoxL>
-            <table class=formBoxIWrp>
-              <tr>
-                <td>
-                  <input maxlength="2048" type="text" name="query" id="combo_txt" value="" class=formBoxITxt>
-                </td>
-                <td>
-                  <span class="combo_txt_clr formBoxIClIcnNon">&nbsp;</span>
-                </td>
-              </tr>
-            </table>
-            <span class=formBoxISpan>&nbsp;</span>
-            <input type="image" src="https://weblio.hs.llnwd.net/e7/img/icons/EjjeSchUp.png" value="項目を検索" onMouseOver="this.src='https://weblio.hs.llnwd.net/e7/img/icons/EjjeSchDn.png';"
-              onMouseOut="this.src='https://weblio.hs.llnwd.net/e7/img/icons/EjjeSchUp.png';" class=formButton>
-            <span class=formBoxLEBtnStWrp>
-              <a href="https://ejje.weblio.jp/dict-order-setting" title="検索結果の画面設定">
-                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconEjjeStng.png" alt="検索結果の画面設定" class=formBoxLEStBtn>設定</a>
-            </span>
-          </div>
-          <br class=clr>
-        </div>
-      </div>
-    </form>
-
-    <script type="text/javascript">
-      <!--
-      $(document).ready(function () {
-
-      });
-
-      //-->
-    </script>
-    <div ID=wrp>
-
-      <div ID=main>
-
-        <input type="hidden" name="isResultPage" value="1">
-        <input type="hidden" name="traSpA" value="d762d9cd4e918fa2" id=traSpA>
-        <form method="post" action="https://translate.weblio.jp/" name="translate">
-          <input type="hidden" name="lp" value="">
-          <input type="hidden" name="lpf" value="EJ">
-          <input type="hidden" name="rt" value="本当に喜ばしい
-
-本当に、うれしいです" id=reTranslatedText>
-          <input type="hidden" name="translatedText" value="本当に喜ばしい
-
-本当に、うれしいです" id=translatedText>
-          <input type="hidden" name="tm" value="">
-          <input type="hidden" name="tlt" value="english">
-          <input type="hidden" name="prtRt" value="">
-
-          <div id=menu>
-            <div id=menuWrap>
-              <div class=menuTrL>
-                <div class=menuOn>
-                  <a href="https://translate.weblio.jp/" class=selectedMenu>テキスト翻訳</a>
-                </div>
-                <div class=menuOff>
-                  <a href="https://translate.weblio.jp/web/english">ウェブページ翻訳</a>
-                </div>
-              </div>
-              <div class=menuTrR>
-                <a href="https://uwl.weblio.jp/ps/index" class=menuPsIdxA onclick="ga('send', 'event', 'lead_to_premium', 'click', 'translate_head_hidden-ads', {'page': '/translate_head_hidden-ads'});">このページの広告を非表示にする</a>
-              </div>
-              <br class=clr>
-            </div>
-          </div>
-          <div class=hMenuWL>
-            <table class=hMenuWLL>
-              <tr>
-                <td class=hMenuCE>
-                  <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconTrNfEnglish24.png" alt="">
-                  <h2 class=hMenuT>英語</h2>
-                </td>
-                <td class=hMenuCE>
-                  <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconTrNfChinese24.png" alt="">
-                  <h2 class=hMenuT>
-                    <a href="https://translate.weblio.jp/chinese/">中国語</a>
-                  </h2>
-                </td>
-                <td class=hMenuCE>
-                  <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconTrNfKorean24.png" alt="">
-                  <h2 class=hMenuT>
-                    <a href="https://translate.weblio.jp/korean/">韓国語</a>
-                  </h2>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <div id=trMsgArea></div>
-          <table ID=cont>
-            <tr>
-              <td class=contLHH>
-
-                <table ID=hMenuWLRE class=hMenuWLR>
-                  <tr>
-                    <td>
-                      <input type="button" value="英語→日本語" class=trnsFBtnSm id="EJH">
-                      <span class=trnsFBtnWrpSm>
-                        <span class=trnsFBtnHSm>&nbsp;</span>
-                        <span class=trnsFBtnBSm>&nbsp;</span>
-                      </span>
-                    </td>
-                    <td>
-                      <input type="button" value="日本語→英語" class=trnsFBtnSm id="JEH">
-                      <span class=trnsFBtnWrpSm>
-                        <span class=trnsFBtnHSm>&nbsp;</span>
-                        <span class=trnsFBtnBSm>&nbsp;</span>
-                      </span>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-              <td class=contCHH>
-                &nbsp;
-              </td>
-              <td class=contRHH>
-
-                <div class=transMailLnkWrp>
-                  <div class=rowBtnNR>
-                    <div ID=transMailBtn title="この翻訳をメールで送信する"></div>
-                  </div>
-                </div>
-                <div class=trnsFOutLnkWrp>
-                  <script type="text/javascript">
-                    <!--
-                    outTrnsCntWr('https://translate.weblio.jp/');
-                    //-->
-                  </script>
-                </div>
-                <b class=clr></b>
-              </td>
-            </tr>
-
-            <tr>
-              <td class=contLH>
-
-                <div class=contWrp>
-                  <div class=contH>
-                    <p class=contHCnt>
-                      <span>原文</span>
-                      <b class=contHCntS>※最大4000文字まで入力できます。現在
-                        <b id="charCnt">0</b>文字</b>
-                      <input type="button" value="クリア" class=contBtnCl>
-                    </p>
-                  </div>
-                  <div class=contB>
-                    <div class=contBCnt ID=contBCntOriginalTextArea>
-                      <textarea name="originalText" cols="39" rows="18" class=contTAGb ID=originalTextArea spellcheck="false">indeed glad
-                      </textarea>
-                    </div>
-                    <div class="contBCnt" ID=contBCntSplChkArea style="display:none;">
-                      <div ID=contBCntSplChkResult></div>
-                    </div>
-                  </div>
-
-
-                </div>
-                <table id=contFCnt>
-                  <tr>
-                    <td id=contFCntL>
-                      <table ID=contHyBtnStl>
-                        <tr>
-                          <td>和訳の文体：</td>
-                          <td>
-                            <span>
-                              <select name="sentenceStyle">
-                                <option value="spoken" class="trnsStlBtn" selected="selected">です・ます体</option>
-                                <option value="written" class="trnsStlBtn">だ・である体</option>
-                              </select>
-                            </span>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>英語の音声：</td>
-                          <td class=slctElmCvrPrnt>
-                            <span>
-                              <select ID=sndspd>
-                                <option value="" selected>再生速度(100%)</option>
-                                <option value="75">少しゆっくり(75%)</option>
-                                <option value="50">とてもゆっくり(50%)</option>
-                              </select>
-                            </span>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                    <td id=contFCntR>
-                      <p id="splChkBtn">スペルチェックする
-                        <span class="spellCheckerDescriptionIdx">
-                          <span id="spellCheckerDescriptionIdxCont">ボタンをクリックすると
-                            <br>入力した英文のスペルチェック
-                            <br>結果を下に表示します。</span>
-                        </span>
-                      </p>
-                      <input type="hidden" ID=spellCheckKey name="spellCheckKey" value="21d3c33285b0efa6" />
-                      <div id=contFCntRC>
-                        <div class="contHyBtnWrp">
-                          <div id="contHyBtnG">
-                            <div id="contHyBtnTAPlE">
-                              <input type="hidden" name="languagePairFin" value="EJ">
-                              <input type="hidden" name="audioTextAreaId" value="originalTextArea">
-                              <input type="hidden" name="maxLimit" value="500">
-                              <audio class="translateAudio" controls="controls" preload="none">
-                                <source src="https://translate.weblio.jp/tts?query=" type="audio/mpeg">
-                              </audio>
-                            </div>
-                            <div id="contHyBtnTADlE">
-                              <input type="hidden" name="languagePairFin" value="EJ">
-                              <input type="hidden" name="audioTextAreaId" value="originalTextArea">
-                              <input type="hidden" name="maxLimit" value="500">
-                              <input type="hidden" name="audioDownloadUrl" value="https://translate.weblio.jp/tts?query=">
-                            </div>
-                            <br class="clr">
-                          </div>
-                          <br class="clr">
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                </table>
-                <br class=clr>
-
-                <a href="#lkMainBXH3" ID=exptWdLkBtn>原文から英単語を抽出</a>
-                <table ID=contHyBtnTE>
-                  <tr>
-                    <td>
-                      <input type="button" value="英語→日本語" class=trnsFBtn id="EJB">
-                      <span class=trnsFBtnWrp>
-                        <span class=trnsFBtnH>&nbsp;</span>
-                        <span class=trnsFBtnB>&nbsp;</span>
-                      </span>
-                    </td>
-                    <td>
-                      <input type="button" value="日本語→英語" class=trnsFBtn id="JEB">
-                      <span class=trnsFBtnWrp>
-                        <span class=trnsFBtnH>&nbsp;</span>
-                        <span class=trnsFBtnB>&nbsp;</span>
-                      </span>
-                    </td>
-                  </tr>
-                </table>
-                <div ID=splChkResult style="display:none;"></div>
-                <script type="text/javascript">
-                  <!--
-                  adScS('cp853.js');
-                  //-->
-                </script>
-
-              </td>
-
-              <td class=contCH>
-                <p class=trnsArw id="EJA">&raquo;</p>
-              </td>
-
-              <td class=contRH>
-                <div class=contWrp>
-                  <div class=contH>
-                    <div class=contHCnt>
-                      <ul class=rowBtn>
-                        <li class=rowBtnL>
-                          <span>訳文</span>
-                        </li>
-                        <li class=rowBtnR>
-                          <ul class=rowBtn>
-                            <li class=rowBtnL>
-                              <div ID=transPrintBtn title="この翻訳を印刷する"></div>
-                            </li>
-                            <li class=rowBtnL>
-                              <div>
-                                <input type="button" value="コピー" style="display:none;" class=contBtnCp>
-                              </div>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                      <br class=clr>
-                    </div>
-                  </div>
-                  <div class=contB>
-                    <div class=contBCntT>
-                      <div class="contTAYb contTAYbRsltE" ID=translatedTextArea>
-
-                        <div class=transResultWrp>■機械翻訳の結果
-                          <br>
-                          <div class=transResultMain ID=transResultMainLn>
-                            <ol>
-                              <li class=translatedTextAreaLn>
-                                <span>本当に喜ばしい</span>
-                                <textarea name="translatedTextWrLn0" cols="39" rows="18" class=translatedTextLnFm></textarea>
-                              </li>
-                              <li class=translatedTextAreaLn>
-                                <span>本当に、うれしいです</span>
-                                <textarea name="translatedTextWrLn1" cols="39" rows="18" class=translatedTextLnFm></textarea>
-                              </li>
-                            </ol>
-                          </div>
-                        </div>
-                        <br>
-                        <div class=transExpWrp>
-                          <div class=transExpHd>
-                            <p class=transExpHdTEx>類似した例文</p>
-                          </div>
-                          <div class=transExpBExWrp>
-                            <span class=qotHS>例文</span>
-                            <div class=qotC>
-                              <p class=qotCE>I&#39;m
-                                <b>indeed glad</b>.＝I&#39;m glad indeed.
-                                <span class="nrCntSgAdo">
-                                  <span class="sentenceAudioIcon translateSentenceAudioIcon">
-                                    <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt=""
-                                      "><audio class=sentenceAudio controls="controls " preload="none "><source src="https://weblio.hs.llnwd.net/e8/audio/42d86aed184679dd9d45af36bfa42e52.mp3?groupId=WEBLIO_KENEJ
-                                      " type="audio/mpeg
-                                      "></audio></span></span><span class=addToSlBtnCntner><a class=addToSlBtn onclick="postSentenceCore(this, 'WEBLIO_KENEJ', 57990,
-                                      'I%27m+indeed+glad.%EF%BC%9DI%27m+glad+indeed.', '%E6%9C%AC%E5%BD%93%E3%81%AB%E3%81%86%E3%82%8C%E3%81%97%E3%81%84.')
-                                      ">例文帳に追加</a></span></p><p class=qotCJ>本当にうれしい.<span>&nbsp;-&nbsp;研究社 新英和中辞典</span></p></div><div class=qotC><p class=qotCE>I am indeed very glad to hear that.<span class="nrCntSgAdo "><span class="sentenceAudioIcon translateSentenceAudioIcon "><img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png
-                                      " alt=" "">
-                                    <audio class=sentenceAudio controls="controls" preload="none">
-                                      <source src="https://weblio.hs.llnwd.net/e8/audio/eba5e25e27123855c0f8d831e09e6160.mp3?groupId=TANAKA_CORPUS"
-                                        type="audio/mpeg">
-                                    </audio>
-                                  </span>
-                                </span>
-                                <span class=addToSlBtnCntner>
-                                  <a class=addToSlBtn onclick="postSentenceCore(this, 'TANAKA_CORPUS', 117282, 'I+am+indeed+very+glad+to+hear+that.', '%E3%81%9D%E3%82%8C%E3%82%92%E8%81%9E%E3%81%84%E3%81%A6%E5%85%A8%E3%81%8F%E3%81%86%E3%82%8C%E3%81%97%E3%81%84%E3%80%82')">例文帳に追加</a>
-                                </span>
-                              </p>
-                              <p class=qotCJ>それを聞いて全くうれしい。
-                                <span>&nbsp;-&nbsp;Tanaka Corpus</span>
-                              </p>
-                            </div>
-                            <div class=qotC>
-                              <p class=qotCE>But indeed, Utterson, I am very glad to see you;
-                                <span class="nrCntSgAdo">
-                                  <span class="sentenceAudioIcon translateSentenceAudioIcon">
-                                    <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt=""
-                                      "><audio class=sentenceAudio controls="controls " preload="none "><source src="https://weblio.hs.llnwd.net/e8/audio/86e777155c79cadd6223b43cef5cab31.mp3?groupId=DOTO_UCHIYAMA_hyde
-                                      " type="audio/mpeg
-                                      "></audio></span></span><span class=addToSlBtnCntner><a class=addToSlBtn onclick="postSentenceCore(this, 'DOTO_UCHIYAMA_hyde', 1018,
-                                      'But+indeed%2C+Utterson%2C+I+am+very+glad+to+see+you%3B',
-                                      '%E3%81%A7%E3%82%82%E3%82%A2%E3%82%BF%E3%83%BC%E3%82%BD%E3%83%B3%E3%80%81%E6%9C%AC%E5%BD%93%E3%81%AB%E5%90%9B%E3%81%AB%E4%BC%9A%E3%81%88%E3%81%A6%E3%81%86%E3%82%8C%E3%81%97%E3%81%84%E3%80%82')
-                                      ">例文帳に追加</a></span></p><p class=qotCJ>でもアターソン、本当に君に会えてうれしい。<span>&nbsp;-&nbsp;Robert Louis Stevenson『ジキルとハイド』</span></p></div><span class=qotHS>例文</span><div class=qotC><p class=qotCE>As for the level of capital held by banks, we have had worries, and some regional banks are indeed trying to increase their capital by receiving public funds. We should be glad that major banks are planning to raise capital on their own.<span class="nrCntSgAdo "><span class="sentenceAudioIcon translateSentenceAudioIcon "><img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png
-                                      " alt=" "">
-                                    <audio class=sentenceAudio controls="controls" preload="none">
-                                      <source src="https://weblio.hs.llnwd.net/e8/audio/8344ec3b082daa9b46329fd5134a9093.mp3?groupId=FINANCIAL_SERVICES_AGENCY"
-                                        type="audio/mpeg">
-                                    </audio>
-                                  </span>
-                                </span>
-                                <span class=addToSlBtnCntner>
-                                  <a class=addToSlBtn onclick="postSentenceCore(this, 'FINANCIAL_SERVICES_AGENCY', 15744, 'As+for+the+level+of+capital+held+by+banks%2C+we+have+had+worries%2C+and+some+regional+banks+are+indeed+trying+to+increase+their+capital+by+receiving+public+funds.+We+should+be+glad+that+major+banks+are+planning+to+raise+capital+on+their+own.', '%E3%81%9D%E3%82%8C%E3%81%8B%E3%82%89%E9%8A%80%E8%A1%8C%E3%81%AE%E8%B3%87%E6%9C%AC%E3%81%AE%E3%83%AC%E3%83%99%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AF%E3%80%81%E6%88%91%E3%80%85%E3%81%8B%E3%81%AD%E3%81%8C%E3%81%AD%E5%BF%83%E9%85%8D%E3%81%97%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F%E3%81%97%E3%80%81%E7%8F%BE%E3%81%AB%E5%9C%B0%E9%8A%80%E3%81%AE%E4%B8%80%E9%83%A8%E3%81%A7%E3%81%AF%E5%85%AC%E7%9A%84%E8%B3%87%E9%87%91%E3%82%92%E5%8F%96%E3%82%8A%E5%85%A5%E3%82%8C%E3%81%A6%E8%B3%87%E6%9C%AC%E5%A2%97%E5%BC%B7%E3%82%92%E3%82%84%E3%82%8D%E3%81%86%E3%81%A8%E3%81%84%E3%81%86%E3%81%93%E3%81%A8%E3%81%A7%E3%81%99%E3%81%8C%E3%80%81%E5%A4%A7%E3%81%8D%E3%81%AA%E3%81%A8%E3%81%93%E3%82%8D%E3%81%AF%E8%87%AA%E3%82%89%E3%81%AE%E5%8A%9B%E3%81%A7%E8%B3%87%E6%9C%AC%E3%82%92%E8%AA%BF%E9%81%94%E3%81%95%E3%82%8C%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86%E3%81%93%E3%81%A8%E3%81%A7%E3%81%99%E3%81%8B%E3%82%89%E3%80%81%E3%81%93%E3%82%8C%E3%81%BB%E3%81%A9%E3%81%8A%E7%A5%9D%E3%81%84%E3%81%99%E3%81%B9%E3%81%8D%E3%81%93%E3%81%A8%E3%81%AF%E3%81%AA%E3%81%84%E3%81%A8%E6%80%9D%E3%81%A3%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82')">例文帳に追加</a>
-                                </span>
-                              </p>
-                              <p class=qotCJ>それから銀行の資本のレベルについては、我々かねがね心配しておりましたし、現に地銀の一部では公的資金を取り入れて資本増強をやろうということですが、大きなところは自らの力で資本を調達されるということですから、これほどお祝いすべきことはないと思っております。
-                                <span>&nbsp;-&nbsp;金融庁</span>
-                              </p>
-                            </div>
-                          </div>
-                          <a href="https://ejje.weblio.jp/sentence/content/indeed+glad" target="_blank" class=transExpBtmLnk>例文一覧を見る</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                          <a href="https://ejje.weblio.jp/sentence/" target="_blank" class=transExpBtmLnk>Weblio英語例文検索</a>
-                        </div>
-                        <br>
-                        <div class=transExpWrp>
-                          <div class=transExpHd>入力された単語のスペルチェックの結果</div>
-                          <div class=nrCntSgKw>
-                            <div class=nrCntSgWrp>
-                              <div class=nrCntSgH>
-                                <p class=nrCntSgT>
-                                  <a href="https://ejje.weblio.jp/content/INDEED" title="INDEED">INDEED</a>
-                                </p>
-                                <p class=nrCntSgP>
-                                  <span>/</span>ɪndíːd
-                                  <span>/</span>
-                                </p>
-                                <p class="nrCntSgA">
-                                  <span class="nrCntSgAdo">
-                                    <audio class="translateAudio" controls="controls" preload="none">
-                                      <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-C7605DE_E-C762BBA.mp3"
-                                        type="audio/mpeg">
-                                    </audio>
-                                    <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
-                                  </span>
-                                </p>
-                              </div>
-                              <b class=clr></b>
-                              <div class=nrCntSgB>実に, 実際に, まったく</div>
-                            </div>
-                            <div class=nrCntSgWrp>
-                              <div class=nrCntSgH>
-                                <p class=nrCntSgT>
-                                  <a href="https://ejje.weblio.jp/content/indeed+%2C+but" title="indeed , but">indeed , but</a>
-                                </p>
-                              </div>
-                              <b class=clr></b>
-                              <div class=nrCntSgB>なるほど…だが…</div>
-                            </div>
-                            <div class=nrCntSgWrp>
-                              <div class=nrCntSgH>
-                                <p class=nrCntSgT>
-                                  <a href="https://ejje.weblio.jp/content/indeed+it+is" title="indeed it is">indeed it is</a>
-                                </p>
-                              </div>
-                              <b class=clr></b>
-                              <div class=nrCntSgB>如何にも</div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class=trnsSaiEOn>
-                          <input type="button" value="この翻訳文をもう一度英語に翻訳" class=trnsJBtnOn>
-                        </div>
-                        <a ID=twtTrnRsltWthImgBtn href="https://twitter.com/intent/tweet?text=%23weblio%E7%BF%BB%E8%A8%B3&amp;url=https%3A%2F%2Ftranslate.weblio.jp%3ForiginalText%3Dindeed%250D%250Aglad%26lp%3DEJ"
-                          target="_blank">
-                          <i class="fa fa-twitter"></i>
-                          <span>画像付きで翻訳結果をツイートする</span>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class=trnsSaiEOn>
-                    </div>
-                  </div>
-                </div>
-                <table ID=contYbBtnTE>
-                  <tr>
-                    <td>
-
-                      <div class=rtBtn id="rtBtnArea">
-                        <p class=rtBtnH>
-                          <span>翻訳結果は</span>
-                          <input type="radio" name="rate_result" value="yes" id="rate_result_useful" class=rtBtnR checked>
-                          <span>役に立った</span>
-                          <input type="radio" name="rate_result" value="no" id="rate_result_useless" class=rtBtnR>
-                          <span>役に立たない</span>
-                          <input type="button" value="送信" class=rtBtnB>
-                        </p>
-                      </div>
-                      <br>
-                      <div class=rtFrm id="feedbackBlockRate">
-                        <table class=rtFrmT>
-                          <tr>
-                            <td class=rtFrmTL>あなたのご意見をお聞かせ下さい</td>
-                            <td class=rtFrmTR>
-                              <span id="closeRateTextArea" class=rtFrmTRS>[×]閉じる</span>
-                            </td>
-                          </tr>
-                        </table>
-                        <textarea cols="35" rows="8" class=rtTxa id="feedbackMessageRate"></textarea>
-                        <p class=rtFrmP>
-                          <input type="button" value="送信" class=rtBtnB>
-                        </p>
-                      </div>
-                      <script type="text/javascript">
-                        $(document).ready(function () {
-                          // リロード時にfalseの場合
-                          if ($('#rate_result_useless').attr('checked')) {
-                            $('#feedbackBlockRate').show();
-                            $('#feedbackMessageRate').focus();
-                          }
-
-                          $('input[name="rate_result"]:radio').change(function () {
-                            if ($(this).val() == 'no') {
-                              $('#feedbackBlockRate').show();
-                              $('#feedbackMessageRate').focus();
-                            }
-                          });
-
-                          // 役に立ったボタン
-                          $('#rate_result_useful').click(function () {
-                            $('#feedbackBlockRate').hide();
-                          });
-
-                          // 閉じる
-                          $('#closeRateTextArea').click(function () {
-                            $('#feedbackBlockRate').hide();
-                            $('#rate_result_useful').attr('checked', 'checked');
-                          });
-
-                          $('.rtBtnB').click(function () {
-                            var tsForm = document.forms['translate'];
-                            if (tsForm) {
-                              var feedText = tsForm.feedbackMessageRate.value;
-                              var lType = 'english';
-                              if (feedText.length > 1000) {
-                                alert("送信できる最大文字数(1000文字)を超えています。");
-                                return;
-                              }
-
-                              $('#feedbackBlockRate').hide();
-                              $.post(
-                                'https://translate.weblio.jp/feedback-log/', {
-                                  'contentText': tsForm.originalText.value,
-                                  'translatedText': tsForm.translatedText.value,
-                                  'uf': $(".rtBtnR:checked").val(),
-                                  'ft': feedText,
-                                  'ref': document.referrer,
-                                  'lt': lType
-                                },
-                                function (data, status) {
-                                  if (status == 'success') {
-                                    $('#rtBtnArea').html('ご協力ありがとうございます!');
-                                  }
-                                },
-                                'text'
-                              );
-                            }
-                          });
-
-                        });
-                      </script>
-                    </td>
-                  </tr>
-                </table>
-                <div ID=transSmtTnsApiBoxDpML>&nbsp;</div>
-              </td>
-            </tr>
-          </table>
-        </form>
-
-        <script type="text/javascript">
-          $(document).ready(function () {
-            var onloadTime = (new Date()).getTime();
-            var $textAreaObj = $('#originalTextArea');
-            var $transTextAreaObj = $('#translatedTextArea');
-            var $charCountPHObj = $('#charCnt');
-            var fnNameCountTareaCharsName = 'countTareaCharsFncName';
-            var maxLimit = 4000;
-            var sHeight = window.screen.height;
-            var reTag = new RegExp(/<\w+(\s+[^>]*)?>/g);
-            var reTagCl = new RegExp(/<\/\w+>/g);
-            var opera = window.navigator.userAgent.toLowerCase().indexOf('opera') > -1;
-            var firefox = window.navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
-            var ie = window.navigator.userAgent.toLowerCase().indexOf("msie") > -1;
-            var ieVer = window.navigator.appVersion.toLowerCase();
-            var oldIe = false;
-            if (ie && ieVer.indexOf("msie 6.0") > -1) {
-              oldIe = true;
-            }
-
-            if (sHeight <= 800 || oldIe) {
-              if (oldIe) {
-                $textAreaObj.css('padding-bottom', '0');
-                $textAreaObj.css('height', '210px');
-              } else {
-                $textAreaObj.css('height', '160px');
-              }
-              $('.contBCntT').addClass("contBCntTSml");
-              $('.contShyTAYb').css('height', '188px');
-            }
-            if (!oldIe) {
-              $textAreaObj.autosize({
-                className: 'contTAGbMText'
-              });
-            }
-
-            // ポップアップ設定用の表示を初期化
-
-            if (!oldIe) {
-              popupSettingHtmlArray = new Array(
-                'ポップアップ辞書を<span id=popupSC>ON</' +
-                'span>/<span id=popupST onclick="setPopupSettingHtml(false, &quot;transResultHR&quot;)">OFF</' +
-                'span>',
-                'ポップアップ辞書を<span id=popupST onclick="setPopupSettingHtml(true, &quot;transResultHR&quot;)">ON</' +
-                'span>/<span id=popupSC>OFF</' + 'span>'
-              );
-              setPopupSettingHtml(enablePopup, 'transResultHR');
-            }
-
-
-            // テキストエリアに切り替える前に退避しておく、ポップアップ対象の単語の配列
-            var popupWordArray = new Array();
-
-            // テキストエリアに切り替える前に退避しておく翻訳結果のインデックス
-            var popupTranslatedTextPos = -1;
-
-            /**
-             * 前後の空白文字を削除する
-             * @param s
-             * @return 置換後の文字列
-             */
-            function trimWhitespaces(s, trimOnly) {
-              s = s.replace(/^([ 　\t\r\n]+)?(.+?)([ 　\t\r\n]+)?$/g, '$2');
-              if (!trimOnly) {
-                s = s.replace(/\r\n/g, ''); //IE
-                s = s.replace(/\n/g, ''); //Firefox
-              }
-              return s;
-            }
-
-            /**
-             * 正味のテキストの文字数を返す
-             *
-             */
-            function countNetLength(text) {
-              if (text) {
-                return trimWhitespaces(text, false).length;
-              } else {
-                return 0;
-              }
-            }
-
-            /**
-             * テキストのURLエンコード後のバイト数を返す
-             *
-             */
-            function getEncodeByte(text) {
-              var count = 0;
-              text = trimWhitespaces(text, false);
-              for (i = 0; i < text.length; ++i) {
-                n = encodeURIComponent(text.charAt(i));
-                count += n.length;
-              }
-              return count;
-            }
-
-            /**
-             * 訳文を返す
-             */
-            function getTranslatedText(copyEjjeResult, appendNumber, desanitize, trim) {
-              // 訳文
-              var translatedText = '';
-              if (copyEjjeResult) {
-                // ejjeの結果部分を取得する
-                var $ejjeResultArray = $('#translatedTextArea .transExpB li');
-                if ($ejjeResultArray) {
-                  for (var i = 0; i < $ejjeResultArray.length; ++i) {
-                    var $child = $ejjeResultArray.eq(i);
-                    if (i > 0) {
-                      translatedText += '\n';
-                    }
-                    translatedText += $child.html();
-                  }
-                }
-              }
-              if (translatedText.length > 0) {
-                translatedText += '\n\n';
-              }
-              // 翻訳のメイン部分を取得する
-              var $targetTagArray = $('#translatedTextArea .transResultWrp .transResultMain li');
-              if ($targetTagArray) {
-                if ($targetTagArray.length == 1) {
-                  translatedText += $targetTagArray.eq(0).html();
-                } else {
-                  for (var i = 0; i < $targetTagArray.length; ++i) {
-                    var $child = $targetTagArray.eq(i);
-                    if (i > 0) {
-                      translatedText += '\n';
-                    }
-                    if (appendNumber) {
-                      translatedText += (i + 1) + '. ';
-                    }
-                    translatedText += $child.html();
-                  }
-                }
-              }
-
-              // <br>を置換
-              translatedText = translatedText.replace(/<br>/g, '\n');
-
-              translatedText = translatedText.replace(reTag, '').replace(reTagCl, '');
-
-
-              if (desanitize) {
-                translatedText = CommonUtils.desanitize(translatedText);
-              }
-              if (trim) {
-                translatedText = jQuery.trim(translatedText);
-              }
-              return translatedText;
-            }
-
-            // 翻訳のボタン
-            $('.trnsFBtn, .trnsFBtnSm, .trnsArw, .sgstBtn').click(function () {
-
-              if ($textAreaObj) {
-
-                // スペルミス訂正のリンクがクリックされた場合は、訂正後の文章をフォームに代入して、通常の翻訳処理を行う
-                if ($(this)[0].tagName == "A") {
-                  $textAreaObj.val($(this).html());
-                }
-
-                var text = $textAreaObj.attr('value');
-                var length = text.length;
-                if (length == 0) {
-                  alert('翻訳したい文章を原文に入力して下さい');
-                  return;
-                } else if (countNetLength(text) > maxLimit) {
-                  alert('入力できる文字数は' + maxLimit + "文字までです");
-                  return;
-                } else if (opera) {
-                  if (getEncodeByte(text) > 7000) {
-                    alert('現在ご利用の環境では文章のサイズが大き過ぎて処理が出来ません。');
-                    return;
-                  }
-                }
-              }
-
-              var lpValue = $(this).attr('id');
-              if (lpValue.length > 2) {
-                lpValue = lpValue.substr(0, 2);
-              }
-              var form = document.forms['translate'];
-              form.lp.value = lpValue;
-              form.rt.value = ''; // 再翻訳用のテキストはクリアしておく
-              if (onloadTime) {
-                var inputTime = ((new Date()).getTime()) - onloadTime;
-                form.tm.value = inputTime;
-              }
-
-              //form.forceWordStr.value = lemma;
-              //form.forceAddStr.value = 'true';
-              form.submit();
-            });
-
-            // 翻訳履歴
-            $('.trHst').click(function () {
-
-              if ($textAreaObj) {
-
-                $textAreaObj.val($(this).attr('title'));
-
-                var text = $textAreaObj.attr('value');
-                var length = text.length;
-                if (length == 0) {
-                  alert('翻訳したい文章を原文に入力して下さい');
-                  return;
-                } else if (countNetLength(text) > maxLimit) {
-                  alert('入力できる文字数は' + maxLimit + "文字までです");
-                  return;
-                } else if (opera) {
-                  if (getEncodeByte(text) > 7000) {
-                    alert('現在ご利用の環境では文章のサイズが大き過ぎて処理が出来ません。');
-                    return;
-                  }
-                }
-              }
-
-              var lpValue = 'EJ';
-              var form = document.forms['translate'];
-              form.lp.value = lpValue;
-              form.rt.value = ''; // 再翻訳用のテキストはクリアしておく
-              if (onloadTime) {
-                var inputTime = ((new Date()).getTime()) - onloadTime;
-                form.tm.value = inputTime;
-              }
-
-              //form.forceWordStr.value = lemma;
-              //form.forceAddStr.value = 'true';
-              form.submit();
-            });
-
-
-            // 訳文BOXのクリック時
-            $('.transResultMain .translatedTextAreaLn').click(function () {
-
-              var $rdObj = $(this).find("span");
-              var $wrObj = $(this).find("textarea");
-              if ($rdObj.css('display') == 'none') {
-                return;
-              }
-
-              // ポップアップ用のタグをすべて配列に退避しておく
-
-              var thisText = $(this).html();
-              var textTemp = thisText.match(/<span[^>]*>.+?<\/span>(?=<textarea[^>]*>)/i) || '';
-              var popupPattern =
-                /<span class="?popupW"? onmouseover="?show_popup\(\'[^\']*\', \'([^\']*)\', this\)"?[^>]*>(.+?)<\/span>/gi;
-              var match;
-              var idx = 0;
-              popupWordArray = new Array();
-              while (match = popupPattern.exec(textTemp)) {
-                popupWordArray[idx++] = new Array(match[2], match[0], match[1]);
-              }
-              var $targetTagArray = $('.transResultMain li');
-              for (var i = 0; i < $targetTagArray.length; ++i) {
-                if ($targetTagArray.html() == thisText) {
-                  popupTranslatedTextPos = i;
-                  break;
-                }
-              }
-
-
-              var h = $rdObj.height();
-              if (h < 20) {
-                h = 20;
-              }
-              $rdObj.css('display', 'none');
-              $wrObj.css('display', 'inline');
-              if (!oldIe) {
-                $wrObj.autosize({
-                  className: 'contTAGbMReText'
-                });
-              } else {
-                $wrObj.css('height', '100px');
-                $wrObj.css('width', '280px');
-                $wrObj.css('overflow', 'auto');
-              }
-              var text = CommonUtils.desanitize($(this).html()).replace(/<br>/g, '\n').replace(reTag, '').replace(
-                reTagCl, '');
-              if (!oldIe) {
-                $wrObj.css('height', h);
-              }
-              $wrObj.val(text);
-              $wrObj.focus();
-            });
-
-            // データの同期
-            $('.translatedTextLnFm').blur(function () {
-              transReBoxRev();
-            });
-
-            // データの同期
-            function transReBoxRev() {
-
-              var resultText = '';
-              var $targetTagArray = $('.transResultMain li');
-              for (var i = 0; i < $targetTagArray.length; ++i) {
-
-                var $child = $targetTagArray.eq(i);
-                var $rdObj = $child.find("span");
-                var $wrObj = $child.find("textarea");
-
-                var $gChildArray = $child.children('textarea');
-                for (var j = 0; j < $gChildArray.length; ++j) {
-                  var $gChild = $gChildArray.eq(j);
-                  if ($gChild.css('display') == 'inline' || $gChild.css('display') == 'inline-block') {
-                    $rdObj.css('display', 'inline');
-
-                    // 退避しておいたポップアップ用のタグを復旧する
-
-                    var resultData = CommonUtils.sanitize($wrObj.val()).replace(/\r?\n/g, '<br>');
-
-                    // 復旧済みの箇所までの部分文字列を格納するための、作業用文字列
-                    var restoredStr = '';
-                    var restoredPtn = new RegExp('.*</' + 'span>', 'i');
-                    if (i == popupTranslatedTextPos) {
-                      for (k = 0; k < popupWordArray.length; ++k) {
-                        var popupPatternStr = popupWordArray[k][0].replace(/([\.?*+^$\[\](){}|-])/g, "\$1") +
-                          '(?=[.,:;!?\\s\\r\\n]|<br>|$)';
-                        var popupPattern = new RegExp(popupPatternStr, 'i');
-                        resultData = resultData.replace(popupPattern, popupWordArray[k][1]);
-
-                        if (!restoredPtn.test(resultData)) {
-                          continue;
-                        }
-
-                        // 復旧済みの箇所までの部分文字列を更新
-                        restoredStr += restoredPtn.exec(resultData);
-
-                        // 復旧済みの箇所を削除
-                        resultData = resultData.replace(restoredPtn, '');
-                      }
-                      resultData = restoredStr + resultData;
-                    }
-                    resultData = '<span>' + resultData + '</' + 'span>';
-                    $rdObj.html(resultData);
-
-                    $wrObj.css('height', '0');
-                    $wrObj.css('display', 'none');
-                    $wrObj.val('');
-                  }
-                }
-                if (i > 0) {
-                  resultText += '\n\n';
-                }
-                resultText += $rdObj.html().replace(/<br>/g, '\n').replace(reTag, '').replace(reTagCl, '');
-              }
-
-              var form = document.forms['translate'];
-              if (form && resultText.length > 0) {
-                form.rt.value = resultText;
-              }
-
-              // ポップアップ用のタグへ、イベント処理関数を再設定する(IE6 などへの対応)
-
-              for (i = 0; i < popupWordArray.length; ++i) {
-                initializePopupMouseout(popupWordArray[i][2]);
-              }
-
-            }
-
-            // リサイズ
-            var reTextAutoSizeFnc = function reTextAutoSize() {
-              var $reTextAreaObj = $('.transResultMain textarea');
-              if (!oldIe && $reTextAreaObj) {
-                $reTextAreaObj.trigger('autosize');
-              }
-            }
-
-            if ($transTextAreaObj) {
-              $transTextAreaObj.everyTime(600, fnNameCountTareaCharsName, reTextAutoSizeFnc);
-            }
-
-
-            // プリントボタン
-            $('#transPrintBtn').click(function () {
-              var form = document.forms['translate'];
-              form.prtRt.value = getTranslatedText(false, true, false, true);
-              form.action = "https://translate.weblio.jp/print";
-              form.target = "_blank";
-              form.submit();
-              form.action = "https://translate.weblio.jp/";
-              form.target = "";
-            });
-
-            // コピーボタン
-            if (ie && (ieVer.indexOf("msie 6.") > -1 || ieVer.indexOf("msie 7.") > -1 || ieVer.indexOf("msie 8.") >
-                -1)) {
-              $('.contBtnCp').show();
-              $('.contBtnCp').click(function () {
-                window.clipboardData.setData("Text", getTranslatedText(true, false, true, false));
-                $('#trMsgArea').html('<p>訳文をコピーしました</' + 'p>');
-              });
-            } else {
-              // ZeroClipboardはFlashが動かない環境だと使えないため、Flashが動くことを確認する
-              if (CommonUtils.hasFlashObj()) {
-                $('.contBtnCp').show();
-                ZeroClipboard.config({
-                  swfPath: 'https://weblio.hs.llnwd.net/e7/img/ZeroClipboard.swf'
-                });
-                var cpClient = new ZeroClipboard($('.contBtnCp'));
-                cpClient.on('copy', function (event) {
-                  event.clipboardData.setData("text/plain", getTranslatedText(true, false, true, false));
-                });
-                cpClient.on('aftercopy', function (event) {
-                  $('#trMsgArea').html('<p>訳文をコピーしました</' + 'p>');
-                });
-              }
-            }
-
-            // 再翻訳ボタン
-            $('.trnsJBtnOn, .trnsJBtnOnSm').click(function () {
-              var isResultPage = $('input[name=isResultPage]').val();
-              if (isResultPage == '1') {
-
-                if ($textAreaObj) {
-                  var text = $textAreaObj.attr('value');
-                  var length = text.length;
-                  if (length == 0) {
-                    alert('翻訳したい文章を原文に入力して下さい');
-                    return;
-                  } else if (countNetLength(text) > maxLimit) {
-                    alert('入力できる文字数は' + maxLimit + "文字までです");
-                    return;
-                  } else if (opera) {
-                    if (getEncodeByte(text) > 7000) {
-                      alert('現在ご利用の環境では文章のサイズが大き過ぎて処理が出来ません。');
-                      return;
-                    }
-                  }
-                }
-
-                var form = document.forms['translate'];
-                form.lp.value = $('input[name=lpf]').val();
-                if (onloadTime) {
-                  var inputTime = ((new Date()).getTime()) - onloadTime;
-                  form.tm.value = inputTime;
-                }
-
-                //form.forceWordStr.value = lemma;
-                //form.forceAddStr.value = 'true';
-                form.submit();
-              } else {
-                alert('原文に何か入力して翻訳ボタンをクリックして下さい');
-              }
-            });
-
-
-            // クリアボタン
-            $('.contBtnCl').click(function () {
-              $('#originalTextArea').val('');
-              $('#translatedTextArea').val('');
-            });
-
-            // 入力文字数のカウントと表示を行う
-            // 上記関数を以後、一定間隔で実行する.第1引数は監視のinterval(ミリ秒)
-            // keyup,keydownなどを初めとしたいわゆる「イベント」の場合は、
-            // IMEが全角モードの場合に対応していないため、一定間隔で値の反映を行う必要がある
-            var countTareaCharsFnc = function countTextAreaChars() {
-
-              var text = $textAreaObj.attr('value');
-              var length = countNetLength(text);
-              $charCountPHObj.html(length);
-              // 超過している場合
-              if (length > maxLimit) {
-                //funcOver();
-              }
-              // 制限の範囲内の場合
-              else {
-                //funcUnder();
-              }
-
-              // リサイズ
-              if (!oldIe) {
-                $textAreaObj.trigger('autosize');
-              }
-            }
-
-            $textAreaObj.everyTime(600, fnNameCountTareaCharsName, countTareaCharsFnc);
-            $textAreaObj.focus();
-
-            // メールボタン
-            $('#transMailBtn').click(function () {
-              var mailText = '原文\n' + jQuery.trim($textAreaObj.attr('value')) + '\n\n訳文\n' + getTranslatedText(
-                false, true, true, true);
-              mailText += '\n\nWeblio翻訳: https://translate.weblio.jp/';
-
-              // 原文と翻訳文の文字数の合計が550文字を超えた場合はアラートを出す
-              if (mailText.length > 550) {
-                alert('送信できる最大文字数(500文字)を超えています。');
-              } else {
-                window.open('mailto:?&body=' + encodeURIComponent(mailText));
-              }
-            });
-
-            // ウィンドウ幅に合わせて例文のpタグの幅を変更する
-            function resizePTagWidth() {
-              var mainWidth = $('#main').width();
-              var pWidth = mainWidth / 2 - 80;
-              if (pWidth < 280) {
-                pWidth = 280;
-              }
-              $('.qotCE').css("width", pWidth + "px");
-              $('.qotCJ').css("width", pWidth + "px");
-            }
-
-            if (firefox || opera) {
-              resizePTagWidth();
-              $(window).resize(resizePTagWidth);
-            }
-          });
-        </script>
-
-        <div class=mainBxWrpE>
-
-          <div class=mainBxH>
-            <h3 ID=lkMainBXH3>単語ごとの対訳</h3>
-          </div>
-          <div id="selAll">
-            <input type="checkbox" id="sidAllCk">全て選択</div>
-          <br class="clr">
-          <table class=mltIchgT>
-            <tr>
-              <th>英語</th>
-              <th>発音記号</th>
-              <th>音声</th>
-              <th>日本語での意味</th>
-              <th>選択</th>
-            </tr>
-            <tr>
-              <td class=tngMainTTG>
-                <pre><a href="https://ejje.weblio.jp/content/indeed">indeed</a></pre>
-              </td>
-              <td class=tngMainTHT>
-                <pre>ɪndíːd</pre>
-              </td>
-              <td>
-                <p class="nrCntSgA">
-                  <span class="nrCntSgAdo">
-                    <audio class="contentAudio" controls="controls" preload="none">
-                      <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-C7605DE_E-C762BBA.mp3" type="audio/mpeg">
-                    </audio>
-                    <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
-                  </span>
-                </p>
-              </td>
-              <td>実に, 実際に, まったく</td>
-              <td>
-                <input type="checkbox" name="sidCk" value="indeed" class="tngCk">
-              </td>
-            </tr>
-            <tr>
-              <td class=tngMainTTG>
-                <pre><a href="https://ejje.weblio.jp/content/glad">glad</a></pre>
-              </td>
-              <td class=tngMainTHT>
-                <pre>glˈæd</pre>
-              </td>
-              <td>
-                <p class="nrCntSgA">
-                  <span class="nrCntSgAdo">
-                    <audio class="contentAudio" controls="controls" preload="none">
-                      <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-C46F16E_E-C4719AA.mp3" type="audio/mpeg">
-                    </audio>
-                    <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
-                  </span>
-                </p>
-              </td>
-              <td>うれしくて, 喜ばしくて</td>
-              <td>
-                <input type="checkbox" name="sidCk" value="glad" class="tngCk">
-              </td>
-            </tr>
-          </table>
-          <div id="tngBtn">
-            <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconWlaAdFL.png" alt="" class="wlaBtnI" id="wlaBtnI">
-          </div>
-          <a href="https://uwl.weblio.jp/ps/index" ID=incWdLkBtn>登録可能な単語数を増やす</a>
-          <br class="clr">
-          <div id="addLmFdWrBhId"></div>
-          <br class="clr">
-
-          <script type="text/javascript">
-            // 全て選択にチェックが入ると、全ての単語のチェックボックスにチェックが入るようにする
-            $('#sidAllCk').click(function () {
-              if ($(this).is(':checked')) {
-                $('.mltIchgT input').attr('checked', 'checked');
-              } else {
-                $('.mltIchgT input').removeAttr('checked');
-              }
-            });
-
-            // 単語帳に追加のボタン
-            $('#wlaBtnI').click(function () {
-              var lemmaParam = '';
-              $('input[name=sidCk]').each(function (i) {
-                if ($(this).is(':checked')) {
-                  if (lemmaParam.length > 0) {
-                    lemmaParam += '&';
-                  }
-                  lemmaParam += 'lemma=' + CommonUtils.encodeURL(CommonUtils.desanitize($(this).val()));
-                }
-              });
-
-              if (lemmaParam.length > 0) {
-                // JSONPでサーバサイドに追加のリクエストを実行
-
-                showTangoFolderListBhPremGAEventTrack(this, lemmaParam, 'translate_word-list_add-words');
-
-              } else {
-                alert("何か単語を選択して下さい。");
-              }
-            });
-
-
-            // ハイライトさせるアクション
-            function addHlAct(obj1, obj2) {
-              if (!obj1 || !obj2) {
-                return;
-              }
-              obj1.mouseover(function () {
-                obj1.css('background-color', '#ff0');
-                obj2.css('background-color', '#ff0');
-              }).mouseout(function () {
-                obj1.css('background-color', '#fff');
-                obj2.css('background-color', '#fff');
-              });
-            }
-
-            // スクリプトエラーが出るためIE8以下は非表示
-            var showHL = true;
-            if (window.navigator.userAgent.toLowerCase().indexOf("msie") > -1) {
-              var ieVer = window.navigator.appVersion.toLowerCase();
-              if (ieVer.indexOf("msie 6.") > -1 || ieVer.indexOf("msie 7.") > -1 || ieVer.indexOf("msie 8.") > -1) {
-                showHL = false;
-              }
-            }
-
-            if (showHL) {
-              // 原文用ハイライト処理
-              $orgHlArr = $('.mainTrnsHlTblL').find('span');
-              for (var i = 0; i < $orgHlArr.length; ++i) {
-                var obj = $orgHlArr.eq(i);
-                var cls = obj.attr('class').replace('trHlOrg', 'trHlTrns');
-                var obj2 = $('.' + cls);
-                if (obj2.html()) {
-                  addHlAct(obj, obj2);
-                }
-              }
-              // 訳文用ハイライト処理
-              $tnsHlArr = $('.mainTrnsHlTblR').find('span');
-              for (var i = 0; i < $tnsHlArr.length; ++i) {
-                var obj = $tnsHlArr.eq(i);
-                var cls = obj.attr('class').replace('trHlTrns', 'trHlOrg');
-                var obj2 = $('.' + cls);
-                if (obj2.html()) {
-                  addHlAct(obj, obj2);
-                }
-              }
-            }
-          </script>
-          <table ID=block>
-            <tr>
-              <th colspan="2">
-                <p class=gmoMainFmTtlSc>翻訳結果はいかがでしょうか？　より高品質な翻訳をプロに依頼してみませんか？</p>
-              </th>
-            </tr>
-            <tr>
-              <td colspan="2" class=adBtnBlock>
-                <div ID=transSmtTnsApiBox>
-                  <table class=smtTrnsMainFmTbl>
-                    <tr>
-                      <td class=smtTrnsMainFmTblL>スマート翻訳での
-                        <b>無料</b>見積もり結果</td>
-                      <td class=smtTrnsMainFmTblR>
-                        <a href="https://www.smart-translation.com/" target="_blank" class="smtTrnsFormAncTop">＞＞法人向けの高品質な翻訳なら「スマート翻訳」</a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class=smtTrnsMainFmTblC colspan="2">
-                        <form name="smtTnsEstimateApiPm" action="" method="post"></form>
-                        <table class=smtTrnsMainFmTblCB>
-                          <tr>
-                            <td class=smtTrnsMainFmTblCBL>翻訳言語</td>
-                            <td class=smtTrnsMainFmTblCBR>英語から日本語</td>
-                          </tr>
-                          <tr>
-                            <td class=smtTrnsMainFmTblCBL>
-                              <span class=transSmtTnsApiCntTp>単語数</span>
-                            </td>
-                            <td class=smtTrnsMainFmTblCBR>
-                              <span class=transSmtTnsApiCnt>2単語</span>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class=smtTrnsMainFmTblCBL>見積り概算</td>
-                            <td class=smtTrnsMainFmTblCBR>
-                              <b>約￥
-                                <span class=transSmtTnsApiPrice>20</span>で依頼する</b>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class=smtTrnsMainFmTblCBL>翻訳原稿</td>
-                            <td class=smtTrnsMainFmTblCBR>indeed glad
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class=smtTrnsMainFmTblLF>
-                        <form action="https://www.smart-translation.com/questions/estimate" method="post" name="smtTnsEstimate"
-                          target="_blank">
-                          <input type="hidden" name="langFrom" value="en">
-                          <input type="hidden" name="langTo" value="ja">
-                          <input type="hidden" name="originalText" value="indeed
-glad">
-                          <input type="hidden" name="qlt" value="Standard">
-                          <input type="image" src="https://weblio.hs.llnwd.net/e7/img/icons/btnTraMainLink.png" value="スマート翻訳へ移動"
-                            class="smtTrnsFormButtonSnd">
-                        </form>
-                      </td>
-                      <td class=smtTrnsMainFmTblRF>
-                        <form action="https://www.smart-translation.com/payment" method="post" name="smtTnsOrder" ID="smtTnsOrderMn"
-                          target="_blank">
-                          <input type="hidden" name="langFrom" value="en">
-                          <input type="hidden" name="langTo" value="ja">
-                          <input type="hidden" name="originalText" value="indeed
-glad">
-                          <input type="hidden" name="qlt" value="Standard">
-                          <input type="hidden" name="price" value="20">
-                          <input type="hidden" name="wordOrLetterCount" value="2">
-                          <input type="hidden" name="isRegistPage" value="true">
-                          <input type="image" src="https://weblio.hs.llnwd.net/e7/img/icons/btnTraMainReg.png" value="会員登録して発注する"
-                            class="smtTrnsFormButtonEnt">
-                        </form>
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-                <form name="smtTnsEstimatePm" action="" method="post">
-                  <input type="hidden" name="langFrom" value="en">
-                  <input type="hidden" name="langTo" value="ja">
-                  <input type="hidden" name="translatedText" value="本当に喜ばしい
-
-本当に、うれしいです">
-                  <input type="hidden" name="tp" value="smart_translation">
-                  <input type="hidden" name="ps" value="">
-                </form>
-                <script type="text/javascript">
-                  $(document).ready(function () {
-                    // 2013/06/10 削除
-                    //  var smtTnsFormParam = document.forms['smtTnsEstimatePm'];
-                    //  var smtTnsFormApiParam = document.forms['smtTnsEstimateApiPm'];
-                    //  var smtTnsTsForm = document.forms['translate'];
-                    //  
-                    //  if (smtTnsFormParam && smtTnsFormApiParam && smtTnsTsForm) {
-                    //      var originalText = CommonUtils.encodeURL(CommonUtils.desanitize(smtTnsTsForm.originalText.value));
-                    //      var param = '?langFrom=' + smtTnsFormParam.langFrom.value + '&langTo=' + smtTnsFormParam.langTo.value + '&qlt=Standard&query=' + originalText + '&tmpKey=' + smtTnsFormApiParam.tempKey.value;
-                    //      // IE6の場合
-                    //      if (window.navigator.userAgent.toLowerCase().indexOf("msie") > -1 && window.navigator.appVersion.toLowerCase().indexOf("msie 6.0") > -1) {
-                    //          return;
-                    //      }
-                    //      $.getJSON('https://www.smart-translation.com/api/estimate-api-jsonp' + param + '&callback=?',
-                    //          function(data){
-                    //              if (data && data['price'] && data['count']) {
-                    //                  if (data['price'] <= 0) {
-                    //                      return;
-                    //                  }
-                    //                  var cntTxt = '文字';
-                    //                  if (data['lang'] && data['lang'] == 'en') {
-                    //                      cntTxt = '単語';
-                    //                  }
-                    //                  else if (smtTnsFormParam.langFrom.value == 'en') {
-                    //                      cntTxt = '単語';
-                    //                  }
-                    //                  var price = data['price'];
-                    //                  price = price.replace(/,/g, "");
-                    //                  while(price != (price = price.replace(/^(\d+)(\d{3})/, "$1,$2")));
-                    //                  
-                    //                  $('#transSmtTnsApiBox').css('display', 'block');
-                    //                  
-                    //                      $('#transSmtTnsApiBoxDpML').html('<div ID=transSmtTnsApiBoxML><br><br><p ID=smtTrnsMainFmTblMnH>プロによる翻訳、スマート翻訳に依頼してみませんか？</' + 'p><div ID=smtTrnsMainFmTblMnR><table class=smtTrnsMainFmTbl><tr><td class=smtTrnsMainFmTblL>スマート翻訳での<b>無料</' + 'b>見積り</' + 'td><td class=smtTrnsMainFmTblR><a href="https://www.smart-translation.com/" target="_blank" class="smtTrnsFormAncTopMl" onClick="ga(\'send\', \'event\', \'lead_to_smart-translation\', \'click\', \'translate_content_rmain_textlink\', {\'page\': \'/translate_content_rmain_textlink\'});">＞＞法人向け翻訳「スマート翻訳」</' + 'a></' + 'td></' + 'tr><tr><td class=smtTrnsMainFmTblC colspan="2"><form name="smtTnsEstimateApiPm" action="" method="post"></' + 'form><table class=smtTrnsMainFmTblCB><tr><td class=smtTrnsMainFmTblCBL>翻訳言語</' + 'td><td class=smtTrnsMainFmTblCBR>英語から日本語</' + 'td></' + 'tr><tr><td class=smtTrnsMainFmTblCBL><span class=transSmtTnsApiCntTp>単語数</' + 'span></' + 'td><td class=smtTrnsMainFmTblCBR><span class=transSmtTnsApiCnt>2単語</' + 'span></' + 'td></' + 'tr><tr><td class=smtTrnsMainFmTblCBL>見積り概算</' + 'td><td class=smtTrnsMainFmTblCBR><b>約￥<span class=transSmtTnsApiPrice>20</' + 'span>で依頼する</' + 'b></' + 'td></' + 'tr><tr><td class=smtTrnsMainFmTblCBL>翻訳原稿</' + 'td><td class=smtTrnsMainFmTblCBR>indeedglad</' + 'td></' + 'tr></' + 'table></' + 'td></' + 'tr><tr><td class=smtTrnsMainFmTblLF><form action="https://www.smart-translation.com/questions/estimate" method="post" name="smtTnsEstimate" target="_blank"><input type="hidden" name="langFrom" value="en"><input type="hidden" name="langTo" value="ja"><input type="hidden" name="originalText" value="indeedglad"><input type="hidden" name="qlt" value="Standard"><input type="image" src="https://weblio.hs.llnwd.net/e7/img/icons/translate_button_idou.png" value="スマート翻訳へ移動" class="smtTrnsFormButtonSndMl" onClick="ga(\'send\', \'event\', \'lead_to_smart-translation\', \'click\', \'translate_content_rmain_linkbutton\', {\'page\': \'/translate_content_rmain_linkbutton\'});"></' + 'form></' + 'td><td class=smtTrnsMainFmTblRF><form action="https://www.smart-translation.com/payment" method="post" name="smtTnsOrder" ID="smtTnsOrderMlr" target="_blank"><input type="hidden" name="langFrom" value="en"><input type="hidden" name="langTo" value="ja"><input type="hidden" name="originalText" value="indeedglad"><input type="hidden" name="qlt" value="Standard"><input type="hidden" name="price" value="20"><input type="hidden" name="wordOrLetterCount" value="2"><input type="hidden" name="isRegistPage" value="true"><input type="image" src="https://weblio.hs.llnwd.net/e7/img/icons/translate_button_hattyu.png" value="会員登録して発注する" class="smtTrnsFormButtonEntMl" onClick="ga(\'send\', \'event\', \'lead_to_smart-translation\', \'click\', \'translate_content_rmain_regbutton\', {\'page\': \'/translate_content_rmain_regbutton\'});"></' + 'form></' + 'td></' + 'tr></' + 'table></' + 'div></' + 'div><b class=clr></' + 'b>')
-                    //                      $('#transSmtTnsApiBoxML').css('display', 'block');
-                    //                      $('#smtTnsOrderMlr [name=price]').val(data['price']);
-                    //                      $('#smtTnsOrderMlr [name=wordOrLetterCount]').val(data['count']);
-                    //                  
-                    //                  $('.transSmtTnsApiCntTp').html(cntTxt + '数');
-                    //                  $('.transSmtTnsApiCnt').html(data['count'] + cntTxt);
-                    //                  $('.transSmtTnsApiPrice').html(price);
-                    //                  
-                    //                  $('#smtTnsOrderMn [name=price]').val(data['price']);
-                    //                  $('#smtTnsOrderMn [name=wordOrLetterCount]').val(data['count']);
-                    //              }
-                    //          }
-                    //      );
-                    //  }
-
-                    $('#transSmtTnsApiBoxDpML').html(
-                      '<div ID=transSmtTnsApiBoxML><br><br><p ID=smtTrnsMainFmTblMnH>プロによる翻訳、スマート翻訳に依頼してみませんか？</' +
-                      'p><div ID=smtTrnsMainFmTblMnR><table class=smtTrnsMainFmTbl><tr><td class=smtTrnsMainFmTblL>スマート翻訳での<b>無料</' +
-                      'b>見積り</' +
-                      'td><td class=smtTrnsMainFmTblR><a href="https://www.smart-translation.com/" target="_blank" class="smtTrnsFormAncTopMl" onClick="ga(\'send\', \'event\', \'lead_to_smart-translation\', \'click\', \'translate_content_rmain_textlink\', {\'page\': \'/translate_content_rmain_textlink\'});">＞＞法人向け翻訳「スマート翻訳」</' +
-                      'a></' + 'td></' +
-                      'tr><tr><td class=smtTrnsMainFmTblC colspan="2"><form name="smtTnsEstimateApiPm" action="" method="post"></' +
-                      'form><table class=smtTrnsMainFmTblCB><tr><td class=smtTrnsMainFmTblCBL>翻訳言語</' +
-                      'td><td class=smtTrnsMainFmTblCBR>英語から日本語</' + 'td></' +
-                      'tr><tr><td class=smtTrnsMainFmTblCBL><span class=transSmtTnsApiCntTp>単語数</' + 'span></' +
-                      'td><td class=smtTrnsMainFmTblCBR><span class=transSmtTnsApiCnt>2単語</' + 'span></' +
-                      'td></' + 'tr><tr><td class=smtTrnsMainFmTblCBL>見積り概算</' +
-                      'td><td class=smtTrnsMainFmTblCBR><b>約￥<span class=transSmtTnsApiPrice>20</' +
-                      'span>で依頼する</' + 'b></' + 'td></' + 'tr><tr><td class=smtTrnsMainFmTblCBL>翻訳原稿</' +
-                      'td><td class=smtTrnsMainFmTblCBR>indeedglad</' + 'td></' + 'tr></' + 'table></' + 'td></' +
-                      'tr><tr><td class=smtTrnsMainFmTblLF><form action="https://www.smart-translation.com/questions/estimate" method="post" name="smtTnsEstimate" target="_blank"><input type="hidden" name="langFrom" value="en"><input type="hidden" name="langTo" value="ja"><input type="hidden" name="originalText" value="indeedglad"><input type="hidden" name="qlt" value="Standard"><input type="image" src="https://weblio.hs.llnwd.net/e7/img/icons/translate_button_idou.png" value="スマート翻訳へ移動" class="smtTrnsFormButtonSndMl" onClick="ga(\'send\', \'event\', \'lead_to_smart-translation\', \'click\', \'translate_content_rmain_linkbutton\', {\'page\': \'/translate_content_rmain_linkbutton\'});"></' +
-                      'form></' +
-                      'td><td class=smtTrnsMainFmTblRF><form action="https://www.smart-translation.com/payment" method="post" name="smtTnsOrder" ID="smtTnsOrderMlr" target="_blank"><input type="hidden" name="langFrom" value="en"><input type="hidden" name="langTo" value="ja"><input type="hidden" name="originalText" value="indeedglad"><input type="hidden" name="qlt" value="Standard"><input type="hidden" name="price" value="20"><input type="hidden" name="wordOrLetterCount" value="2"><input type="hidden" name="isRegistPage" value="true"><input type="image" src="https://weblio.hs.llnwd.net/e7/img/icons/translate_button_hattyu.png" value="会員登録して発注する" class="smtTrnsFormButtonEntMl" onClick="ga(\'send\', \'event\', \'lead_to_smart-translation\', \'click\', \'translate_content_rmain_regbutton\', {\'page\': \'/translate_content_rmain_regbutton\'});"></' +
-                      'form></' + 'td></' + 'tr></' + 'table></' + 'div></' + 'div><b class=clr></' + 'b>')
-
-                    var onloadTime = (new Date()).getTime();
-                    $('.smtTrnsFormAncTop').click(function () {
-                      ga('send', 'event', 'lead_to_smart-translation', 'click',
-                        'translate_content_main_textlink', {
-                          'page': '/translate_content_main_textlink'
-                        });
-                      // 2013/05/20削除
-                      //smtTnsFmPtCore('smart_translation_anc_1');
-                    });
-                    $('.smtTrnsFormButtonSnd').click(function () {
-                      ga('send', 'event', 'lead_to_smart-translation', 'click',
-                        'translate_content_main_linkbutton', {
-                          'page': '/translate_content_main_linkbutton'
-                        });
-                      // 2013/05/20削除
-                      //smtTnsFmPtCore('smart_translation_btn_2');
-                    });
-                    $('.smtTrnsFormButtonEnt').click(function () {
-                      ga('send', 'event', 'lead_to_smart-translation', 'click',
-                        'translate_content_main_regbutton', {
-                          'page': '/translate_content_main_regbutton'
-                        });
-                      // 2013/05/20削除
-                      //smtTnsFmPtCore('smart_translation_btn_3');
-                    });
-
-                    function smtTnsFmPtCore(ps) {
-                      if (smtTnsFormParam && smtTnsTsForm) {
-                        var lType = 'english';
-                        $.post(
-                          'https://translate.weblio.jp/ad-log/', {
-                            'inLangIdx': smtTnsFormParam.langFrom.value,
-                            'toLangIdx': smtTnsFormParam.langTo.value,
-                            'contentText': smtTnsTsForm.originalText.value,
-                            'translatedText': smtTnsFormParam.translatedText.value,
-                            'ref': document.referrer,
-                            'tm': ((new Date()).getTime()) - onloadTime,
-                            'tp': smtTnsFormParam.tp.value,
-                            'ps': ps,
-                            'lt': lType
-                          },
-                          function (data, status) {;
-                          },
-                          'text'
-                        );
-                      }
-                    }
-                  });
-                </script>
-              </td>
-            </tr>
-            <tr>
-              <td class=blockL>
-                <div class=mainBxH>
-                  <h3>再翻訳のやり方</h3>
-                </div>
-                <div class=mainBxB>
-                  <div class=mainBxCnt>
-                    <p>再翻訳とは、一旦翻訳された結果を、再度、もとの言語に翻訳しなおす機能です。</p>
-                    <p>右側のボックスの下にある「再翻訳」ボタンをクリックすることによって、翻訳結果を、再度もとの言語に翻訳しなおすことができます。</p>
-                  </div>
-                </div>
-              </td>
-              <td class=blockRAd>
-                <div class=cntDadSc>
-                  <!-- /2211331/Weblio_PC_translate_LeftBottom_336_280 -->
-                  <div id="div-gpt-ad-1467639633761-0">
-                    <script type="text/javascript">
-                      <!--
-                      adScS('cp836.js');
-                      //-->
-                    </script>
-
-                  </div>
-                </div>
-              </td>
-            </tr>
-          </table>
-
-          <div id="feedbackBlock">
-            <p>Weblio英語翻訳に関する、あなたのご意見をお聞かせください</p>
-            <div class="feedbackBlockSegment">
-              <p class="feedbackLeftText">▼ご意見の種類</p>
-              <ul class="feedbackFeatureList">
-                <li>
-                  <input type="checkbox" name="feature" value="result">翻訳結果について</li>
-                <li>
-                  <input type="checkbox" name="feature" value="tts">音声再生について</li>
-                <li>
-                  <input type="checkbox" name="feature" value="request">新機能のリクエスト</li>
-                <li>
-                  <input type="checkbox" name="feature" value="other">その他</li>
-              </ul>
-              <p class="feedbackFeatureListNote">※種類を選択しなくても送信できます</p>
-            </div>
-            <div class="feedbackBlockSegment">
-              <p class="feedbackLeftText">▼ご意見の内容</p>
-              <textarea cols=60 rows=16 id="feedbackMessage"></textarea>
-              <br>
-              <input type="button" value="意見を送る" style="width:140px;height:30px;" id="feedbackButton">
-            </div>
-          </div>
-          <script type="text/javascript">
-            $('#feedbackButton').click(function () {
-              var msg = $('#feedbackMessage').val();
-              if (!msg) {
-                return;
-              }
-
-              var checkedFeatures = "";
-              $('input[name="feature"]:checked').each(function () {
-                if (checkedFeatures.length > 0) {
-                  checkedFeatures += ",";
-                }
-                checkedFeatures += this.value;
-              });
-
-              // フォームを消す (フォーム連続送信を回避するため)
-              var docObj = document.getElementById('feedbackBlock');
-              if (!docObj) {
-                return;
-              }
-              docObj.innerHTML = '';
-
-              // HTTP POSTでサーバサイドにデータ更新のリクエストを実行
-              $.post(
-                'https://translate.weblio.jp/feedback/', // リクエストURL
-                {
-                  'message': msg,
-                  'checkedFeatures': checkedFeatures
-                }, // データ
-                function (data, status) {
-
-                  var resMsg = '';
-
-                  // 通信に成功した場合
-                  if (status == 'success') {
-                    resMsg += '<b>ご意見ありがとうございました。<' + '/b><br>';
-                    resMsg += '頂いたご意見は必ず拝見いたします。<br>';
-                    resMsg += 'このフォームから頂いたご意見、ご質問には、<br>';
-                    resMsg += '個別に返信することができませんことを、<br>';
-                    resMsg += 'あらかじめご了承ください。<br>';
-                  } else {
-                    resMsg += '申し訳ございませんが、サーバが<br>';
-                    resMsg += 'メンテナンス中のため、ページを<br>';
-                    resMsg += '表示できない状態になっております。<br>';
-                  }
-
-                  docObj.innerHTML = resMsg;
-                },
-                'text'
-              );
-            });
-          </script>
-        </div>
-      </div>
-    </div>
-    <div ID=sideE>
-
-      <div class=sideAd>
-        <div class=sideAdBunner>
-          <!--  Begin Rubicon Project Tag -->
-          <!--  Site: Weblio   Zone: Weblio_translate_RightTop_300_250_ATF   Size: Medium Rectangle  -->
-          <!--  PLACEMENT: Above the Fold;   -->
-          <script type="text/javascript">
-            <!--
-            adScS('cp797.js');
-            //-->
-          </script>
-
-          <!--  End Rubicon Project Tag -->
-        </div>
-      </div>
-      <script type="text/javascript">
-        <!--
-        document.write(
-          '<div class=sideSmallFrm><iframe src="https://ejje.weblio.jp/small/?scpt=translate" name="smallFrm" width="296" height="600"></' +
-          'iframe></' + 'div>');
-        //-->
-      </script>
-
-      <div id="sideBHModule" class="historyBlock">
-        <div class="historyHeader">
-          <h2>翻訳履歴</h2>
-        </div>
-        <div id="sideBHBody">
-          <div style="padding:0">
-            <div style="text-align:right; margin:10px 5px 0 0;">
-              <b id=sideBHClear style="border-bottom: #534a42 dotted 1px; font-size: 13px; line-height: 14px;">全履歴クリア</b>
-            </div>
-            <table id=sideBHTbl class=historyContent>
-              <tbody>
-                <tr style="display:none;">
-                  <td></td>
-                  <td></td>
-                </tr>
-              </tbody>
-              <!--  ここにテーブル -->
-            </table>
-          </div>
-        </div>
-      </div>
-      <div class=mainAdBxH>
-        <p>翻訳ガイド</p>
-      </div>
-      <div class=mainAdBxB>
-        <p class=trBxMLi>
-          <span class="pl" onclick="return catRNewNav(this, 'GuideS1');" id="catIconGuideS1">＋</span>Weblio翻訳について</p>
-        <div class=sideGuideCgrBx id=treeBoxCatGuideS1 style="position:absolute; visibility:hidden;">
-          <ul style="margin:0 0 10px 0; padding-left:30px;">
-            <li>
-              <a href="https://translate.weblio.jp/guide/Weblio%E7%BF%BB%E8%A8%B3%E3%81%A8%E3%81%AF">Weblio翻訳とは</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/Weblio%E7%BF%BB%E8%A8%B3%E3%81%AE%E7%89%B9%E5%BE%B4">Weblio翻訳の特徴</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/Weblio%E7%BF%BB%E8%A8%B3%E3%81%AF%E3%81%93%E3%82%93%E3%81%AA%E3%81%A8%E3%81%8D%E3%81%AB%E4%BE%BF%E5%88%A9">Weblio翻訳はこんなときに便利</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/Weblio%E7%BF%BB%E8%A8%B3%E3%81%AE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A6%81%E4%BB%B6">Weblio翻訳のシステム要件</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF%E3%82%92%E3%81%8A%E5%BE%85%E3%81%A1%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99">フィードバックをお待ちしています</a>
-            </li>
-          </ul>
-        </div>
-        <p class=trBxMLi>
-          <span class="pl" onclick="return catRNewNav(this, 'GuideS2');" id="catIconGuideS2">＋</span>Weblio翻訳の使い方 </p>
-        <div class=sideGuideCgrBx id=treeBoxCatGuideS2 style="position:absolute; visibility:hidden;">
-          <ul style="margin:0 0 10px 0; padding-left:30px;">
-            <li>
-              <a href="https://translate.weblio.jp/guide/Weblio%E8%8B%B1%E8%AA%9E%E7%BF%BB%E8%A8%B3%E3%81%AE%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C">Weblio英語翻訳の基本操作</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/Weblio%E4%B8%AD%E5%9B%BD%E8%AA%9E%E7%BF%BB%E8%A8%B3%E3%81%AE%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C">Weblio中国語翻訳の基本操作</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E3%80%8C%E3%82%AF%E3%83%AA%E3%82%A2%E3%80%8D%E3%83%9C%E3%82%BF%E3%83%B3%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9">「クリア」ボタンの使い方</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E3%80%8C%E3%82%B3%E3%83%94%E3%83%BC%E3%80%8D%E3%83%9C%E3%82%BF%E3%83%B3%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9">「コピー」ボタンの使い方</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E7%B5%90%E6%9E%9C%E3%81%AE%E8%A4%87%E6%95%B0%E8%A1%A8%E7%A4%BA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">翻訳結果の複数表示について</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E8%BE%9E%E6%9B%B8%E6%A4%9C%E7%B4%A2%E6%A9%9F%E8%83%BD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">辞書検索機能について</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E4%BE%8B%E6%96%87%E6%A4%9C%E7%B4%A2%E6%A9%9F%E8%83%BD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">例文検索機能について</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E5%86%8D%E7%BF%BB%E8%A8%B3%E6%A9%9F%E8%83%BD%E3%81%A4%E3%81%84%E3%81%A6">再翻訳機能ついて</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E4%BA%BA%E5%8A%9B%E7%BF%BB%E8%A8%B3%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B">人力翻訳を利用する</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E3%80%8CGMO%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89%E7%BF%BB%E8%A8%B3%E3%80%8D%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">「GMOスピード翻訳」について</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E8%8B%B1%E8%AA%9E%E8%BE%9E%E6%9B%B8%E3%81%A8%E8%8B%B1%E8%AA%9E%E7%BF%BB%E8%A8%B3%E3%82%92%E4%BD%B5%E7%94%A8%E3%81%99%E3%82%8B">英語辞書と英語翻訳を併用する</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E7%B5%90%E6%9E%9C%E3%81%AE%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF">翻訳結果のフィードバック</a>
-            </li>
-          </ul>
-        </div>
-        <p class=trBxMLi>
-          <span class="pl" onclick="return catRNewNav(this, 'GuideS3');" id="catIconGuideS3">＋</span>機械翻訳とは</p>
-        <div class=sideGuideCgrBx id=treeBoxCatGuideS3 style="position:absolute; visibility:hidden;">
-          <ul style="margin:0 0 10px 0; padding-left:30px;">
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%A9%9F%E6%A2%B0%E7%BF%BB%E8%A8%B3%E3%81%A8%E3%81%AF">機械翻訳とは</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%A9%9F%E6%A2%B0%E7%BF%BB%E8%A8%B3%E3%81%AE%E5%82%BE%E5%90%91">機械翻訳の傾向</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%A9%9F%E6%A2%B0%E7%BF%BB%E8%A8%B3%E3%81%AE%E9%95%B7%E6%89%80%E3%81%A8%E7%9F%AD%E6%89%80">機械翻訳の長所と短所</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%A9%9F%E6%A2%B0%E7%BF%BB%E8%A8%B3%E3%82%92%E4%BF%A1%E9%A0%BC%E3%81%97%E3%81%99%E3%81%8E%E3%81%AA%E3%81%84">機械翻訳を信頼しすぎない</a>
-            </li>
-          </ul>
-        </div>
-        <p class=trBxMLi>
-          <span class="pl" onclick="return catRNewNav(this, 'GuideS4');" id="catIconGuideS4">＋</span>機械翻訳を使いこなすコツ</p>
-        <div class=sideGuideCgrBx id=treeBoxCatGuideS4 style="position:absolute; visibility:hidden;">
-          <ul style="margin:0 0 10px 0; padding-left:30px;">
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%A9%9F%E6%A2%B0%E7%BF%BB%E8%A8%B3%E3%81%AE%E5%82%BE%E5%90%91%E3%83%BB%E7%89%B9%E5%BE%B4%E3%82%92%E3%81%A4%E3%81%8B%E3%82%80">機械翻訳の傾向・特徴をつかむ</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%AD%A3%E3%81%97%E3%81%84%E8%A1%A8%E8%A8%98%E3%83%BB%E8%A1%A8%E7%8F%BE%E3%82%92%E4%BD%BF%E3%81%86">正しい表記・表現を使う</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%96%87%E7%AB%A0%E3%81%AF%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%A0%E3%81%91%E7%9F%AD%E3%81%8F%E3%81%99%E3%82%8B">文章はできるだけ短くする</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%96%87%E7%AB%A0%E3%81%AF%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%A0%E3%81%91%E7%9C%81%E7%95%A5%E3%81%97%E3%81%AA%E3%81%84">文章はできるだけ省略しない</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E4%B8%8D%E8%A6%81%E3%81%AA%E8%A8%80%E3%81%84%E5%9B%9E%E3%81%97%E3%81%AF%E5%8F%96%E3%82%8A%E9%99%A4%E3%81%8F">不要な言い回しは取り除く</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%95%A5%E8%AA%9E%E3%81%AF%E7%9C%81%E7%95%A5%E3%81%9B%E3%81%9A%E3%81%AB%E6%9B%B8%E3%81%8F">略語は省略せずに書く</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E8%AA%A4%E5%AD%97%E3%83%BB%E8%84%B1%E5%AD%97%E3%81%AB%E6%B3%A8%E6%84%8F%E3%81%99%E3%82%8B">誤字・脱字に注意する</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%BC%A2%E5%AD%97%E3%82%92%E4%BD%BF%E3%81%88%E3%82%8B%E9%83%A8%E5%88%86%E3%81%AF%E6%BC%A2%E5%AD%97%E3%81%A7%E6%9B%B8%E3%81%8F">漢字を使える部分は漢字で書く</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%96%87%E4%BD%93%E3%82%92%E5%B7%A5%E5%A4%AB%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B">文体を工夫してみる</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E5%A4%9A%E7%BE%A9%E7%9A%84%E3%81%AA%E8%A1%A8%E7%8F%BE%E3%82%92%E8%A8%80%E3%81%84%E6%8F%9B%E3%81%88%E3%81%A6%E3%81%BF%E3%82%8B">多義的な表現を言い換えてみる</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E5%B0%8A%E6%95%AC%E8%AA%9E%E3%82%84%E8%AC%99%E8%AD%B2%E8%AA%9E%E3%82%92%E8%A8%80%E3%81%84%E6%8F%9B%E3%81%88%E3%81%A6%E3%81%BF%E3%82%8B">尊敬語や謙譲語を言い換えてみる</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E5%9B%BA%E6%9C%89%E5%90%8D%E3%82%92%E6%99%AE%E9%80%9A%E5%90%8D%E8%A9%9E%E3%81%A7%E7%BD%AE%E3%81%8D%E6%8F%9B%E3%81%88%E3%82%8B">固有名を普通名詞で置き換える</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E3%80%8C%EF%BD%9E%E5%8C%96%E3%80%8D%E3%80%8C%EF%BD%9E%E7%9A%84%E3%80%8D%E3%81%AA%E3%81%A9%E3%82%92%E8%A8%80%E3%81%84%E6%8F%9B%E3%81%88%E3%82%8B">「～化」「～的」などを言い換える</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E5%8F%97%E8%BA%AB%E6%96%87%E3%81%A8%E8%83%BD%E5%8B%95%E6%96%87%E3%82%92%E5%85%A5%E3%82%8C%E6%9B%BF%E3%81%88%E3%81%A6%E3%81%BF%E3%82%8B">受身文と能動文を入れ替えてみる</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E3%80%8C%E3%81%AE%E3%80%8D%E3%80%8C%E3%81%AF%E3%80%8D%E3%81%AA%E3%81%A9%E3%81%AE%E8%A1%A8%E7%8F%BE%E3%82%92%E8%A8%80%E3%81%84%E6%8F%9B%E3%81%88%E3%82%8B">「の」「は」などの表現を言い換える</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E3%80%8C%E3%81%99%E3%82%8B%E3%80%8D%E3%80%8C%E3%81%AA%E3%82%8B%E3%80%8D%E7%AD%89%E3%81%AE%E5%8B%95%E8%A9%9E%E3%82%92%E9%81%BF%E3%81%91%E3%82%8B">「する」「なる」等の動詞を避ける</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%85%A3%E7%94%A8%E7%9A%84%E8%A1%A8%E7%8F%BE%E3%82%92%E8%A8%80%E3%81%84%E6%8F%9B%E3%81%88%E3%82%8B">慣用的表現を言い換える</a>
-            </li>
-          </ul>
-        </div>
-        <p class=trBxMLi>
-          <span class="pl" onclick="return catRNewNav(this, 'GuideS5');" id="catIconGuideS5">＋</span>翻訳者の仕事</p>
-        <div class=sideGuideCgrBx id=treeBoxCatGuideS5 style="position:absolute; visibility:hidden;">
-          <ul style="margin:0 0 10px 0; padding-left:30px;">
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%81%AE%E4%BB%95%E4%BA%8B%E5%86%85%E5%AE%B9">翻訳の仕事内容</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E6%A5%AD%E5%8B%99%E3%81%AE%E5%8C%BA%E5%88%86">翻訳業務の区分</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%94%A3%E6%A5%AD%E7%BF%BB%E8%A8%B3%E3%81%AE%E4%BB%95%E4%BA%8B">産業翻訳の仕事</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%8A%80%E8%A1%93%E7%BF%BB%E8%A8%B3%E3%81%A8%E3%81%AF">技術翻訳とは</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%8A%80%E8%A1%93%E7%BF%BB%E8%A8%B3%E3%81%AE%E7%89%B9%E5%BE%B4">技術翻訳の特徴</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/IT%E7%BF%BB%E8%A8%B3%E3%81%A8%E3%81%AF">IT翻訳とは</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%98%A0%E5%83%8F%E7%BF%BB%E8%A8%B3%E3%81%A8%E3%81%AF">映像翻訳とは</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%98%A0%E5%83%8F%E7%BF%BB%E8%A8%B3%E3%81%AE%E7%A8%AE%E9%A1%9E">映像翻訳の種類</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E5%AD%97%E5%B9%95%E7%BF%BB%E8%A8%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">字幕翻訳について</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E9%9F%B3%E5%A3%B0%E5%90%B9%E3%81%8D%E6%9B%BF%E3%81%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">音声吹き替えについて</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E3%83%9C%E3%82%A4%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">ボイスオーバーについて</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%98%A0%E5%83%8F%E7%BF%BB%E8%A8%B3%E3%81%AE%E9%9C%80%E8%A6%81">映像翻訳の需要</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E6%96%99%E3%81%AE%E5%8D%98%E4%BE%A1%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">翻訳料の単価について</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E5%87%BA%E7%89%88%E7%BF%BB%E8%A8%B3%E3%81%A8%E3%81%AF">出版翻訳とは</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%81%A8%E9%80%9A%E8%A8%B3%E3%81%AE%E9%81%95%E3%81%84">翻訳と通訳の違い</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%83%81%E3%82%A7%E3%83%83%E3%82%AB%E3%83%BC%E3%81%AE%E4%BB%95%E4%BA%8B">翻訳チェッカーの仕事</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E3%83%8D%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%81%A8%E3%81%AF">ネイティブチェックとは</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E4%BC%9A%E7%A4%BE%E3%83%BB%E7%BF%BB%E8%A8%B3%E4%BB%A3%E8%A1%8C%E6%A5%AD%E8%80%85%E3%81%B8%E3%81%AE%E8%A6%8B%E7%A9%8D%E3%82%8A%E4%BE%9D%E9%A0%BC">翻訳会社・翻訳代行業者への見積り依頼</a>
-            </li>
-          </ul>
-        </div>
-        <p class=trBxMLi>
-          <span class="pl" onclick="return catRNewNav(this, 'GuideS6');" id="catIconGuideS6">＋</span>翻訳者になるには</p>
-        <div class=sideGuideCgrBx id=treeBoxCatGuideS6 style="position:absolute; visibility:hidden;">
-          <ul style="margin:0 0 10px 0; padding-left:30px;">
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E8%8B%B1%E8%AA%9E%E7%BF%BB%E8%A8%B3%E5%A3%AB%E3%81%A8%E3%81%AF">ビジネス英語翻訳士とは</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E8%80%85%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E4%B8%BB%E3%81%AA%E5%9B%A3%E4%BD%93">翻訳者に関する主な団体</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%81%AE%E6%95%99%E8%82%B2%E8%AA%B2%E7%A8%8B%E3%81%AE%E3%81%82%E3%82%8B%E5%A4%A7%E5%AD%A6">翻訳の教育課程のある大学</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%81%AE%E5%B0%82%E9%96%80%E5%AD%A6%E6%A0%A1%EF%BC%88%E7%BF%BB%E8%A8%B3%E5%AD%A6%E6%A0%A1%EF%BC%89">翻訳の専門学校（翻訳学校）</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E8%80%85%E3%81%AE%E5%8B%A4%E5%8B%99%E5%BD%A2%E6%85%8B">翻訳者の勤務形態</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E5%9C%A8%E5%AE%85%E3%81%AE%E7%BF%BB%E8%A8%B3%E8%80%85%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%AB%E3%81%AF">在宅の翻訳者になるには</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E5%9C%A8%E5%AE%85%E7%BF%BB%E8%A8%B3%E8%80%85%E3%81%AE%E6%99%82%E7%B5%A6%E3%81%AF">在宅翻訳者の時給は</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%B4%BE%E9%81%A3%E7%BF%BB%E8%A8%B3%E8%80%85%E3%81%AE%E4%BB%95%E4%BA%8B">派遣翻訳者の仕事</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%B1%82%E4%BA%BA%E6%83%85%E5%A0%B1%E8%AA%8C%E3%81%A7%E7%BF%BB%E8%A8%B3%E3%81%AE%E4%BB%95%E4%BA%8B%E6%8E%A2%E3%81%97">求人情報誌で翻訳の仕事探し</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%99%E3%82%8B">翻訳エージェントに登録する</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E8%80%85%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E3%81%A7%E5%8B%9F%E9%9B%86%E3%81%99%E3%82%8B">翻訳者ディレクトリで募集する</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E7%BF%BB%E8%A8%B3%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%99%E3%82%8B">ソーシャル翻訳に登録する</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E8%80%85%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%81%AB%E7%99%BB%E9%8C%B2%E3%81%99%E3%82%8B">翻訳者コミュニティに登録する</a>
-            </li>
-          </ul>
-        </div>
-        <p class=trBxMLi>
-          <span class="pl" onclick="return catRNewNav(this, 'GuideS7');" id="catIconGuideS7">＋</span>翻訳を進めるツール</p>
-        <div class=sideGuideCgrBx id=treeBoxCatGuideS7 style="position:absolute; visibility:hidden;">
-          <ul style="margin:0 0 10px 0; padding-left:30px;">
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E5%86%8D%E7%BF%BB%E8%A8%B3%E3%81%A8%E3%81%AF">再翻訳とは</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%9C%89%E5%84%9F%E3%81%AE%E7%BF%BB%E8%A8%B3%E3%82%BD%E3%83%95%E3%83%88">有償の翻訳ソフト</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%B4%99%E3%81%AE%E8%8B%B1%E5%92%8C%E8%BE%9E%E6%9B%B8">紙の英和辞書</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E9%9B%BB%E5%AD%90%E8%BE%9E%E6%9B%B8">電子辞書</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%BE%9E%E6%9B%B8">オンライン辞書</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%AE%E8%BE%9E%E6%9B%B8%E3%82%BD%E3%83%95%E3%83%88">オフラインの辞書ソフト</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%82%B5%E3%82%A4%E3%83%88">翻訳サイト</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%83%84%E3%83%BC%E3%83%AB%E3%83%90%E3%83%BC">翻訳ツールバー</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E7%BF%BB%E8%A8%B3%E3%83%A1%E3%83%A2%E3%83%AA">翻訳メモリ</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E3%82%B9%E3%83%9A%E3%83%AB%E3%83%81%E3%82%A7%E3%83%83%E3%82%AB%E3%83%BC">スペルチェッカー</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%96%87%E7%AB%A0%E6%A0%A1%E6%AD%A3%E6%94%AF%E6%8F%B4%E3%83%84%E3%83%BC%E3%83%AB">文章校正支援ツール</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E6%96%87%E5%AD%97%E6%95%B0%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E6%A9%9F%E8%83%BD">文字数カウント機能</a>
-            </li>
-            <li>
-              <a href="https://translate.weblio.jp/guide/%E3%82%A2%E3%83%A9%E3%82%A4%E3%83%A1%E3%83%B3%E3%83%88%E3%83%84%E3%83%BC%E3%83%AB">アライメントツール</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class=sideBxStApHTr>
-        <p>公式アプリ</p>
-      </div>
-      <div class=sideBxStApTxtTr>
-        <div class=sideBxStApTxtxTr>
-          <p class=sideBxStApTxtxLiTr>
-            <a href="https://play.google.com/store/apps/details?id=jp.weblio.smpapp.translation" title="Weblio英語翻訳アプリ(音声発音付き) - (Android)">Weblio英語翻訳アプリ(音声発音付き) - (Android)</a>
-          </p>
-          <p class=sideBxStApTxtxLiTr>
-            <a href="https://itunes.apple.com/us/app/weblio-ying-yu-fan-yi-yin/id686356780" title="Weblio英語翻訳アプリ(音声発音付き) - (iOS)">Weblio英語翻訳アプリ(音声発音付き) - (iOS)</a>
-          </p>
-        </div>
-      </div>
-      <script type="text/javascript">
-        document.write(
-          '<a class="twitter-timeline" href="https://twitter.com/search?q=translate.weblio.jp" data-widget-id="326545510657818624">translate.weblio.jp に関するツイート</' +
-          'a>');
-      </script>
-      <script type="text/javascript">
-        ! function (d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0],
-            p = /^http:/.test(d.location) ? 'http' : 'https';
-          if (!d.getElementById(id)) {
-            js = d.createElement(s);
-            js.id = id;
-            js.src = p + "://platform.twitter.com/widgets.js";
-            fjs.parentNode.insertBefore(js, fjs);
-          }
-        }(document, "script", "twitter-wjs");
-      </script>
-      <br>
-      <br>
-      <script type="text/javascript">
-        <!--
-        document.write('<div class=sideBoxSqmjTrH><div><b>パートナーサイト</' + 'b></' + 'div></' +
-          'div><table border="0" class=smqjBoxTr><tr><td valign="top" class=smqjL><a href="https://www.weblio.jp/redirect?url=http%3A%2F%2Fwww.crosslanguage.co.jp%2Finternet%2F365%2F&amp;etd=db80ee1ae2e53ac5" target="_blank"><img src="https://weblio.hs.llnwd.net/e7/img/ad/365honyaku.jpg" alt="" class=smqjImg></' +
-          'a></' +
-          'td><td class=smqjR><div class=smDesAnc><a href="https://www.weblio.jp/redirect?url=http%3A%2F%2Fwww.crosslanguage.co.jp%2Finternet%2F365%2F&amp;etd=db80ee1ae2e53ac5" target="_blank">365日／24時間対応、1文字5円からの翻訳サービス</' +
-          'a></' + 'div></' + 'td></' + 'tr></' + 'table>');
-        //-->
-      </script>
-
-    </div>
-    <br class=clr>
-
-    <hr class=copyRtHr>
-    <table class=copyRtTbl>
-      <tr>
-        <td class=copyRtTblL>
-          <div class=copyRtWrp>
-            <a href="https://www.weblio.jp/redirect?url=http%3A%2F%2Fwww.crosslanguage.co.jp%2F&amp;etd=1acff94c51130c8a" class=lgDict>
-              <img src="https://weblio.hs.llnwd.net/e7/img/lgcr_crlcj.png" alt="クロスランゲージ" width="85" height="31">
-              <img src="https://weblio.hs.llnwd.net/e7/img/spacer.gif" alt="クロスランゲージ" width="87" height="33" style="display:block; position:relative; margin-top:-33px;">
-            </a>
-          </div>
-        </td>
-        <td class=copyRtTblR>Copyright (C) 2012 Cross Language Inc. All Rights Reserved.</td>
-      </tr>
-    </table>
-    <div ID=footWrp>
-      <div ID=footH>
-        <p ID=footHCat>
-          <a href="https://www.weblio.jp/cat/business">ビジネス</a>｜
-          <a href="https://www.weblio.jp/cat/occupation">業界用語</a>｜
-          <a href="https://www.weblio.jp/cat/computer">コンピュータ</a>｜
-          <a href="https://www.weblio.jp/cat/train">電車</a>｜
-          <a href="https://www.weblio.jp/catt/automobile">自動車・バイク</a>｜
-          <a href="https://www.weblio.jp/cat/ship">船</a>｜
-          <a href="https://www.weblio.jp/cat/engineering">工学</a>｜
-          <a href="https://www.weblio.jp/cat/architecture">建築・不動産</a>｜
-          <a href="https://www.weblio.jp/cat/academic">学問</a>
-          <br>
-          <a href="https://www.weblio.jp/cat/culture">文化</a>｜
-          <a href="https://www.weblio.jp/cat/life">生活</a>｜
-          <a href="https://www.weblio.jp/cat/healthcare">ヘルスケア</a>｜
-          <a href="https://www.weblio.jp/cat/hobby">趣味</a>｜
-          <a href="https://www.weblio.jp/cat/sports">スポーツ</a>｜
-          <a href="https://www.weblio.jp/cat/nature">生物</a>｜
-          <a href="https://www.weblio.jp/cat/food">食品</a>｜
-          <a href="https://www.weblio.jp/cat/people">人名</a>｜
-          <a href="https://www.weblio.jp/cat/dialect">方言</a>｜
-          <a href="https://www.weblio.jp/cat/dictionary">辞書・百科事典</a>
-      </div>
-      <div ID=footB>
-
-        <table>
-          <tr>
-            <th>ご利用にあたって</th>
-            <th>便利な機能</th>
-            <th>お問合せ・ご要望</th>
-            <th>会社概要</th>
-            <th>ウェブリオのサービス</th>
-          </tr>
-          <tr>
-            <td>
-              <ul>
-                <li>
-                  <a href="https://help.weblio.jp/www/jpdictionary/j_info/j_i_cdictionary/h0019">Weblio辞書とは</a>
-                </li>
-                <li>
-                  <a href="https://help.weblio.jp/www/jpdictionary/j_guide/j_g_cdictionary/h0026">検索の仕方</a>
-                </li>
-                <li>
-                  <a href="https://help.weblio.jp/www">ヘルプ</a>
-                </li>
-                <li>
-                  <a href="https://www.weblio.jp/info/terms.jsp">利用規約</a>
-                </li>
-                <li>
-                  <a href="https://www.weblio.jp/info/privacy.jsp">プライバシーポリシー</a>
-                </li>
-                <li>
-                  <a href="https://www.weblio.jp/info/sitemap.jsp">サイトマップ</a>
-                </li>
-              </ul>
-            </td>
-            <td>
-              <ul>
-                <li>
-                  <a href="https://help.weblio.jp/ejje/company/c_info/h0004">ウェブリオのアプリ</a>
-                </li>
-              </ul>
-            </td>
-            <td>
-              <ul>
-                <li>
-                  <a href="https://help.weblio.jp/feedback">お問い合わせ</a>
-                </li>
-              </ul>
-            </td>
-            <td>
-              <ul>
-                <li>
-                  <a href="https://www.weblio-inc.jp/wordpress/company/outline/" title="ウェブリオの企業情報">ウェブリオの企業情報</a>
-                </li>
-                <li>
-                  <a href="https://www.weblio-inc.jp/wordpress/recruit/" title="ウェブリオへの転職やインターン・新卒入社">ウェブリオへの転職やインターン・新卒入社</a>
-                </li>
-              </ul>
-            </td>
-            <td>
-              <ul>
-                <li>
-                  <a href="https://www.weblio.jp/" title="辞典・百科事典の検索サービス - Weblio辞書">Weblio 辞書</a>
-                </li>
-                <li>
-                  <a href="https://thesaurus.weblio.jp/" title="類語辞典・シソーラス・対義語 - Weblio辞書">類語・対義語辞典</a>
-                </li>
-                <li>
-                  <a href="https://ejje.weblio.jp/" title="英和辞典・和英辞典 - Weblio辞書">英和辞典・和英辞典</a>
-                </li>
-                <li>
-                  <a href="https://translate.weblio.jp/" title="Weblio 翻訳">Weblio翻訳</a>
-                </li>
-                <li>
-                  <a href="https://www.smart-translation.com/" title="スマート翻訳">スマート翻訳</a>
-                </li>
-                <li>
-                  <a href="https://cjjc.weblio.jp/" title="中国語辞書 - Weblio日中中日辞典">日中中日辞典</a>
-                </li>
-                <li>
-                  <a href="https://kjjk.weblio.jp/" title="韓国語辞書 - Weblio日韓韓日辞典">日韓韓日辞典</a>
-                </li>
-                <li>
-                  <a href="https://njjn.weblio.jp/" title="インドネシア語辞書 - Weblioインドネシア語辞典">インドネシア語辞典</a>
-                </li>
-                <li>
-                  <a href="https://tjjt.weblio.jp/" title="タイ語辞書 - Weblioタイ語辞典">タイ語辞典</a>
-                </li>
-                <li>
-                  <a href="https://vjjv.weblio.jp/" title="ベトナム語辞書 - Weblioベトナム語辞典">ベトナム語辞典</a>
-                </li>
-                <li>
-                  <a href="https://kobun.weblio.jp/" title="古文辞書 - Weblio古語辞典">古語辞典</a>
-                </li>
-                <li>
-                  <a href="https://shuwa.weblio.jp/" title="手話辞典・手話動画 - Weblio辞書">手話辞典</a>
-                </li>
-                <li>
-                  <a href="https://m.weblio.jp/" title="Weblioモバイル＜辞書：辞典＞">モバイル辞書</a>
-                </li>
-                <li>
-                  <a href="http://www.sophia-it.com/">IT用語辞典バイナリ</a>
-                </li>
-                <li>
-                  <a href="https://www.ryugaku-hiyo.com/" title="シルキー">シルキー</a>
-                </li>
-                <li>
-                  <a href="http://cjjc.weblio.jp/column/" title="中国語コラム">中国語コラム</a>
-                </li>
-              </ul>
-            </td>
-          </tr>
-        </table>
-
-      </div>
-    </div>
-    <p ID=footCr>&copy;2018 Weblio &nbsp;&nbsp;
-      <b class=server6>&nbsp;</b>
-      <b class=server2>&nbsp;</b>
-    </p>
-    <script type="text/javascript">
-      dataLayer = [{
-        'uid': '5e6174844ebfd5e2',
-        'splitTest': 'A'
-      }];
-    </script>
-    <script type="text/javascript" src="https://weblio.hs.llnwd.net/e7/script/include/free_or_premium_registration_cookie.js?tst=2018020916"></script>
-    <script>
-      deleteFreeOrPremiumRegistrationCookie(false, 'conversion_free_reg03ee56fc5f60ec2332bef51eb777a36d', 'weblio.jp');
-      deleteFreeOrPremiumRegistrationCookie(false, 'conversion_premium_reg03ee56fc5f60ec2332bef51eb777a36d',
-        'weblio.jp');
-    </script>
-
-    <!-- Google Tag Manager -->
-    <noscript>
-      <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WCM52W" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <script type="text/javascript">
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-          'gtm.start': new Date().getTime(),
-          event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-          '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-WCM52W');
-    </script>
-    <!-- End Google Tag Manager -->
-    <script type="text/javascript">
-      (function () {
-        var tagjs = document.createElement("script");
-        var s = document.getElementsByTagName("script")[0];
-        tagjs.async = true;
-        tagjs.src = "//s.yjtag.jp/tag.js#site=kvbBWaf,68JgFRd";
-        s.parentNode.insertBefore(tagjs, s);
-      }());
-    </script>
-    <noscript>
-      <iframe src="//b.yjtag.jp/iframe?c=kvbBWaf,68JgFRd" width="1" height="1" style="border:0px;margin:0px;overflow:hidden;"></iframe>
-    </noscript>
-    <div id="fb-root"></div>
-    <script type="text/javascript">
-      (function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-    <p id="lgdin" style="display:none;"></p>
-  </div>
-  <script type="text/javascript" src="https://weblio.hs.llnwd.net/e7/script/include/html5_audio.js?tst=2018020916" charset="UTF-8"></script>
-</body>
-
-</html>
+<div class=mainBxH>
+  <h3 ID=lkMainBXH3>単語ごとの対訳</h3>
+</div>
+<div id="selAll">
+  <input type="checkbox" id="sidAllCk">全て選択</div>
+<br class="clr">
+<table ID=mltIchgCont>
+  <tr>
+    <td class=contLH>
+      <table class=mltIchgT>
+        <tr>
+          <th>英語</th>
+          <th>発音記号</th>
+          <th>音声</th>
+          <th>日本語での意味</th>
+          <th>選択</th>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/be">be</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>(弱形) bi; (強形) bíː</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B8AA3B4_E-B8AC1DA.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>(…で)ある, です</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="be" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/filled">filled</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>fɪ́ld</pre>
+          </td>
+          <td></td>
+          <td>fillの過去形、または過去分詞。いっぱいにする, 満たす</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="filled" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/with">with</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>wɪð</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B4DEFAC_E-B4E060C.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>…とともに, …と一緒に, …を連れて</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="with" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/turn">turn</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>tˈɚːn</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B358A10_E-B35A690.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>回転させる</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="turn" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/out">out</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>άʊt</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-CD687B8_E-CD6A81C.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>外に, 外部に, (外に)出て</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="out" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/to">to</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>toː</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-D7E4880_E-D7E6650.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>…(のほう)へ</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="to" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/astonishment">astonishment</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>əstάnɪʃmənt</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B7A5886_E-B7A88DE.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>驚き, びっくり</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="astonishment" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/obviously">obviously</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>άbviəsli</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-CD01304_E-CD0420A.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>明らかに</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="obviously" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/respectful">respectful</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>rɪspéktf(ə)l</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-D1294C0_E-D12C14A.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>(他人に対して)敬意を表する, ていねいな, いんぎんな</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="respectful" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/appearance">appearance</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>əpí(ə)rəns</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B6CFE3C_E-B6D30A6.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>出現(すること), (会などに)姿を見せること, 出席</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="appearance" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/keep">keep</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>kíːp</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-C8D46C0_E-C8D6470.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>取っておく, 捨てないでおく, ずっと持っている</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="keep" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/promise">promise</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>prάmɪs</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-ACB50EA_E-ACB70B6.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>約束, 契約, 保証</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="promise" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/stare">stare</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>stéɚ</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B0F9FEA_E-B0FC382.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>(目を丸く見開いて)じっと見る, 凝視する, じろじろ見る</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="stare" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/at">at</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>(弱形) ət; (強形) ˈæt</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B7B3CF6_E-B7B5A16.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>…に, …で, …において</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="at" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/so">so</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>sóʊ</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-D47071A_E-D472818.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>そのように, このように, そのとおりに, このとおりに</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="so" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/that">that</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>ðˈæt</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-D754BBE_E-D756822.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>その, あの</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="that" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/go">go</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>góʊ</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-A53FE0E_E-A54187A.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>行く</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="go" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/through">through</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>θruː</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B2B3CF0_E-B2B58A8.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>…を通って, …を貫いて</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="through" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/tie">tie</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>tάɪ</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-D7C40AA_E-D7C6544.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>(ひも・ロープなどで)(…を)結びつける, 縛る, くくる</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="tie" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/nod">nod</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>nάd</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-CC9FFA2_E-CCA216C.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>(承諾・命令などの意を示して)(…に)うなずく</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="nod" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/somehow">somehow</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>sˈʌmhὰʊ</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B055682_E-B057C4A.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>何とかして, どうにかして, 何とかかんとか, ともかくも</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="somehow" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/flush">flush</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>flˈʌʃ</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-C30390A_E-C305D58.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>ぱっと赤らむ, 顔を赤くする, 顔にさっと上る, 輝きだす, ばら色になる</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="flush" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/pour">pour</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>pˈɔɚ</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-AC19E2A_E-AC1BB26.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>注ぐ</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="pour" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/properly">properly</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>prάpɚli</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-ACC4466_E-ACC67D4.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>適当に, 適切に, ほどよく</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="properly" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/deserve">deserve</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>dɪzˈɚːv</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-A171F30_E-A1744B2.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>(…の)価値がある, (…を)受けるに足る</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="deserve" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/puzzled">puzzled</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>pˈʌzld</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-11CFA388_E-11CFC650.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>当惑した, 困惑した</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="puzzled" class="tngCk">
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td class=contCH>
+      <p>　</p>
+    </td>
+    <td class=contRH>
+      <table class=mltIchgT>
+        <tr>
+          <th>英語</th>
+          <th>発音記号</th>
+          <th>音声</th>
+          <th>日本語での意味</th>
+          <th>選択</th>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/rage">rage</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>réɪdʒ</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-AD46E8C_E-AD48EBE.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>(抑えがたい)激怒, 憤怒</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="rage" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/waste">waste</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>wéɪst</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B46FB66_E-B471862.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>浪費する, むだにする, 逸する</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="waste" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/time">time</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>tάɪm</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-D7CCC52_E-D7CEEAA.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>(過去・現在・未来と続く)時, 時間, 時の経過, 歳月</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="time" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/generous">generous</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>dʒén(ə)rəs</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-A4DD5B2_E-A4DF81C.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>気前のよい, 惜しみなく物を与える</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="generous" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/arrest">arrest</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>ərést</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B7493B8_E-B74BD1A.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>(法の名のもとに)逮捕する</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="arrest" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/nightmare">nightmare</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>nάɪtmèɚ</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-CC89C86_E-CC8C7E4.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>悪夢</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="nightmare" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/punish">punish</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>pˈʌnɪʃ</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-ACFE4A4_E-AD00104.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>罰する, こらしめる</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="punish" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/physical">physical</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>fízɪk(ə)l</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-ABA72D8_E-ABA945E.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>(精神的と対比して)物質(的)の, 物質界の , 自然(界)の</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="physical" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/labor">labor</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>léɪbɚ</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-A78F866_E-A7917DE.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>(賃金を得るための)労働, 勤労</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="labor" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/deserted">deserted</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>‐ṭɪd</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e8/audio/deserted.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>人の住まない, さびれた</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="deserted" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/thief">thief</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>θíːf</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B28F360_E-B290CA4.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>(通例暴力によらないでこっそり行なう)泥棒</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="thief" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/afford">afford</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>əfˈɔɚd</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B5F90D0_E-B5FB9A6.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>余裕がある</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="afford" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/weapon">weapon</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>wép(ə)n</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B4790A0_E-B47ADC0.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>武器, 兵器, 凶器</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="weapon" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/sympathetic">sympathetic</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>sìmpəθéṭɪk</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B2063E6_E-B20913E.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>同情的な, 思いやりのある</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="sympathetic" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/warn">warn</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>wˈɔɚn</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B46C50C_E-B46E110.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>警告する, 注意を与える</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="warn" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/hastily">hastily</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>héɪstəli</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-C5B226E_E-C5B4754.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>急いで, 急に, あわてて</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="hastily" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/structure">structure</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>strˈʌktʃɚ</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B159BCC_E-B15C0EE.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>構造, 機構, 組織, 組み立て</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="structure" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/reply">reply</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>rɪplάɪ</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-AE181CE_E-AE1A47C.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>答える, 返事をする, 応答する, 答弁する</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="reply" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/last">last</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>lˈæst</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-C943E74_E-C946080.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>(時間・順序が)最後の, 終わりの, 最終の</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="last" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/bear">bear</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>béɚ</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-9D18F2C_E-9D1AA58.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>産む, 出産する</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="bear" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/be+filled+with">be filled with</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre></pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e8/audio/be+filled+with.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>込み上げる, 漲る, 籠る, 湛える, 横溢する</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="be filled with" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/turn+out">turn out</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre>tɝ́nàʊt</pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B35E884_E-B360A44.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>(…を)(外へ)追い出す, 解雇する, 外に出す</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="turn out" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/stare+at">stare at</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre></pre>
+          </td>
+          <td></td>
+          <td>みつめる；ながめる</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="stare at" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/so+that">so that</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre></pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e8/audio/so+that.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>…するために, …となるように</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="so that" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/go+through">go through</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre></pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e8/audio/go+through.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>…を通り抜ける, 通過する</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="go through" class="tngCk">
+          </td>
+        </tr>
+        <tr>
+          <td class=tngMainTTG>
+            <pre><a href="https://ejje.weblio.jp/content/cannot+afford">cannot afford</a></pre>
+          </td>
+          <td class=tngMainTHT>
+            <pre></pre>
+          </td>
+          <td>
+            <p class="nrCntSgA">
+              <span class="nrCntSgAdo">
+                <audio class="contentAudio" controls="controls" preload="none">
+                  <source src="https://weblio.hs.llnwd.net/e8/audio/cannot+afford.mp3" type="audio/mpeg">
+                </audio>
+                <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png" alt="">
+              </span>
+            </p>
+          </td>
+          <td>余裕がある[ない]</td>
+          <td>
+            <input type="checkbox" name="sidCk" value="cannot afford" class="tngCk">
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<div id="tngBtn">
+  <img src="https://weblio.hs.llnwd.net/e7/img/icons/iconWlaAdFL.png" alt="" class="wlaBtnI" id="wlaBtnI">
+</div>
+<a href="https://uwl.weblio.jp/ps/index" ID=incWdLkBtn>登録可能な単語数を増やす</a>
+<br class="clr">
+<div id="addLmFdWrBhId"></div>
+<br class="clr">
+
+
+
+
+,element(script,[type=text/javascript],[(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));])]),
+,element(script,[type=text/javascript,src=https://weblio.hs.llnwd.net/e7/script/include/html5_audio.js?tst=2018022711,charset=UTF-8],[])])])]
+l2=[element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/be],[be])])]),element(td,[class=tngMainTHT],[element(pre,[],[(弱形) bi; (強形) bíː])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B8AA3B4_E-B8AC1DA.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[(…で)ある, です]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=be,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/filled],[filled])])]),element(td,[class=tngMainTHT],[element(pre,[],[fɪ́ld])]),element(td,[],[]),element(td,[],[fillの過去形、または過去分詞。いっぱいにする, 満たす]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=filled,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/with],[with])])]),element(td,[class=tngMainTHT],[element(pre,[],[wɪð])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B4DEFAC_E-B4E060C.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[…とともに, …と一緒に,  …を連れて]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=with,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/turn],[turn])])]),element(td,[class=tngMainTHT],[element(pre,[],[tˈɚːn])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B358A10_E-B35A690.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[回転させる]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=turn,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/out],[out])])]),element(td,[class=tngMainTHT],[element(pre,[],[άʊt])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-CD687B8_E-CD6A81C.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[外に,  外部に,  (外に)出て]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=out,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/to],[to])])]),element(td,[class=tngMainTHT],[element(pre,[],[toː])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-D7E4880_E-D7E6650.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[…(のほう)へ]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=to,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/astonishment],[astonishment])])]),element(td,[class=tngMainTHT],[element(pre,[],[əstάnɪʃmənt])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B7A5886_E-B7A88DE.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[驚き, びっくり]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=astonishment,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/obviously],[obviously])])]),element(td,[class=tngMainTHT],[element(pre,[],[άbviəsli])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-CD01304_E-CD0420A.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[明らかに]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=obviously,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/respectful],[respectful])])]),element(td,[class=tngMainTHT],[element(pre,[],[rɪspéktf(ə)l])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-D1294C0_E-D12C14A.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[(他人に対して)敬意を表する, ていねいな, いんぎんな]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=respectful,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/appearance],[appearance])])]),element(td,[class=tngMainTHT],[element(pre,[],[əpí(ə)rəns])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B6CFE3C_E-B6D30A6.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[出現(すること),  (会などに)姿を見せること, 出席]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=appearance,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/keep],[keep])])]),element(td,[class=tngMainTHT],[element(pre,[],[kíːp])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-C8D46C0_E-C8D6470.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[取っておく, 捨てないでおく,  ずっと持っている]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=keep,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/promise],[promise])])]),element(td,[class=tngMainTHT],[element(pre,[],[prάmɪs])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-ACB50EA_E-ACB70B6.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[約束, 契約,  保証]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=promise,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/stare],[stare])])]),element(td,[class=tngMainTHT],[element(pre,[],[stéɚ])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B0F9FEA_E-B0FC382.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[(目を丸く見開いて)じっと見る, 凝視する,  じろじろ見る]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=stare,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/at],[at])])]),element(td,[class=tngMainTHT],[element(pre,[],[(弱形) ət; (強形) ˈæt])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B7B3CF6_E-B7B5A16.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[…に, …で, …において]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=at,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/so],[so])])]),element(td,[class=tngMainTHT],[element(pre,[],[sóʊ])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-D47071A_E-D472818.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[そのように, このように,そのとおりに, このとおりに]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=so,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/that],[that])])]),element(td,[class=tngMainTHT],[element(pre,[],[ðˈæt])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-D754BBE_E-D756822.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[その, あの]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=that,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/go],[go])])]),element(td,[class=tngMainTHT],[element(pre,[],[góʊ])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-A53FE0E_E-A54187A.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[行く]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=go,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/through],[through])])]),element(td,[class=tngMainTHT],[element(pre,[],[θruː])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B2B3CF0_E-B2B58A8.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[…を通って, …を貫いて]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=through,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/tie],[tie])])]),element(td,[class=tngMainTHT],[element(pre,[],[tάɪ])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-D7C40AA_E-D7C6544.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[(ひも・ロープなどで)(…を)結びつける, 縛る, くくる]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=tie,class=tngCk],[])])]),element(tr,[],[element(th,[],[英語]),element(th,[],[発音記号]),element(th,[],[音声]),element(th,[],[日本語での意味]),element(th,[],[選択])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/nod],[nod])])]),element(td,[class=tngMainTHT],[element(pre,[],[nάd])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-CC9FFA2_E-CCA216C.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[(承諾・命令などの意を示して)(…に)うなずく]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=nod,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/somehow],[somehow])])]),element(td,[class=tngMainTHT],[element(pre,[],[sˈʌmhὰʊ])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B055682_E-B057C4A.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[何とかして, どうにかして, 何とかかんとか, ともかくも]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=somehow,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/flush],[flush])])]),element(td,[class=tngMainTHT],[element(pre,[],[flˈʌʃ])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-C30390A_E-C305D58.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[ぱっと赤らむ,  顔を赤くする,  顔にさっと上る,  輝きだす, ばら色になる]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=flush,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/pour],[pour])])]),element(td,[class=tngMainTHT],[element(pre,[],[pˈɔɚ])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-AC19E2A_E-AC1BB26.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[注ぐ]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=pour,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/properly],[properly])])]),element(td,[class=tngMainTHT],[element(pre,[],[prάpɚli])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-ACC4466_E-ACC67D4.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[適当に, 適切に, ほどよく]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=properly,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/deserve],[deserve])])]),element(td,[class=tngMainTHT],[element(pre,[],[dɪzˈɚːv])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-A171F30_E-A1744B2.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[(…の)価値がある, (…を)受けるに足る]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=deserve,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/puzzled],[puzzled])])]),element(td,[class=tngMainTHT],[element(pre,[],[pˈʌzld])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-11CFA388_E-11CFC650.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[当惑した, 困惑した]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=puzzled,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/rage],[rage])])]),element(td,[class=tngMainTHT],[element(pre,[],[réɪdʒ])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-AD46E8C_E-AD48EBE.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[(抑えがたい)激怒, 憤怒]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=rage,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/waste],[waste])])]),element(td,[class=tngMainTHT],[element(pre,[],[wéɪst])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B46FB66_E-B471862.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[浪費する, むだにする,  逸する]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=waste,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/time],[time])])]),element(td,[class=tngMainTHT],[element(pre,[],[tάɪm])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-D7CCC52_E-D7CEEAA.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[(過去・現在・未来と続く)時, 時間,  時の経過, 歳月]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=time,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/generous],[generous])])]),element(td,[class=tngMainTHT],[element(pre,[],[dʒén(ə)rəs])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-A4DD5B2_E-A4DF81C.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[気前のよい, 惜しみなく物を与える]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=generous,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/arrest],[arrest])])]),element(td,[class=tngMainTHT],[element(pre,[],[ərést])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B7493B8_E-B74BD1A.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[(法の名のもとに)逮捕する]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=arrest,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/nightmare],[nightmare])])]),element(td,[class=tngMainTHT],[element(pre,[],[nάɪtmèɚ])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-CC89C86_E-CC8C7E4.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[悪夢]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=nightmare,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/punish],[punish])])]),element(td,[class=tngMainTHT],[element(pre,[],[pˈʌnɪʃ])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-ACFE4A4_E-AD00104.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[罰する, こらしめる]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=punish,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/physical],[physical])])]),element(td,[class=tngMainTHT],[element(pre,[],[fízɪk(ə)l])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-ABA72D8_E-ABA945E.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[(精神的と対比して)物質(的)の, 物質界の ,  自然(界)の]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=physical,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/be+filled+with],[be filled with])])]),element(td,[class=tngMainTHT],[element(pre,[],[])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e8/audio/be+filled+with.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[込み上げる, 漲る, 籠る, 湛える, 横溢する]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=be filled with,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/turn+out],[turn out])])]),element(td,[class=tngMainTHT],[element(pre,[],[tɝ́nàʊt])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e7/img/dict/kenej/audio/S-B35E884_E-B360A44.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[(…を)(外へ)追い出す,  解雇する,  外に出す]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=turn out,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/stare+at],[stare at])])]),element(td,[class=tngMainTHT],[element(pre,[],[])]),element(td,[],[]),element(td,[],[みつめる；ながめる]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=stare at,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/so+that],[so that])])]),element(td,[class=tngMainTHT],[element(pre,[],[])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e8/audio/so+that.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[…するために,  …となるように]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=so that,class=tngCk],[])])]),element(tr,[],[element(td,[class=tngMainTTG],[element(pre,[],[element(a,[href=https://ejje.weblio.jp/content/go+through],[go through])])]),element(td,[class=tngMainTHT],[element(pre,[],[])]),element(td,[],[element(p,[class=nrCntSgA],[element(span,[class=nrCntSgAdo],[element(audio,[class=contentAudio,controls=controls,preload=none],[element(source,[src=https://weblio.hs.llnwd.net/e8/audio/go+through.mp3,type=audio/mpeg],[])]),element(img,[src=https://weblio.hs.llnwd.net/e7/img/icons/iconVcOr.png,alt=],[])])])]),element(td,[],[…を通り抜ける,  通過する]),element(td,[],[element(input,[type=checkbox,name=sidCk,value=go through,class=tngCk],[])])])]
